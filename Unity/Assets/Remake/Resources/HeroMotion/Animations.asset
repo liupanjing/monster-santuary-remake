@@ -1,0 +1,592 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282f1ca726d4748d1bdcb1e0e62afffd, type: 3}
+  m_Name: Animations
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterRemake2D.HeroMotionLibrary2D
+  fieldPose: {fileID: 11400000, guid: b60398c4621f246e8bd3020207b51765, type: 2}
+  battlePose: {fileID: 11400000, guid: 845e1c65aa999467da5905e44fd31a02, type: 2}
+  defaultWeapon: {fileID: 11400000, guid: 6f9a9fb14ce914b5d989be79c7ba01cb, type: 2}
+  newFramesApproved: 0
+  field:
+  - view: 2
+    idle: {fileID: 21300000, guid: e17dda3ec19b54248959e06e4aeb679b, type: 3}
+    walk:
+    - {fileID: 21300000, guid: 512f3a05438a249b595a5e0de28f2de7, type: 3}
+    - {fileID: 21300000, guid: 6f090134bf17244a985627a75d2505de, type: 3}
+    - {fileID: 21300000, guid: 99dd9f1236046444e90b8bd33041bcf9, type: 3}
+    - {fileID: 21300000, guid: 84feebdf956d34b74993be1b996e31b5, type: 3}
+    run:
+    - {fileID: 21300000, guid: 1c253702f15a9494c95b050ff160d918, type: 3}
+    - {fileID: 21300000, guid: 0d41970471a1247ac83cc3a45810cace, type: 3}
+    - {fileID: 21300000, guid: 9fab0230651cc4b37a41afe36924fdb5, type: 3}
+    - {fileID: 21300000, guid: f85ef6772ee194eda8b71de269f288d4, type: 3}
+    walkFPS: 8
+    runFPS: 12
+  - view: 4
+    idle: {fileID: 21300000, guid: 36e17dd8fb9254bc2aad6275d48d7268, type: 3}
+    walk:
+    - {fileID: 21300000, guid: 7b20b5dc83f5e4c8caad6883124ee317, type: 3}
+    - {fileID: 21300000, guid: e09b3f0563290460ab0dbc8d44e9af60, type: 3}
+    - {fileID: 21300000, guid: 908bcefbedca54bb49608fbc38f7df3f, type: 3}
+    - {fileID: 21300000, guid: 9908850d76ca14be68180fd9f3cf4f7b, type: 3}
+    run:
+    - {fileID: 21300000, guid: b449e246c72da4df5ab242d43bab484e, type: 3}
+    - {fileID: 21300000, guid: aaea0b4320c8d46aca74c92b182a40a7, type: 3}
+    - {fileID: 21300000, guid: 4b7cc8a88956648599c5177c0f4c71e8, type: 3}
+    - {fileID: 21300000, guid: f3f818810387649a995713bc56d9394e, type: 3}
+    walkFPS: 8
+    runFPS: 12
+  - view: 5
+    idle: {fileID: 21300000, guid: 4bafd5dfea58f4dd0aa672a12718b4b3, type: 3}
+    walk:
+    - {fileID: 21300000, guid: bc7368a9aa1f044b9a66047b9cd4529d, type: 3}
+    - {fileID: 21300000, guid: ad85861364e564ad1bb439109bc35792, type: 3}
+    - {fileID: 21300000, guid: 32b53a0a88d334aaea7b87e09a8eb57d, type: 3}
+    - {fileID: 21300000, guid: ce7688e4455224c29be687117056c33e, type: 3}
+    run:
+    - {fileID: 21300000, guid: 3aa0b59ba8dbc49ddb6c73f2fa4146dc, type: 3}
+    - {fileID: 21300000, guid: f9cc5d28e878e414c93df4746aaeccb5, type: 3}
+    - {fileID: 21300000, guid: 93194e43496014c3988e28e3e68ab1d3, type: 3}
+    - {fileID: 21300000, guid: 66746af980ddf4492a67bce90ec31cc6, type: 3}
+    walkFPS: 8
+    runFPS: 12
+  - view: 3
+    idle: {fileID: 21300000, guid: 3b18f3b77dbde42c891e5b7814862b32, type: 3}
+    walk:
+    - {fileID: 21300000, guid: 4e5d53af03ae941cdb60d56488d8260b, type: 3}
+    - {fileID: 21300000, guid: e9f650ebe06a74acb98df5da3a67133b, type: 3}
+    - {fileID: 21300000, guid: 4689ba51d6d2f49d3abd90c024a1a214, type: 3}
+    - {fileID: 21300000, guid: d8b06ac092f8b4ef1995af85396d853c, type: 3}
+    run:
+    - {fileID: 21300000, guid: 6f38a9ca2d0724853b2eeba4bd9f983e, type: 3}
+    - {fileID: 21300000, guid: e3bcf8dbc63f14b9db630f1f1eb1b982, type: 3}
+    - {fileID: 21300000, guid: f43833d0bbff148c6a6c2cc19e7a0504, type: 3}
+    - {fileID: 21300000, guid: 8bb812d1dec044878b219607533e68bb, type: 3}
+    walkFPS: 8
+    runFPS: 12
+  battle:
+  - action: 0
+    view: 0
+    loop: 1
+    frames:
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: 62651a3d0a63848ffa49bc1666e19f30, type: 3}
+        mainHand:
+          position: {x: 0.6953125, y: 1.6875}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: -1
+        offHand:
+          position: {x: -0.765625, y: 1.7734375}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: -1
+        foregroundHands: {fileID: 0}
+      duration: 1
+      fireMain: 0
+      fireOff: 0
+  - action: 1
+    view: 0
+    loop: 0
+    frames:
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: 14baa5faa0f4646c187dfd94146328fa, type: 3}
+        mainHand:
+          position: {x: -0.38934174, y: 2.1299815}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.809421, y: 2.2723684}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 7928cb86896684cb68cdb1c98bcfefe3, type: 3}
+      duration: 0.1
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: f4bd609f1edd3481fb4477918fef22fc, type: 3}
+        mainHand:
+          position: {x: -0.4918001, y: 2.0994701}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        offHand:
+          position: {x: -1.0245836, y: 2.201175}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 25fc62015d6154c9db5b48f2a2308d90, type: 3}
+      duration: 0.1
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: ad3d0979b664a4d2aab7fd3222c6e9fa, type: 3}
+        mainHand:
+          position: {x: 0.18442504, y: 1.8452076}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        offHand:
+          position: {x: -1.1987628, y: 2.1706636}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 9a1a5b22fe4854805b7800ec563cd335, type: 3}
+      duration: 0.1
+      fireMain: 0
+      fireOff: 1
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: 2b81b8abbc2654d9180cf68e8f64f3a2, type: 3}
+        mainHand:
+          position: {x: 0.46106258, y: 1.8757004}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.9426169, y: 2.0892808}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: b068782623ead4b6ab3333d9d3fa2243, type: 3}
+      duration: 0.1
+      fireMain: 1
+      fireOff: 0
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: a188d247be6a148d1b7eddb2aa0ae278, type: 3}
+        mainHand:
+          position: {x: 0.32786673, y: 1.8045069}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.79917514, y: 1.8248479}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 6d4af6162e46349ea92799ea40fba391, type: 3}
+      duration: 0.12
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: 62651a3d0a63848ffa49bc1666e19f30, type: 3}
+        mainHand:
+          position: {x: 0.6953125, y: 1.6875}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: -1
+        offHand:
+          position: {x: -0.765625, y: 1.7734375}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: -1
+        foregroundHands: {fileID: 0}
+      duration: 0.12
+      fireMain: 0
+      fireOff: 0
+  - action: 2
+    view: 0
+    loop: 0
+    frames:
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: 0487a28afaf6f49ae9e2015d0016af7f, type: 3}
+        mainHand:
+          position: {x: 0.47130844, y: 1.7841659}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.7786835, y: 2.0892808}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 2c001c3f67a1e4152bf5b1ef07a42ef9, type: 3}
+      duration: 0.09
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: 871a8570b898741c5aaafac12a8e2bf8, type: 3}
+        mainHand:
+          position: {x: 0.48155427, y: 1.8045069}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.53278345, y: 1.6824609}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 78f6faf9f2dec4712970dc817fc85af0, type: 3}
+      duration: 0.12
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: b024d4a3e6e3945c3949fddd394ec62c, type: 3}
+        mainHand:
+          position: {x: 0.82991266, y: 1.5603775}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.5532751, y: 1.5400364}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: eb52dbfbf9af14e89bd9cd54d56270f0, type: 3}
+      duration: 0.12
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: 62651a3d0a63848ffa49bc1666e19f30, type: 3}
+        mainHand:
+          position: {x: 0.6953125, y: 1.6875}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: -1
+        offHand:
+          position: {x: -0.765625, y: 1.7734375}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: -1
+        foregroundHands: {fileID: 0}
+      duration: 0.1
+      fireMain: 0
+      fireOff: 0
+  - action: 3
+    view: 0
+    loop: 1
+    frames:
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: 21e5cc5daf981468caf1c651f3d88254, type: 3}
+        mainHand:
+          position: {x: 0.15368754, y: 1.9875383}
+          rotation: 90
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.27663755, y: 2.079073}
+          rotation: 90
+          mirrorX: 0
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 5f73dc9b7669c4e118448b16c891a510, type: 3}
+      duration: 0.24
+      fireMain: 0
+      fireOff: 0
+  - action: 4
+    view: 0
+    loop: 0
+    frames:
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: f7b8aaef3e5de47679e4107b0cc1178c, type: 3}
+        mainHand:
+          position: {x: 0.96310854, y: 2.6994734}
+          rotation: 90
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.8401585, y: 2.6893027}
+          rotation: 90
+          mirrorX: 0
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 67d261f82431d49c6997b6ff29947fb0, type: 3}
+      duration: 0.55
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 0
+        body: {fileID: 21300000, guid: 62651a3d0a63848ffa49bc1666e19f30, type: 3}
+        mainHand:
+          position: {x: 0.6953125, y: 1.6875}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: -1
+        offHand:
+          position: {x: -0.765625, y: 1.7734375}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: -1
+        foregroundHands: {fileID: 0}
+      duration: 0.15
+      fireMain: 0
+      fireOff: 0
+  - action: 0
+    view: 1
+    loop: 1
+    frames:
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: 62ad15bd9da344264bb7ec04cd330ce8, type: 3}
+        mainHand:
+          position: {x: 0.8515625, y: 1.65625}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: -1
+        offHand:
+          position: {x: -0.8046875, y: 1.6640625}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: -1
+        foregroundHands: {fileID: 0}
+      duration: 1
+      fireMain: 0
+      fireOff: 0
+  - action: 1
+    view: 1
+    loop: 0
+    frames:
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: c6ca37822d2e44aa29afabb10299b9b9, type: 3}
+        mainHand:
+          position: {x: 0.81701386, y: 2.3384268}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.7646412, y: 2.3384268}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 0cdbfbcdf4f9644aba4c5b06c56f2223, type: 3}
+      duration: 0.1
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: e809b3e3d66324c19a31a9cd839fc2ff, type: 3}
+        mainHand:
+          position: {x: -0.5237269, y: 2.525582}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        offHand:
+          position: {x: -1.0579282, y: 2.2344515}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 7f84691868e25417e95b30a0486461ff, type: 3}
+      duration: 0.1
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: 26b8b7cf9f2e44f318c22ad7144c9cd6, type: 3}
+        mainHand:
+          position: {x: -0.5132523, y: 2.525582}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        offHand:
+          position: {x: -1.152199, y: 2.1200788}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 945fe876dcca1454099471883af3aa7c, type: 3}
+      duration: 0.1
+      fireMain: 0
+      fireOff: 1
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: 68573c309db3b47cb85e163d9c9a3c27, type: 3}
+        mainHand:
+          position: {x: -0.35613427, y: 2.3279335}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.86938655, y: 2.0472004}
+          rotation: 0
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: dcb652d2beb904794b5482b93a30228a, type: 3}
+      duration: 0.1
+      fireMain: 1
+      fireOff: 0
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: dd4ae0059451c40a9904329dc2106b07, type: 3}
+        mainHand:
+          position: {x: 1.0160301, y: 1.8600452}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.7960648, y: 1.8912377}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 9f333edae5aa14098bf4c440fc6819d2, type: 3}
+      duration: 0.12
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: 62ad15bd9da344264bb7ec04cd330ce8, type: 3}
+        mainHand:
+          position: {x: 0.8515625, y: 1.65625}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: -1
+        offHand:
+          position: {x: -0.8046875, y: 1.6640625}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: -1
+        foregroundHands: {fileID: 0}
+      duration: 0.12
+      fireMain: 0
+      fireOff: 0
+  - action: 2
+    view: 1
+    loop: 0
+    frames:
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: 0c413ed548bf14b5da831c79d5943e9e, type: 3}
+        mainHand:
+          position: {x: 1.0474538, y: 1.6520948}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.86938655, y: 1.8080575}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: ae363d8cdf4a4455293acbdba9e12b77, type: 3}
+      duration: 0.09
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: 45e45e19d5ac44eaa989c424d5079c94, type: 3}
+        mainHand:
+          position: {x: 1.0893519, y: 1.75607}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.6179977, y: 1.5273246}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 4c08a10552e2040f3af36c41b405540e, type: 3}
+      duration: 0.12
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: 4920f4323af34409f95b43ac363c7617, type: 3}
+        mainHand:
+          position: {x: 1.0265046, y: 1.5272863}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.80653936, y: 1.6312615}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: ae5f6357a5a524f218e9d680d7f59ebd, type: 3}
+      duration: 0.12
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: 62ad15bd9da344264bb7ec04cd330ce8, type: 3}
+        mainHand:
+          position: {x: 0.8515625, y: 1.65625}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: -1
+        offHand:
+          position: {x: -0.8046875, y: 1.6640625}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: -1
+        foregroundHands: {fileID: 0}
+      duration: 0.1
+      fireMain: 0
+      fireOff: 0
+  - action: 3
+    view: 1
+    loop: 1
+    frames:
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: b40ab0a04f6214a69b60a9264f7c0f49, type: 3}
+        mainHand:
+          position: {x: 0.5342014, y: 2.3798828}
+          rotation: 90
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.3980324, y: 2.3694854}
+          rotation: 90
+          mirrorX: 0
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: 6327e835cd9604644ae42f074fcfefbf, type: 3}
+      duration: 0.24
+      fireMain: 0
+      fireOff: 0
+  - action: 4
+    view: 1
+    loop: 0
+    frames:
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: 190df335727e948aea6f10f4cacbd106, type: 3}
+        mainHand:
+          position: {x: 0.92175925, y: 2.6502182}
+          rotation: 90
+          mirrorX: 0
+          sortingOffset: 1
+        offHand:
+          position: {x: -0.7960648, y: 2.5150506}
+          rotation: 90
+          mirrorX: 0
+          sortingOffset: 1
+        foregroundHands: {fileID: 21300000, guid: dc70940c9ba6244818584fbfb5af7251, type: 3}
+      duration: 0.55
+      fireMain: 0
+      fireOff: 0
+    - pose:
+        view: 1
+        body: {fileID: 21300000, guid: 62ad15bd9da344264bb7ec04cd330ce8, type: 3}
+        mainHand:
+          position: {x: 0.8515625, y: 1.65625}
+          rotation: 15
+          mirrorX: 0
+          sortingOffset: -1
+        offHand:
+          position: {x: -0.8046875, y: 1.6640625}
+          rotation: -15
+          mirrorX: 1
+          sortingOffset: -1
+        foregroundHands: {fileID: 0}
+      duration: 0.15
+      fireMain: 0
+      fireOff: 0

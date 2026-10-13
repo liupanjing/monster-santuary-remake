@@ -1473,11 +1473,11 @@
         51
       ],
       "artPolicy": "original_reference_review",
-      "designBrief": "对照原版图像逐角色重绘；外形锁定与新版定稿均待用户审核。",
-      "assetStatus": "rejected_v1_placeholder",
+      "designBrief": "v4 双枪造型已认可；v5 跑图为独立 Q 版四方向待机/行走/奔跑，战斗为身体帧 + 独立武器图层。动作候选已授权制作。",
+      "assetStatus": "motion_candidate_v5",
       "modelResource": "",
       "role": "player",
-      "spriteResource": "Art/Characters/m51"
+      "spriteResource": "HeroMotion/Art/walk/0-0"
     }
   ]
 }

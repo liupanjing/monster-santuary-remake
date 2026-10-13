@@ -25,6 +25,7 @@ namespace MonsterRemake2D
         public WeaponFamily2D family;
         public GripLayout2D gripLayout;
         public string requiredPoseKey;
+        public string fieldPoseKey = "field_q";
         public bool previewOnly, artApproved, showInField;
         public WeaponView2D[] views = Array.Empty<WeaponView2D>();
 

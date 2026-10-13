@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Remake/Scenes/Earth2D.unity
     guid: 97d447e9d9cae4dfb8adafe3824cdb43
+  - enabled: 1
+    path: Assets/Remake/Scenes/HeroMotionPreview.unity
+    guid: 28176966c2c434225887f60e548e3bbf
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

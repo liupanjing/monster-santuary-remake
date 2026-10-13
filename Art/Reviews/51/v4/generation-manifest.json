@@ -1,7 +1,7 @@
 {
   "characterID": 51,
   "version": "v4",
-  "status": "draft_review",
+  "status": "design_approved",
   "method": "built_in_imagegen",
   "prompts": [
     "body-prompt.txt",
@@ -23,5 +23,6 @@
     "body-source.png": "1399dc3eaa96a3c1abd3328ca06613fcd747460ddc3ccb42190424612f973486",
     "weapon-source.png": "9debb604063063f60ebb156c7bc904f74df7a7e7a8bd92b0d5593f4ebf87ba43",
     "unity-dual-pistol-preview.png": "2ffc5028a6dc4335939d6bbd0bae8ccca023f72e354933308a57632b73ed1f09"
-  }
+  },
+  "approvedBy": "用户 2026-10-13：这版双枪可以了，先把主角的跑图和战斗动作做出来"
 }

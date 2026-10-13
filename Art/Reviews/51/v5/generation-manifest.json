@@ -1,0 +1,51 @@
+{
+  "characterID": 51,
+  "version": "v5",
+  "status": "runtime_review",
+  "approvedDesign": "v4",
+  "approvedNewMotions": false,
+  "authorization": "User accepted v4 dual pistols and requested field/combat animation with Q overworld and modular guns",
+  "method": "built_in_imagegen",
+  "prompts": [
+    "prompts/back-correction.txt",
+    "prompts/battle_back.txt",
+    "prompts/battle_front.txt",
+    "prompts/front-correction.txt",
+    "prompts/run.txt",
+    "prompts/walk.txt"
+  ],
+  "sourceSHA256": {
+    "battle-back-draft.png": "d8cb46865bbfde3a0032a4005b328118b802803a10b54de03a807ee1c9b6e0c5",
+    "battle-back.png": "476ac091d8b5dbd78f227ef9ccb961dbcd7b949ca6198848a6780027a4aad819",
+    "battle-front-draft.png": "fcfd53bfb58e1492875d28224f74913287df3a438a0fe3a9ada7e4da0d885b93",
+    "battle-front.png": "5edf378750f7380f0c8047808c00e1732464ac00c107712270b5f1a9cd611025",
+    "run.png": "66b66c5c1ac6c52aef392557846c8d0eb61b503d0a9043e83f9dbbbf1e682667",
+    "walk.png": "21fa3e39a3a7f5e3391379a0584b84b9aca58c54b720b96b2064978a49892c61"
+  },
+  "fieldFrames": {
+    "idle": 4,
+    "walk": 16,
+    "run": 16
+  },
+  "battleGeneratedPoses": 24,
+  "battlePosesUsed": 20,
+  "approvedIdleViewsReused": 2,
+  "battleActions": [
+    "idle procedural breathing",
+    "dual-pistol shooting/recoil",
+    "hurt",
+    "guard",
+    "victory"
+  ],
+  "module": "weapon-free body + separate gun sprite + per-frame grips/hand overlays + muzzle events; future original item ID visual replacement",
+  "animationDamage": "two muzzle events, exactly one impact callback per attack",
+  "equipmentModels": "default dual pistols accepted; 11 named original weapons remain unassigned model blueprints",
+  "actualPreview": "hero-motion-preview.gif",
+  "validation": [
+    "validation/editor.txt",
+    "validation/motion-runtime.txt",
+    "validation/chapter-runtime.txt"
+  ],
+  "sourceCanvasPolicy": "global source scale and shared row root; no individual frame stretching or generated interpolation",
+  "manualKeyboardTest": false
+}

@@ -2,8 +2,7 @@ using UnityEngine;
 
 namespace MonsterRemake2D
 {
-    // Static visual rig. Attack timings, projectiles and weapon stats belong to combat,
-    // not this renderer. No equipped weapon is baked into a body sprite.
+    // Body/hand frames and equipment are independent; no gun is baked into art.
     public class HeroEquipmentRig2D : MonoBehaviour
     {
         public HeroPoseDefinition2D pose;
@@ -57,18 +56,30 @@ namespace MonsterRemake2D
         public bool TryEquip(HeroPoseDefinition2D nextPose, WeaponDefinition2D nextWeapon,
             HeroView2D nextView, out string reason)
         {
-            reason = null;
             var frame = nextPose != null ? nextPose.Find(nextView) : null;
-            if (frame == null || frame.body == null) { reason = "Missing hero view/pose"; return false; }
+            return ApplyChecked(nextPose, nextWeapon, frame, nextPose != null && nextPose.artApproved, out reason);
+        }
+
+        public bool TryApplyFrame(HeroPoseView2D frame, bool frameApproved, out string reason)
+        {
+            return ApplyChecked(pose, weapon, frame, frameApproved, out reason);
+        }
+
+        bool ApplyChecked(HeroPoseDefinition2D nextPose, WeaponDefinition2D nextWeapon,
+            HeroPoseView2D frame, bool approved, out string reason)
+        {
+            reason = null;
+            if (nextPose == null || frame == null || frame.body == null) { reason = "Missing hero view/pose"; return false; }
+            var nextView = frame.view;
             bool field = (int)nextView >= (int)HeroView2D.FieldDown;
             bool displayWeapon = nextWeapon != null && (!field || nextWeapon.showInField);
-            if (!allowDraftArt && (!nextPose.artApproved || displayWeapon && !nextWeapon.artApproved))
+            if (!allowDraftArt && (!approved || displayWeapon && !nextWeapon.artApproved))
             { reason = "Art must be approved for production; drafts require the review rig"; return false; }
             WeaponView2D art = displayWeapon ? nextWeapon.Find(nextView) : null;
             if (displayWeapon && (art == null || art.sprite == null || art.scale <= 0))
             { reason = "Weapon view is not drawn yet"; return false; }
             if (displayWeapon && (nextWeapon.gripLayout == GripLayout2D.Unspecified ||
-                nextWeapon.requiredPoseKey != nextPose.poseKey))
+                (field ? nextWeapon.fieldPoseKey : nextWeapon.requiredPoseKey) != nextPose.poseKey))
             { reason = "Weapon requires a different hand/body pose"; return false; }
             if (displayWeapon && nextWeapon.previewOnly && !allowDraftArt)
             { reason = "Neutral preview weapon cannot stand in for an original item"; return false; }
@@ -81,6 +92,20 @@ namespace MonsterRemake2D
             Apply(OffWeapon, OffMuzzle, frame.offHand,
                 displayWeapon && nextWeapon.gripLayout == GripLayout2D.DualOneHand ? art : null);
             return true;
+        }
+
+        public void Tint(Color color)
+        {
+            EnsureLayers(); Body.color = color; MainWeapon.color = color;
+            OffWeapon.color = color; foreground.color = color;
+        }
+
+        public void Breathe(float amount)
+        {
+            Body.transform.localScale=foreground.transform.localScale=new Vector3(1,1+amount,1);
+            foreach(var renderer in new[]{MainWeapon,OffWeapon}) {
+                var p=renderer.transform.localPosition;p.y*=1+amount;renderer.transform.localPosition=p;
+            }
         }
 
         void Apply(SpriteRenderer renderer, Transform muzzle, HandSocket2D socket, WeaponView2D art)

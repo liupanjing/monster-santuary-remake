@@ -4,9 +4,9 @@
 
 ## 当前状态
 
-已迁入上一版可运行原型及原版资源研究资料。用户指出上一版角色重绘明显偏离原画，因此 **主角和 50 只怪兽的 v1 重绘全部未通过审核**，工程中的这些图片暂时作为运行占位。角色定稿数为 0，不能把图片存在或自动通关成功等同于美术通过。
+已迁入可运行原型与原版资料。v1 重绘曾被指出偏离原画；目前主角 v4 双枪造型已获用户认可，v5 动作初版已替换主角运行资源。50 只怪兽的 v1 图片仍为待审占位。已认可造型数为 1，新动作的技术通过不代替用户视觉认可。
 
-当前审核角色：主角奥尼克（ID 51）。当前为 [v4 双枪模块化对照](Art/Reviews/51/v4/hero-original-vs-modular-v4.png)，等待用户确认，尚未制作动作或替换土之秘境的运行占位。战斗精灵与跑图 Q 版为两套独立比例，身体和枪械分别绘制；v2 误画为刀已撤回，v3 持枪姿势需要修订。
+当前角色：主角奥尼克（ID 51）。用户已认可 v4 并授权动作；当前 [v5 实际动作预览与说明](Art/Reviews/51/v5/README.md)包含 Q 版四方向待机/行走/奔跑，以及独立双枪战斗动作，已接入土之秘境。新动作仍待用户看效果，尚未推进下一个角色。
 
 ## 目录
 
@@ -30,9 +30,11 @@
 
 编辑器菜单 `Remake 2D/Create and verify playable earth chapter` 可创建并检查场景。调用 `Earth2DBuild.BuildMac` 输出 `Production/Build/MonsterWonderland2D.app`；生成缓存与构建包不进入 Git。
 
+当前完整动作版推荐使用 `HeroMotionBuild.BuildMac`，包含土之秘境与 `HeroMotionPreview` 两个场景。动作资源可从 `Resources/HeroMotion/Prefabs/` 的两个 Prefab 复用；动作定义见 `HeroMotionLibrary2D`，武器替换接口见 `ChapterHeroMotion.cs`。
+
 ## 验证与边界
 
-`Production/BaselineValidation/` 是迁移前原型的自动通关记录。迁移检查见 `Production/workspace-validation.json`，它验证资料完整性、审核状态与工程目录，不代表迁移后重新执行过 Unity 通关。地形及部分 NPC 仍使用原版素材，完整技能、合成和怪兽专属动作尚未完成。
+`Production/BaselineValidation/` 是迁移前原型记录；当前 v5 已重新执行完整章节与动作运行验证，说明见 `Art/Reviews/51/v5/README.md`。`Production/workspace-validation.json` 只验证资料完整性与审核建档。地形及部分 NPC 仍使用原版素材，完整技能、合成和怪兽专属动作尚未完成。
 
 原型有公开记录的地图 45 碰撞兼容调整、战斗平衡适配及一个当前正常路线不可达的奖励箱；详见 `Docs/PROTOTYPE_BASELINE.md`。角色审核完成前，先保持玩法原型可用，逐一替换角色。
 

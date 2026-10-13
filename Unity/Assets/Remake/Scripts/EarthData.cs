@@ -32,13 +32,14 @@ namespace MonsterRemake2D {
   // m.java: ((base + growth * level / 5) * level / 50), with Java integer truncation.
   public static Stats Calculate(int[] f,int l){int V(int b,int g)=>Mathf.Max(1,(f[b]+f[g]*l/5)*l/50);return new Stats{element=f[0],attack=V(1,2),defense=V(3,4),speed=V(5,6),hp=V(7,8),mp=V(9,10),magic=V(11,12)};}
  }
- [Serializable] public class EarthSave {public int version=2,map=9,x=10,y=15,plane=0,gold=100,activePet=0;public bool bossDefeated,reported,secretFound;public Unit hero;public List<Unit> pets=new List<Unit>();public List<ItemStack> inventory=new List<ItemStack>();public List<string> opened=new List<string>();public List<int> visited=new List<int>();
+ [Serializable] public class EarthSave {public int version=3,visualWeaponId=-1,map=9,x=10,y=15,plane=0,gold=100,activePet=0;public bool bossDefeated,reported,secretFound;public Unit hero;public List<Unit> pets=new List<Unit>();public List<ItemStack> inventory=new List<ItemStack>();public List<string> opened=new List<string>();public List<int> visited=new List<int>();
   public int Count(int id)=>inventory.FirstOrDefault(x=>x.id==id)?.count??0;
+  public void Upgrade(){if(version==2){version=3;visualWeaponId=-1;}}
   public void Add(int id,int n){var s=inventory.FirstOrDefault(x=>x.id==id);if(s==null)inventory.Add(new ItemStack(id,n));else s.count+=n;}
   public bool Spend(int id){var s=inventory.FirstOrDefault(x=>x.id==id);if(s==null||s.count<=0)return false;s.count--;return true;}
   public bool Claim(Chest c){if(opened.Contains(c.key))return false;opened.Add(c.key);if(c.item>0&&c.quantity>0)Add(c.item,c.quantity);return true;}
   public static EarthSave New(Catalog c){var s=new EarthSave{hero=new Unit(51,10,c)};s.pets.Add(new Unit(21,10,c));s.Add(141,6);s.Add(143,2);s.Add(146,3);s.Add(121,8);return s;}
-  public bool Valid(Catalog c,World w){return version==2&&hero!=null&&hero.id==51&&hero.level>0&&pets!=null&&pets.Count>0&&pets.All(p=>p.id!=51&&c.entries.Any(e=>e.id==p.id))&&inventory!=null&&opened!=null&&visited!=null&&w.maps.Any(m=>m.id==map);}
+  public bool Valid(Catalog c,World w){return (version==2||version==3)&&hero!=null&&hero.id==51&&hero.level>0&&pets!=null&&pets.Count>0&&pets.All(p=>p.id!=51&&c.entries.Any(e=>e.id==p.id))&&inventory!=null&&opened!=null&&visited!=null&&w.maps.Any(m=>m.id==map);}
  }
  public static class OriginalElements {
   // w.java.a(attackerElement, defenderElement, damage): wind -> thunder -> earth -> water -> fire -> wind.

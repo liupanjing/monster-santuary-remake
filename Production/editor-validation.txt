@@ -1,0 +1,2 @@
+PASS: Unity compilation, 51 loadable 2D sprites (art approval tracked separately), 36 Q field frames and modular battle motions, no FBX/model resources, 27 original terrain maps, all in-scope portal pairs, full height-aware outward/return replay, original growth integer arithmetic, one-time reward and serializable save.
+Original collision map45 uses a documented compatibility overlay. Runtime/UI validation is a separate report.

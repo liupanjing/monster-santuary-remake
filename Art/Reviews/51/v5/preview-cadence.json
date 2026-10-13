@@ -1,0 +1,13 @@
+{
+  "samples": 96,
+  "sampleCadence": 24,
+  "source": "Built Unity player, HeroMotionPreview scene",
+  "sourceFrames": 36,
+  "battleSourceActionFramesUsed": 20,
+  "approvedBattleIdleViews": 2,
+  "movementDrawingCadence": {
+    "walk": 8,
+    "run": 12
+  },
+  "gifTiming": "GIF 10ms units use five 40ms frames plus one 50ms frame, averaging 24 samples/s; no interpolated drawings or native game FPS claims"
+}

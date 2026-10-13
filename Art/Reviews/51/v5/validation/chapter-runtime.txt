@@ -1,0 +1,3 @@
+PASS: 50 monster placeholders + approved v4 hero design with v5 motion candidate, 36 Q field frames and modular dual-pistol battle actions, 2D Tilemaps + SpriteRenderers, UGUI Chinese interface, source maze door and height transitions, one-time original chest reward, capture inside a three-enemy battle, original species8 guardian, secret fragment171, return to entrance, exam completion, persistent save.
+Outward steps=358. Boss rounds=4.
+Manual keyboard verification is separate; no automatic unlock was attempted.

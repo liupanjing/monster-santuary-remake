@@ -10,9 +10,9 @@
       "element": 5,
       "tier": 2,
       "reviewOrder": 1,
-      "status": "draft_review",
-      "approvedVersion": null,
-      "approvedBy": null,
+      "status": "runtime_review",
+      "approvedVersion": "v4",
+      "approvedBy": "用户于 2026-10-13 明确表示：这版双枪可以了，先把主角的跑图和战斗动作做出来",
       "originalReferenceKind": "original_sprite",
       "originalReferences": [
         "Reference/OriginalGame/extracted/mpic/s51_0.png",
@@ -26,10 +26,10 @@
         "npc0.png": "48e69c008b0fb34f6f2f6ee8bec6544066bf604ab76ac481b00dd74f43610937",
         "npc0.bin": "57b54d5db92fb56ca6d1d189ee0b720a96817422d27eaa72b6c4839f9aac4e03"
       },
-      "runtimeArtStatus": "rejected_v1_placeholder",
+      "runtimeArtStatus": "motion_candidate_v5",
       "reviewFile": "Art/Reviews/51/REVIEW.md",
-      "candidateVersion": "v4",
-      "candidateComparison": "Art/Reviews/51/v4/hero-original-vs-modular-v4.png",
+      "candidateVersion": "v5",
+      "candidateComparison": "Art/Reviews/51/v5/battle-contact.png",
       "twoIndependentForms": {
         "battle": "original battle body proportions, gun weapons",
         "field": "original npc0 Q/chibi proportions"
@@ -40,7 +40,9 @@
         "reviewPrefab": "Unity/Assets/Remake/ArtReview/HeroV4/HeroDualPistolReview.prefab",
         "reviewScene": "Unity/Assets/Remake/ArtReview/HeroEquipmentReview.unity",
         "weaponDefinitions": "Unity/Assets/Remake/ArtReview/WeaponDefinitions"
-      }
+      },
+      "motionStatus": "motion_candidate_v5",
+      "motionVersion": "v5"
     },
     {
       "id": 21,
@@ -1142,5 +1144,6 @@
       "runtimeArtStatus": "rejected_v1_placeholder",
       "reviewFile": "Art/Reviews/49/REVIEW.md"
     }
-  ]
+  ],
+  "approvedDesignCount": 1
 }

@@ -1,0 +1,1276 @@
+{
+  "directions": [
+    "down",
+    "left",
+    "right",
+    "up"
+  ],
+  "fieldPPU": 100,
+  "battlePPU": 128,
+  "field": [
+    {
+      "family": "walk",
+      "direction": 0,
+      "index": 0,
+      "resource": "HeroMotion/Art/walk/0-0",
+      "sourceBounds": [
+        75,
+        8,
+        254,
+        281
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        135.70000000000005,
+        283.0
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 0,
+      "index": 1,
+      "resource": "HeroMotion/Art/walk/0-1",
+      "sourceBounds": [
+        340,
+        8,
+        520,
+        283
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        135.70000000000005,
+        283.0
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 0,
+      "index": 2,
+      "resource": "HeroMotion/Art/walk/0-2",
+      "sourceBounds": [
+        607,
+        8,
+        786,
+        282
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        135.70000000000005,
+        283.0
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 0,
+      "index": 3,
+      "resource": "HeroMotion/Art/walk/0-3",
+      "sourceBounds": [
+        874,
+        9,
+        1052,
+        283
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        135.70000000000005,
+        283.0
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 0,
+      "index": 4,
+      "resource": "HeroMotion/Art/walk/0-4",
+      "sourceBounds": [
+        1142,
+        10,
+        1320,
+        283
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        135.70000000000005,
+        283.0
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 1,
+      "index": 0,
+      "resource": "HeroMotion/Art/walk/1-0",
+      "sourceBounds": [
+        71,
+        284,
+        247,
+        548
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        131.70000000000005,
+        269.5
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 1,
+      "index": 1,
+      "resource": "HeroMotion/Art/walk/1-1",
+      "sourceBounds": [
+        333,
+        284,
+        511,
+        550
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        131.70000000000005,
+        269.5
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 1,
+      "index": 2,
+      "resource": "HeroMotion/Art/walk/1-2",
+      "sourceBounds": [
+        605,
+        284,
+        780,
+        548
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        131.70000000000005,
+        269.5
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 1,
+      "index": 3,
+      "resource": "HeroMotion/Art/walk/1-3",
+      "sourceBounds": [
+        876,
+        284,
+        1049,
+        550
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        131.70000000000005,
+        269.5
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 1,
+      "index": 4,
+      "resource": "HeroMotion/Art/walk/1-4",
+      "sourceBounds": [
+        1150,
+        287,
+        1324,
+        551
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        131.70000000000005,
+        269.5
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 2,
+      "index": 0,
+      "resource": "HeroMotion/Art/walk/2-0",
+      "sourceBounds": [
+        66,
+        550,
+        253,
+        819
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        139.20000000000005,
+        258.0
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 2,
+      "index": 1,
+      "resource": "HeroMotion/Art/walk/2-1",
+      "sourceBounds": [
+        342,
+        552,
+        522,
+        819
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        139.20000000000005,
+        258.0
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 2,
+      "index": 2,
+      "resource": "HeroMotion/Art/walk/2-2",
+      "sourceBounds": [
+        610,
+        551,
+        790,
+        818
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        139.20000000000005,
+        258.0
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 2,
+      "index": 3,
+      "resource": "HeroMotion/Art/walk/2-3",
+      "sourceBounds": [
+        881,
+        551,
+        1061,
+        819
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        139.20000000000005,
+        258.0
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 2,
+      "index": 4,
+      "resource": "HeroMotion/Art/walk/2-4",
+      "sourceBounds": [
+        1157,
+        553,
+        1339,
+        819
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        139.20000000000005,
+        258.0
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 3,
+      "index": 0,
+      "resource": "HeroMotion/Art/walk/3-0",
+      "sourceBounds": [
+        64,
+        825,
+        255,
+        1096
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        136.70000000000005,
+        256.5
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 3,
+      "index": 1,
+      "resource": "HeroMotion/Art/walk/3-1",
+      "sourceBounds": [
+        333,
+        824,
+        523,
+        1098
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        136.70000000000005,
+        256.5
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 3,
+      "index": 2,
+      "resource": "HeroMotion/Art/walk/3-2",
+      "sourceBounds": [
+        603,
+        824,
+        792,
+        1096
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        136.70000000000005,
+        256.5
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 3,
+      "index": 3,
+      "resource": "HeroMotion/Art/walk/3-3",
+      "sourceBounds": [
+        872,
+        826,
+        1061,
+        1098
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        136.70000000000005,
+        256.5
+      ]
+    },
+    {
+      "family": "walk",
+      "direction": 3,
+      "index": 4,
+      "resource": "HeroMotion/Art/walk/3-4",
+      "sourceBounds": [
+        1146,
+        826,
+        1336,
+        1098
+      ],
+      "scale": 0.5481481481481482,
+      "root": [
+        136.70000000000005,
+        256.5
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 0,
+      "index": 0,
+      "resource": "HeroMotion/Art/run/0-0",
+      "sourceBounds": [
+        76,
+        11,
+        267,
+        286
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        163.75,
+        286.0
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 0,
+      "index": 1,
+      "resource": "HeroMotion/Art/run/0-1",
+      "sourceBounds": [
+        399,
+        11,
+        587,
+        262
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        163.75,
+        286.0
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 0,
+      "index": 2,
+      "resource": "HeroMotion/Art/run/0-2",
+      "sourceBounds": [
+        725,
+        12,
+        912,
+        286
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        163.75,
+        286.0
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 0,
+      "index": 3,
+      "resource": "HeroMotion/Art/run/0-3",
+      "sourceBounds": [
+        1045,
+        12,
+        1232,
+        267
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        163.75,
+        286.0
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 1,
+      "index": 0,
+      "resource": "HeroMotion/Art/run/1-0",
+      "sourceBounds": [
+        60,
+        306,
+        266,
+        579
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        159.75,
+        280.25
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 1,
+      "index": 1,
+      "resource": "HeroMotion/Art/run/1-1",
+      "sourceBounds": [
+        386,
+        304,
+        574,
+        560
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        159.75,
+        280.25
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 1,
+      "index": 2,
+      "resource": "HeroMotion/Art/run/1-2",
+      "sourceBounds": [
+        711,
+        308,
+        914,
+        581
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        159.75,
+        280.25
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 1,
+      "index": 3,
+      "resource": "HeroMotion/Art/run/1-3",
+      "sourceBounds": [
+        1048,
+        310,
+        1246,
+        565
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        159.75,
+        280.25
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 2,
+      "index": 0,
+      "resource": "HeroMotion/Art/run/2-0",
+      "sourceBounds": [
+        62,
+        604,
+        266,
+        865
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        170.0,
+        265.0
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 2,
+      "index": 1,
+      "resource": "HeroMotion/Art/run/2-1",
+      "sourceBounds": [
+        407,
+        596,
+        597,
+        846
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        170.0,
+        265.0
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 2,
+      "index": 2,
+      "resource": "HeroMotion/Art/run/2-2",
+      "sourceBounds": [
+        722,
+        598,
+        928,
+        864
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        170.0,
+        265.0
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 2,
+      "index": 3,
+      "resource": "HeroMotion/Art/run/2-3",
+      "sourceBounds": [
+        1054,
+        599,
+        1256,
+        850
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        170.0,
+        265.0
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 3,
+      "index": 0,
+      "resource": "HeroMotion/Art/run/3-0",
+      "sourceBounds": [
+        78,
+        882,
+        263,
+        1165
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        168.25,
+        265.75
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 3,
+      "index": 1,
+      "resource": "HeroMotion/Art/run/3-1",
+      "sourceBounds": [
+        412,
+        883,
+        594,
+        1122
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        168.25,
+        265.75
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 3,
+      "index": 2,
+      "resource": "HeroMotion/Art/run/3-2",
+      "sourceBounds": [
+        729,
+        881,
+        915,
+        1165
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        168.25,
+        265.75
+      ]
+    },
+    {
+      "family": "run",
+      "direction": 3,
+      "index": 3,
+      "resource": "HeroMotion/Art/run/3-3",
+      "sourceBounds": [
+        1054,
+        880,
+        1240,
+        1134
+      ],
+      "scale": 0.5232987654320989,
+      "root": [
+        168.25,
+        265.75
+      ]
+    }
+  ],
+  "battle": [
+    {
+      "view": "front",
+      "index": 0,
+      "resource": "HeroMotion/Art/battle-front/0",
+      "handsResource": "HeroMotion/Art/battle-front/0-hands",
+      "main": [
+        1.0040918647905546,
+        1.540092660972686
+      ],
+      "off": [
+        -0.6967168041403848,
+        1.5706041559636956
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        89,
+        16,
+        298,
+        358
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        358.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 1,
+      "resource": "HeroMotion/Art/battle-front/1",
+      "handsResource": "HeroMotion/Art/battle-front/1-hands",
+      "main": [
+        -0.3893417434902151,
+        2.129981564132203
+      ],
+      "off": [
+        -0.8094209930454472,
+        2.272368540756914
+      ],
+      "mainAngle": 180,
+      "offAngle": 180,
+      "sourceBounds": [
+        439,
+        15,
+        658,
+        358
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        358.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 2,
+      "resource": "HeroMotion/Art/battle-front/2",
+      "handsResource": "HeroMotion/Art/battle-front/2-hands",
+      "main": [
+        -0.49180009704027183,
+        2.099470069141194
+      ],
+      "off": [
+        -1.0245835355005661,
+        2.2011750524445586
+      ],
+      "mainAngle": 180,
+      "offAngle": 180,
+      "sourceBounds": [
+        778,
+        16,
+        1022,
+        358
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        358.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 3,
+      "resource": "HeroMotion/Art/battle-front/3",
+      "handsResource": "HeroMotion/Art/battle-front/3-hands",
+      "main": [
+        0.18442503639010166,
+        1.845207610882781
+      ],
+      "off": [
+        -1.1987627365356623,
+        2.1706635574535493
+      ],
+      "mainAngle": 180,
+      "offAngle": 180,
+      "sourceBounds": [
+        1121,
+        16,
+        1381,
+        359
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        358.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 4,
+      "resource": "HeroMotion/Art/battle-front/4",
+      "handsResource": "HeroMotion/Art/battle-front/4-hands",
+      "main": [
+        0.4610625909752546,
+        1.8757003756742874
+      ],
+      "off": [
+        -0.942616852660521,
+        2.089280840611354
+      ],
+      "mainAngle": 180,
+      "offAngle": 180,
+      "sourceBounds": [
+        69,
+        375,
+        305,
+        719
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        357.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 5,
+      "resource": "HeroMotion/Art/battle-front/5",
+      "handsResource": "HeroMotion/Art/battle-front/5-hands",
+      "main": [
+        0.3278667313601811,
+        1.8045068873619319
+      ],
+      "off": [
+        -0.7991751576904416,
+        1.8248478840226046
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        441,
+        375,
+        660,
+        719
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        357.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 6,
+      "resource": "HeroMotion/Art/battle-front/6",
+      "handsResource": "HeroMotion/Art/battle-front/6-hands",
+      "main": [
+        0.4713084263302605,
+        1.7841658907012587
+      ],
+      "off": [
+        -0.7786834869804302,
+        2.089280840611354
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        786,
+        381,
+        1020,
+        719
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        357.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 7,
+      "resource": "HeroMotion/Art/battle-front/7",
+      "handsResource": "HeroMotion/Art/battle-front/7-hands",
+      "main": [
+        0.4815542616852664,
+        1.8045068873619319
+      ],
+      "off": [
+        -0.5327834384602945,
+        1.6824609073978936
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        1177,
+        414,
+        1389,
+        718
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        357.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 8,
+      "resource": "HeroMotion/Art/battle-front/8",
+      "handsResource": "HeroMotion/Art/battle-front/8-hands",
+      "main": [
+        0.8299126637554584,
+        1.560377467034849
+      ],
+      "off": [
+        -0.5532751091703056,
+        1.5400364703741762
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        91,
+        732,
+        311,
+        1079
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        355.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 9,
+      "resource": "HeroMotion/Art/battle-front/9",
+      "handsResource": "HeroMotion/Art/battle-front/9-hands",
+      "main": [
+        0.15368753032508486,
+        1.987538396908982
+      ],
+      "off": [
+        -0.27663755458515293,
+        2.0790728818820106
+      ],
+      "mainAngle": 90,
+      "offAngle": 90,
+      "sourceBounds": [
+        443,
+        736,
+        661,
+        1079
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        355.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 10,
+      "resource": "HeroMotion/Art/battle-front/10",
+      "handsResource": "HeroMotion/Art/battle-front/10-hands",
+      "main": [
+        0.9631085233705323,
+        2.699473280032537
+      ],
+      "off": [
+        -0.8401584991104643,
+        2.689302781702201
+      ],
+      "mainAngle": 90,
+      "offAngle": 90,
+      "sourceBounds": [
+        797,
+        735,
+        1019,
+        1079
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        355.0
+      ]
+    },
+    {
+      "view": "front",
+      "index": 11,
+      "resource": "HeroMotion/Art/battle-front/11",
+      "handsResource": "HeroMotion/Art/battle-front/11-hands",
+      "main": [
+        1.0553210415655827,
+        1.4586724837314842
+      ],
+      "off": [
+        -0.665979298075368,
+        1.4688429820618207
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        1171,
+        737,
+        1381,
+        1081
+      ],
+      "scale": 1.304221251819505,
+      "root": [
+        181.0,
+        355.0
+      ]
+    },
+    {
+      "view": "back",
+      "index": 0,
+      "resource": "HeroMotion/Art/battle-back/0",
+      "handsResource": "HeroMotion/Art/battle-back/0-hands",
+      "main": [
+        1.0579282407407407,
+        1.6002029718137258
+      ],
+      "off": [
+        -0.6703703703703703,
+        1.6002029718137258
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        97,
+        17,
+        302,
+        355
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        353.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 1,
+      "resource": "HeroMotion/Art/battle-back/1",
+      "handsResource": "HeroMotion/Art/battle-back/1-hands",
+      "main": [
+        0.8170138888888889,
+        2.3384267769607843
+      ],
+      "off": [
+        -0.7646412037037036,
+        2.3384267769607843
+      ],
+      "mainAngle": 180,
+      "offAngle": 180,
+      "sourceBounds": [
+        443,
+        16,
+        643,
+        353
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        353.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 2,
+      "resource": "HeroMotion/Art/battle-back/2",
+      "handsResource": "HeroMotion/Art/battle-back/2-hands",
+      "main": [
+        -0.5237268518518516,
+        2.525582107843137
+      ],
+      "off": [
+        -1.0579282407407407,
+        2.234451593137255
+      ],
+      "mainAngle": 180,
+      "offAngle": 180,
+      "sourceBounds": [
+        773,
+        16,
+        1012,
+        353
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        353.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 3,
+      "resource": "HeroMotion/Art/battle-back/3",
+      "handsResource": "HeroMotion/Art/battle-back/3-hands",
+      "main": [
+        -0.5132523148148147,
+        2.525582107843137
+      ],
+      "off": [
+        -1.152199074074074,
+        2.1200788909313726
+      ],
+      "mainAngle": 180,
+      "offAngle": 180,
+      "sourceBounds": [
+        1130,
+        17,
+        1374,
+        354
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        353.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 4,
+      "resource": "HeroMotion/Art/battle-back/4",
+      "handsResource": "HeroMotion/Art/battle-back/4-hands",
+      "main": [
+        -0.35613425925925934,
+        2.327933517156863
+      ],
+      "off": [
+        -0.869386574074074,
+        2.0472005208333335
+      ],
+      "mainAngle": 180,
+      "offAngle": 180,
+      "sourceBounds": [
+        80,
+        376,
+        318,
+        710
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        348.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 5,
+      "resource": "HeroMotion/Art/battle-back/5",
+      "handsResource": "HeroMotion/Art/battle-back/5-hands",
+      "main": [
+        1.0160300925925925,
+        1.8600451899509807
+      ],
+      "off": [
+        -0.7960648148148146,
+        1.891237745098039
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        442,
+        376,
+        653,
+        710
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        348.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 6,
+      "resource": "HeroMotion/Art/battle-back/6",
+      "handsResource": "HeroMotion/Art/battle-back/6-hands",
+      "main": [
+        1.0474537037037033,
+        1.6520948223039218
+      ],
+      "off": [
+        -0.869386574074074,
+        1.8080575980392157
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        785,
+        383,
+        1014,
+        711
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        348.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 7,
+      "resource": "HeroMotion/Art/battle-back/7",
+      "handsResource": "HeroMotion/Art/battle-back/7-hands",
+      "main": [
+        1.089351851851852,
+        1.7560700061274508
+      ],
+      "off": [
+        -0.6179976851851852,
+        1.5273246017156863
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        1151,
+        404,
+        1372,
+        711
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        348.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 8,
+      "resource": "HeroMotion/Art/battle-back/8",
+      "handsResource": "HeroMotion/Art/battle-back/8-hands",
+      "main": [
+        1.0265046296296294,
+        1.5272863051470589
+      ],
+      "off": [
+        -0.8065393518518518,
+        1.6312614889705883
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        79,
+        734,
+        299,
+        1071
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        346.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 9,
+      "resource": "HeroMotion/Art/battle-back/9",
+      "handsResource": "HeroMotion/Art/battle-back/9-hands",
+      "main": [
+        0.5342013888888886,
+        2.3798828125
+      ],
+      "off": [
+        -0.39803240740740753,
+        2.369485294117647
+      ],
+      "mainAngle": 90,
+      "offAngle": 90,
+      "sourceBounds": [
+        442,
+        736,
+        647,
+        1070
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        346.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 10,
+      "resource": "HeroMotion/Art/battle-back/10",
+      "handsResource": "HeroMotion/Art/battle-back/10-hands",
+      "main": [
+        0.9217592592592592,
+        2.6502182904411766
+      ],
+      "off": [
+        -0.7960648148148146,
+        2.515050551470588
+      ],
+      "mainAngle": 90,
+      "offAngle": 90,
+      "sourceBounds": [
+        800,
+        735,
+        1011,
+        1070
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        346.5
+      ]
+    },
+    {
+      "view": "back",
+      "index": 11,
+      "resource": "HeroMotion/Art/battle-back/11",
+      "handsResource": "HeroMotion/Art/battle-back/11-hands",
+      "main": [
+        0.9741319444444443,
+        1.516888786764706
+      ],
+      "off": [
+        -0.6494212962962962,
+        1.5792738970588234
+      ],
+      "mainAngle": 15,
+      "offAngle": 165,
+      "sourceBounds": [
+        1154,
+        736,
+        1364,
+        1071
+      ],
+      "scale": 1.3333333333333333,
+      "root": [
+        181.0,
+        346.5
+      ]
+    }
+  ],
+  "status": "motion_candidate",
+  "scalePolicy": "shared scale per source atlas; common row root/ground, no per-frame stretching; run airborne lift retained"
+}

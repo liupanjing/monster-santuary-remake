@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DualPistolReady
   m_EditorClassIdentifier: Assembly-CSharp::MonsterRemake2D.HeroPoseDefinition2D
   poseKey: dual_pistol_ready
-  artApproved: 0
+  artApproved: 1
   views:
   - view: 0
     body: {fileID: 21300000, guid: 4670ff73a024642fc816726926884956, type: 3}

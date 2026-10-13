@@ -36,7 +36,7 @@ for row in rows:
         check(path.is_file(), f'Missing reference: {relative}')
         check(hashlib.sha256(path.read_bytes()).hexdigest()
               == row['originalReferenceSHA256'][path.name], f'Reference checksum: {relative}')
-    if row['status'] == 'approved':
+    if row['status'] in ['approved', 'design_approved', 'runtime_review']:
         check(row['approvedVersion'] and row['approvedBy'], 'Approval requires version and evidence')
     else:
         check(row['approvedVersion'] is None, 'Pending role cannot claim an approved version')
@@ -59,6 +59,7 @@ check('../remake-2d-production' not in
 report = {
     'result': 'pass', 'originalInputsChecked': len(checksums),
     'characters': len(rows), 'monsters': 50, 'approvedCharacters': len(approved),
+    'approvedDesigns': sum(bool(row['approvedVersion']) for row in rows),
     'currentCharacter': review['currentCharacter'], 'spriteMetadata': 'pass',
     'toolsSyntax': 'pass', 'oldActiveToolPaths': 'none',
     'scope': 'Workspace integrity and review bookkeeping; not art approval or Unity runtime replay',

@@ -10,7 +10,7 @@ namespace MonsterRemake2D {
  public enum Mode {Explore,Dialogue,Battle,Menu,Map,Atlas,Complete}
  public partial class EarthGame2D:MonoBehaviour {
   public Catalog catalog;public World world;public Items items;public EarthSave state;public EarthMap map;public Mode mode;
-  public ChapterUI ui;Camera camera2d;GameObject field,battleScene;SpriteRenderer heroSprite,petSprite;Dictionary<int,Sprite> sprites=new Dictionary<int,Sprite>();Dictionary<string,SpriteRenderer> chestSprites=new Dictionary<string,SpriteRenderer>();Sprite[] heroFrames;Tile[] tiles;bool moving,resolving,bossBattle;int direction=0,stepCount,target,phase,atlasPage,partyPage;float petWalk;string message="你和豆猪抵达秘境入口。前往第三层接受守护者考验。",near="",log="";List<Unit> foes=new List<Unit>();List<SpriteRenderer> foeSprites=new List<SpriteRenderer>();SpriteRenderer battleHero,battlePet;string[] orders=new string[2];Queue<KeyValuePair<string,string>> dialogues=new Queue<KeyValuePair<string,string>>();Action afterDialogue;AudioSource audio;
+  public ChapterUI ui;Camera camera2d;GameObject field,battleScene;SpriteRenderer heroSprite,petSprite;Dictionary<int,Sprite> sprites=new Dictionary<int,Sprite>();Dictionary<string,SpriteRenderer> chestSprites=new Dictionary<string,SpriteRenderer>();Tile[] tiles;bool moving,resolving,bossBattle;int direction=0,stepCount,target,phase,atlasPage,partyPage;float petWalk;string message="你和豆猪抵达秘境入口。前往第三层接受守护者考验。",near="",log="";List<Unit> foes=new List<Unit>();List<SpriteRenderer> foeSprites=new List<SpriteRenderer>();SpriteRenderer battleHero,battlePet;string[] orders=new string[2];Queue<KeyValuePair<string,string>> dialogues=new Queue<KeyValuePair<string,string>>();Action afterDialogue;AudioSource audio;
   bool Smoke=>Environment.GetCommandLineArgs().Contains("--2d-smoke");
   string SmokeOutput=>Environment.GetCommandLineArgs().FirstOrDefault(a=>a.StartsWith("--smoke-output="))?.Substring(15)??Application.persistentDataPath;
   string SavePath=>Path.Combine(Smoke?SmokeOutput:Application.persistentDataPath,"earth-2d-v2.json");
@@ -20,10 +20,10 @@ namespace MonsterRemake2D {
   void Start(){
    catalog=Read<Catalog>("catalog");world=Read<World>("earth-world");items=Read<Items>("items");
    foreach(var e in catalog.entries){var sprite=Resources.Load<Sprite>(e.spriteResource);if(sprite==null)throw new Exception("Missing newly drawn sprite: "+e.name);sprites[e.id]=sprite;}
-   heroFrames=Enumerable.Range(0,12).Select(i=>Resources.Load<Sprite>("Art/Hero/f"+i)).ToArray();if(heroFrames.Any(s=>s==null))throw new Exception("Missing four-direction hero frame");
+   LoadHeroMotion();
    var atlas=Resources.Load<Texture2D>("Art/tile1_0");tiles=new Tile[atlas.width/16];for(int i=0;i<tiles.Length;i++){var t=ScriptableObject.CreateInstance<Tile>();t.sprite=Sprite.Create(atlas,new Rect(i*16,0,16,16),new Vector2(.5f,.5f),16);tiles[i]=t;}
    camera2d=Camera.main;if(camera2d==null){camera2d=new GameObject("2D camera").AddComponent<Camera>();camera2d.tag="MainCamera";}camera2d.transform.position=new Vector3(10,-15,-10);camera2d.transform.rotation=Quaternion.identity;camera2d.orthographic=true;camera2d.orthographicSize=6;camera2d.backgroundColor=new Color(.055f,.052f,.10f);camera2d.clearFlags=CameraClearFlags.SolidColor;camera2d.cullingMask=~(1<<5);camera2d.gameObject.AddComponent<AudioListener>();audio=gameObject.AddComponent<AudioSource>();audio.volume=.18f;
-   ui=new ChapterUI(camera2d);state=EarthSave.New(catalog);if(!Smoke)Load();state.hero.Refresh(catalog);foreach(var p in state.pets)p.Refresh(catalog);BuildMap(state.map);mode=Mode.Explore;UpdateUI();
+   ui=new ChapterUI(camera2d);state=EarthSave.New(catalog);if(!Smoke)Load();RestoreVisualEquipment();state.hero.Refresh(catalog);foreach(var p in state.pets)p.Refresh(catalog);BuildMap(state.map);mode=Mode.Explore;UpdateUI();
    if(Smoke)StartCoroutine(SmokeScenario());else if(!File.Exists(SavePath))Dialogue(new[]{Pair("考官","考试的第一个内容是前往土之秘境第三层，找到并战胜秘境守护者。"),Pair("考官","我已经给你施加了通行标记。道路漫长，做好补给工作哦！"),Pair("奥尼克","就从这里开始。先看看周围的路，也不能漏掉宝箱。")},()=>{Notify("已进入土之秘境一层。入口传送石可休整和补给。");Save();});
   }
   T Read<T>(string key)=>JsonUtility.FromJson<T>(Resources.Load<TextAsset>("Data/"+key).text);
@@ -39,7 +39,7 @@ namespace MonsterRemake2D {
    foreach(var n in map.npcs){if(n.type=="guardian"){if(!state.bossDefeated)Draw("秘境守护者",SpriteFor(8),At(n.x,n.y),field.transform,160,1.25f);}else if(n.type.StartsWith("npc_s"))continue;else {var image=Resources.Load<Sprite>("Art/"+n.type);if(image!=null)Draw(n.type,image,At(n.x,n.y),field.transform,n.plane==1?160:60);}}
    if(id==9)Draw("入口传送石",SpriteFor(25),At(11,15),field.transform,155,.8f);
    var spawn=map.Nearest(Cell,state.plane);state.x=spawn.x;state.y=spawn.y;
-   heroSprite=Draw("奥尼克 · freshly drawn",heroFrames[1],At(state.x,state.y),field.transform,state.plane==1?180:80);
+   fieldHeroMotion=NewHero("奥尼克 · Q版四方向动作",field.transform,At(state.x,state.y),HeroMotionLibrary2D.FieldView(direction),state.plane==1?180:80,1,false);heroSprite=fieldHeroMotion.rig.Body;
    petSprite=Draw("跟随怪兽",SpriteFor(Pet.id),heroSprite.transform.position+new Vector3(-.65f,-.20f,0),field.transform,state.plane==1?175:75,.75f);
    camera2d.rect=new Rect(0,.13f,1,.735f);camera2d.orthographicSize=6;FollowCamera(true);UpdateUI();
   }
@@ -48,19 +48,19 @@ namespace MonsterRemake2D {
    if(mode==Mode.Dialogue){if(!Smoke&&(Input.GetKeyDown(KeyCode.Space)||Input.GetKeyDown(KeyCode.Return)||Input.GetKeyDown(KeyCode.E)))NextDialogue();return;}
    if(Smoke)return;
    if(Input.GetKeyDown(KeyCode.Escape)){if(mode==Mode.Explore)ShowMenu();else if(mode!=Mode.Battle&&mode!=Mode.Complete){ui.Clear();mode=Mode.Explore;}return;}
-   if(mode==Mode.Battle){if(Input.GetKeyDown(KeyCode.Alpha1))Choose("attack");if(Input.GetKeyDown(KeyCode.Alpha2))Choose("skill");if(Input.GetKeyDown(KeyCode.Alpha3))Choose("guard");return;}
+   if(mode==Mode.Battle){if(Input.GetKeyDown(KeyCode.Alpha1))Choose("attack");if(Input.GetKeyDown(KeyCode.Alpha2))Choose(phase==0?"heal":"skill");if(Input.GetKeyDown(KeyCode.Alpha3))Choose("guard");return;}
    if(mode!=Mode.Explore)return;
    if(Input.GetKeyDown(KeyCode.F5)){Save();Notify("已保存探索进度。");}
    if(Input.GetKeyDown(KeyCode.M)){ShowMap();return;}
    if(Input.GetKeyDown(KeyCode.E)&&!moving){Interact();return;}
-   if(!moving){Vector2Int v=Vector2Int.zero;if(Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.UpArrow)){v=Vector2Int.down;direction=3;}else if(Input.GetKey(KeyCode.S)||Input.GetKey(KeyCode.DownArrow)){v=Vector2Int.up;direction=0;}else if(Input.GetKey(KeyCode.A)||Input.GetKey(KeyCode.LeftArrow)){v=Vector2Int.left;direction=1;}else if(Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.RightArrow)){v=Vector2Int.right;direction=2;}if(v!=Vector2Int.zero)StartCoroutine(Walk(v,Input.GetKey(KeyCode.LeftShift)?.09f:.15f));else heroSprite.sprite=heroFrames[direction*3+1];}
+   if(!moving){Vector2Int v=Vector2Int.zero;if(Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.UpArrow)){v=Vector2Int.down;direction=3;}else if(Input.GetKey(KeyCode.S)||Input.GetKey(KeyCode.DownArrow)){v=Vector2Int.up;direction=0;}else if(Input.GetKey(KeyCode.A)||Input.GetKey(KeyCode.LeftArrow)){v=Vector2Int.left;direction=1;}else if(Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.RightArrow)){v=Vector2Int.right;direction=2;}if(v!=Vector2Int.zero)StartCoroutine(Walk(v,Input.GetKey(KeyCode.LeftShift)?.09f:.15f));else FieldFrame(false,false);}
    near=NearbyPrompt();UpdateUI();
   }
   bool CanStep(Vector2Int cell,int plane)=>map.Walkable(cell,plane)&&!(map.id==75&&!state.bossDefeated&&cell.x==9&&cell.y==6);
   IEnumerator Walk(Vector2Int v,float duration){
-   if(moving)yield break;var to=Cell+v;int plane=map.NextPlane(to,state.plane);if(!CanStep(to,plane)){heroSprite.sprite=heroFrames[direction*3+1];yield break;}
-   moving=true;Vector3 from=heroSprite.transform.position,dest=At(to.x,to.y);float time=0;while(time<duration){time+=Time.deltaTime;float f=Mathf.Clamp01(time/duration);heroSprite.transform.position=Vector3.Lerp(from,dest,f);int beat=(int)(Time.time*8)%4;heroSprite.sprite=heroFrames[direction*3+(beat==3?1:beat)];petSprite.transform.position=Vector3.Lerp(petSprite.transform.position,from+new Vector3(-.12f,-.08f,0),Time.deltaTime*16);yield return null;}
-   state.x=to.x;state.y=to.y;state.plane=plane;heroSprite.transform.position=dest;heroSprite.sortingOrder=plane==1?180:80;petSprite.sortingOrder=plane==1?175:75;moving=false;stepCount++;if(!Smoke&&stepCount>=32){stepCount=0;Ambush();}UpdateUI();
+   if(moving)yield break;var to=Cell+v;int plane=map.NextPlane(to,state.plane);if(!CanStep(to,plane)){FieldFrame(false,false);yield break;}
+   moving=true;Vector3 from=fieldHeroMotion.transform.position,dest=At(to.x,to.y);float time=0;while(time<duration){time+=Time.deltaTime;float f=Mathf.Clamp01(time/duration);fieldHeroMotion.transform.position=Vector3.Lerp(from,dest,f);FieldFrame(true,duration<=.1f);petSprite.transform.position=Vector3.Lerp(petSprite.transform.position,from+new Vector3(-.12f,-.08f,0),Time.deltaTime*16);yield return null;}
+   state.x=to.x;state.y=to.y;state.plane=plane;fieldHeroMotion.transform.position=dest;fieldHeroMotion.rig.bodyOrder=plane==1?180:80;FieldFrame(false,false);petSprite.sortingOrder=plane==1?175:75;moving=false;stepCount++;if(!Smoke&&stepCount>=32){stepCount=0;Ambush();}UpdateUI();
   }
   void LateUpdate(){if(state!=null&&mode!=Mode.Battle)FollowCamera(false);}
   void FollowCamera(bool instant){if(heroSprite==null)return;float h=camera2d.orthographicSize,w=h*camera2d.aspect;var p=heroSprite.transform.position;float x=map.width<2*w?map.width/2f:Mathf.Clamp(p.x,w,map.width-w);float y=map.height<2*h?-map.height/2f:Mathf.Clamp(p.y,-map.height+h,-h);var target=new Vector3(x,y,-10);camera2d.transform.position=instant?target:Vector3.Lerp(camera2d.transform.position,target,1-Mathf.Exp(-Time.deltaTime*14));}
@@ -91,7 +91,7 @@ namespace MonsterRemake2D {
   public void StartBattle(Unit[] enemies,bool boss){
    mode=Mode.Battle;bossBattle=boss;foes=enemies.ToList();foeSprites.Clear();field.SetActive(false);battleScene=new GameObject("2D turn battle");camera2d.rect=new Rect(0,0,1,1);camera2d.orthographicSize=4.3f;camera2d.transform.position=new Vector3(0,0,-10);
    var bg=Draw("Original earth battle background",Resources.Load<Sprite>("Art/fbg1_0"),Vector3.zero,battleScene.transform,-150);var size=bg.sprite.bounds.size;bg.transform.position=new Vector3(0,-camera2d.orthographicSize,0);bg.transform.localScale=new Vector3(camera2d.orthographicSize*2*(1280f/800f)/size.x,camera2d.orthographicSize*2/size.y,1);
-   battleHero=Draw("Onik 2D",heroFrames[7],new Vector3(-4.7f,.15f,0),battleScene.transform,10,1.3f);battlePet=Draw("Active beast 2D",SpriteFor(Pet.id),new Vector3(-2.55f,.15f,0),battleScene.transform,11,1.9f);battlePet.flipX=true;
+   battleHeroMotion=NewHero("奥尼克 · 独立双枪战斗动作",battleScene.transform,new Vector3(-4.75f,.15f,0),HeroView2D.BattleFront,20,.8f,true);battleHero=battleHeroMotion.rig.Body;battlePet=Draw("Active beast 2D",SpriteFor(Pet.id),new Vector3(-2.15f,.15f,0),battleScene.transform,11,1.9f);battlePet.flipX=true;
    for(int i=0;i<foes.Count;i++)foeSprites.Add(Draw("Enemy "+i,SpriteFor(foes[i].id),new Vector3(3.4f+i*.55f,(boss?.35f:1.0f-i*1.1f),0),battleScene.transform,10+i,boss?2.2f:1.8f));
    phase=0;orders[0]=orders[1]=null;target=0;resolving=false;log="遭遇 "+string.Join("、",foes.Select(e=>catalog.Find(e.id).name))+"。";Beep(165,.15f);BattleUI();
   }
@@ -120,7 +120,7 @@ namespace MonsterRemake2D {
    foreach(int index in turns){
     if(mode!=Mode.Battle)yield break;Unit actor=actors[index];if(actor.hp<=0||index>=2&&!foes.Contains(actor))continue;
     string action=index<2?orders[index]:"attack";if(string.IsNullOrEmpty(action))action="guard";
-    if(action=="guard"){log=catalog.Find(actor.id).name+"稳住阵脚。";}
+    if(action=="guard"){log=catalog.Find(actor.id).name+"稳住阵脚。";if(index==0){battleHeroMotion.holdGuard=true;yield return battleHeroMotion.Play(HeroBattleAction2D.Guard);}}
     else if(action=="capture"){
      var e=foes[Mathf.Clamp(target,0,foes.Count-1)];if(e.hp>0){int ball=BestBall();state.Spend(ball);float chance=ChapterCombat.Capture(e,ball-120,catalog.Find(e.id).tier);if(UnityEngine.Random.value<chance){state.pets.Add(e);log=catalog.Find(e.id).name+"被收服，加入队伍！";e.hp=Mathf.Max(1,e.hp);foes.RemoveAt(target);Destroy(foeSprites[target].gameObject);foeSprites.RemoveAt(target);target=0;Beep(880,.15f);}else log="封印球打开了，怪兽挣脱了封印。";}
     }else if(action=="heal"){actor.mp-=10;Unit ally=Pet.hp>0&&Pet.hp<state.hero.hp?Pet:state.hero;ally.hp=Mathf.Min(ally.stats.hp,ally.hp+80);log="治疗："+catalog.Find(ally.id).name+"回复 80 点生命。";Beep(550,.1f);}
@@ -129,13 +129,16 @@ namespace MonsterRemake2D {
      Unit victim;SpriteRenderer attacker,hit;
      if(index<2){int n=Mathf.Clamp(target,0,Mathf.Max(0,foes.Count-1));if(foes.Count==0){FinishBattle(true,false);yield break;}if(foes[n].hp<=0)n=foes.FindIndex(e=>e.hp>0);if(n<0){FinishBattle(true,false);yield break;}victim=foes[n];attacker=index==0?battleHero:battlePet;hit=foeSprites[n];}
      else {victim=Pet.hp>0&&UnityEngine.Random.value<.35f?Pet:state.hero;attacker=foeSprites[foes.IndexOf(actor)];hit=victim==Pet?battlePet:battleHero;}
-     bool skill=action=="skill";if(skill)actor.mp-=8;int damage=ChapterCombat.Damage(actor,victim,skill,index>=2&&bossBattle);victim.hp=Mathf.Max(0,victim.hp-damage);log=catalog.Find(actor.id).name+(skill?"发动技能":"攻击")+"，造成 "+damage+" 点伤害。";Beep(skill?440:220,.08f);yield return Lunge(attacker,hit,index<2?1:-1);if(victim.hp==0)hit.color=new Color(.35f,.35f,.35f,.4f);
+     bool skill=action=="skill";if(skill)actor.mp-=8;int damage=ChapterCombat.Damage(actor,victim,skill,index>=2&&bossBattle);log=catalog.Find(actor.id).name+(skill?"发动技能":"攻击")+"，造成 "+damage+" 点伤害。";Beep(skill?440:220,.08f);
+     if(index==0){yield return battleHeroMotion.Play(HeroBattleAction2D.Shoot,hit.transform,()=>{victim.hp=Mathf.Max(0,victim.hp-damage);hit.color=new Color(1,.45f,.35f);});hit.color=Color.white;}
+     else{victim.hp=Mathf.Max(0,victim.hp-damage);yield return Lunge(attacker,hit,index<2?1:-1);if(victim==state.hero)yield return battleHeroMotion.Play(HeroBattleAction2D.Hurt);}
+     if(victim.hp==0)hit.color=new Color(.35f,.35f,.35f,.4f);
     }
     if(state.hero.hp<=0){FinishBattle(false,true);yield break;}
-    if(foes.All(e=>e.hp<=0)){FinishBattle(true,false);yield break;}
+    if(foes.All(e=>e.hp<=0)){yield return battleHeroMotion.Play(HeroBattleAction2D.Victory);FinishBattle(true,false);yield break;}
     BattleUI();yield return new WaitForSeconds(Smoke?.01f:.45f);
    }
-   state.hero.guarding=Pet.guarding=false;phase=0;orders[0]=orders[1]=null;resolving=false;BattleUI();
+   state.hero.guarding=Pet.guarding=false;battleHeroMotion.holdGuard=false;phase=0;orders[0]=orders[1]=null;resolving=false;BattleUI();
   }
   IEnumerator Lunge(SpriteRenderer a,SpriteRenderer b,int sign){Vector3 p=a.transform.position;float t=0;while(t<.18f){t+=Time.deltaTime;a.transform.position=p+Vector3.right*(Mathf.Sin(t/.18f*Mathf.PI)*.3f*sign);b.color=Color.Lerp(Color.white,new Color(1,.35f,.3f),Mathf.Sin(t/.18f*Mathf.PI));yield return null;}a.transform.position=p;b.color=Color.white;}
   void FinishBattle(bool won,bool defeated){
@@ -153,15 +156,15 @@ namespace MonsterRemake2D {
   void CloseMenu(){ui.Clear();mode=Mode.Explore;UpdateUI();}
   void ShowAtlas(int page){mode=Mode.Atlas;atlasPage=page;var p=ui.Modal("怪兽图鉴 · 全新绘制",1130,600);var entries=catalog.entries.Where(e=>e.role=="monster").OrderBy(e=>e.element==5?9:e.element).ThenBy(e=>e.tier).ToArray();for(int i=0;i<10&&page*10+i<entries.Length;i++){var e=entries[page*10+i];float x=25+(i%5)*216,y=75+(i/5)*215;ui.Picture(p,x,y,190,170,SpriteFor(e.id));ui.Label(p,x,y+172,200,30,e.name+" · "+e.tier+"阶",17,true);}ui.Button(p,25,525,220,43,"上一页",()=>ShowAtlas(Mathf.Max(0,page-1)),page>0);ui.Label(p,290,535,200,30,(page+1)+" / 5",18);ui.Button(p,495,525,220,43,"下一页",()=>ShowAtlas(Mathf.Min(4,page+1)),page<4);ui.Button(p,870,525,230,43,"返回",ShowMenu);}
   void ShowMap(){mode=Mode.Map;var p=ui.Modal(map.name+" · 地脉地图",900,590);var t=new Texture2D(map.width,map.height,TextureFormat.RGBA32,false);t.filterMode=FilterMode.Point;for(int y=0;y<map.height;y++)for(int x=0;x<map.width;x++){int a=map.attributes[y*map.width+x];t.SetPixel(x,map.height-1-y,a==3?new Color(.15f,.13f,.1f):a==2?new Color(.44f,.42f,.29f):new Color(.72f,.62f,.40f));}foreach(var c in map.chests)if(!state.opened.Contains(c.key))t.SetPixel(c.x,map.height-1-c.y,new Color(1,.76f,.19f));foreach(var a in map.portals)if(!a.hidden||state.secretFound)t.SetPixel(a.x,map.height-1-a.y,new Color(.34f,.70f,.75f));t.SetPixel(state.x,map.height-1-state.y,new Color(.9f,.25f,.2f));t.Apply();var sprite=Sprite.Create(t,new Rect(0,0,t.width,t.height),new Vector2(.5f,.5f),1);ui.Picture(p,25,80,680,445,sprite);ui.Label(p,725,100,155,260,"红：当前位置\n金：宝箱\n青：洞口\n\n不同明暗表示上下层通路。\n楼梯可以改变所在层。",17);ui.Button(p,725,477,150,45,"继续探索",CloseMenu);}
-  void ShowComplete(){mode=Mode.Complete;var p=ui.Modal("驯兽师考试 · 土之秘境通过",890,460);ui.Picture(p,30,90,160,230,heroFrames[1]);ui.Label(p,215,95,635,140,"奥尼克递上了秘境碎片。\n\n考官：你已经从土之秘境回来了？很好，第一阶段考试通过。",22);ui.Label(p,215,254,620,70,"探索区域 "+state.visited.Count+" / 27  ·  宝箱 "+state.opened.Count+" / 28\n收服怪兽 "+Mathf.Max(0,state.pets.Count-1)+"  ·  隐蔽侧洞 "+(state.secretFound?"已发现":"未发现"),18);ui.Button(p,25,365,250,48,"继续探索支路",CloseMenu);ui.Button(p,295,365,250,48,"查看怪兽图鉴",()=>ShowAtlas(0));ui.Button(p,565,365,285,48,"保存并退出",()=>{Save();Application.Quit();});}
+  void ShowComplete(){mode=Mode.Complete;var p=ui.Modal("驯兽师考试 · 土之秘境通过",890,460);ui.Picture(p,30,90,160,230,heroMotions.Field(HeroView2D.FieldDown).idle);ui.Label(p,215,95,635,140,"奥尼克递上了秘境碎片。\n\n考官：你已经从土之秘境回来了？很好，第一阶段考试通过。",22);ui.Label(p,215,254,620,70,"探索区域 "+state.visited.Count+" / 27  ·  宝箱 "+state.opened.Count+" / 28\n收服怪兽 "+Mathf.Max(0,state.pets.Count-1)+"  ·  隐蔽侧洞 "+(state.secretFound?"已发现":"未发现"),18);ui.Button(p,25,365,250,48,"继续探索支路",CloseMenu);ui.Button(p,295,365,250,48,"查看怪兽图鉴",()=>ShowAtlas(0));ui.Button(p,565,365,285,48,"保存并退出",()=>{Save();Application.Quit();});}
   static KeyValuePair<string,string> Pair(string s,string b)=>new KeyValuePair<string,string>(s,b);
   void Dialogue(IEnumerable<KeyValuePair<string,string>> lines,Action finished){dialogues=new Queue<KeyValuePair<string,string>>(lines);afterDialogue=finished;mode=Mode.Dialogue;DrawDialogue();}
-  void DrawDialogue(){if(dialogues.Count==0){ui.Clear();mode=Mode.Explore;var a=afterDialogue;afterDialogue=null;a?.Invoke();UpdateUI();return;}var line=dialogues.Peek();var p=ui.Modal(line.Key,980,230);ui.Picture(p,22,70,120,125,line.Key=="秘境守护者"?SpriteFor(8):heroFrames[1]);ui.Label(p,170,77,765,90,line.Value,21);ui.Button(p,760,170,190,40,"继续  Space",NextDialogue);}
+  void DrawDialogue(){if(dialogues.Count==0){ui.Clear();mode=Mode.Explore;var a=afterDialogue;afterDialogue=null;a?.Invoke();UpdateUI();return;}var line=dialogues.Peek();var p=ui.Modal(line.Key,980,230);ui.Picture(p,22,70,120,125,line.Key=="秘境守护者"?SpriteFor(8):heroMotions.Field(HeroView2D.FieldDown).idle);ui.Label(p,170,77,765,90,line.Value,21);ui.Button(p,760,170,190,40,"继续  Space",NextDialogue);}
   public void NextDialogue(){if(dialogues.Count>0)dialogues.Dequeue();DrawDialogue();}
   void Notify(string s){message=s;UpdateUI();}
   void UpdateUI(){if(ui!=null&&state!=null&&map!=null)ui.Refresh(state,map,items,message,near);}
   void Beep(float hz,float seconds){if(Smoke)return;int n=(int)(22050*seconds);var c=AudioClip.Create("Retro cue",n,1,22050,false);var samples=new float[n];for(int i=0;i<n;i++)samples[i]=Mathf.Sign(Mathf.Sin(i*hz*Mathf.PI*2/22050))*.15f*(1f-(float)i/n);c.SetData(samples,0);audio.PlayOneShot(c);Destroy(c,seconds+1);}
   public void Save(){try{SaveFile.Write(SavePath,state);}catch(Exception e){Notify("保存失败："+e.Message);Debug.LogError(e);}}
-  void Load(){try{if(!File.Exists(SavePath))return;var s=JsonUtility.FromJson<EarthSave>(File.ReadAllText(SavePath));if(s!=null&&s.Valid(catalog,world))state=s;else message="旧记录无法读取，已开始新的探索。";}catch(Exception e){message="存档无法读取，已开始新的探索。";Debug.LogWarning(e);}}
+  void Load(){try{if(!File.Exists(SavePath))return;var s=JsonUtility.FromJson<EarthSave>(File.ReadAllText(SavePath));if(s!=null&&s.Valid(catalog,world)){s.Upgrade();state=s;}else message="旧记录无法读取，已开始新的探索。";}catch(Exception e){message="存档无法读取，已开始新的探索。";Debug.LogWarning(e);}}
  }
 }
