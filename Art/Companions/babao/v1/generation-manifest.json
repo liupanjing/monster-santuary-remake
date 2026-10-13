@@ -1,0 +1,58 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "animationFrames": 0,
+  "runtimeIntegrated": false,
+  "views": [
+    {
+      "view": "front",
+      "atlasBounds": [
+        129,
+        185,
+        611,
+        611
+      ],
+      "opaquePixels": 141186,
+      "output": "Art/Companions/babao/v1/static/front.png"
+    },
+    {
+      "view": "left",
+      "atlasBounds": [
+        845,
+        159,
+        1401,
+        614
+      ],
+      "opaquePixels": 153920,
+      "output": "Art/Companions/babao/v1/static/left.png"
+    },
+    {
+      "view": "back",
+      "atlasBounds": [
+        1550,
+        171,
+        2037,
+        613
+      ],
+      "opaquePixels": 146727,
+      "output": "Art/Companions/babao/v1/static/back.png"
+    }
+  ],
+  "cutPolicy": "Shared atlas scale; alpha >= 32 connected regions >= 64 pixels, preserving retained alpha; no repainting",
+  "sourceSHA256": "75d834e192ab860986f1ed4e384233ca3767b57098939da6490ddbfafc642bc8",
+  "prompts": [
+    "prompts/design.txt",
+    "prompts/fidelity-correction.txt"
+  ],
+  "references": [
+    "original-three-views.png",
+    "Unity/Assets/Remake/Resources/HeroMotion/Art/walk/1-0.png"
+  ],
+  "limits": [
+    "Wing shape and back folded line interpreted from small original sprites",
+    "Same-screen example is a static montage, not gameplay verification",
+    "cw2 alternate magenta palette found; story purpose unconfirmed, not adopted"
+  ]
+}

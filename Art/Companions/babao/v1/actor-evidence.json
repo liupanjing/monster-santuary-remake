@@ -1,0 +1,135 @@
+{
+  "decoder": "Tools/inspect_original.py",
+  "source": "Reference/OriginalGame/extracted/scenes/*.bin",
+  "result": [
+    {
+      "scene": 9,
+      "actors": [
+        {
+          "index": 0,
+          "type": "npc0",
+          "anim": 4,
+          "flags": 12,
+          "bounds": [
+            385,
+            257,
+            379,
+            247,
+            391,
+            257
+          ],
+          "params": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "type": "cw",
+          "anim": 1,
+          "flags": 8,
+          "bounds": [
+            345,
+            302,
+            337,
+            273,
+            353,
+            302
+          ],
+          "params": [
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 65,
+      "actors": [
+        {
+          "index": 0,
+          "type": "npc0",
+          "anim": 0,
+          "flags": 8,
+          "bounds": [
+            -35,
+            318,
+            -41,
+            307,
+            -29,
+            319
+          ],
+          "params": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "type": "cw",
+          "anim": 0,
+          "flags": 8,
+          "bounds": [
+            490,
+            -83,
+            482,
+            -112,
+            498,
+            -83
+          ],
+          "params": [
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 75,
+      "actors": [
+        {
+          "index": 0,
+          "type": "npc0",
+          "anim": 0,
+          "flags": 8,
+          "bounds": [
+            364,
+            219,
+            356,
+            208,
+            372,
+            219
+          ],
+          "params": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "type": "cw",
+          "anim": 0,
+          "flags": 8,
+          "bounds": [
+            365,
+            -42,
+            357,
+            -71,
+            373,
+            -42
+          ],
+          "params": [
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

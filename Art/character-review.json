@@ -1145,5 +1145,30 @@
       "reviewFile": "Art/Reviews/49/REVIEW.md"
     }
   ],
-  "approvedDesignCount": 1
+  "approvedDesignCount": 1,
+  "currentReviewSubject": "companion:babao",
+  "companions": [
+    {
+      "id": "babao",
+      "name": "八宝",
+      "role": "fixed_field_companion",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户于 2026-10-13 要求：主角后面跟着的八宝呢，也得做一下",
+      "reviewFile": "Art/Companions/babao/REVIEW.md",
+      "candidateComparison": "Art/Companions/babao/v1/babao-original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/cw.png",
+        "Reference/OriginalGame/extracted/cw.bin"
+      ],
+      "originalReferenceSHA256": {
+        "cw.png": "166c0359e93f6e3bd0960a3be271bde01b9569f655fadf6061316dd1c3095b19",
+        "cw.bin": "a5a2266589909a333c12cb9ad73b28a12cfb90360504ba8f4c19571e9d47f99d"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0
+    }
+  ]
 }

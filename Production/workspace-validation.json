@@ -7,6 +7,8 @@
   "approvedDesigns": 1,
   "currentCharacter": 51,
   "spriteMetadata": "pass",
+  "companions": 1,
+  "currentReviewSubject": "companion:babao",
   "toolsSyntax": "pass",
   "oldActiveToolPaths": "none",
   "scope": "Workspace integrity and review bookkeeping; not art approval or Unity runtime replay"
