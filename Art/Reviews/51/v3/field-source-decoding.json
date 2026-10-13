@@ -1,0 +1,41 @@
+{
+  "sourcePNG": "Reference/OriginalGame/extracted/npc0.png",
+  "sourceBIN": "Reference/OriginalGame/extracted/npc0.bin",
+  "formatEvidence": "Reference/OriginalGame/decompiled/y.java",
+  "actorEvidence": "e.java lines 260–273; original-scenes.json actor 0 is npc0",
+  "decodedBytes": 1713,
+  "unusedTailBytes": 2863,
+  "tailPolicy": "y.java reads declared counts and does not consume the remaining tail",
+  "references": [
+    {
+      "animation": 5,
+      "frame": 8,
+      "bounds": [
+        40,
+        26,
+        56,
+        49
+      ],
+      "size": [
+        16,
+        23
+      ],
+      "name": "original-field-front.png"
+    },
+    {
+      "animation": 4,
+      "frame": 0,
+      "bounds": [
+        40,
+        25,
+        56,
+        49
+      ],
+      "size": [
+        16,
+        24
+      ],
+      "name": "original-field-back.png"
+    }
+  ]
+}

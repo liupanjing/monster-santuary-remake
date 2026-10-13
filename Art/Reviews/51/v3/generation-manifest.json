@@ -1,0 +1,47 @@
+{
+  "characterID": 51,
+  "version": "v3",
+  "status": "draft_review",
+  "method": "built_in_imagegen",
+  "prompt": "prompt.txt",
+  "parentDraft": "../v2/hero-redraw-sheet.png (withdrawn; weapon-only correction input)",
+  "sourceReference": "original-two-forms-reference.png",
+  "selectedSheet": "hero-redraw-sheet.png",
+  "comparison": "hero-original-vs-redraw-v3.png",
+  "twoIndependentForms": {
+    "battle": "original battle proportions; guns held down; front/rear pose study",
+    "field": "decoded original npc0 chibi proportions; front/rear pose study"
+  },
+  "weaponIdentity": "guns, explicitly corrected by user; precise item model not identified by the sprite",
+  "animationCreated": false,
+  "unityResourcesReplaced": false,
+  "approvedVersion": null,
+  "sourceSheetAlpha": [
+    0,
+    255
+  ],
+  "sheetSHA256": "449488cac4f9c927fdef5a079c95c874d59548c7090d316d9fcecc17609fd030",
+  "comparisonMethod": "Untouched original pixels nearest-neighbor enlarged; redraw views cropped and uniformly scaled to corresponding original total height. Bounds measured at alpha>=8 without repainting or modifying stored alpha.",
+  "sheetSlicing": {
+    "verticalGutter": 640,
+    "method": "empty-gutter cuts; no figure repaint"
+  },
+  "redrawnViewSizes": {
+    "battle-front": [
+      306,
+      510
+    ],
+    "battle-back": [
+      321,
+      520
+    ],
+    "field-front": [
+      181,
+      269
+    ],
+    "field-back": [
+      181,
+      262
+    ]
+  }
+}

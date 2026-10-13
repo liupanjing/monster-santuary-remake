@@ -1,0 +1,47 @@
+{
+  "characterID": 51,
+  "version": "v2",
+  "status": "withdrawn_weapon_misread",
+  "method": "built_in_imagegen",
+  "prompt": "prompt.txt",
+  "refinementPrompt": "refinement-prompt.txt",
+  "sourceReference": "original-two-forms-reference.png",
+  "selectedSheet": "hero-redraw-sheet.png",
+  "comparison": "hero-original-vs-redraw-v2.png",
+  "twoIndependentForms": {
+    "battle": "original battle proportions; front/rear pose study",
+    "field": "original npc0 compact chibi proportions; front/rear pose study"
+  },
+  "animationCreated": false,
+  "unityResourcesReplaced": false,
+  "approvedVersion": null,
+  "sourceSheetAlpha": [
+    0,
+    255
+  ],
+  "sheetSHA256": "be4396ca825a642c49b7525fa4bffb4f5cb7e60d44fda7b9e0e04be04ac3f060",
+  "comparisonMethod": "Untouched original RGBA source pixels enlarged by integer nearest-neighbor; generated view cropped only and uniformly scaled to corresponding original total height. No original repaint or nonuniform stretching.",
+  "sheetSlicing": {
+    "verticalGutter": 640,
+    "method": "empty-gutter cuts; no figure repaint"
+  },
+  "redrawnViewSizes": {
+    "battle-front": [
+      727,
+      574
+    ],
+    "battle-back": [
+      709,
+      615
+    ],
+    "field-front": [
+      744,
+      353
+    ],
+    "field-back": [
+      695,
+      369
+    ]
+  },
+  "reason": "User corrected that the hero uses guns; v2 wrongly rendered blades and is withdrawn."
+}

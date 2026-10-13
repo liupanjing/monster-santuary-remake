@@ -10,20 +10,31 @@
       "element": 5,
       "tier": 2,
       "reviewOrder": 1,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
       "originalReferences": [
         "Reference/OriginalGame/extracted/mpic/s51_0.png",
-        "Reference/OriginalGame/extracted/mpic/s51_1.png"
+        "Reference/OriginalGame/extracted/mpic/s51_1.png",
+        "Art/Reviews/51/npc0.png",
+        "Art/Reviews/51/npc0.bin"
       ],
       "originalReferenceSHA256": {
         "s51_0.png": "6eb692edad21f87c1c40917cbfe3d6fe7c56f2325ebf24fc17ea8f5793a2d1cc",
-        "s51_1.png": "5d5540b24f5e198264c0b073d6139554ae0e7bfecf8249caa20514f8e4343144"
+        "s51_1.png": "5d5540b24f5e198264c0b073d6139554ae0e7bfecf8249caa20514f8e4343144",
+        "npc0.png": "48e69c008b0fb34f6f2f6ee8bec6544066bf604ab76ac481b00dd74f43610937",
+        "npc0.bin": "57b54d5db92fb56ca6d1d189ee0b720a96817422d27eaa72b6c4839f9aac4e03"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/51/REVIEW.md"
+      "reviewFile": "Art/Reviews/51/REVIEW.md",
+      "candidateVersion": "v3",
+      "candidateComparison": "Art/Reviews/51/v3/hero-original-vs-redraw-v3.png",
+      "twoIndependentForms": {
+        "battle": "original battle body proportions, gun weapons",
+        "field": "original npc0 Q/chibi proportions"
+      },
+      "weaponPolicy": "gun user, confirmed by user and gun-dominated local weapon list; no blades"
     },
     {
       "id": 21,
