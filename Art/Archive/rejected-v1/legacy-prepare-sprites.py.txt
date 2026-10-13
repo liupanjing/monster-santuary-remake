@@ -1,0 +1,53 @@
+from pathlib import Path
+import json,shutil,hashlib,collections
+from PIL import Image,ImageDraw,ImageFont
+B=Path('/Users/bytedance/.codex/visualizations/2026/10/12/01a12dee-5db6-70d1-a315-c77d202e9608');P=B/'remake-2d-production';U=B/'MonsterSanctuaryRemake2D';G=Path('/Users/bytedance/.codex/generated_images/01a12dee-5db6-70d1-a315-c77d202e9608');S=P/'art-source';S.mkdir(exist_ok=True);A=U/'Assets/Remake/Resources/Art';(A/'Characters').mkdir(exist_ok=True);(A/'Hero').mkdir(exist_ok=True)
+sheets=[('earth',[*range(21,30)],3,3,'exec-10998d2e-f6a3-4fc6-9f21-cfec2852b0ae.png'),('wind',list(range(1,10)),3,3,'exec-421d6612-92f4-4e8c-bf4b-7195c435ad55.png'),('thunder',list(range(11,20)),3,3,'exec-8f7d9090-6857-4cfa-957c-3d08fd4abdd2.png'),('fire',list(range(31,40)),3,3,'exec-602508b2-471c-49cf-a4bf-078cefe7ff5d.png'),('water',list(range(41,50)),3,3,'exec-1a87adf0-9721-4a9e-b119-94ac8017577d.png'),('special',[0,10,20,30,40],3,2,'exec-e76e995b-f4e3-41a0-875c-c1b218079f31.png')]
+records=[]
+def clean(im):
+ # Technical pixel-sprite slicing: binary alpha prevents semitransparent matte fringes.
+ im=im.convert('RGBA');im.putalpha(im.getchannel('A').point(lambda a:255 if a>=190 else 0));return im
+def separated(im,cols,rows):
+ w,h=im.size;alpha=im.getchannel('A').tobytes();seen=bytearray(w*h);owned=[[]for _ in range(cols*rows)]
+ for seed in range(w*h):
+  if seen[seed] or alpha[seed]<190:continue
+  q=collections.deque([seed]);seen[seed]=1;pixels=[];votes=collections.Counter()
+  while q:
+   k=q.popleft();pixels.append(k);x=k%w;y=k//w;votes[min(rows-1,int(y*rows/h))*cols+min(cols-1,int(x*cols/w))]+=1
+   for yy in range(max(0,y-1),min(h,y+2)):
+    for xx in range(max(0,x-1),min(w,x+2)):
+     n=yy*w+xx
+     if not seen[n] and alpha[n]>=190:seen[n]=1;q.append(n)
+  if len(pixels)>=10:owned[votes.most_common(1)[0][0]].extend(pixels)
+ result=[]
+ for pixels in owned:
+  a=bytearray(w*h)
+  for k in pixels:a[k]=255
+  image=im.copy();image.putalpha(Image.frombytes('L',(w,h),bytes(a)));result.append(image)
+ return result
+for name,ids,cols,rows,file in sheets:
+ im=Image.open(G/file).convert('RGBA');assert im.getchannel('A').getextrema()[0]==0
+ shutil.copy2(G/file,S/(name+'-source.png'));cw=im.width/cols;ch=im.height/rows;factor=158/max(cw,ch);isolated=separated(im,cols,rows)
+ for index,mid in enumerate(ids):
+  box=(round(index%cols*cw),round(index//cols*ch),round((index%cols+1)*cw),round((index//cols+1)*ch));cell=isolated[index];bounds=cell.getchannel('A').getbbox();assert bounds,(name,index)
+  crop=cell.crop(bounds);sprite=crop.resize((max(1,round(crop.width*factor)),max(1,round(crop.height*factor))),Image.Resampling.NEAREST)
+  assert sprite.width<=190 and sprite.height<=190,(name,index,sprite.size)
+  out=Image.new('RGBA',(192,192));out.alpha_composite(sprite,((192-sprite.width)//2,191-sprite.height));out.save(A/'Characters'/f'm{mid}.png')
+  records.append({'id':mid,'source':str(S/(name+'-source.png')),'sourceCell':list(box),'sourceBounds':list(bounds),'spriteSize':[192,192],'spriteResource':'Art/Characters/m'+str(mid),'sourceHasTrueAlpha':True,'status':'drawn_v1','alphaThreshold':190,'slicing':'whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips','generation':'built_in_imagegen'})
+im=Image.open(G/'exec-bfe842d7-e92d-41ae-a5da-c534c9b7b5b0.png').convert('RGBA');shutil.copy2(G/'exec-bfe842d7-e92d-41ae-a5da-c534c9b7b5b0.png',S/'hero-source.png');cells=[];heroIsolated=separated(im,3,4)
+for i in range(12):
+ box=(round(i%3*im.width/3),round(i//3*im.height/4),round((i%3+1)*im.width/3),round((i//3+1)*im.height/4));cell=heroIsolated[i];bounds=cell.getchannel('A').getbbox();assert bounds;cells.append((cell.crop(bounds),box,bounds))
+factor=76/max(cell.height for cell,_,_ in cells)
+for i,(crop,box,bounds) in enumerate(cells):
+ sprite=crop.resize((round(crop.width*factor),round(crop.height*factor)),Image.Resampling.NEAREST);out=Image.new('RGBA',(96,96));out.alpha_composite(sprite,((96-sprite.width)//2,95-sprite.height));out.save(A/'Hero'/f'f{i}.png')
+shutil.copy2(A/'Hero/f1.png',A/'Characters/m51.png');records.append({'id':51,'source':str(S/'hero-source.png'),'spriteResource':'Art/Characters/m51','spriteSize':[96,96],'directions':['down','left','right','up'],'framesPerDirection':3,'generation':'built_in_imagegen','status':'drawn_v1'})
+catpath=U/'Assets/Remake/Resources/Data/catalog.json';cat=json.loads(catpath.read_text())
+for e in cat['entries']:e['assetStatus']='drawn_v1';e['spriteResource']='Art/Characters/m'+str(e['id'])
+catpath.write_text(json.dumps(cat,ensure_ascii=False,indent=2));(P/'sprite-manifest.json').write_text(json.dumps({'characters':records,'heroSharedScale':factor,'pipeline':'newly generated 2D images; cell slicing + shared nearest-neighbor scaling + fixed feet anchors; no Blender or model baking'},ensure_ascii=False,indent=2))
+# Production proof in one board: gameplay sprites, not a concept poster.
+names={e['id']:e['name']for e in cat['entries']};f=ImageFont.truetype('/System/Library/Fonts/STHeiti Medium.ttc',16);board=Image.new('RGB',(1200,1050),'#15272b');d=ImageDraw.Draw(board)
+order=[51]+[mid for _,ids,_,_,_ in sheets for mid in ids]
+for i,mid in enumerate(order):
+ x=i%9*133;y=i//9*175;img=Image.open(A/'Characters'/f'm{mid}.png').convert('RGBA');img.thumbnail((126,145),Image.Resampling.NEAREST);board.paste(img,(x+(133-img.width)//2,y+145-img.height),img);d.text((x+8,y+150),names[mid],font=f,fill='#e9d3a2')
+board.save(P/'all-51-new-sprites.jpg')
+print('Prepared',len(records),'new character sprites and 12 hero walk frames.')

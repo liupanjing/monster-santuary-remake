@@ -1,0 +1,18 @@
+{
+  "jar_size_bytes": 729785,
+  "script_files": 163,
+  "script_instructions": 6714,
+  "dialogue_and_prompt_instructions": 1483,
+  "map_files": 90,
+  "scene_files": 90,
+  "monster_records": 52,
+  "five_element_records": 45,
+  "special_monster_records": 5,
+  "placeholder_and_player_records": 2,
+  "local_item_records": 154,
+  "remote_item_markers": 54,
+  "skill_records": 96,
+  "base_effect_records": 37,
+  "png_images": 250,
+  "midi_tracks": 7
+}

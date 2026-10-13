@@ -1,0 +1,78 @@
+{
+    "version": 2,
+    "map": 9,
+    "x": 10,
+    "y": 15,
+    "plane": 0,
+    "gold": 180,
+    "activePet": 0,
+    "bossDefeated": true,
+    "reported": true,
+    "secretFound": true,
+    "hero": {
+        "id": 51,
+        "level": 10,
+        "hp": 72,
+        "mp": 224,
+        "xp": 120,
+        "guarding": false
+    },
+    "pets": [
+        {
+            "id": 21,
+            "level": 10,
+            "hp": 28,
+            "mp": 32,
+            "xp": 120,
+            "guarding": false
+        },
+        {
+            "id": 22,
+            "level": 3,
+            "hp": 46,
+            "mp": 31,
+            "xp": 0,
+            "guarding": false
+        }
+    ],
+    "inventory": [
+        {
+            "id": 141,
+            "count": 6
+        },
+        {
+            "id": 143,
+            "count": 2
+        },
+        {
+            "id": 146,
+            "count": 3
+        },
+        {
+            "id": 121,
+            "count": 7
+        },
+        {
+            "id": 159,
+            "count": 1
+        },
+        {
+            "id": 171,
+            "count": 1
+        }
+    ],
+    "opened": [
+        "62:9"
+    ],
+    "visited": [
+        9,
+        62,
+        65,
+        68,
+        67,
+        72,
+        45,
+        77,
+        75
+    ]
+}

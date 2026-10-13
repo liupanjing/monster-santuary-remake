@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+MIDlet-Name: 怪兽仙境II
+MIDlet-Version: 1.0
+MIDlet-Vendor: 仙掌软件科技有限公司
+MIDlet-Description: 超经典游戏
+MIDlet-Icon: /icon.png
+MIDlet-1: 怪兽仙境II,/icon.png,P24
+ChannelID: ${ChannelID}
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-1.0
+Polish-Version: 2.0-RC4

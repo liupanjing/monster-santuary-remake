@@ -1,0 +1,1129 @@
+{
+  "currentCharacter": 51,
+  "policy": "original_reference_review",
+  "approvedCount": 0,
+  "characters": [
+    {
+      "id": 51,
+      "name": "奥尼克",
+      "role": "player",
+      "element": 5,
+      "tier": 2,
+      "reviewOrder": 1,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s51_0.png",
+        "Reference/OriginalGame/extracted/mpic/s51_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s51_0.png": "6eb692edad21f87c1c40917cbfe3d6fe7c56f2325ebf24fc17ea8f5793a2d1cc",
+        "s51_1.png": "5d5540b24f5e198264c0b073d6139554ae0e7bfecf8249caa20514f8e4343144"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/51/REVIEW.md"
+    },
+    {
+      "id": 21,
+      "name": "豆猪",
+      "role": "monster",
+      "element": 2,
+      "tier": 1,
+      "reviewOrder": 2,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s21_0.png",
+        "Reference/OriginalGame/extracted/mpic/s21_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s21_0.png": "777192b12e8e37746594b4afdb8827fdcf9f1573e469443393a58a197227df79",
+        "s21_1.png": "de7030f37ea3d78764e5b3db071fe4feb637d7c23007359f623a463df58fafe0"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/21/REVIEW.md"
+    },
+    {
+      "id": 22,
+      "name": "软泥怪",
+      "role": "monster",
+      "element": 2,
+      "tier": 2,
+      "reviewOrder": 3,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s22_0.png",
+        "Reference/OriginalGame/extracted/mpic/s22_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s22_0.png": "7b5d7944b5566d71faf68e3643e3427eb9225b70f53218efb1d9b36f42f4bc46",
+        "s22_1.png": "79a0381ca0952ec179226da1c0a3d4f4e3f2f72334ef54d27d061ffa8f674395"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/22/REVIEW.md"
+    },
+    {
+      "id": 23,
+      "name": "魔化巨蝎",
+      "role": "monster",
+      "element": 2,
+      "tier": 3,
+      "reviewOrder": 4,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s23_0.png",
+        "Reference/OriginalGame/extracted/mpic/s23_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s23_0.png": "c987bee9eae219eee959c10bb3c9b3608d15e7b8b3e721d2736632c84080d9f8",
+        "s23_1.png": "9ca1d87841f13599b01c8c92809fd30523c2a2b2ffb3cc375d18e6ce4cdddf25"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/23/REVIEW.md"
+    },
+    {
+      "id": 24,
+      "name": "魔化野猪",
+      "role": "monster",
+      "element": 2,
+      "tier": 4,
+      "reviewOrder": 5,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s24_0.png",
+        "Reference/OriginalGame/extracted/mpic/s24_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s24_0.png": "0b0b6e14452e62d1edab75c398c72aa50bd8b2e469acb04b658a0f05b7d25852",
+        "s24_1.png": "1fc36e9fb77899d485d0a59e0599a72fbbe857843642da376ccae85898ae89be"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/24/REVIEW.md"
+    },
+    {
+      "id": 25,
+      "name": "土精",
+      "role": "monster",
+      "element": 2,
+      "tier": 5,
+      "reviewOrder": 6,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s25_0.png",
+        "Reference/OriginalGame/extracted/mpic/s25_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s25_0.png": "96d50885e83101f3c2de692872f7f55091236b8d525df6df4bc62285511c3815",
+        "s25_1.png": "888d3487442a478dd9a763227b29db007233fa504a6559baac2b322eae6645db"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/25/REVIEW.md"
+    },
+    {
+      "id": 26,
+      "name": "石灵",
+      "role": "monster",
+      "element": 2,
+      "tier": 6,
+      "reviewOrder": 7,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s26_0.png",
+        "Reference/OriginalGame/extracted/mpic/s26_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s26_0.png": "5c2f97598e01944976ec973fe16dac12ef347fa41d107168a3bf964268da8a82",
+        "s26_1.png": "f4bbe04a4743bd0ce9a9d70debd9d4d40bf84d47d0f20fda25bef882d547cc44"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/26/REVIEW.md"
+    },
+    {
+      "id": 27,
+      "name": "厚土龙蛭",
+      "role": "monster",
+      "element": 2,
+      "tier": 7,
+      "reviewOrder": 8,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s27_0.png",
+        "Reference/OriginalGame/extracted/mpic/s27_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s27_0.png": "c03050acaffe1b30f57007600e9d0c327236e23dd788b3b92afc6d71ce9523b6",
+        "s27_1.png": "cf6246f57e923e231474218a3f782d0a07b344214f32e4479b26d9155176be4c"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/27/REVIEW.md"
+    },
+    {
+      "id": 28,
+      "name": "石吼",
+      "role": "monster",
+      "element": 2,
+      "tier": 8,
+      "reviewOrder": 9,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s28_0.png",
+        "Reference/OriginalGame/extracted/mpic/s28_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s28_0.png": "8004b9d541ead31522b495aedbe20035a22d49d262b56acf45415320fb429c4e",
+        "s28_1.png": "61c4851669aba7896090102fcffbb817281103cafadb7b104f31d4a748bbda15"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/28/REVIEW.md"
+    },
+    {
+      "id": 29,
+      "name": "坚石魔象",
+      "role": "monster",
+      "element": 2,
+      "tier": 9,
+      "reviewOrder": 10,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s29_0.png",
+        "Reference/OriginalGame/extracted/mpic/s29_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s29_0.png": "4103735c1612d4b70962678b76522c966d05009e0a91a1fd9f7223218f221325",
+        "s29_1.png": "fb5a26937174f9aeef55255924aaf3c4ae1592becc182e0c57772758e4dde591"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/29/REVIEW.md"
+    },
+    {
+      "id": 8,
+      "name": "异翅巨蟒",
+      "role": "monster",
+      "element": 0,
+      "tier": 8,
+      "reviewOrder": 11,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s8_0.png",
+        "Reference/OriginalGame/extracted/mpic/s8_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s8_0.png": "c8ecb5025d46fbb102b70e9988a62fad6d46634d7570cfd8598a13eed5f6149b",
+        "s8_1.png": "3d47612bc2a29d58091343ac5bb7d6a7479bd6ae3c86946b7cecb6faa03e557d"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/08/REVIEW.md"
+    },
+    {
+      "id": 0,
+      "name": "夜魇",
+      "role": "monster",
+      "element": 5,
+      "tier": 10,
+      "reviewOrder": 12,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "silhouette_only",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s0_0.png",
+        "Reference/OriginalGame/extracted/mpic/s0_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s0_0.png": "aac33da3fa5825ea6c3c52afee9d04d97e306cff73ba6d1763e6516eb6fe8674",
+        "s0_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/00/REVIEW.md"
+    },
+    {
+      "id": 1,
+      "name": "豆蝇",
+      "role": "monster",
+      "element": 0,
+      "tier": 1,
+      "reviewOrder": 13,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s1_0.png",
+        "Reference/OriginalGame/extracted/mpic/s1_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s1_0.png": "53e58718a9e3e9f82e04b58ba3d62d613b61a79171abc4be18cc6e8956022960",
+        "s1_1.png": "1e45d765e06c8d0d88036b45d075b4fe17ec7c4ff9797eb35e1f1578da50db29"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/01/REVIEW.md"
+    },
+    {
+      "id": 2,
+      "name": "蜜蜂",
+      "role": "monster",
+      "element": 0,
+      "tier": 2,
+      "reviewOrder": 14,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s2_0.png",
+        "Reference/OriginalGame/extracted/mpic/s2_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s2_0.png": "5c1546c283abe5407b46edb5c0e92b097c7bb23962da49a8a58593b9ebdcf632",
+        "s2_1.png": "db1eff3d6bb77eaa743f328399d108c8ed187ada5bcdcb6c5768755248214793"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/02/REVIEW.md"
+    },
+    {
+      "id": 3,
+      "name": "魔化飞鹞",
+      "role": "monster",
+      "element": 0,
+      "tier": 3,
+      "reviewOrder": 15,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s3_0.png",
+        "Reference/OriginalGame/extracted/mpic/s3_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s3_0.png": "949194b6fc41c420575cd133c9f6892013cc33e896229e6ece421062c02cf142",
+        "s3_1.png": "49c56878013e71ecd607733086370b24342ae3c5049431dc8a5c6ca63d7e46f7"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/03/REVIEW.md"
+    },
+    {
+      "id": 4,
+      "name": "魔化巨鹰",
+      "role": "monster",
+      "element": 0,
+      "tier": 4,
+      "reviewOrder": 16,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s4_0.png",
+        "Reference/OriginalGame/extracted/mpic/s4_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s4_0.png": "2c41becc016e1c77be4a0b328974ee203abf3d922022ceea139d03923c85f7eb",
+        "s4_1.png": "65e9ad9230ccf1532187a9c15efed6cb55a53d6944532bfa77d0cdfd0bd5c227"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/04/REVIEW.md"
+    },
+    {
+      "id": 5,
+      "name": "风精",
+      "role": "monster",
+      "element": 0,
+      "tier": 5,
+      "reviewOrder": 17,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s5_0.png",
+        "Reference/OriginalGame/extracted/mpic/s5_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s5_0.png": "379552c92374cd0222e809f87f589eda994ff4e7e51cae16f1e077e9d401f8d2",
+        "s5_1.png": "25e7d0eea6073b196cb6f0d1d6adcedc7e1900eb79edc20f8d8b3e949fd5c848"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/05/REVIEW.md"
+    },
+    {
+      "id": 6,
+      "name": "龙卷",
+      "role": "monster",
+      "element": 0,
+      "tier": 6,
+      "reviewOrder": 18,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s6_0.png",
+        "Reference/OriginalGame/extracted/mpic/s6_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s6_0.png": "59bfbc24326c418a0c37e69c8040f7bed3d0a1c5e0787dab86c3f33e6a2bc020",
+        "s6_1.png": "baaa962d450a2fbaf5a93d30482e4c03ca79ec57c67806ce3371b27da96ff8ed"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/06/REVIEW.md"
+    },
+    {
+      "id": 7,
+      "name": "巨镰",
+      "role": "monster",
+      "element": 0,
+      "tier": 7,
+      "reviewOrder": 19,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s7_0.png",
+        "Reference/OriginalGame/extracted/mpic/s7_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s7_0.png": "2ace32b8b07c5898f4461748f7c6bd106b36857666df7dd3ccd2f60f30af6275",
+        "s7_1.png": "a0b83625a42e4f598a6d9c529749d4370be99c9faf86997b45ff8e44b373bdb5"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/07/REVIEW.md"
+    },
+    {
+      "id": 9,
+      "name": "九转化风",
+      "role": "monster",
+      "element": 0,
+      "tier": 9,
+      "reviewOrder": 20,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s9_0.png",
+        "Reference/OriginalGame/extracted/mpic/s9_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s9_0.png": "5cbd8fe66c1a1429a6103b6bb14a778f825dd39a00eff66584275213c1792ecc",
+        "s9_1.png": "763f1c95cd3ac0d969b5584ed9db814791afd28545098578bf532d9e36bd6d48"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/09/REVIEW.md"
+    },
+    {
+      "id": 10,
+      "name": "风油精",
+      "role": "monster",
+      "element": 5,
+      "tier": 6,
+      "reviewOrder": 21,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s10_0.png",
+        "Reference/OriginalGame/extracted/mpic/s10_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s10_0.png": "2aaf089bee4dd469c166561b37523e0dd14f721f307a31eea16576eaddc598b4",
+        "s10_1.png": "0cf4dbaff7577f18aafe71b8e4fa78b00760f26fd53b330e856463291fc6cd04"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/10/REVIEW.md"
+    },
+    {
+      "id": 11,
+      "name": "豆蛛",
+      "role": "monster",
+      "element": 1,
+      "tier": 1,
+      "reviewOrder": 22,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s11_0.png",
+        "Reference/OriginalGame/extracted/mpic/s11_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s11_0.png": "f9e0637532b57a0707668a78eae63ef7d6ea69e40523c86dc3cc5d3bb6c5c931",
+        "s11_1.png": "ca618c6552af023bb26193837f6c8f4b55ac05bdf8af410ae1e4757720930c4f"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/11/REVIEW.md"
+    },
+    {
+      "id": 12,
+      "name": "小蝙蝠",
+      "role": "monster",
+      "element": 1,
+      "tier": 2,
+      "reviewOrder": 23,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s12_0.png",
+        "Reference/OriginalGame/extracted/mpic/s12_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s12_0.png": "a904cf6ea236a2bee0a508ee94c94448e6754d102740d8492409223b6369db60",
+        "s12_1.png": "c50590dfbe6a939ddc41a2faaeed24a6ab0a06801bc7ed0ee28a10943f96c182"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/12/REVIEW.md"
+    },
+    {
+      "id": 13,
+      "name": "雷鸟",
+      "role": "monster",
+      "element": 1,
+      "tier": 3,
+      "reviewOrder": 24,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s13_0.png",
+        "Reference/OriginalGame/extracted/mpic/s13_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s13_0.png": "cc30a6b6045b867ea3ded1e1c63a8d9f8e85746a56c3ebc8c47939c2f3ad80fb",
+        "s13_1.png": "8e9080fa3fa3ff3aea98c10ccaa9757ce9542547043608888e1728b223714b49"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/13/REVIEW.md"
+    },
+    {
+      "id": 14,
+      "name": "灯神",
+      "role": "monster",
+      "element": 1,
+      "tier": 4,
+      "reviewOrder": 25,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s14_0.png",
+        "Reference/OriginalGame/extracted/mpic/s14_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s14_0.png": "9fea1f5414cfabd9cbc8caa66f3f5fc64f5f9f02b6db5f4d70b3666b626efaed",
+        "s14_1.png": "37c6329e1588dd4a9c86d3a0cefe58c1d98d0c6d59ea40b741730b904797e24a"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/14/REVIEW.md"
+    },
+    {
+      "id": 15,
+      "name": "电魂",
+      "role": "monster",
+      "element": 1,
+      "tier": 5,
+      "reviewOrder": 26,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s15_0.png",
+        "Reference/OriginalGame/extracted/mpic/s15_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s15_0.png": "b54933e3ee8ed1f096b3bc89bf7b9f26026730378204660384fbc3750a75bdf4",
+        "s15_1.png": "503a3bc018ef161aeff49dc1a39c2dfac3853c885e5c89f691d3866f51c2c93a"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/15/REVIEW.md"
+    },
+    {
+      "id": 16,
+      "name": "雷魄",
+      "role": "monster",
+      "element": 1,
+      "tier": 6,
+      "reviewOrder": 27,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s16_0.png",
+        "Reference/OriginalGame/extracted/mpic/s16_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s16_0.png": "e936c44bf71f1bea667f431bbd68eb94aa271c0ef0b1cc2b9bd51c831428e57d",
+        "s16_1.png": "632b9b48ad5988efb2416dbd229c42c119119871826d8921d43470a08ac6086e"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/16/REVIEW.md"
+    },
+    {
+      "id": 17,
+      "name": "雷老虎",
+      "role": "monster",
+      "element": 1,
+      "tier": 7,
+      "reviewOrder": 28,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s17_0.png",
+        "Reference/OriginalGame/extracted/mpic/s17_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s17_0.png": "5209dd9c527197fad0b03e280dae021c4f8b4437c110ac905b48fb9d9b6c2c56",
+        "s17_1.png": "3a05e4bb374ac096c92d1dcd18b2e4071025996aba49b16dc05ef6af43edec89"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/17/REVIEW.md"
+    },
+    {
+      "id": 18,
+      "name": "惊雷使者",
+      "role": "monster",
+      "element": 1,
+      "tier": 8,
+      "reviewOrder": 29,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s18_0.png",
+        "Reference/OriginalGame/extracted/mpic/s18_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s18_0.png": "26f90b64f53856b6ca289cffce18edf8de62b38dad3e10a193f9440732d12f6a",
+        "s18_1.png": "06860e1bf2d7b3a0963b2d3048a7f65bd1f03852941dbe51fe9780f763a33aef"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/18/REVIEW.md"
+    },
+    {
+      "id": 19,
+      "name": "裂天",
+      "role": "monster",
+      "element": 1,
+      "tier": 9,
+      "reviewOrder": 30,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s19_0.png",
+        "Reference/OriginalGame/extracted/mpic/s19_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s19_0.png": "72524f71ddbc61707c9cd1d79db8f50f5a7bfe71443a463acc663d536c46b840",
+        "s19_1.png": "d571ab6cde0cb2dd2cb33876dc66e6590478dff6acaf9ae92479c7fae2318acd"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/19/REVIEW.md"
+    },
+    {
+      "id": 20,
+      "name": "凯米拉",
+      "role": "monster",
+      "element": 5,
+      "tier": 10,
+      "reviewOrder": 31,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "silhouette_only",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s20_0.png",
+        "Reference/OriginalGame/extracted/mpic/s20_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s20_0.png": "aac33da3fa5825ea6c3c52afee9d04d97e306cff73ba6d1763e6516eb6fe8674",
+        "s20_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/20/REVIEW.md"
+    },
+    {
+      "id": 30,
+      "name": "武魂",
+      "role": "monster",
+      "element": 5,
+      "tier": 10,
+      "reviewOrder": 32,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "silhouette_only",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s30_0.png",
+        "Reference/OriginalGame/extracted/mpic/s30_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s30_0.png": "aac33da3fa5825ea6c3c52afee9d04d97e306cff73ba6d1763e6516eb6fe8674",
+        "s30_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/30/REVIEW.md"
+    },
+    {
+      "id": 31,
+      "name": "鬼火",
+      "role": "monster",
+      "element": 4,
+      "tier": 1,
+      "reviewOrder": 33,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s31_0.png",
+        "Reference/OriginalGame/extracted/mpic/s31_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s31_0.png": "0ce0659cd1b39bf86fe4448417a6d0fedf3d38c80cef65975fff621aa5d360de",
+        "s31_1.png": "f82d1162ce380536ed570dd5aae8c8243d48825d2cf385ec69d8c28aadbe31f4"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/31/REVIEW.md"
+    },
+    {
+      "id": 32,
+      "name": "灵能火",
+      "role": "monster",
+      "element": 4,
+      "tier": 2,
+      "reviewOrder": 34,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s32_0.png",
+        "Reference/OriginalGame/extracted/mpic/s32_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s32_0.png": "d869161625c343580d8644b901305a07ef87661f4f0bbb51c2f6a411d2973b1d",
+        "s32_1.png": "4cc116f1eb7ee7af89cb569842007c2d89bb78d5aace951021f7fab524e0259a"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/32/REVIEW.md"
+    },
+    {
+      "id": 33,
+      "name": "魔化猎犬",
+      "role": "monster",
+      "element": 4,
+      "tier": 3,
+      "reviewOrder": 35,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s33_0.png",
+        "Reference/OriginalGame/extracted/mpic/s33_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s33_0.png": "1f74fccd8f2fda779a9eadb55f274218e59c8d41e84f7b3fe1a1779d8641bbc0",
+        "s33_1.png": "3bff9ab2b7a9aa11b0b361e65cf0972798021a5809f6ae72e5b3308566384a4a"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/33/REVIEW.md"
+    },
+    {
+      "id": 34,
+      "name": "火眼蛮牛",
+      "role": "monster",
+      "element": 4,
+      "tier": 4,
+      "reviewOrder": 36,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s34_0.png",
+        "Reference/OriginalGame/extracted/mpic/s34_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s34_0.png": "ecf2b57b5a6b716d8131f5b404e641a8d738222b514cb0dfb189ed5dec0d8c1e",
+        "s34_1.png": "4954c1f8069ae92a2ef20d1c7107f809c01418791504b062f144391114e87757"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/34/REVIEW.md"
+    },
+    {
+      "id": 35,
+      "name": "油精",
+      "role": "monster",
+      "element": 4,
+      "tier": 5,
+      "reviewOrder": 37,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s35_0.png",
+        "Reference/OriginalGame/extracted/mpic/s35_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s35_0.png": "cc33754b509fe8c7d8041bfdf8a89a436eabf649b5d3b716e1ac1b322e0b4e66",
+        "s35_1.png": "065b9461b0459d4713f11fb59fe5ed2ff93c47f88c661114f3dbdac85114c9c1"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/35/REVIEW.md"
+    },
+    {
+      "id": 36,
+      "name": "炎魂",
+      "role": "monster",
+      "element": 4,
+      "tier": 6,
+      "reviewOrder": 38,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s36_0.png",
+        "Reference/OriginalGame/extracted/mpic/s36_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s36_0.png": "1f1b8ec93551859db480531e8221ab864e5c5a177d8c4f8b370bfc6a5f2376ad",
+        "s36_1.png": "63eea62edead1de4763b29f172d9e823de5a4f4c6e552a20479009e622efbefd"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/36/REVIEW.md"
+    },
+    {
+      "id": 37,
+      "name": "赤炎兽",
+      "role": "monster",
+      "element": 4,
+      "tier": 7,
+      "reviewOrder": 39,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s37_0.png",
+        "Reference/OriginalGame/extracted/mpic/s37_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s37_0.png": "da63f5343a8a22fabc2bbe5dc29eee0f513c06820acc3454c1dacbc103fd2a4b",
+        "s37_1.png": "b8c13eb1c19132912bb894b10015b6b74eeeb56c138829e391e1be8cd802d8a8"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/37/REVIEW.md"
+    },
+    {
+      "id": 38,
+      "name": "焦土行者",
+      "role": "monster",
+      "element": 4,
+      "tier": 8,
+      "reviewOrder": 40,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s38_0.png",
+        "Reference/OriginalGame/extracted/mpic/s38_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s38_0.png": "7f60be0a9c2adbe0d71cdcae4fd38f01f8c30e0e317830bec1285c4d682ed1e1",
+        "s38_1.png": "5a867dafbf629e728303bef2757c119a6495fbd32b0ebc9c21e979dc47f10dfa"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/38/REVIEW.md"
+    },
+    {
+      "id": 39,
+      "name": "九尾狐",
+      "role": "monster",
+      "element": 4,
+      "tier": 9,
+      "reviewOrder": 41,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s39_0.png",
+        "Reference/OriginalGame/extracted/mpic/s39_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s39_0.png": "e2e0e06ee447450c6071f5d32c860c93abbff017f5ae56f1e9f8bd4b0debb127",
+        "s39_1.png": "28841261e0933c520adfd2e264563766cdf5385dae613e2e660c9c38f4d3bf51"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/39/REVIEW.md"
+    },
+    {
+      "id": 40,
+      "name": "维娜丽斯",
+      "role": "monster",
+      "element": 5,
+      "tier": 10,
+      "reviewOrder": 42,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "silhouette_only",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s40_0.png",
+        "Reference/OriginalGame/extracted/mpic/s40_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s40_0.png": "aac33da3fa5825ea6c3c52afee9d04d97e306cff73ba6d1763e6516eb6fe8674",
+        "s40_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/40/REVIEW.md"
+    },
+    {
+      "id": 41,
+      "name": "水泡",
+      "role": "monster",
+      "element": 3,
+      "tier": 1,
+      "reviewOrder": 43,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s41_0.png",
+        "Reference/OriginalGame/extracted/mpic/s41_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s41_0.png": "34ef86f0f35138327f603883f38794e793d3bd869ea43a26e5a56af6e63baeaf",
+        "s41_1.png": "c29915bc042fe3ebd9c6d7083fefa5f5e14cb7de0074b53814c781fcff6a61c9"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/41/REVIEW.md"
+    },
+    {
+      "id": 42,
+      "name": "灰泥怪",
+      "role": "monster",
+      "element": 3,
+      "tier": 2,
+      "reviewOrder": 44,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s42_0.png",
+        "Reference/OriginalGame/extracted/mpic/s42_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s42_0.png": "3fe8e070ac3b83c94d8e0a6c161397f8de7b066ae7af13b3212ba04ee865f733",
+        "s42_1.png": "ecc65d88fd84f578f42f2aa1f2136a6349d68b2d481a60ff23a648988add9871"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/42/REVIEW.md"
+    },
+    {
+      "id": 43,
+      "name": "大眼睛",
+      "role": "monster",
+      "element": 3,
+      "tier": 3,
+      "reviewOrder": 45,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s43_0.png",
+        "Reference/OriginalGame/extracted/mpic/s43_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s43_0.png": "a00dea343bb8919b43c579b62f3f057f73e4aba87ff7020818cfa7171806548c",
+        "s43_1.png": "3ed15a646f40b083d025203e5457e2fc30ea46f057b2297c6c12de91bb70a89f"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/43/REVIEW.md"
+    },
+    {
+      "id": 44,
+      "name": "魔化凶鳄",
+      "role": "monster",
+      "element": 3,
+      "tier": 4,
+      "reviewOrder": 46,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s44_0.png",
+        "Reference/OriginalGame/extracted/mpic/s44_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s44_0.png": "bb04165233044b357a37fd505d755c883924f919775ea7f67dd4634f37a91170",
+        "s44_1.png": "d968e2b745a727938798a47aa183d02930ffe81fe1e7b2984c22d7679a01f323"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/44/REVIEW.md"
+    },
+    {
+      "id": 45,
+      "name": "水精",
+      "role": "monster",
+      "element": 3,
+      "tier": 5,
+      "reviewOrder": 47,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s45_0.png",
+        "Reference/OriginalGame/extracted/mpic/s45_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s45_0.png": "c49343d885982e3d5410bbe940e4d3742c9e93f6c4fe4ba7d5f0e8ed0c34a5b1",
+        "s45_1.png": "f0f26a1ac60cfff220a63543bb474b737b2728139312c165dd690c4428b7d1db"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/45/REVIEW.md"
+    },
+    {
+      "id": 46,
+      "name": "冰灵",
+      "role": "monster",
+      "element": 3,
+      "tier": 6,
+      "reviewOrder": 48,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s46_0.png",
+        "Reference/OriginalGame/extracted/mpic/s46_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s46_0.png": "5ed4d00baabd58f5e769961aaaeef78e68780876534721c23efa0aab5aef7380",
+        "s46_1.png": "4124bfa6504f336a844f22142febafd5776ad60dc8e778d702d70be4004a37a7"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/46/REVIEW.md"
+    },
+    {
+      "id": 47,
+      "name": "撕裂者",
+      "role": "monster",
+      "element": 3,
+      "tier": 7,
+      "reviewOrder": 49,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s47_0.png",
+        "Reference/OriginalGame/extracted/mpic/s47_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s47_0.png": "8acf642b43c014afd35262b5d3ad67e43df54328af290af37cb4d86367274e6a",
+        "s47_1.png": "356527b0aeaa67bbae4cd449544e9d0f97a8e7bb94b64786d4a4a59375a063fa"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/47/REVIEW.md"
+    },
+    {
+      "id": 48,
+      "name": "巨齿",
+      "role": "monster",
+      "element": 3,
+      "tier": 8,
+      "reviewOrder": 50,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s48_0.png",
+        "Reference/OriginalGame/extracted/mpic/s48_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s48_0.png": "8576e64d6e151977dfe8a99312198427d474fd471385d342348536cf93360711",
+        "s48_1.png": "21a25ff4e413ec4f29461b33e340ff319281a019dd11c283df870bf54da7bd40"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/48/REVIEW.md"
+    },
+    {
+      "id": 49,
+      "name": "深渊残影",
+      "role": "monster",
+      "element": 3,
+      "tier": 9,
+      "reviewOrder": 51,
+      "status": "pending_original_review",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "originalReferenceKind": "original_sprite",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/mpic/s49_0.png",
+        "Reference/OriginalGame/extracted/mpic/s49_1.png"
+      ],
+      "originalReferenceSHA256": {
+        "s49_0.png": "5207b35026edde01754aa7967adaaddd3b5624b1a6eb7c42da370b61323fd596",
+        "s49_1.png": "08466c06e3e7a39d6f3468804c90566b8836ba05cfb6966a0094087205a26fad"
+      },
+      "runtimeArtStatus": "rejected_v1_placeholder",
+      "reviewFile": "Art/Reviews/49/REVIEW.md"
+    }
+  ]
+}

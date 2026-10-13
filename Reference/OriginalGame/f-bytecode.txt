@@ -1,0 +1,464 @@
+public class f {
+  private java.lang.String a;
+
+  public byte[] a;
+
+  public byte[] b;
+
+  public java.lang.String[] a;
+
+  public java.lang.String[] b;
+
+  public short[] a;
+
+  public short[] b;
+
+  public short[] c;
+
+  public short[] d;
+
+  public int a;
+
+  public int b;
+
+  public boolean a;
+
+  private static f[] a;
+
+  private static void a(f);
+    Code:
+         0: iconst_0
+         1: istore_1
+         2: iload_1
+         3: iconst_3
+         4: if_icmpge     40
+         7: getstatic     #11                 // Field a:[Lf;
+        10: iload_1
+        11: aaload
+        12: ifnull        34
+        15: getstatic     #11                 // Field a:[Lf;
+        18: iload_1
+        19: aaload
+        20: getfield      #12                 // Field a:Ljava/lang/String;
+        23: aload_0
+        24: getfield      #12                 // Field a:Ljava/lang/String;
+        27: invokevirtual #36                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        30: ifeq          34
+        33: return
+        34: iinc          1, 1
+        37: goto          2
+        40: getstatic     #11                 // Field a:[Lf;
+        43: iconst_0
+        44: aconst_null
+        45: aastore
+        46: iconst_0
+        47: istore_1
+        48: iload_1
+        49: iconst_2
+        50: if_icmpge     71
+        53: getstatic     #11                 // Field a:[Lf;
+        56: iload_1
+        57: getstatic     #11                 // Field a:[Lf;
+        60: iload_1
+        61: iconst_1
+        62: iadd
+        63: aaload
+        64: aastore
+        65: iinc          1, 1
+        68: goto          48
+        71: getstatic     #11                 // Field a:[Lf;
+        74: iconst_2
+        75: aload_0
+        76: aastore
+        77: return
+
+  private static f b(java.lang.String);
+    Code:
+         0: iconst_0
+         1: istore_1
+         2: iload_1
+         3: iconst_3
+         4: if_icmpge     42
+         7: getstatic     #11                 // Field a:[Lf;
+        10: iload_1
+        11: aaload
+        12: ifnull        36
+        15: getstatic     #11                 // Field a:[Lf;
+        18: iload_1
+        19: aaload
+        20: getfield      #12                 // Field a:Ljava/lang/String;
+        23: aload_0
+        24: invokevirtual #36                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        27: ifeq          36
+        30: getstatic     #11                 // Field a:[Lf;
+        33: iload_1
+        34: aaload
+        35: areturn
+        36: iinc          1, 1
+        39: goto          2
+        42: aconst_null
+        43: areturn
+
+  public static void a();
+    Code:
+         0: iconst_0
+         1: istore_0
+         2: iload_0
+         3: iconst_3
+         4: if_icmpge     35
+         7: getstatic     #11                 // Field a:[Lf;
+        10: iload_0
+        11: aaload
+        12: ifnull        29
+        15: getstatic     #11                 // Field a:[Lf;
+        18: iload_0
+        19: aaload
+        20: invokevirtual #33                 // Method b:()V
+        23: getstatic     #11                 // Field a:[Lf;
+        26: iload_0
+        27: aconst_null
+        28: aastore
+        29: iinc          0, 1
+        32: goto          2
+        35: return
+
+  private f();
+    Code:
+         0: aload_0
+         1: invokespecial #25                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: aconst_null
+         6: putfield      #12                 // Field a:Ljava/lang/String;
+         9: aload_0
+        10: aconst_null
+        11: putfield      #13                 // Field a:[B
+        14: aload_0
+        15: aconst_null
+        16: putfield      #18                 // Field b:[B
+        19: aload_0
+        20: aconst_null
+        21: putfield      #14                 // Field a:[Ljava/lang/String;
+        24: aload_0
+        25: aconst_null
+        26: putfield      #19                 // Field b:[Ljava/lang/String;
+        29: aload_0
+        30: aconst_null
+        31: putfield      #15                 // Field a:[S
+        34: aload_0
+        35: aconst_null
+        36: putfield      #20                 // Field b:[S
+        39: aload_0
+        40: aconst_null
+        41: putfield      #22                 // Field c:[S
+        44: aload_0
+        45: aconst_null
+        46: putfield      #23                 // Field d:[S
+        49: aload_0
+        50: iconst_0
+        51: putfield      #16                 // Field a:I
+        54: aload_0
+        55: iconst_0
+        56: putfield      #21                 // Field b:I
+        59: aload_0
+        60: iconst_0
+        61: putfield      #17                 // Field a:Z
+        64: return
+
+  public void b();
+    Code:
+         0: aload_0
+         1: aconst_null
+         2: putfield      #13                 // Field a:[B
+         5: aload_0
+         6: aconst_null
+         7: putfield      #18                 // Field b:[B
+        10: aload_0
+        11: aconst_null
+        12: putfield      #14                 // Field a:[Ljava/lang/String;
+        15: aload_0
+        16: aconst_null
+        17: putfield      #19                 // Field b:[Ljava/lang/String;
+        20: aload_0
+        21: aconst_null
+        22: putfield      #15                 // Field a:[S
+        25: aload_0
+        26: aconst_null
+        27: putfield      #20                 // Field b:[S
+        30: aload_0
+        31: aconst_null
+        32: putfield      #22                 // Field c:[S
+        35: aload_0
+        36: aconst_null
+        37: putfield      #23                 // Field d:[S
+        40: aload_0
+        41: iconst_0
+        42: putfield      #17                 // Field a:Z
+        45: return
+
+  public static f a(java.lang.String);
+    Code:
+         0: aconst_null
+         1: astore_1
+         2: aload_0
+         3: invokestatic  #34                 // Method b:(Ljava/lang/String;)Lf;
+         6: astore_1
+         7: aload_1
+         8: ifnonnull     24
+        11: new           #2                  // class f
+        14: dup
+        15: invokespecial #26                 // Method "<init>":()V
+        18: astore_1
+        19: aload_1
+        20: aload_0
+        21: invokespecial #28                 // Method a:(Ljava/lang/String;)V
+        24: goto          32
+        27: astore_2
+        28: aload_2
+        29: invokevirtual #38                 // Method java/lang/Throwable.printStackTrace:()V
+        32: aload_1
+        33: areturn
+      Exception table:
+         from    to  target type
+             2    24    27   Class java/lang/Exception
+
+  private void a(java.lang.String) throws java.lang.Exception;
+    Code:
+         0: aload_0
+         1: invokevirtual #33                 // Method b:()V
+         4: getstatic     #24                 // Field java/lang/System.out:Ljava/io/PrintStream;
+         7: new           #8                  // class java/lang/StringBuffer
+        10: dup
+        11: invokespecial #27                 // Method java/lang/StringBuffer."<init>":()V
+        14: ldc           #46                 // String Load Script [
+        16: invokevirtual #32                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        19: aload_1
+        20: invokevirtual #32                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        23: ldc           #47                 // String ]
+        25: invokevirtual #32                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+        28: invokevirtual #43                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+        31: invokevirtual #37                 // Method java/io/PrintStream.print:(Ljava/lang/String;)V
+        34: aload_1
+        35: invokestatic  #29                 // Method a.a:(Ljava/lang/String;)Ljava/io/DataInputStream;
+        38: astore_2
+        39: aload_2
+        40: ifnonnull     52
+        43: getstatic     #24                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        46: ldc           #45                 // String Field.
+        48: invokevirtual #39                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        51: return
+        52: getstatic     #24                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        55: ldc           #44                 // String Computed.
+        57: invokevirtual #39                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        60: iconst_0
+        61: istore_3
+        62: aload_0
+        63: iconst_0
+        64: putfield      #16                 // Field a:I
+        67: aload_0
+        68: iconst_0
+        69: putfield      #21                 // Field b:I
+        72: iconst_0
+        73: istore        4
+        75: aload_2
+        76: invokevirtual #40                 // Method java/io/DataInputStream.readByte:()B
+        79: istore        4
+        81: iinc          3, 1
+        84: iload         4
+        86: ifne          98
+        89: aload_2
+        90: invokevirtual #35                 // Method java/io/DataInputStream.close:()V
+        93: aconst_null
+        94: astore_2
+        95: goto          108
+        98: aload_0
+        99: iload         4
+       101: aload_2
+       102: invokespecial #30                 // Method a:(BLjava/io/DataInputStream;)V
+       105: goto          75
+       108: aload_0
+       109: iconst_1
+       110: putfield      #17                 // Field a:Z
+       113: aload_0
+       114: iload_3
+       115: iconst_1
+       116: isub
+       117: putfield      #16                 // Field a:I
+       120: aload_0
+       121: aload_0
+       122: getfield      #16                 // Field a:I
+       125: newarray       byte
+       127: putfield      #18                 // Field b:[B
+       130: aload_0
+       131: aload_0
+       132: getfield      #16                 // Field a:I
+       135: newarray       byte
+       137: putfield      #13                 // Field a:[B
+       140: aload_0
+       141: aload_0
+       142: getfield      #16                 // Field a:I
+       145: anewarray     #7                  // class java/lang/String
+       148: putfield      #14                 // Field a:[Ljava/lang/String;
+       151: aload_0
+       152: aload_0
+       153: getfield      #16                 // Field a:I
+       156: anewarray     #7                  // class java/lang/String
+       159: putfield      #19                 // Field b:[Ljava/lang/String;
+       162: aload_0
+       163: aload_0
+       164: getfield      #16                 // Field a:I
+       167: newarray       short
+       169: putfield      #15                 // Field a:[S
+       172: aload_0
+       173: aload_0
+       174: getfield      #16                 // Field a:I
+       177: newarray       short
+       179: putfield      #20                 // Field b:[S
+       182: aload_0
+       183: aload_0
+       184: getfield      #16                 // Field a:I
+       187: newarray       short
+       189: putfield      #22                 // Field c:[S
+       192: aload_0
+       193: aload_0
+       194: getfield      #16                 // Field a:I
+       197: newarray       short
+       199: putfield      #23                 // Field d:[S
+       202: aload_1
+       203: invokestatic  #29                 // Method a.a:(Ljava/lang/String;)Ljava/io/DataInputStream;
+       206: astore_2
+       207: aload_2
+       208: invokevirtual #40                 // Method java/io/DataInputStream.readByte:()B
+       211: istore        4
+       213: iload         4
+       215: ifne          227
+       218: aload_2
+       219: invokevirtual #35                 // Method java/io/DataInputStream.close:()V
+       222: aconst_null
+       223: astore_2
+       224: goto          237
+       227: aload_0
+       228: iload         4
+       230: aload_2
+       231: invokespecial #30                 // Method a:(BLjava/io/DataInputStream;)V
+       234: goto          207
+       237: aload_0
+       238: iconst_0
+       239: putfield      #21                 // Field b:I
+       242: aload_0
+       243: aload_1
+       244: putfield      #12                 // Field a:Ljava/lang/String;
+       247: aload_0
+       248: invokestatic  #31                 // Method a:(Lf;)V
+       251: return
+
+  private void a(byte, java.io.DataInputStream) throws java.lang.Exception;
+    Code:
+         0: iconst_4
+         1: newarray       short
+         3: astore_3
+         4: aload_2
+         5: invokevirtual #40                 // Method java/io/DataInputStream.readByte:()B
+         8: istore        4
+        10: iconst_0
+        11: istore        5
+        13: iload         5
+        15: iconst_4
+        16: if_icmpge     33
+        19: aload_3
+        20: iload         5
+        22: aload_2
+        23: invokevirtual #41                 // Method java/io/DataInputStream.readShort:()S
+        26: sastore
+        27: iinc          5, 1
+        30: goto          13
+        33: iconst_2
+        34: anewarray     #7                  // class java/lang/String
+        37: astore        5
+        39: aload         5
+        41: iconst_0
+        42: aload_2
+        43: invokevirtual #42                 // Method java/io/DataInputStream.readUTF:()Ljava/lang/String;
+        46: aastore
+        47: aload         5
+        49: iconst_1
+        50: aload_2
+        51: invokevirtual #42                 // Method java/io/DataInputStream.readUTF:()Ljava/lang/String;
+        54: aastore
+        55: aload_0
+        56: getfield      #17                 // Field a:Z
+        59: ifeq          167
+        62: aload_0
+        63: getfield      #18                 // Field b:[B
+        66: aload_0
+        67: getfield      #21                 // Field b:I
+        70: iload_1
+        71: bastore
+        72: aload_0
+        73: getfield      #13                 // Field a:[B
+        76: aload_0
+        77: getfield      #21                 // Field b:I
+        80: iload         4
+        82: bastore
+        83: aload_0
+        84: getfield      #14                 // Field a:[Ljava/lang/String;
+        87: aload_0
+        88: getfield      #21                 // Field b:I
+        91: aload         5
+        93: iconst_0
+        94: aaload
+        95: aastore
+        96: aload_0
+        97: getfield      #19                 // Field b:[Ljava/lang/String;
+       100: aload_0
+       101: getfield      #21                 // Field b:I
+       104: aload         5
+       106: iconst_1
+       107: aaload
+       108: aastore
+       109: aload_0
+       110: getfield      #15                 // Field a:[S
+       113: aload_0
+       114: getfield      #21                 // Field b:I
+       117: aload_3
+       118: iconst_0
+       119: saload
+       120: sastore
+       121: aload_0
+       122: getfield      #20                 // Field b:[S
+       125: aload_0
+       126: getfield      #21                 // Field b:I
+       129: aload_3
+       130: iconst_1
+       131: saload
+       132: sastore
+       133: aload_0
+       134: getfield      #22                 // Field c:[S
+       137: aload_0
+       138: getfield      #21                 // Field b:I
+       141: aload_3
+       142: iconst_2
+       143: saload
+       144: sastore
+       145: aload_0
+       146: getfield      #23                 // Field d:[S
+       149: aload_0
+       150: getfield      #21                 // Field b:I
+       153: aload_3
+       154: iconst_3
+       155: saload
+       156: sastore
+       157: aload_0
+       158: dup
+       159: getfield      #21                 // Field b:I
+       162: iconst_1
+       163: iadd
+       164: putfield      #21                 // Field b:I
+       167: return
+
+  public static {};
+    Code:
+         0: iconst_3
+         1: anewarray     #2                  // class f
+         4: putstatic     #11                 // Field a:[Lf;
+         7: return
+}

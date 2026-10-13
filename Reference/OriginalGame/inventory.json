@@ -1,0 +1,31 @@
+{
+  "size_bytes": 729785,
+  "sha256": "3b10a6c2f4bad8eeea984713258f31a9040fa33ac2e2dca9b566516f3a252f9a",
+  "entries": 985,
+  "uncompressed_bytes": 1327250,
+  "bad_crc_entry": null,
+  "extensions": {
+    ".class": 28,
+    ".bin": 704,
+    ".png": 250,
+    ".MF": 1,
+    ".binz": 1,
+    ".scc": 1
+  },
+  "folders": {
+    "ai": 13,
+    "domain": 51,
+    "heads": 8,
+    "items": 1,
+    "makei": 51,
+    "makem": 51,
+    "maps": 90,
+    "META-INF": 1,
+    "mmp": 86,
+    "mosters": 2,
+    "mpic": 106,
+    "scenes": 90,
+    "script": 163,
+    "skills": 2
+  }
+}

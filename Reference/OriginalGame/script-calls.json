@@ -1,0 +1,284 @@
+[
+  {
+    "source": "1005.bin",
+    "offset": 3666,
+    "target": 1006,
+    "present": true
+  },
+  {
+    "source": "1044.bin",
+    "offset": 1616,
+    "target": 10,
+    "present": true
+  },
+  {
+    "source": "11.bin",
+    "offset": 140,
+    "target": 18,
+    "present": false
+  },
+  {
+    "source": "11.bin",
+    "offset": 194,
+    "target": 19,
+    "present": false
+  },
+  {
+    "source": "11.bin",
+    "offset": 248,
+    "target": 20,
+    "present": false
+  },
+  {
+    "source": "11.bin",
+    "offset": 302,
+    "target": 21,
+    "present": false
+  },
+  {
+    "source": "2020.bin",
+    "offset": 730,
+    "target": 10,
+    "present": true
+  },
+  {
+    "source": "2062.bin",
+    "offset": 429,
+    "target": 10,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 36,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 324,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 576,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 828,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 1116,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 1368,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 1656,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 1944,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 2196,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 2484,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 2772,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 3060,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 3348,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 3600,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 3888,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 4176,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 4428,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 4716,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 5004,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 5256,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 5544,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 5832,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2501.bin",
+    "offset": 6120,
+    "target": 2500,
+    "present": true
+  },
+  {
+    "source": "2995.bin",
+    "offset": 190,
+    "target": 29950,
+    "present": false
+  },
+  {
+    "source": "2998.bin",
+    "offset": 181,
+    "target": 29980,
+    "present": false
+  },
+  {
+    "source": "3017.bin",
+    "offset": 680,
+    "target": 13,
+    "present": false
+  },
+  {
+    "source": "3017.bin",
+    "offset": 2071,
+    "target": 13,
+    "present": false
+  },
+  {
+    "source": "3040.bin",
+    "offset": 624,
+    "target": 30401,
+    "present": false
+  },
+  {
+    "source": "3991.bin",
+    "offset": 205,
+    "target": 3981,
+    "present": false
+  },
+  {
+    "source": "3992.bin",
+    "offset": 1913,
+    "target": 16,
+    "present": false
+  },
+  {
+    "source": "3992.bin",
+    "offset": 2110,
+    "target": 16,
+    "present": false
+  },
+  {
+    "source": "3992.bin",
+    "offset": 2307,
+    "target": 16,
+    "present": false
+  },
+  {
+    "source": "3993.bin",
+    "offset": 243,
+    "target": 3983,
+    "present": false
+  },
+  {
+    "source": "3993.bin",
+    "offset": 522,
+    "target": 3983,
+    "present": false
+  },
+  {
+    "source": "3993.bin",
+    "offset": 801,
+    "target": 3983,
+    "present": false
+  },
+  {
+    "source": "3993.bin",
+    "offset": 1080,
+    "target": 3983,
+    "present": false
+  },
+  {
+    "source": "3999.bin",
+    "offset": 1767,
+    "target": 3998,
+    "present": true
+  },
+  {
+    "source": "8002.bin",
+    "offset": 372,
+    "target": 15,
+    "present": false
+  },
+  {
+    "source": "8002.bin",
+    "offset": 794,
+    "target": 17,
+    "present": false
+  }
+]

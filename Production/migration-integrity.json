@@ -1,0 +1,13 @@
+{
+  "copiedUnityFilesHashChecked": 217,
+  "result": "pass",
+  "intentionalChanges": [
+    "Assets/Remake/Editor/Earth2DBuild.cs",
+    "Assets/Remake/Resources/Data/catalog.json",
+    "Assets/Remake/Resources/Data/smoke-chest-route.json",
+    "Assets/Remake/Resources/Data/smoke-return-route.json",
+    "Assets/Remake/Resources/Data/smoke-route.json",
+    "README.md"
+  ],
+  "scope": "Copied Unity sources, assets and metadata; not runtime execution"
+}

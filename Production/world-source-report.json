@@ -1,0 +1,28 @@
+{
+  "mapCount": 27,
+  "floors": 3,
+  "portals": 69,
+  "chests": 28,
+  "resolvedChestRewards": 22,
+  "guardian": {
+    "map": 75,
+    "positionPixels": [
+      144,
+      96
+    ],
+    "species": 8,
+    "source": "minit opcode3 and 1044 opcode9"
+  },
+  "walkableAtGround": [
+    0,
+    1
+  ],
+  "walkableAtUpper": [
+    0,
+    2
+  ],
+  "blockedAtBoth": [
+    3,
+    255
+  ]
+}

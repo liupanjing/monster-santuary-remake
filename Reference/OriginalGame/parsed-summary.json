@@ -1,0 +1,23 @@
+{
+  "script_files": 163,
+  "script_records": 6714,
+  "text_fields": 13427,
+  "dialogue_records_opcode_1": 1483,
+  "monster_records": 52,
+  "map_files": 90,
+  "missing_static_script_targets": [
+    13,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    3981,
+    3983,
+    29950,
+    29980,
+    30401
+  ]
+}

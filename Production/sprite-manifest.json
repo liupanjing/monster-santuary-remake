@@ -1,0 +1,1325 @@
+{
+  "characters": [
+    {
+      "id": 21,
+      "source": "Art/Archive/rejected-v1/art-source/earth-source.png",
+      "sourceCell": [
+        0,
+        0,
+        418,
+        418
+      ],
+      "sourceBounds": [
+        77,
+        89,
+        332,
+        374
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m21",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 22,
+      "source": "Art/Archive/rejected-v1/art-source/earth-source.png",
+      "sourceCell": [
+        418,
+        0,
+        836,
+        418
+      ],
+      "sourceBounds": [
+        454,
+        89,
+        794,
+        374
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m22",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 23,
+      "source": "Art/Archive/rejected-v1/art-source/earth-source.png",
+      "sourceCell": [
+        836,
+        0,
+        1254,
+        418
+      ],
+      "sourceBounds": [
+        856,
+        14,
+        1227,
+        385
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m23",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 24,
+      "source": "Art/Archive/rejected-v1/art-source/earth-source.png",
+      "sourceCell": [
+        0,
+        418,
+        418,
+        836
+      ],
+      "sourceBounds": [
+        21,
+        427,
+        402,
+        775
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m24",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 25,
+      "source": "Art/Archive/rejected-v1/art-source/earth-source.png",
+      "sourceCell": [
+        418,
+        418,
+        836,
+        836
+      ],
+      "sourceBounds": [
+        439,
+        418,
+        796,
+        778
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m25",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 26,
+      "source": "Art/Archive/rejected-v1/art-source/earth-source.png",
+      "sourceCell": [
+        836,
+        418,
+        1254,
+        836
+      ],
+      "sourceBounds": [
+        839,
+        429,
+        1243,
+        778
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m26",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 27,
+      "source": "Art/Archive/rejected-v1/art-source/earth-source.png",
+      "sourceCell": [
+        0,
+        836,
+        418,
+        1254
+      ],
+      "sourceBounds": [
+        12,
+        858,
+        421,
+        1186
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m27",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 28,
+      "source": "Art/Archive/rejected-v1/art-source/earth-source.png",
+      "sourceCell": [
+        418,
+        836,
+        836,
+        1254
+      ],
+      "sourceBounds": [
+        421,
+        793,
+        829,
+        1212
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m28",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 29,
+      "source": "Art/Archive/rejected-v1/art-source/earth-source.png",
+      "sourceCell": [
+        836,
+        836,
+        1254,
+        1254
+      ],
+      "sourceBounds": [
+        835,
+        793,
+        1246,
+        1214
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m29",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 1,
+      "source": "Art/Archive/rejected-v1/art-source/wind-source.png",
+      "sourceCell": [
+        0,
+        0,
+        418,
+        418
+      ],
+      "sourceBounds": [
+        73,
+        105,
+        349,
+        395
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m1",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 2,
+      "source": "Art/Archive/rejected-v1/art-source/wind-source.png",
+      "sourceCell": [
+        418,
+        0,
+        836,
+        418
+      ],
+      "sourceBounds": [
+        460,
+        68,
+        788,
+        402
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m2",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 3,
+      "source": "Art/Archive/rejected-v1/art-source/wind-source.png",
+      "sourceCell": [
+        836,
+        0,
+        1254,
+        418
+      ],
+      "sourceBounds": [
+        851,
+        33,
+        1237,
+        411
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m3",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 4,
+      "source": "Art/Archive/rejected-v1/art-source/wind-source.png",
+      "sourceCell": [
+        0,
+        418,
+        418,
+        836
+      ],
+      "sourceBounds": [
+        42,
+        419,
+        423,
+        806
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m4",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 5,
+      "source": "Art/Archive/rejected-v1/art-source/wind-source.png",
+      "sourceCell": [
+        418,
+        418,
+        836,
+        836
+      ],
+      "sourceBounds": [
+        467,
+        435,
+        791,
+        803
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m5",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 6,
+      "source": "Art/Archive/rejected-v1/art-source/wind-source.png",
+      "sourceCell": [
+        836,
+        418,
+        1254,
+        836
+      ],
+      "sourceBounds": [
+        881,
+        431,
+        1227,
+        811
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m6",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 7,
+      "source": "Art/Archive/rejected-v1/art-source/wind-source.png",
+      "sourceCell": [
+        0,
+        836,
+        418,
+        1254
+      ],
+      "sourceBounds": [
+        31,
+        828,
+        410,
+        1215
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m7",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 8,
+      "source": "Art/Archive/rejected-v1/art-source/wind-source.png",
+      "sourceCell": [
+        418,
+        836,
+        836,
+        1254
+      ],
+      "sourceBounds": [
+        441,
+        826,
+        830,
+        1216
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m8",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 9,
+      "source": "Art/Archive/rejected-v1/art-source/wind-source.png",
+      "sourceCell": [
+        836,
+        836,
+        1254,
+        1254
+      ],
+      "sourceBounds": [
+        857,
+        815,
+        1233,
+        1222
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m9",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 11,
+      "source": "Art/Archive/rejected-v1/art-source/thunder-source.png",
+      "sourceCell": [
+        0,
+        0,
+        418,
+        418
+      ],
+      "sourceBounds": [
+        34,
+        146,
+        413,
+        419
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m11",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 12,
+      "source": "Art/Archive/rejected-v1/art-source/thunder-source.png",
+      "sourceCell": [
+        418,
+        0,
+        836,
+        418
+      ],
+      "sourceBounds": [
+        440,
+        104,
+        815,
+        394
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m12",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 13,
+      "source": "Art/Archive/rejected-v1/art-source/thunder-source.png",
+      "sourceCell": [
+        836,
+        0,
+        1254,
+        418
+      ],
+      "sourceBounds": [
+        847,
+        38,
+        1229,
+        421
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m13",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 14,
+      "source": "Art/Archive/rejected-v1/art-source/thunder-source.png",
+      "sourceCell": [
+        0,
+        418,
+        418,
+        836
+      ],
+      "sourceBounds": [
+        16,
+        438,
+        414,
+        820
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m14",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 15,
+      "source": "Art/Archive/rejected-v1/art-source/thunder-source.png",
+      "sourceCell": [
+        418,
+        418,
+        836,
+        836
+      ],
+      "sourceBounds": [
+        434,
+        436,
+        818,
+        794
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m15",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 16,
+      "source": "Art/Archive/rejected-v1/art-source/thunder-source.png",
+      "sourceCell": [
+        836,
+        418,
+        1254,
+        836
+      ],
+      "sourceBounds": [
+        840,
+        428,
+        1240,
+        821
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m16",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 17,
+      "source": "Art/Archive/rejected-v1/art-source/thunder-source.png",
+      "sourceCell": [
+        0,
+        836,
+        418,
+        1254
+      ],
+      "sourceBounds": [
+        15,
+        869,
+        429,
+        1234
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m17",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 18,
+      "source": "Art/Archive/rejected-v1/art-source/thunder-source.png",
+      "sourceCell": [
+        418,
+        836,
+        836,
+        1254
+      ],
+      "sourceBounds": [
+        445,
+        845,
+        832,
+        1220
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m18",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 19,
+      "source": "Art/Archive/rejected-v1/art-source/thunder-source.png",
+      "sourceCell": [
+        836,
+        836,
+        1254,
+        1254
+      ],
+      "sourceBounds": [
+        836,
+        831,
+        1240,
+        1230
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m19",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 31,
+      "source": "Art/Archive/rejected-v1/art-source/fire-source.png",
+      "sourceCell": [
+        0,
+        0,
+        418,
+        418
+      ],
+      "sourceBounds": [
+        89,
+        57,
+        351,
+        403
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m31",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 32,
+      "source": "Art/Archive/rejected-v1/art-source/fire-source.png",
+      "sourceCell": [
+        418,
+        0,
+        836,
+        418
+      ],
+      "sourceBounds": [
+        469,
+        14,
+        768,
+        419
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m32",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 33,
+      "source": "Art/Archive/rejected-v1/art-source/fire-source.png",
+      "sourceCell": [
+        836,
+        0,
+        1254,
+        418
+      ],
+      "sourceBounds": [
+        871,
+        68,
+        1231,
+        411
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m33",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 34,
+      "source": "Art/Archive/rejected-v1/art-source/fire-source.png",
+      "sourceCell": [
+        0,
+        418,
+        418,
+        836
+      ],
+      "sourceBounds": [
+        25,
+        447,
+        419,
+        800
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m34",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 35,
+      "source": "Art/Archive/rejected-v1/art-source/fire-source.png",
+      "sourceCell": [
+        418,
+        418,
+        836,
+        836
+      ],
+      "sourceBounds": [
+        472,
+        433,
+        804,
+        803
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m35",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 36,
+      "source": "Art/Archive/rejected-v1/art-source/fire-source.png",
+      "sourceCell": [
+        836,
+        418,
+        1254,
+        836
+      ],
+      "sourceBounds": [
+        910,
+        417,
+        1204,
+        806
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m36",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 37,
+      "source": "Art/Archive/rejected-v1/art-source/fire-source.png",
+      "sourceCell": [
+        0,
+        836,
+        418,
+        1254
+      ],
+      "sourceBounds": [
+        24,
+        845,
+        442,
+        1222
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m37",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 38,
+      "source": "Art/Archive/rejected-v1/art-source/fire-source.png",
+      "sourceCell": [
+        418,
+        836,
+        836,
+        1254
+      ],
+      "sourceBounds": [
+        444,
+        812,
+        844,
+        1228
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m38",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 39,
+      "source": "Art/Archive/rejected-v1/art-source/fire-source.png",
+      "sourceCell": [
+        836,
+        836,
+        1254,
+        1254
+      ],
+      "sourceBounds": [
+        871,
+        813,
+        1241,
+        1228
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m39",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 41,
+      "source": "Art/Archive/rejected-v1/art-source/water-source.png",
+      "sourceCell": [
+        0,
+        0,
+        418,
+        418
+      ],
+      "sourceBounds": [
+        92,
+        166,
+        321,
+        415
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m41",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 42,
+      "source": "Art/Archive/rejected-v1/art-source/water-source.png",
+      "sourceCell": [
+        418,
+        0,
+        836,
+        418
+      ],
+      "sourceBounds": [
+        427,
+        120,
+        817,
+        428
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m42",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 43,
+      "source": "Art/Archive/rejected-v1/art-source/water-source.png",
+      "sourceCell": [
+        836,
+        0,
+        1254,
+        418
+      ],
+      "sourceBounds": [
+        865,
+        82,
+        1223,
+        426
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m43",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 44,
+      "source": "Art/Archive/rejected-v1/art-source/water-source.png",
+      "sourceCell": [
+        0,
+        418,
+        418,
+        836
+      ],
+      "sourceBounds": [
+        21,
+        489,
+        447,
+        819
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m44",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 45,
+      "source": "Art/Archive/rejected-v1/art-source/water-source.png",
+      "sourceCell": [
+        418,
+        418,
+        836,
+        836
+      ],
+      "sourceBounds": [
+        462,
+        449,
+        811,
+        841
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m45",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 46,
+      "source": "Art/Archive/rejected-v1/art-source/water-source.png",
+      "sourceCell": [
+        836,
+        418,
+        1254,
+        836
+      ],
+      "sourceBounds": [
+        857,
+        445,
+        1236,
+        811
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m46",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 47,
+      "source": "Art/Archive/rejected-v1/art-source/water-source.png",
+      "sourceCell": [
+        0,
+        836,
+        418,
+        1254
+      ],
+      "sourceBounds": [
+        18,
+        880,
+        427,
+        1209
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m47",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 48,
+      "source": "Art/Archive/rejected-v1/art-source/water-source.png",
+      "sourceCell": [
+        418,
+        836,
+        836,
+        1254
+      ],
+      "sourceBounds": [
+        449,
+        848,
+        825,
+        1212
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m48",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 49,
+      "source": "Art/Archive/rejected-v1/art-source/water-source.png",
+      "sourceCell": [
+        836,
+        836,
+        1254,
+        1254
+      ],
+      "sourceBounds": [
+        861,
+        817,
+        1242,
+        1217
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m49",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 0,
+      "source": "Art/Archive/rejected-v1/art-source/special-source.png",
+      "sourceCell": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "sourceBounds": [
+        15,
+        39,
+        499,
+        498
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m0",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 10,
+      "source": "Art/Archive/rejected-v1/art-source/special-source.png",
+      "sourceCell": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "sourceBounds": [
+        530,
+        28,
+        986,
+        497
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m10",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 20,
+      "source": "Art/Archive/rejected-v1/art-source/special-source.png",
+      "sourceCell": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "sourceBounds": [
+        1020,
+        44,
+        1520,
+        497
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m20",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 30,
+      "source": "Art/Archive/rejected-v1/art-source/special-source.png",
+      "sourceCell": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "sourceBounds": [
+        33,
+        517,
+        503,
+        997
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m30",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 40,
+      "source": "Art/Archive/rejected-v1/art-source/special-source.png",
+      "sourceCell": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "sourceBounds": [
+        533,
+        523,
+        1024,
+        989
+      ],
+      "spriteSize": [
+        192,
+        192
+      ],
+      "spriteResource": "Art/Characters/m40",
+      "sourceHasTrueAlpha": true,
+      "status": "rejected_v1_placeholder",
+      "alphaThreshold": 190,
+      "slicing": "whole-atlas connected components assigned by majority cell; prevents adjacent sprite strips",
+      "generation": "built_in_imagegen"
+    },
+    {
+      "id": 51,
+      "source": "Art/Archive/rejected-v1/art-source/hero-source.png",
+      "spriteResource": "Art/Characters/m51",
+      "spriteSize": [
+        96,
+        96
+      ],
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "framesPerDirection": 3,
+      "generation": "built_in_imagegen",
+      "status": "rejected_v1_placeholder"
+    }
+  ],
+  "heroSharedScale": 0.24281150159744408,
+  "pipeline": "newly generated 2D images; cell slicing + shared nearest-neighbor scaling + fixed feet anchors; no Blender or model baking",
+  "reviewStatus": "all v1 art rejected by user for deviating from original; not approved"
+}
