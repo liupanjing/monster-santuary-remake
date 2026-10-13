@@ -1,7 +1,7 @@
 {
   "characterID": 51,
   "version": "v3",
-  "status": "draft_review",
+  "status": "revision_requested",
   "method": "built_in_imagegen",
   "prompt": "prompt.txt",
   "parentDraft": "../v2/hero-redraw-sheet.png (withdrawn; weapon-only correction input)",
@@ -43,5 +43,6 @@
       181,
       262
     ]
-  }
+  },
+  "userFeedback": "Holding guns still looks strange; use a natural dual-pistol stance with modular per-item weapon assets."
 }

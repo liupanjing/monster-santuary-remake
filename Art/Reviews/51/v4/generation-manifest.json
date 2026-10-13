@@ -1,0 +1,27 @@
+{
+  "characterID": 51,
+  "version": "v4",
+  "status": "draft_review",
+  "method": "built_in_imagegen",
+  "prompts": [
+    "body-prompt.txt",
+    "weapon-prompt.txt"
+  ],
+  "reference": "../v3/original-two-forms-reference.png",
+  "bodySource": "body-source.png",
+  "weaponSource": "weapon-source.png",
+  "modularity": "Weapon-free body sprite + independent pistol sprite; same pistol used by two hand attachments; muzzle anchors, mirror, rotation and sorting configured in Unity",
+  "comparison": "hero-original-vs-modular-v4.png",
+  "actualUnityRender": "unity-dual-pistol-preview.png",
+  "weaponIdentity": "Neutral draft short pistol; not any of the 7 original gun models",
+  "animationCreated": false,
+  "gameplayArtReplaced": false,
+  "approvedVersion": null,
+  "fieldArt": "unchanged v3 chibi candidate",
+  "validation": "Production/hero-equipment-validation.txt",
+  "sourceSHA256": {
+    "body-source.png": "1399dc3eaa96a3c1abd3328ca06613fcd747460ddc3ccb42190424612f973486",
+    "weapon-source.png": "9debb604063063f60ebb156c7bc904f74df7a7e7a8bd92b0d5593f4ebf87ba43",
+    "unity-dual-pistol-preview.png": "2ffc5028a6dc4335939d6bbd0bae8ccca023f72e354933308a57632b73ed1f09"
+  }
+}

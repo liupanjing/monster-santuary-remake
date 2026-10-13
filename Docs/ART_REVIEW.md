@@ -25,4 +25,4 @@
 |`approved`|用户认可的资源版本已记录并导入|
 |`rejected_v1_placeholder`|旧资源仅供运行占位，未通过审核|
 
-当前主角为 `draft_review`（v3 持枪修正版待确认），其余角色为 `pending_original_review`；所有运行资源仍为 `rejected_v1_placeholder`。自动验证图片可加载只证明工程资源完整，不证明美术质量或用户认可。
+当前主角为 `draft_review`（v4 双枪模块化稿待确认），其余角色为 `pending_original_review`；土之秘境中的运行资源仍为 `rejected_v1_placeholder`。独立武器预览场景可以检查图层与挂点；自动验证不代替用户认可造型。

@@ -28,13 +28,19 @@
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
       "reviewFile": "Art/Reviews/51/REVIEW.md",
-      "candidateVersion": "v3",
-      "candidateComparison": "Art/Reviews/51/v3/hero-original-vs-redraw-v3.png",
+      "candidateVersion": "v4",
+      "candidateComparison": "Art/Reviews/51/v4/hero-original-vs-modular-v4.png",
       "twoIndependentForms": {
         "battle": "original battle body proportions, gun weapons",
         "field": "original npc0 Q/chibi proportions"
       },
-      "weaponPolicy": "gun user, confirmed by user and gun-dominated local weapon list; no blades"
+      "weaponPolicy": "User authorizes natural dual-pistol stance; separate weapon sprites, future per-item models; not literal trace of obscure original guns",
+      "modularAssets": {
+        "bodyPose": "Unity/Assets/Remake/ArtReview/HeroV4/DualPistolReady.asset",
+        "reviewPrefab": "Unity/Assets/Remake/ArtReview/HeroV4/HeroDualPistolReview.prefab",
+        "reviewScene": "Unity/Assets/Remake/ArtReview/HeroEquipmentReview.unity",
+        "weaponDefinitions": "Unity/Assets/Remake/ArtReview/WeaponDefinitions"
+      }
     },
     {
       "id": 21,

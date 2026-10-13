@@ -1,0 +1,2 @@
+PASS: Unity compile; body and weapon sprites are separate; front/rear dual sockets; sprite replacement preserves body; muzzle changes follow weapon definition; repeated equips reuse layers; unsupported pose and missing art rejected atomically; single/dual visibility and unequip; production draft gate; prefab reload without duplicate layers.
+11 per-item definitions are unassigned art blueprints, not finished gun models. No new animation or gameplay art replacement.

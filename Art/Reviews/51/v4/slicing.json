@@ -1,0 +1,46 @@
+{
+  "body": [
+    {
+      "view": "front",
+      "sourceBounds": [
+        185,
+        71,
+        616,
+        871
+      ],
+      "factor": 0.56,
+      "offset": [
+        135,
+        63
+      ],
+      "sourceHalfX": 0
+    },
+    {
+      "view": "back",
+      "sourceBounds": [
+        252,
+        73,
+        679,
+        858
+      ],
+      "factor": 0.56,
+      "offset": [
+        136,
+        71
+      ],
+      "sourceHalfX": 829
+    }
+  ],
+  "pistolSize": [
+    128,
+    86
+  ],
+  "pistolPivot": [
+    0.24,
+    0.4
+  ],
+  "bodyPPU": 128,
+  "weaponPPU": 128,
+  "status": "draft_review",
+  "note": "Technical sprite crop and uniform resampling; raw generated artwork preserved. Weapon silhouette is a neutral draft, not any named original gun."
+}

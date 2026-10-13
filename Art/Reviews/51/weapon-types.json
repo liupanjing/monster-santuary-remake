@@ -1,0 +1,50 @@
+{
+  "source": "Reference/OriginalGame/items.json",
+  "classificationPolicy": "Separate original name/description evidence from remake art/grip proposals; item category 0 alone does not distinguish firearms from other weapons",
+  "weapons": [
+    {
+      "id": 0,
+      "name": "弹弓",
+      "family": "slingshot",
+      "type": "弹弓 / 弹射武器",
+      "evidence": "名称明确为弹弓，说明为打玻璃的利器",
+      "certainty": "name + description",
+      "artForm": "以分叉架、弹性皮筋、弹丸托为重制候选；并非包内完整设定",
+      "proposedGrip": "两手拉放的专用姿势",
+      "knownGameplayLimit": "原表没有提供射程或专属弹药类型"
+    },
+    {
+      "id": 8,
+      "name": "法师之眼",
+      "family": "magic_ranged",
+      "type": "魔力驱动的远程武器",
+      "evidence": "用魔力驱动的远程武器",
+      "certainty": "description confirms power source and ranged use, not shape",
+      "artForm": "尚不能确定是魔导枪、法杖、法器还是其他造型；不能按眼睛图标猜成眼球",
+      "proposedGrip": "待外形确认后确定一手或两手专用姿势",
+      "knownGameplayLimit": "魔力驱动不等于已确认攻击消耗 MP 或使用魔法伤害公式"
+    },
+    {
+      "id": 9,
+      "name": "残酷之弩",
+      "family": "crossbow",
+      "type": "弩 / 弩类远程武器",
+      "evidence": "名称中的弩；说明只确认魔兽大赛奖励与稀有性",
+      "certainty": "name confirms category; shape and attack behavior unconfirmed",
+      "artForm": "弩身、弓臂、弦为重制候选，需要单独原画确认",
+      "proposedGrip": "持弩的专用姿势，推荐两手托持作为重制方案",
+      "knownGameplayLimit": "弩箭种类、装填与射程没有从原说明恢复"
+    },
+    {
+      "id": 10,
+      "name": "驯兽者之鞭",
+      "family": "whip",
+      "type": "鞭 / 鞭类柔性武器",
+      "evidence": "名称中的鞭；说明确认属于驯兽师的极品武器",
+      "certainty": "name confirms category; combat and taming effects unconfirmed",
+      "artForm": "独立握柄与可变形鞭身，不能把整条鞭画死进角色图",
+      "proposedGrip": "单手挥鞭的专用姿势",
+      "knownGameplayLimit": "不能由驯兽者名称推定提高收服率或控制怪兽的隐藏效果"
+    }
+  ]
+}

@@ -6,7 +6,7 @@
 
 已迁入上一版可运行原型及原版资源研究资料。用户指出上一版角色重绘明显偏离原画，因此 **主角和 50 只怪兽的 v1 重绘全部未通过审核**，工程中的这些图片暂时作为运行占位。角色定稿数为 0，不能把图片存在或自动通关成功等同于美术通过。
 
-当前审核角色：主角奥尼克（ID 51）。已提交 [v3 持枪造型对照](Art/Reviews/51/v3/hero-original-vs-redraw-v3.png)，等待用户确认，尚未制作动作或替换工程资源。战斗精灵与跑图 Q 版精灵为两套独立比例；v2 将枪误读为刀，已撤回。
+当前审核角色：主角奥尼克（ID 51）。当前为 [v4 双枪模块化对照](Art/Reviews/51/v4/hero-original-vs-modular-v4.png)，等待用户确认，尚未制作动作或替换土之秘境的运行占位。战斗精灵与跑图 Q 版为两套独立比例，身体和枪械分别绘制；v2 误画为刀已撤回，v3 持枪姿势需要修订。
 
 ## 目录
 
@@ -37,3 +37,9 @@
 原型有公开记录的地图 45 碰撞兼容调整、战斗平衡适配及一个当前正常路线不可达的奖励箱；详见 `Docs/PROTOTYPE_BASELINE.md`。角色审核完成前，先保持玩法原型可用，逐一替换角色。
 
 [立项说明](Docs/PROJECT.md) · [逐角色制作流程](Docs/ART_REVIEW.md) · [主角原版审核](Art/Reviews/51/REVIEW.md)
+
+## 武器模块
+
+独立预览场景为 `Unity/Assets/Remake/ArtReview/HeroEquipmentReview.unity`。身体姿势、手部挂点与武器模型分别由 `HeroPoseDefinition2D`、`HeroEquipmentRig2D`、`WeaponDefinition2D` 管理，11 个原版武器数据资源已经建档，实际型号图片尚待逐个制作。
+
+编辑器菜单 `Remake 2D/Create modular hero art review` 创建预览并验证换装与挂点。验证结果见 `Production/hero-equipment-validation.txt`，这项验证已在当前工程执行。[四种特殊武器分类及模块化边界](Docs/WEAPON_TYPES_AND_MODULARITY.md)。
