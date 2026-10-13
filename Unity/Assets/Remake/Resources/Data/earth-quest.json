@@ -1,0 +1,47 @@
+{
+  "quests": [
+    {
+      "id": "remake:earth-exam",
+      "title": "驯兽师考试 · 土之秘境",
+      "provenance": "remake_adaptation",
+      "sourceNote": "3032.bin@6464/@6806的委托，1044.bin@2146的碎片；当前入口交付是试玩适配。原同盟交付、证书与后续1045事件另行恢复。保留现有碎片不消耗行为。",
+      "submissionItemId": 171,
+      "submissionItemCount": 1,
+      "submissionConditions": [
+        {"kind": "flag", "key": "earth.guardian_defeated", "expected": true},
+        {"kind": "flag", "key": "earth.exam_reported", "expected": false},
+        {"kind": "item_count", "minimum": 1, "value": 171}
+      ],
+      "stages": [
+        {
+          "id": "completed",
+          "message": "土之秘境考试已通过，可继续探索未完成的支路。",
+          "conditions": [{"kind": "flag", "key": "earth.exam_reported", "expected": true}]
+        },
+        {
+          "id": "ready_to_report",
+          "message": "已取得秘境碎片，返回入口传送石交付考试。",
+          "conditions": [
+            {"kind": "flag", "key": "earth.guardian_defeated", "expected": true},
+            {"kind": "item_count", "minimum": 1, "value": 171}
+          ]
+        },
+        {
+          "id": "fragment_missing",
+          "message": "守护者已战胜，但行囊中缺少秘境碎片，暂时无法交付。",
+          "conditions": [{"kind": "flag", "key": "earth.guardian_defeated", "expected": true}]
+        },
+        {
+          "id": "challenge_guardian",
+          "message": "已抵达第三层守护者区域，准备挑战秘境守护者。",
+          "conditions": [{"kind": "visited_map", "value": 75, "expected": true}]
+        },
+        {
+          "id": "explore",
+          "message": "探索土之秘境，前往第三层寻找秘境守护者。",
+          "conditions": [{"kind": "always"}]
+        }
+      ]
+    }
+  ]
+}

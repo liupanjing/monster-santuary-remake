@@ -20,7 +20,7 @@ namespace MonsterRemake2D {
   void Start(){
    catalog=Read<Catalog>("catalog");world=Read<World>("earth-world");items=Read<Items>("items");
    foreach(var e in catalog.entries){var sprite=Resources.Load<Sprite>(e.spriteResource);if(sprite==null)throw new Exception("Missing newly drawn sprite: "+e.name);sprites[e.id]=sprite;}
-   LoadHeroMotion();LoadBabao();
+   LoadHeroMotion();LoadBabao();LoadEarthQuest();
    var atlas=Resources.Load<Texture2D>("Art/tile1_0");tiles=new Tile[atlas.width/16];for(int i=0;i<tiles.Length;i++){var t=ScriptableObject.CreateInstance<Tile>();t.sprite=Sprite.Create(atlas,new Rect(i*16,0,16,16),new Vector2(.5f,.5f),16);tiles[i]=t;}
    camera2d=Camera.main;if(camera2d==null){camera2d=new GameObject("2D camera").AddComponent<Camera>();camera2d.tag="MainCamera";}camera2d.transform.position=new Vector3(10,-15,-10);camera2d.transform.rotation=Quaternion.identity;camera2d.orthographic=true;camera2d.orthographicSize=6;camera2d.backgroundColor=new Color(.055f,.052f,.10f);camera2d.clearFlags=CameraClearFlags.SolidColor;camera2d.cullingMask=~(1<<5);camera2d.gameObject.AddComponent<AudioListener>();audio=gameObject.AddComponent<AudioSource>();audio.volume=.18f;
    ui=new ChapterUI(camera2d);state=EarthSave.New(catalog);if(!Smoke)Load();RestoreVisualEquipment();state.hero.Refresh(catalog);foreach(var p in state.pets)p.Refresh(catalog);BuildMap(state.map);mode=Mode.Explore;UpdateUI();
@@ -67,7 +67,7 @@ namespace MonsterRemake2D {
   bool Near(int x,int y,float distance=1.6f)=>(new Vector2(x-state.x,y-state.y)).magnitude<=distance;
   bool NearPortal(Portal p)=>p.Contains(Cell)||Near(p.x,p.y,1.2f);
   string NearbyPrompt(){
-   if(map.id==9&&Near(10,15))return state.bossDefeated?"E · 交付秘境碎片，完成考试":"E · 入口传送石：休整、补给和队伍";
+   if(map.id==9&&Near(10,15))return state.reported?"E · 查看考试完成记录":EarthQuestStage.id=="ready_to_report"?"E · 交付秘境碎片，完成考试":"E · 入口传送石：休整、补给和队伍";
    if(map.id==75&&!state.bossDefeated&&Near(9,6,2))return "E · 挑战秘境守护者";
    foreach(var c in map.chests)if(!state.opened.Contains(c.key)&&Near(c.x,c.y))return "E · 打开宝箱";
    foreach(var p in map.portals)if(NearPortal(p))return p.hidden?"E · 石壁后似乎有路":"E · 进入洞口";
@@ -76,7 +76,7 @@ namespace MonsterRemake2D {
   }
   public void Interact(){
    if(mode!=Mode.Explore)return;
-   if(map.id==9&&Near(10,15)){if(state.bossDefeated){state.reported=true;Save();ShowComplete();}else ShowCamp();return;}
+   if(map.id==9&&Near(10,15)){if(state.bossDefeated||state.reported)SubmitEarthQuest();else ShowCamp();return;}
    if(map.id==75&&!state.bossDefeated&&Near(9,6,2)){Dialogue(new[]{Pair("秘境守护者","我是土之秘境的守护者，也兼职考验你们这些新入职的驯兽师。"),Pair("秘境守护者","见习驯兽师参考者！你准备好接受考验了吗？"),Pair("奥尼克","我一定会战胜你。传奇猎人的孙子，也会是传奇！")},()=>StartBattle(new[]{new Unit(8,10,catalog)},true));return;}
    var chest=map.chests.Where(c=>!state.opened.Contains(c.key)&&Near(c.x,c.y)).OrderBy(c=>(new Vector2(c.x-state.x,c.y-state.y)).sqrMagnitude).FirstOrDefault();if(chest!=null){Claim(chest);return;}
    var portal=map.portals.FirstOrDefault(NearPortal);if(portal!=null){Travel(portal);return;}
@@ -162,7 +162,7 @@ namespace MonsterRemake2D {
   void DrawDialogue(){if(dialogues.Count==0){ui.Clear();mode=Mode.Explore;var a=afterDialogue;afterDialogue=null;a?.Invoke();UpdateUI();return;}var line=dialogues.Peek();var p=ui.Modal(line.Key,980,230);ui.Picture(p,22,70,120,125,line.Key=="秘境守护者"?SpriteFor(8):heroMotions.Field(HeroView2D.FieldDown).idle);ui.Label(p,170,77,765,90,line.Value,21);ui.Button(p,760,170,190,40,"继续  Space",NextDialogue);}
   public void NextDialogue(){if(dialogues.Count>0)dialogues.Dequeue();DrawDialogue();}
   void Notify(string s){message=s;UpdateUI();}
-  void UpdateUI(){if(ui!=null&&state!=null&&map!=null)ui.Refresh(state,map,items,message,near);}
+  void UpdateUI(){if(ui!=null&&state!=null&&map!=null){ui.Refresh(state,map,items,message,near);if(earthQuest!=null)ui.objective.text=earthQuest.title+" · "+EarthQuestStage.message;}}
   void Beep(float hz,float seconds){if(Smoke)return;int n=(int)(22050*seconds);var c=AudioClip.Create("Retro cue",n,1,22050,false);var samples=new float[n];for(int i=0;i<n;i++)samples[i]=Mathf.Sign(Mathf.Sin(i*hz*Mathf.PI*2/22050))*.15f*(1f-(float)i/n);c.SetData(samples,0);audio.PlayOneShot(c);Destroy(c,seconds+1);}
   public void Save(){try{SaveFile.Write(SavePath,state);}catch(Exception e){Notify("保存失败："+e.Message);Debug.LogError(e);}}
   void Load(){try{if(!File.Exists(SavePath))return;var s=JsonUtility.FromJson<EarthSave>(File.ReadAllText(SavePath));if(s!=null&&s.Valid(catalog,world)){s.Upgrade();state=s;}else message="旧记录无法读取，已开始新的探索。";}catch(Exception e){message="存档无法读取，已开始新的探索。";Debug.LogWarning(e);}}

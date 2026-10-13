@@ -1,0 +1,41 @@
+{
+  "result": "pass",
+  "gitHead": "81ae4245609938c00cb1d0e07da7208056e14720",
+  "worktreeUncommitted": true,
+  "platform": "macOS",
+  "editorVersion": "6000.3.0f1",
+  "heroDesignVersion": "v4",
+  "heroMotionVersion": "v5",
+  "questContentId": "remake:earth-exam",
+  "saveVersion": 3,
+  "buildExecutableSHA256": "9ae94136379f3ad3adbbb4e3fa0d593a04c4ac0c991ab6379779409e084b6af4",
+  "sourceSHA256ObservedAfterBuild": {
+    "Unity/Assets/Remake/Scripts/QuestRules2D.cs": "4c07382efd7f4ffd7c2d1e27664bdbe559199102e2bedeb4afde61195e156636",
+    "Unity/Assets/Remake/Scripts/ChapterQuest2D.cs": "31b15e90c1120e65027e225b192ed7f16124230042becbf5e29343fc0ccecf5c",
+    "Unity/Assets/Remake/Scripts/EarthGame2D.cs": "4b4a0db9237f51c3f24201321f9b36184c6de5c845931ce30ddc1936a2a650ed",
+    "Unity/Assets/Remake/Scripts/ChapterSmoke.cs": "570e24e837226a208a9cd71aeefd506e07123e6d33b79b16f3bbc3ac6f9301c7",
+    "Unity/Assets/Remake/Resources/Data/earth-quest.json": "00e86d44a8947d3be24c8c0cfb1b1f5c9de9e8706c209566c1e6ba868772be94",
+    "Unity/Assets/Remake/Editor/QuestValidation.cs": "b6015befa0595178aa9321380a2049accbfe2c49d56f4cf5fde39a0aca1e9f83"
+  },
+  "checks": [
+    "editor quest conditions and duplicate turn-in",
+    "Unity build",
+    "actual player full earth outward/return/chest/capture/guardian/fragment/turn-in/save replay",
+    "persisted completion and retained fragment",
+    "completed-stage UI refresh in actual player"
+  ],
+  "runtimeReport": "Production/Runtime/earth-quest-a06/runtime-validation.txt",
+  "screenshots": [
+    "Production/Runtime/earth-quest-a06/01-exploration.png",
+    "Production/Runtime/earth-quest-a06/06-complete.png"
+  ],
+  "limitations": [
+    "Manual keyboard play not performed",
+    "Original full script fidelity not claimed",
+    "Source hashes observed after build; executable hash identifies tested binary",
+    "Working tree includes concurrent Babao changes; art approval separate"
+  ],
+  "questRuntimeReport": "Production/Runtime/earth-quest-a06/quest-runtime-validation.txt",
+  "babaoDesignVersion": "v2",
+  "babaoMotionVersion": "v3"
+}

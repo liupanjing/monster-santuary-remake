@@ -1,0 +1,1 @@
+PASS: Unity compilation; data-defined earth quest stages; premature/fragment-only/boss-only submission rejected; valid and repeated turn-in; saved and legacy completed state; v2-to-v3 compatibility; malformed condition; existing map/catalog/growth/save/element regression. Static editor validation, not manual gameplay or original script fidelity.

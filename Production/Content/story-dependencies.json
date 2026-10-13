@@ -1,0 +1,6618 @@
+{
+  "scope": "static dependencies; NOT a verified chronological plot or runtime unlock graph",
+  "scripts": [
+    "1.bin",
+    "2.bin",
+    "3.bin",
+    "4.bin",
+    "10.bin",
+    "11.bin",
+    "12.bin",
+    "14.bin",
+    "998.bin",
+    "999.bin",
+    "1000.bin",
+    "1003.bin",
+    "1004.bin",
+    "1005.bin",
+    "1006.bin",
+    "1007.bin",
+    "1008.bin",
+    "1009.bin",
+    "1010.bin",
+    "1011.bin",
+    "1012.bin",
+    "1013.bin",
+    "1014.bin",
+    "1015.bin",
+    "1016.bin",
+    "1017.bin",
+    "1018.bin",
+    "1020.bin",
+    "1021.bin",
+    "1022.bin",
+    "1023.bin",
+    "1024.bin",
+    "1025.bin",
+    "1026.bin",
+    "1027.bin",
+    "1028.bin",
+    "1029.bin",
+    "1030.bin",
+    "1031.bin",
+    "1032.bin",
+    "1033.bin",
+    "1034.bin",
+    "1035.bin",
+    "1036.bin",
+    "1037.bin",
+    "1038.bin",
+    "1039.bin",
+    "1040.bin",
+    "1041.bin",
+    "1042.bin",
+    "1043.bin",
+    "1044.bin",
+    "1045.bin",
+    "1046.bin",
+    "1047.bin",
+    "1994.bin",
+    "1995.bin",
+    "1996.bin",
+    "1997.bin",
+    "1998.bin",
+    "1999.bin",
+    "2001.bin",
+    "2020.bin",
+    "2025.bin",
+    "2026.bin",
+    "2062.bin",
+    "2500.bin",
+    "2501.bin",
+    "2986.bin",
+    "2987.bin",
+    "2995.bin",
+    "2998.bin",
+    "2999.bin",
+    "3001.bin",
+    "3002.bin",
+    "3003.bin",
+    "3005.bin",
+    "3006.bin",
+    "3008.bin",
+    "3009.bin",
+    "3010.bin",
+    "3011.bin",
+    "3012.bin",
+    "3013.bin",
+    "3014.bin",
+    "3015.bin",
+    "3016.bin",
+    "3017.bin",
+    "3018.bin",
+    "3020.bin",
+    "3021.bin",
+    "3022.bin",
+    "3023.bin",
+    "3024.bin",
+    "3025.bin",
+    "3026.bin",
+    "3027.bin",
+    "3028.bin",
+    "3029.bin",
+    "3030.bin",
+    "3031.bin",
+    "3032.bin",
+    "3033.bin",
+    "3034.bin",
+    "3035.bin",
+    "3036.bin",
+    "3037.bin",
+    "3038.bin",
+    "3039.bin",
+    "3040.bin",
+    "3041.bin",
+    "3042.bin",
+    "3043.bin",
+    "3044.bin",
+    "3045.bin",
+    "3046.bin",
+    "3047.bin",
+    "3048.bin",
+    "3049.bin",
+    "3050.bin",
+    "3051.bin",
+    "3052.bin",
+    "3053.bin",
+    "3054.bin",
+    "3055.bin",
+    "3056.bin",
+    "3057.bin",
+    "3058.bin",
+    "3059.bin",
+    "3060.bin",
+    "3061.bin",
+    "3062.bin",
+    "3063.bin",
+    "3064.bin",
+    "3065.bin",
+    "3066.bin",
+    "3068.bin",
+    "3069.bin",
+    "3070.bin",
+    "3071.bin",
+    "3072.bin",
+    "3073.bin",
+    "3075.bin",
+    "3076.bin",
+    "3077.bin",
+    "3078.bin",
+    "3990.bin",
+    "3991.bin",
+    "3992.bin",
+    "3993.bin",
+    "3994.bin",
+    "3995.bin",
+    "3996.bin",
+    "3997.bin",
+    "3998.bin",
+    "3999.bin",
+    "4001.bin",
+    "4002.bin",
+    "4003.bin",
+    "4004.bin",
+    "8001.bin",
+    "8002.bin",
+    "minit.bin"
+  ],
+  "callEdges": [
+    {
+      "source": "11.bin",
+      "offset": 140,
+      "target": 18,
+      "present": false
+    },
+    {
+      "source": "11.bin",
+      "offset": 194,
+      "target": 19,
+      "present": false
+    },
+    {
+      "source": "11.bin",
+      "offset": 248,
+      "target": 20,
+      "present": false
+    },
+    {
+      "source": "11.bin",
+      "offset": 302,
+      "target": 21,
+      "present": false
+    },
+    {
+      "source": "1005.bin",
+      "offset": 3666,
+      "target": 1006,
+      "present": true
+    },
+    {
+      "source": "1044.bin",
+      "offset": 1616,
+      "target": 10,
+      "present": true
+    },
+    {
+      "source": "2020.bin",
+      "offset": 730,
+      "target": 10,
+      "present": true
+    },
+    {
+      "source": "2062.bin",
+      "offset": 429,
+      "target": 10,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 36,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 324,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 576,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 828,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 1116,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 1368,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 1656,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 1944,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 2196,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 2484,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 2772,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 3060,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 3348,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 3600,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 3888,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 4176,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 4428,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 4716,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 5004,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 5256,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 5544,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 5832,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2501.bin",
+      "offset": 6120,
+      "target": 2500,
+      "present": true
+    },
+    {
+      "source": "2995.bin",
+      "offset": 190,
+      "target": 29950,
+      "present": false
+    },
+    {
+      "source": "2998.bin",
+      "offset": 181,
+      "target": 29980,
+      "present": false
+    },
+    {
+      "source": "3017.bin",
+      "offset": 680,
+      "target": 13,
+      "present": false
+    },
+    {
+      "source": "3017.bin",
+      "offset": 2071,
+      "target": 13,
+      "present": false
+    },
+    {
+      "source": "3040.bin",
+      "offset": 624,
+      "target": 30401,
+      "present": false
+    },
+    {
+      "source": "3991.bin",
+      "offset": 205,
+      "target": 3981,
+      "present": false
+    },
+    {
+      "source": "3992.bin",
+      "offset": 1913,
+      "target": 16,
+      "present": false
+    },
+    {
+      "source": "3992.bin",
+      "offset": 2110,
+      "target": 16,
+      "present": false
+    },
+    {
+      "source": "3992.bin",
+      "offset": 2307,
+      "target": 16,
+      "present": false
+    },
+    {
+      "source": "3993.bin",
+      "offset": 243,
+      "target": 3983,
+      "present": false
+    },
+    {
+      "source": "3993.bin",
+      "offset": 522,
+      "target": 3983,
+      "present": false
+    },
+    {
+      "source": "3993.bin",
+      "offset": 801,
+      "target": 3983,
+      "present": false
+    },
+    {
+      "source": "3993.bin",
+      "offset": 1080,
+      "target": 3983,
+      "present": false
+    },
+    {
+      "source": "3999.bin",
+      "offset": 1767,
+      "target": 3998,
+      "present": true
+    },
+    {
+      "source": "8002.bin",
+      "offset": 372,
+      "target": 15,
+      "present": false
+    },
+    {
+      "source": "8002.bin",
+      "offset": 794,
+      "target": 17,
+      "present": false
+    }
+  ],
+  "sceneBindings": [
+    {
+      "script": "998.bin",
+      "map": 78,
+      "actor": 7,
+      "type": "script",
+      "params": [
+        0,
+        998
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "999.bin",
+      "map": 29,
+      "actor": 2,
+      "type": "script",
+      "params": [
+        0,
+        999
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "999.bin",
+      "map": 78,
+      "actor": 5,
+      "type": "script",
+      "params": [
+        0,
+        999
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1000.bin",
+      "map": 78,
+      "actor": 4,
+      "type": "script",
+      "params": [
+        0,
+        1000
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1003.bin",
+      "map": 10,
+      "actor": 15,
+      "type": "script",
+      "params": [
+        0,
+        1003
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1003.bin",
+      "map": 10,
+      "actor": 16,
+      "type": "s27_0",
+      "params": [
+        0,
+        1003,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1003.bin",
+      "map": 10,
+      "actor": 18,
+      "type": "npc_xiya",
+      "params": [
+        0,
+        1003,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1003.bin",
+      "map": 10,
+      "actor": 21,
+      "type": "cw2",
+      "params": [
+        0,
+        1003,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1004.bin",
+      "map": 8,
+      "actor": 0,
+      "type": "npc0",
+      "params": [
+        1,
+        1004,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1004.bin",
+      "map": 8,
+      "actor": 14,
+      "type": "script",
+      "params": [
+        0,
+        1004
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1005.bin",
+      "map": 11,
+      "actor": 3,
+      "type": "script",
+      "params": [
+        0,
+        1005
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1007.bin",
+      "map": 0,
+      "actor": 30,
+      "type": "script",
+      "params": [
+        0,
+        1007
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1008.bin",
+      "map": 12,
+      "actor": 17,
+      "type": "script",
+      "params": [
+        0,
+        1008
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1009.bin",
+      "map": 13,
+      "actor": 6,
+      "type": "script",
+      "params": [
+        0,
+        1009
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1010.bin",
+      "map": 0,
+      "actor": 38,
+      "type": "script",
+      "params": [
+        0,
+        1010
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1011.bin",
+      "map": 0,
+      "actor": 37,
+      "type": "script",
+      "params": [
+        0,
+        1011
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1012.bin",
+      "map": 0,
+      "actor": 20,
+      "type": "script",
+      "params": [
+        0,
+        1012
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1013.bin",
+      "map": 0,
+      "actor": 43,
+      "type": "script",
+      "params": [
+        0,
+        1013
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1014.bin",
+      "map": 0,
+      "actor": 68,
+      "type": "script",
+      "params": [
+        0,
+        1014
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1015.bin",
+      "map": 0,
+      "actor": 59,
+      "type": "script",
+      "params": [
+        0,
+        1015
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1016.bin",
+      "map": 0,
+      "actor": 60,
+      "type": "script",
+      "params": [
+        0,
+        1016
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1017.bin",
+      "map": 1,
+      "actor": 20,
+      "type": "script",
+      "params": [
+        0,
+        1017
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1017.bin",
+      "map": 2,
+      "actor": 37,
+      "type": "script",
+      "params": [
+        0,
+        1017
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1017.bin",
+      "map": 3,
+      "actor": 38,
+      "type": "script",
+      "params": [
+        0,
+        1017
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1018.bin",
+      "map": 5,
+      "actor": 12,
+      "type": "script",
+      "params": [
+        0,
+        1018
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1020.bin",
+      "map": 6,
+      "actor": 6,
+      "type": "script",
+      "params": [
+        0,
+        1020
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1021.bin",
+      "map": 14,
+      "actor": 55,
+      "type": "script",
+      "params": [
+        0,
+        1021
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1022.bin",
+      "map": 14,
+      "actor": 54,
+      "type": "npc_walker",
+      "params": [
+        0,
+        1022,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1022.bin",
+      "map": 14,
+      "actor": 58,
+      "type": "script",
+      "params": [
+        0,
+        1022
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1023.bin",
+      "map": 34,
+      "actor": 22,
+      "type": "script",
+      "params": [
+        0,
+        1023
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1024.bin",
+      "map": 35,
+      "actor": 40,
+      "type": "script",
+      "params": [
+        0,
+        1024
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1025.bin",
+      "map": 34,
+      "actor": 23,
+      "type": "script",
+      "params": [
+        0,
+        1025
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1026.bin",
+      "map": 36,
+      "actor": 10,
+      "type": "script",
+      "params": [
+        0,
+        1026
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1027.bin",
+      "map": 35,
+      "actor": 42,
+      "type": "script",
+      "params": [
+        0,
+        1027
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1028.bin",
+      "map": 11,
+      "actor": 9,
+      "type": "script",
+      "params": [
+        0,
+        1028
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1029.bin",
+      "map": 34,
+      "actor": 35,
+      "type": "script",
+      "params": [
+        0,
+        1029
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1030.bin",
+      "map": 40,
+      "actor": 28,
+      "type": "script",
+      "params": [
+        0,
+        1030
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1031.bin",
+      "map": 19,
+      "actor": 10,
+      "type": "script",
+      "params": [
+        0,
+        1031
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1032.bin",
+      "map": 28,
+      "actor": 158,
+      "type": "script",
+      "params": [
+        0,
+        1032
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1033.bin",
+      "map": 53,
+      "actor": 20,
+      "type": "script",
+      "params": [
+        0,
+        1033
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1034.bin",
+      "map": 54,
+      "actor": 6,
+      "type": "script",
+      "params": [
+        0,
+        1034
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1035.bin",
+      "map": 55,
+      "actor": 13,
+      "type": "script",
+      "params": [
+        0,
+        1035
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1036.bin",
+      "map": 28,
+      "actor": 175,
+      "type": "script",
+      "params": [
+        0,
+        1036
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1037.bin",
+      "map": 9,
+      "actor": 12,
+      "type": "script",
+      "params": [
+        0,
+        1037
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1038.bin",
+      "map": 28,
+      "actor": 194,
+      "type": "script",
+      "params": [
+        0,
+        1038
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1039.bin",
+      "map": 28,
+      "actor": 176,
+      "type": "script",
+      "params": [
+        0,
+        1039
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1039.bin",
+      "map": 28,
+      "actor": 195,
+      "type": "script",
+      "params": [
+        0,
+        1039
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1040.bin",
+      "map": 52,
+      "actor": 21,
+      "type": "script",
+      "params": [
+        0,
+        1040
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1041.bin",
+      "map": 28,
+      "actor": 177,
+      "type": "script",
+      "params": [
+        0,
+        1041
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1042.bin",
+      "map": 28,
+      "actor": 178,
+      "type": "script",
+      "params": [
+        0,
+        1042
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1043.bin",
+      "map": 9,
+      "actor": 23,
+      "type": "script",
+      "params": [
+        0,
+        1043
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1044.bin",
+      "map": 75,
+      "actor": 6,
+      "type": "npc_s8_0",
+      "params": [
+        0,
+        1044,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1044.bin",
+      "map": 75,
+      "actor": 7,
+      "type": "script",
+      "params": [
+        0,
+        1044
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1045.bin",
+      "map": 80,
+      "actor": 6,
+      "type": "script",
+      "params": [
+        0,
+        1045
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1046.bin",
+      "map": 14,
+      "actor": 77,
+      "type": "script",
+      "params": [
+        0,
+        1046
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1047.bin",
+      "map": 65,
+      "actor": 18,
+      "type": "script",
+      "params": [
+        1,
+        1047
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1994.bin",
+      "map": 7,
+      "actor": 19,
+      "type": "script",
+      "params": [
+        0,
+        1994
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1994.bin",
+      "map": 8,
+      "actor": 23,
+      "type": "script",
+      "params": [
+        0,
+        1994
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1995.bin",
+      "map": 5,
+      "actor": 26,
+      "type": "script",
+      "params": [
+        0,
+        1995
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1996.bin",
+      "map": 28,
+      "actor": 181,
+      "type": "script",
+      "params": [
+        0,
+        1996
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1997.bin",
+      "map": 5,
+      "actor": 14,
+      "type": "npc_fighter1",
+      "params": [
+        0,
+        1997,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1997.bin",
+      "map": 28,
+      "actor": 179,
+      "type": "script",
+      "params": [
+        0,
+        1997
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1997.bin",
+      "map": 28,
+      "actor": 180,
+      "type": "script",
+      "params": [
+        0,
+        1997
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1999.bin",
+      "map": 4,
+      "actor": 16,
+      "type": "npc_fighter2",
+      "params": [
+        0,
+        1999,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "1999.bin",
+      "map": 4,
+      "actor": 18,
+      "type": "script",
+      "params": [
+        0,
+        1999
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 0,
+      "actor": 8,
+      "type": "r_adorn",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 0,
+      "actor": 67,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 0,
+      "actor": 71,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 1,
+      "actor": 21,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 2,
+      "actor": 32,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 2,
+      "actor": 34,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 3,
+      "actor": 33,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 3,
+      "actor": 35,
+      "type": "script",
+      "params": [
+        1,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 5,
+      "actor": 10,
+      "type": "box",
+      "params": [
+        1,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 5,
+      "actor": 11,
+      "type": "box",
+      "params": [
+        1,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 5,
+      "actor": 24,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 5,
+      "actor": 25,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 5,
+      "actor": 27,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 6,
+      "actor": 23,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 7,
+      "actor": 4,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 7,
+      "actor": 18,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 8,
+      "actor": 15,
+      "type": "v_adorn",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 8,
+      "actor": 16,
+      "type": "v_adorn",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 8,
+      "actor": 17,
+      "type": "v_adorn",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 8,
+      "actor": 18,
+      "type": "v_adorn",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 10,
+      "actor": 17,
+      "type": "script",
+      "params": [
+        1,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 13,
+      "actor": 13,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 14,
+      "actor": 60,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 14,
+      "actor": 79,
+      "type": "script",
+      "params": [
+        1,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 15,
+      "actor": 45,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 15,
+      "actor": 49,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 16,
+      "actor": 56,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 28,
+      "actor": 191,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 34,
+      "actor": 53,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 40,
+      "actor": 31,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 41,
+      "actor": 13,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 41,
+      "actor": 14,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 41,
+      "actor": 16,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 43,
+      "actor": 17,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 43,
+      "actor": 19,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 43,
+      "actor": 20,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 45,
+      "actor": 30,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 45,
+      "actor": 36,
+      "type": "glass",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 45,
+      "actor": 37,
+      "type": "glass",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 46,
+      "actor": 4,
+      "type": "bigbox",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 47,
+      "actor": 4,
+      "type": "glass",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 47,
+      "actor": 5,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 50,
+      "actor": 14,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 50,
+      "actor": 15,
+      "type": "glass",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 61,
+      "actor": 13,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 62,
+      "actor": 9,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 64,
+      "actor": 4,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 65,
+      "actor": 19,
+      "type": "ice",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 65,
+      "actor": 21,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 65,
+      "actor": 22,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 65,
+      "actor": 24,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 65,
+      "actor": 34,
+      "type": "ice",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 66,
+      "actor": 11,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 67,
+      "actor": 10,
+      "type": "ice",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 67,
+      "actor": 13,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 67,
+      "actor": 14,
+      "type": "script",
+      "params": [
+        0,
+        2001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 70,
+      "actor": 6,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 70,
+      "actor": 7,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 70,
+      "actor": 8,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 71,
+      "actor": 4,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 71,
+      "actor": 5,
+      "type": "glass",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 76,
+      "actor": 6,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 77,
+      "actor": 6,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 77,
+      "actor": 8,
+      "type": "bigbox",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 79,
+      "actor": 4,
+      "type": "box",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 79,
+      "actor": 5,
+      "type": "glass",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2001.bin",
+      "map": 81,
+      "actor": 4,
+      "type": "glass",
+      "params": [
+        0,
+        2001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2020.bin",
+      "map": 8,
+      "actor": 21,
+      "type": "glass",
+      "params": [
+        1,
+        2020,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2025.bin",
+      "map": 67,
+      "actor": 11,
+      "type": "v_adorn",
+      "params": [
+        1,
+        2025,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2026.bin",
+      "map": 67,
+      "actor": 12,
+      "type": "v_adorn",
+      "params": [
+        1,
+        2026,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2062.bin",
+      "map": 45,
+      "actor": 32,
+      "type": "box",
+      "params": [
+        0,
+        2062,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 1,
+      "actor": 24,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 2,
+      "actor": 31,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 2,
+      "actor": 33,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 2,
+      "actor": 38,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 3,
+      "actor": 32,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 3,
+      "actor": 34,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 5,
+      "actor": 23,
+      "type": "block",
+      "params": [
+        1,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 15,
+      "actor": 46,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 15,
+      "actor": 47,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 16,
+      "actor": 55,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 41,
+      "actor": 15,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 43,
+      "actor": 18,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 61,
+      "actor": 10,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 61,
+      "actor": 11,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 62,
+      "actor": 6,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 65,
+      "actor": 20,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 65,
+      "actor": 23,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 66,
+      "actor": 10,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 70,
+      "actor": 9,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 70,
+      "actor": 10,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 76,
+      "actor": 7,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2501.bin",
+      "map": 77,
+      "actor": 7,
+      "type": "block",
+      "params": [
+        0,
+        2501,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2986.bin",
+      "map": 17,
+      "actor": 57,
+      "type": "special_1",
+      "params": [
+        0,
+        2986,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2987.bin",
+      "map": 50,
+      "actor": 12,
+      "type": "special_1",
+      "params": [
+        0,
+        2987,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2995.bin",
+      "map": 52,
+      "actor": 5,
+      "type": "room2",
+      "params": [
+        0,
+        2995,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2995.bin",
+      "map": 52,
+      "actor": 6,
+      "type": "room2",
+      "params": [
+        0,
+        2995,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2995.bin",
+      "map": 52,
+      "actor": 7,
+      "type": "room2",
+      "params": [
+        0,
+        2995,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2995.bin",
+      "map": 52,
+      "actor": 8,
+      "type": "room2",
+      "params": [
+        0,
+        2995,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2995.bin",
+      "map": 52,
+      "actor": 9,
+      "type": "room2",
+      "params": [
+        0,
+        2995,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2995.bin",
+      "map": 52,
+      "actor": 10,
+      "type": "room2",
+      "params": [
+        0,
+        2995,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2995.bin",
+      "map": 52,
+      "actor": 11,
+      "type": "room2",
+      "params": [
+        0,
+        2995,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2995.bin",
+      "map": 52,
+      "actor": 12,
+      "type": "room2",
+      "params": [
+        0,
+        2995,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2998.bin",
+      "map": 36,
+      "actor": 8,
+      "type": "bigbox",
+      "params": [
+        0,
+        2998,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2998.bin",
+      "map": 56,
+      "actor": 9,
+      "type": "bigbox",
+      "params": [
+        0,
+        2998,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2999.bin",
+      "map": 12,
+      "actor": 6,
+      "type": "pool4",
+      "params": [
+        0,
+        2999,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2999.bin",
+      "map": 38,
+      "actor": 6,
+      "type": "pool4",
+      "params": [
+        0,
+        2999,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "2999.bin",
+      "map": 82,
+      "actor": 6,
+      "type": "pool4",
+      "params": [
+        0,
+        2999,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3001.bin",
+      "map": 30,
+      "actor": 3,
+      "type": "npc14_1",
+      "params": [
+        0,
+        3001,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3002.bin",
+      "map": 0,
+      "actor": 47,
+      "type": "npc5",
+      "params": [
+        0,
+        3002,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3003.bin",
+      "map": 0,
+      "actor": 45,
+      "type": "npc2",
+      "params": [
+        0,
+        3003,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3005.bin",
+      "map": 0,
+      "actor": 46,
+      "type": "npc3",
+      "params": [
+        0,
+        3005,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3006.bin",
+      "map": 0,
+      "actor": 44,
+      "type": "npc1",
+      "params": [
+        0,
+        3006,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3008.bin",
+      "map": 0,
+      "actor": 48,
+      "type": "npc6",
+      "params": [
+        0,
+        3008,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3010.bin",
+      "map": 31,
+      "actor": 3,
+      "type": "npc14",
+      "params": [
+        0,
+        3010,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3011.bin",
+      "map": 32,
+      "actor": 3,
+      "type": "npc2",
+      "params": [
+        0,
+        3011,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3011.bin",
+      "map": 60,
+      "actor": 3,
+      "type": "npc14",
+      "params": [
+        0,
+        3011,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3012.bin",
+      "map": 35,
+      "actor": 19,
+      "type": "npc15",
+      "params": [
+        0,
+        3012,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3013.bin",
+      "map": 35,
+      "actor": 2,
+      "type": "npc2",
+      "params": [
+        0,
+        3013,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3013.bin",
+      "map": 35,
+      "actor": 4,
+      "type": "npc6",
+      "params": [
+        0,
+        3013,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3013.bin",
+      "map": 35,
+      "actor": 5,
+      "type": "npc7",
+      "params": [
+        0,
+        3013,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3013.bin",
+      "map": 35,
+      "actor": 6,
+      "type": "npc9",
+      "params": [
+        0,
+        3013,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3013.bin",
+      "map": 35,
+      "actor": 7,
+      "type": "npc10",
+      "params": [
+        0,
+        3013,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3013.bin",
+      "map": 35,
+      "actor": 8,
+      "type": "npc11",
+      "params": [
+        0,
+        3013,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3013.bin",
+      "map": 35,
+      "actor": 9,
+      "type": "npc12",
+      "params": [
+        0,
+        3013,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3013.bin",
+      "map": 35,
+      "actor": 10,
+      "type": "npc13",
+      "params": [
+        0,
+        3013,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3013.bin",
+      "map": 35,
+      "actor": 11,
+      "type": "npc14",
+      "params": [
+        0,
+        3013,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3013.bin",
+      "map": 35,
+      "actor": 12,
+      "type": "npc14_1",
+      "params": [
+        0,
+        3013,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3014.bin",
+      "map": 2,
+      "actor": 39,
+      "type": "npc5",
+      "params": [
+        0,
+        3014,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3014.bin",
+      "map": 35,
+      "actor": 14,
+      "type": "dijing",
+      "params": [
+        0,
+        3014,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3015.bin",
+      "map": 35,
+      "actor": 13,
+      "type": "npc16",
+      "params": [
+        0,
+        3015,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3016.bin",
+      "map": 35,
+      "actor": 15,
+      "type": "npc_soldier",
+      "params": [
+        0,
+        3016,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3016.bin",
+      "map": 35,
+      "actor": 16,
+      "type": "npc_fighter1",
+      "params": [
+        0,
+        3016,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3016.bin",
+      "map": 35,
+      "actor": 17,
+      "type": "npc_fighter1",
+      "params": [
+        0,
+        3016,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3016.bin",
+      "map": 35,
+      "actor": 18,
+      "type": "npc_fighter1",
+      "params": [
+        0,
+        3016,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3017.bin",
+      "map": 34,
+      "actor": 6,
+      "type": "npc11",
+      "params": [
+        1,
+        3017,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3018.bin",
+      "map": 36,
+      "actor": 9,
+      "type": "dijing",
+      "params": [
+        0,
+        3018,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3020.bin",
+      "map": 37,
+      "actor": 2,
+      "type": "npc15",
+      "params": [
+        0,
+        3020,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3020.bin",
+      "map": 85,
+      "actor": 2,
+      "type": "npc15",
+      "params": [
+        0,
+        3020,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3021.bin",
+      "map": 0,
+      "actor": 50,
+      "type": "npc14",
+      "params": [
+        0,
+        3021,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3022.bin",
+      "map": 0,
+      "actor": 49,
+      "type": "npc12",
+      "params": [
+        0,
+        3022,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3022.bin",
+      "map": 1,
+      "actor": 26,
+      "type": "npc8",
+      "params": [
+        0,
+        3022,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3023.bin",
+      "map": 12,
+      "actor": 18,
+      "type": "npc15",
+      "params": [
+        0,
+        3023,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3023.bin",
+      "map": 82,
+      "actor": 17,
+      "type": "npc15",
+      "params": [
+        0,
+        3023,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3024.bin",
+      "map": 34,
+      "actor": 19,
+      "type": "npc15",
+      "params": [
+        0,
+        3024,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3025.bin",
+      "map": 34,
+      "actor": 18,
+      "type": "npc9",
+      "params": [
+        0,
+        3025,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3026.bin",
+      "map": 34,
+      "actor": 17,
+      "type": "npc4",
+      "params": [
+        0,
+        3026,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3027.bin",
+      "map": 4,
+      "actor": 17,
+      "type": "npc16",
+      "params": [
+        0,
+        3027,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3028.bin",
+      "map": 1,
+      "actor": 22,
+      "type": "npc16",
+      "params": [
+        0,
+        3028,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3028.bin",
+      "map": 1,
+      "actor": 23,
+      "type": "pig",
+      "params": [
+        0,
+        3028,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3029.bin",
+      "map": 32,
+      "actor": 9,
+      "type": "npc10",
+      "params": [
+        0,
+        3029,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3029.bin",
+      "map": 60,
+      "actor": 6,
+      "type": "npc_fighter2",
+      "params": [
+        0,
+        3029,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3030.bin",
+      "map": 53,
+      "actor": 18,
+      "type": "npc14_1",
+      "params": [
+        0,
+        3030,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3031.bin",
+      "map": 55,
+      "actor": 2,
+      "type": "npc17",
+      "params": [
+        0,
+        3031,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3032.bin",
+      "map": 54,
+      "actor": 2,
+      "type": "npc19",
+      "params": [
+        0,
+        3032,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3033.bin",
+      "map": 61,
+      "actor": 12,
+      "type": "npc_fighter1",
+      "params": [
+        0,
+        3033,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3034.bin",
+      "map": 28,
+      "actor": 160,
+      "type": "npc14",
+      "params": [
+        0,
+        3034,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3035.bin",
+      "map": 57,
+      "actor": 6,
+      "type": "npc15",
+      "params": [
+        0,
+        3035,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3036.bin",
+      "map": 58,
+      "actor": 5,
+      "type": "npc11",
+      "params": [
+        0,
+        3036,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3037.bin",
+      "map": 59,
+      "actor": 5,
+      "type": "npc14",
+      "params": [
+        0,
+        3037,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3038.bin",
+      "map": 56,
+      "actor": 5,
+      "type": "dijing",
+      "params": [
+        0,
+        3038,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3039.bin",
+      "map": 66,
+      "actor": 8,
+      "type": "npc16",
+      "params": [
+        0,
+        3039,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3040.bin",
+      "map": 72,
+      "actor": 6,
+      "type": "npc16",
+      "params": [
+        0,
+        3040,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3041.bin",
+      "map": 45,
+      "actor": 29,
+      "type": "npc16",
+      "params": [
+        1,
+        3041,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3042.bin",
+      "map": 28,
+      "actor": 184,
+      "type": "npc2",
+      "params": [
+        0,
+        3042,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3043.bin",
+      "map": 28,
+      "actor": 161,
+      "type": "npc7",
+      "params": [
+        0,
+        3043,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3044.bin",
+      "map": 28,
+      "actor": 190,
+      "type": "npc18",
+      "params": [
+        0,
+        3044,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3045.bin",
+      "map": 83,
+      "actor": 2,
+      "type": "npc_fighter2",
+      "params": [
+        0,
+        3045,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3046.bin",
+      "map": 54,
+      "actor": 11,
+      "type": "npc16",
+      "params": [
+        0,
+        3046,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3047.bin",
+      "map": 60,
+      "actor": 7,
+      "type": "npc16",
+      "params": [
+        0,
+        3047,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3049.bin",
+      "map": 56,
+      "actor": 8,
+      "type": "dijing",
+      "params": [
+        0,
+        3049,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3050.bin",
+      "map": 56,
+      "actor": 3,
+      "type": "room2",
+      "params": [
+        0,
+        3050,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3051.bin",
+      "map": 55,
+      "actor": 3,
+      "type": "npc15",
+      "params": [
+        0,
+        3051,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3052.bin",
+      "map": 55,
+      "actor": 14,
+      "type": "npc14_1",
+      "params": [
+        0,
+        3052,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3053.bin",
+      "map": 55,
+      "actor": 15,
+      "type": "npc14_1",
+      "params": [
+        0,
+        3053,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3054.bin",
+      "map": 16,
+      "actor": 67,
+      "type": "npc16",
+      "params": [
+        0,
+        3054,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3055.bin",
+      "map": 54,
+      "actor": 10,
+      "type": "npc_fighter1",
+      "params": [
+        0,
+        3055,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3056.bin",
+      "map": 52,
+      "actor": 17,
+      "type": "npc_fighter2",
+      "params": [
+        0,
+        3056,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3057.bin",
+      "map": 52,
+      "actor": 16,
+      "type": "npc_fighter1",
+      "params": [
+        0,
+        3057,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3058.bin",
+      "map": 53,
+      "actor": 14,
+      "type": "npc15",
+      "params": [
+        0,
+        3058,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3058.bin",
+      "map": 53,
+      "actor": 15,
+      "type": "npc14",
+      "params": [
+        0,
+        3058,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3058.bin",
+      "map": 53,
+      "actor": 16,
+      "type": "npc8",
+      "params": [
+        0,
+        3058,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3058.bin",
+      "map": 53,
+      "actor": 17,
+      "type": "npc14",
+      "params": [
+        0,
+        3058,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3059.bin",
+      "map": 52,
+      "actor": 3,
+      "type": "npc15",
+      "params": [
+        0,
+        3059,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3060.bin",
+      "map": 52,
+      "actor": 2,
+      "type": "npc15",
+      "params": [
+        0,
+        3060,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3060.bin",
+      "map": 52,
+      "actor": 4,
+      "type": "npc15",
+      "params": [
+        0,
+        3060,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 0,
+      "actor": 73,
+      "type": "npc9",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 0,
+      "actor": 74,
+      "type": "npc6",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 28,
+      "actor": 147,
+      "type": "npc14",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 28,
+      "actor": 148,
+      "type": "npc15",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 28,
+      "actor": 152,
+      "type": "npc_fighter2",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 28,
+      "actor": 153,
+      "type": "npc_fighter1",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 28,
+      "actor": 156,
+      "type": "npc_soldier",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 28,
+      "actor": 157,
+      "type": "npc_soldier",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 28,
+      "actor": 197,
+      "type": "npc_soldier",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 28,
+      "actor": 198,
+      "type": "npc_soldier",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 28,
+      "actor": 199,
+      "type": "npc_soldier",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 28,
+      "actor": 200,
+      "type": "npc_soldier",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 32,
+      "actor": 10,
+      "type": "npc16",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 32,
+      "actor": 11,
+      "type": "npc16",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 34,
+      "actor": 16,
+      "type": "npc_fighter1",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 54,
+      "actor": 13,
+      "type": "npc16",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 57,
+      "actor": 4,
+      "type": "npc6",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 60,
+      "actor": 8,
+      "type": "npc16",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3061.bin",
+      "map": 66,
+      "actor": 14,
+      "type": "npc16",
+      "params": [
+        0,
+        3061,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3062.bin",
+      "map": 28,
+      "actor": 149,
+      "type": "npc9",
+      "params": [
+        0,
+        3062,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3063.bin",
+      "map": 28,
+      "actor": 146,
+      "type": "npc12",
+      "params": [
+        0,
+        3063,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3064.bin",
+      "map": 84,
+      "actor": 4,
+      "type": "special_1",
+      "params": [
+        0,
+        3064,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3065.bin",
+      "map": 15,
+      "actor": 51,
+      "type": "npc16",
+      "params": [
+        0,
+        3065,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3066.bin",
+      "map": 0,
+      "actor": 72,
+      "type": "npc11",
+      "params": [
+        0,
+        3066,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3068.bin",
+      "map": 38,
+      "actor": 17,
+      "type": "npc15",
+      "params": [
+        0,
+        3068,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3070.bin",
+      "map": 54,
+      "actor": 4,
+      "type": "npc10",
+      "params": [
+        0,
+        3070,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3071.bin",
+      "map": 54,
+      "actor": 12,
+      "type": "npc10",
+      "params": [
+        0,
+        3071,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3072.bin",
+      "map": 17,
+      "actor": 60,
+      "type": "npc16",
+      "params": [
+        0,
+        3072,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3073.bin",
+      "map": 28,
+      "actor": 193,
+      "type": "npc18",
+      "params": [
+        0,
+        3073,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3075.bin",
+      "map": 36,
+      "actor": 6,
+      "type": "dijing",
+      "params": [
+        0,
+        3075,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3075.bin",
+      "map": 56,
+      "actor": 6,
+      "type": "dijing",
+      "params": [
+        0,
+        3075,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3076.bin",
+      "map": 56,
+      "actor": 7,
+      "type": "dijing",
+      "params": [
+        0,
+        3076,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3077.bin",
+      "map": 56,
+      "actor": 2,
+      "type": "dijing",
+      "params": [
+        0,
+        3077,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3078.bin",
+      "map": 53,
+      "actor": 22,
+      "type": "npc14",
+      "params": [
+        0,
+        3078,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3990.bin",
+      "map": 0,
+      "actor": 75,
+      "type": "panel",
+      "params": [
+        0,
+        3990,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3990.bin",
+      "map": 0,
+      "actor": 76,
+      "type": "panel",
+      "params": [
+        0,
+        3990,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3990.bin",
+      "map": 14,
+      "actor": 80,
+      "type": "panel",
+      "params": [
+        0,
+        3990,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3990.bin",
+      "map": 16,
+      "actor": 69,
+      "type": "panel",
+      "params": [
+        1,
+        3990,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3990.bin",
+      "map": 41,
+      "actor": 18,
+      "type": "panel",
+      "params": [
+        0,
+        3990,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3990.bin",
+      "map": 41,
+      "actor": 19,
+      "type": "panel",
+      "params": [
+        0,
+        3990,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3990.bin",
+      "map": 42,
+      "actor": 17,
+      "type": "panel",
+      "params": [
+        0,
+        3990,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3990.bin",
+      "map": 44,
+      "actor": 13,
+      "type": "panel",
+      "params": [
+        0,
+        3990,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3991.bin",
+      "map": 55,
+      "actor": 23,
+      "type": "special_1",
+      "params": [
+        0,
+        3991,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3992.bin",
+      "map": 55,
+      "actor": 16,
+      "type": "special_1",
+      "params": [
+        0,
+        3992,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3992.bin",
+      "map": 55,
+      "actor": 17,
+      "type": "special_1",
+      "params": [
+        0,
+        3992,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3992.bin",
+      "map": 55,
+      "actor": 18,
+      "type": "special_1",
+      "params": [
+        0,
+        3992,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3992.bin",
+      "map": 55,
+      "actor": 19,
+      "type": "special_1",
+      "params": [
+        0,
+        3992,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3992.bin",
+      "map": 55,
+      "actor": 20,
+      "type": "special_1",
+      "params": [
+        0,
+        3992,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3992.bin",
+      "map": 55,
+      "actor": 21,
+      "type": "special_1",
+      "params": [
+        0,
+        3992,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3992.bin",
+      "map": 55,
+      "actor": 22,
+      "type": "special_1",
+      "params": [
+        0,
+        3992,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3993.bin",
+      "map": 40,
+      "actor": 13,
+      "type": "npc14",
+      "params": [
+        0,
+        3993,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3993.bin",
+      "map": 40,
+      "actor": 14,
+      "type": "npc14_1",
+      "params": [
+        0,
+        3993,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3993.bin",
+      "map": 40,
+      "actor": 15,
+      "type": "npc14_1",
+      "params": [
+        0,
+        3993,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3993.bin",
+      "map": 40,
+      "actor": 16,
+      "type": "npc14_1",
+      "params": [
+        0,
+        3993,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3993.bin",
+      "map": 40,
+      "actor": 27,
+      "type": "panel",
+      "params": [
+        0,
+        3993,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3994.bin",
+      "map": 40,
+      "actor": 12,
+      "type": "npc14",
+      "params": [
+        0,
+        3994,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3994.bin",
+      "map": 77,
+      "actor": 9,
+      "type": "special_1",
+      "params": [
+        0,
+        3994,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3995.bin",
+      "map": 14,
+      "actor": 51,
+      "type": "special_1",
+      "params": [
+        0,
+        3995,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3996.bin",
+      "map": 45,
+      "actor": 38,
+      "type": "special_1",
+      "params": [
+        0,
+        3996,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3996.bin",
+      "map": 45,
+      "actor": 39,
+      "type": "special_1",
+      "params": [
+        0,
+        3996,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3996.bin",
+      "map": 45,
+      "actor": 40,
+      "type": "special_1",
+      "params": [
+        0,
+        3996,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3996.bin",
+      "map": 45,
+      "actor": 41,
+      "type": "special_1",
+      "params": [
+        0,
+        3996,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3996.bin",
+      "map": 45,
+      "actor": 42,
+      "type": "special_1",
+      "params": [
+        0,
+        3996,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3997.bin",
+      "map": 70,
+      "actor": 13,
+      "type": "panel",
+      "params": [
+        0,
+        3997,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3997.bin",
+      "map": 74,
+      "actor": 8,
+      "type": "panel",
+      "params": [
+        0,
+        3997,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "3999.bin",
+      "map": 28,
+      "actor": 150,
+      "type": "special_1",
+      "params": [
+        1,
+        3999,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "4001.bin",
+      "map": 8,
+      "actor": 19,
+      "type": "script",
+      "params": [
+        0,
+        4001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "4002.bin",
+      "map": 8,
+      "actor": 20,
+      "type": "script",
+      "params": [
+        0,
+        4002
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "4003.bin",
+      "map": 2,
+      "actor": 40,
+      "type": "script",
+      "params": [
+        0,
+        4003
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "4003.bin",
+      "map": 70,
+      "actor": 12,
+      "type": "script",
+      "params": [
+        0,
+        4003
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "4004.bin",
+      "map": 70,
+      "actor": 11,
+      "type": "script",
+      "params": [
+        0,
+        4004
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 0,
+      "actor": 52,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 0,
+      "actor": 53,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 0,
+      "actor": 54,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 0,
+      "actor": 55,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 0,
+      "actor": 56,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 0,
+      "actor": 57,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 11,
+      "actor": 2,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 12,
+      "actor": 16,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 13,
+      "actor": 7,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 163,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 167,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 168,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 169,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 170,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 171,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 172,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 173,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 174,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 188,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 28,
+      "actor": 189,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 30,
+      "actor": 2,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 31,
+      "actor": 2,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 32,
+      "actor": 2,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 33,
+      "actor": 2,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 34,
+      "actor": 26,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 34,
+      "actor": 27,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 34,
+      "actor": 28,
+      "type": "script",
+      "params": [
+        1,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 34,
+      "actor": 31,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 34,
+      "actor": 36,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 35,
+      "actor": 43,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 36,
+      "actor": 7,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 37,
+      "actor": 5,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 38,
+      "actor": 16,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 40,
+      "actor": 29,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 40,
+      "actor": 30,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 52,
+      "actor": 18,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 53,
+      "actor": 21,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 54,
+      "actor": 5,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 55,
+      "actor": 4,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 56,
+      "actor": 4,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 57,
+      "actor": 7,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 58,
+      "actor": 7,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 59,
+      "actor": 6,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 60,
+      "actor": 2,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 82,
+      "actor": 16,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 83,
+      "actor": 3,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8001.bin",
+      "map": 85,
+      "actor": 3,
+      "type": "script",
+      "params": [
+        0,
+        8001
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8002.bin",
+      "map": 28,
+      "actor": 52,
+      "type": "script",
+      "params": [
+        0,
+        8002
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8002.bin",
+      "map": 40,
+      "actor": 32,
+      "type": "panel",
+      "params": [
+        0,
+        8002,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8002.bin",
+      "map": 40,
+      "actor": 33,
+      "type": "panel",
+      "params": [
+        0,
+        8002,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8002.bin",
+      "map": 40,
+      "actor": 34,
+      "type": "panel",
+      "params": [
+        0,
+        8002,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8002.bin",
+      "map": 40,
+      "actor": 35,
+      "type": "panel",
+      "params": [
+        0,
+        8002,
+        0
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8002.bin",
+      "map": 80,
+      "actor": 13,
+      "type": "script",
+      "params": [
+        0,
+        8002
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    },
+    {
+      "script": "8002.bin",
+      "map": 80,
+      "actor": 14,
+      "type": "script",
+      "params": [
+        0,
+        8002
+      ],
+      "binding": "actor params[1]; static reference, not chronological order"
+    }
+  ],
+  "missingTargets": [
+    {
+      "id": "missing:script:13.bin",
+      "kind": "static_script_call",
+      "target": "13.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "3017.bin",
+          "offset": 680,
+          "target": 13,
+          "present": false
+        },
+        {
+          "source": "3017.bin",
+          "offset": 2071,
+          "target": 13,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:15.bin",
+      "kind": "static_script_call",
+      "target": "15.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "8002.bin",
+          "offset": 372,
+          "target": 15,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:16.bin",
+      "kind": "static_script_call",
+      "target": "16.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "3992.bin",
+          "offset": 1913,
+          "target": 16,
+          "present": false
+        },
+        {
+          "source": "3992.bin",
+          "offset": 2110,
+          "target": 16,
+          "present": false
+        },
+        {
+          "source": "3992.bin",
+          "offset": 2307,
+          "target": 16,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:17.bin",
+      "kind": "static_script_call",
+      "target": "17.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "8002.bin",
+          "offset": 794,
+          "target": 17,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:18.bin",
+      "kind": "static_script_call",
+      "target": "18.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "11.bin",
+          "offset": 140,
+          "target": 18,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:19.bin",
+      "kind": "static_script_call",
+      "target": "19.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "11.bin",
+          "offset": 194,
+          "target": 19,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:20.bin",
+      "kind": "static_script_call",
+      "target": "20.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "11.bin",
+          "offset": 248,
+          "target": 20,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:21.bin",
+      "kind": "static_script_call",
+      "target": "21.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "11.bin",
+          "offset": 302,
+          "target": 21,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:3981.bin",
+      "kind": "static_script_call",
+      "target": "3981.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "3991.bin",
+          "offset": 205,
+          "target": 3981,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:3983.bin",
+      "kind": "static_script_call",
+      "target": "3983.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "3993.bin",
+          "offset": 243,
+          "target": 3983,
+          "present": false
+        },
+        {
+          "source": "3993.bin",
+          "offset": 522,
+          "target": 3983,
+          "present": false
+        },
+        {
+          "source": "3993.bin",
+          "offset": 801,
+          "target": 3983,
+          "present": false
+        },
+        {
+          "source": "3993.bin",
+          "offset": 1080,
+          "target": 3983,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:29950.bin",
+      "kind": "static_script_call",
+      "target": "29950.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "2995.bin",
+          "offset": 190,
+          "target": 29950,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:29980.bin",
+      "kind": "static_script_call",
+      "target": "29980.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "2998.bin",
+          "offset": 181,
+          "target": 29980,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:script:30401.bin",
+      "kind": "static_script_call",
+      "target": "30401.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "source": "3040.bin",
+          "offset": 624,
+          "target": 30401,
+          "present": false
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:0.bin",
+      "kind": "scene_actor_script",
+      "target": "0.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 7,
+          "actor": 0,
+          "type": "npc0",
+          "params": [
+            1,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 7,
+          "actor": 2,
+          "type": "layer0",
+          "params": [
+            1,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 7,
+          "actor": 3,
+          "type": "layer1",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 8,
+          "actor": 2,
+          "type": "layer0",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 8,
+          "actor": 3,
+          "type": "layer1",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 8,
+          "actor": 4,
+          "type": "layer0",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 8,
+          "actor": 5,
+          "type": "layer1",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 8,
+          "actor": 6,
+          "type": "layer0",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 8,
+          "actor": 7,
+          "type": "layer1",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 8,
+          "actor": 8,
+          "type": "layer0",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 8,
+          "actor": 9,
+          "type": "layer1",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 8,
+          "actor": 11,
+          "type": "door_1",
+          "params": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 9,
+          "actor": 0,
+          "type": "npc0",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 9,
+          "actor": 6,
+          "type": "s27_0",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 9,
+          "actor": 9,
+          "type": "s27_0",
+          "params": [
+            0,
+            0,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        },
+        {
+          "map": 9,
+          "actor": 11,
+          "type": "door_0",
+          "params": [
+            0,
+            0,
+            3,
+            8
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:1002.bin",
+      "kind": "scene_actor_script",
+      "target": "1002.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 7,
+          "actor": 11,
+          "type": "script",
+          "params": [
+            1,
+            1002
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:2017.bin",
+      "kind": "scene_actor_script",
+      "target": "2017.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 16,
+          "actor": 57,
+          "type": "box",
+          "params": [
+            0,
+            2017,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:2063.bin",
+      "kind": "scene_actor_script",
+      "target": "2063.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 45,
+          "actor": 31,
+          "type": "box",
+          "params": [
+            0,
+            2063,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:2064.bin",
+      "kind": "scene_actor_script",
+      "target": "2064.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 45,
+          "actor": 34,
+          "type": "box",
+          "params": [
+            0,
+            2064,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:2065.bin",
+      "kind": "scene_actor_script",
+      "target": "2065.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 45,
+          "actor": 33,
+          "type": "box",
+          "params": [
+            0,
+            2065,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:2066.bin",
+      "kind": "scene_actor_script",
+      "target": "2066.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 45,
+          "actor": 35,
+          "type": "box",
+          "params": [
+            0,
+            2066,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:2519.bin",
+      "kind": "scene_actor_script",
+      "target": "2519.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 81,
+          "actor": 5,
+          "type": "block",
+          "params": [
+            0,
+            2519,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:30402.bin",
+      "kind": "scene_actor_script",
+      "target": "30402.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 45,
+          "actor": 61,
+          "type": "npc16",
+          "params": [
+            0,
+            30402,
+            0
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:4998.bin",
+      "kind": "scene_actor_script",
+      "target": "4998.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 34,
+          "actor": 49,
+          "type": "script",
+          "params": [
+            0,
+            4998
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:scene-script:4999.bin",
+      "kind": "scene_actor_script",
+      "target": "4999.bin",
+      "status": "missing_source",
+      "references": [
+        {
+          "map": 14,
+          "actor": 76,
+          "type": "script",
+          "params": [
+            0,
+            4999
+          ],
+          "binding": "actor params[1]; static reference, not chronological order"
+        }
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:init:m86",
+      "kind": "separate_scene_initialization",
+      "target": "m86.bin",
+      "status": "missing_source",
+      "references": [
+        "Reference/OriginalGame/解析说明.txt: 场景ID>=86单独初始化"
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:mmp:86",
+      "kind": "encounter_definition",
+      "target": "mmp/86.bin",
+      "status": "missing_source",
+      "references": [
+        "map:86"
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:init:m87",
+      "kind": "separate_scene_initialization",
+      "target": "m87.bin",
+      "status": "missing_source",
+      "references": [
+        "Reference/OriginalGame/解析说明.txt: 场景ID>=86单独初始化"
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:mmp:87",
+      "kind": "encounter_definition",
+      "target": "mmp/87.bin",
+      "status": "missing_source",
+      "references": [
+        "map:87"
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:init:m88",
+      "kind": "separate_scene_initialization",
+      "target": "m88.bin",
+      "status": "missing_source",
+      "references": [
+        "Reference/OriginalGame/解析说明.txt: 场景ID>=86单独初始化"
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:mmp:88",
+      "kind": "encounter_definition",
+      "target": "mmp/88.bin",
+      "status": "missing_source",
+      "references": [
+        "map:88"
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:init:m89",
+      "kind": "separate_scene_initialization",
+      "target": "m89.bin",
+      "status": "missing_source",
+      "references": [
+        "Reference/OriginalGame/解析说明.txt: 场景ID>=86单独初始化"
+      ],
+      "task": "A02"
+    },
+    {
+      "id": "missing:mmp:89",
+      "kind": "encounter_definition",
+      "target": "mmp/89.bin",
+      "status": "missing_source",
+      "references": [
+        "map:89"
+      ],
+      "task": "A02"
+    }
+  ],
+  "mapDoorEdges": [
+    {
+      "source": 0,
+      "actor": 21,
+      "target": 10,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 0,
+      "actor": 36,
+      "target": 13,
+      "door": 6,
+      "targetPresent": true
+    },
+    {
+      "source": 0,
+      "actor": 40,
+      "target": 14,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 0,
+      "actor": 69,
+      "target": 1,
+      "door": 12,
+      "targetPresent": true
+    },
+    {
+      "source": 1,
+      "actor": 2,
+      "target": 2,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 1,
+      "actor": 5,
+      "target": 2,
+      "door": 7,
+      "targetPresent": true
+    },
+    {
+      "source": 1,
+      "actor": 10,
+      "target": 0,
+      "door": 11,
+      "targetPresent": true
+    },
+    {
+      "source": 2,
+      "actor": 5,
+      "target": 1,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 2,
+      "actor": 6,
+      "target": 3,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 2,
+      "actor": 9,
+      "target": 3,
+      "door": 5,
+      "targetPresent": true
+    },
+    {
+      "source": 2,
+      "actor": 10,
+      "target": 1,
+      "door": 6,
+      "targetPresent": true
+    },
+    {
+      "source": 2,
+      "actor": 13,
+      "target": 3,
+      "door": 8,
+      "targetPresent": true
+    },
+    {
+      "source": 2,
+      "actor": 24,
+      "target": 3,
+      "door": 15,
+      "targetPresent": true
+    },
+    {
+      "source": 3,
+      "actor": 5,
+      "target": 2,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 3,
+      "actor": 6,
+      "target": 2,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 3,
+      "actor": 8,
+      "target": 2,
+      "door": 9,
+      "targetPresent": true
+    },
+    {
+      "source": 3,
+      "actor": 10,
+      "target": 4,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 3,
+      "actor": 24,
+      "target": 2,
+      "door": 16,
+      "targetPresent": true
+    },
+    {
+      "source": 4,
+      "actor": 3,
+      "target": 3,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 4,
+      "actor": 8,
+      "target": 6,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 4,
+      "actor": 19,
+      "target": 84,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 5,
+      "actor": 2,
+      "target": 44,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 5,
+      "actor": 4,
+      "target": 7,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 5,
+      "actor": 20,
+      "target": 61,
+      "door": 14,
+      "targetPresent": true
+    },
+    {
+      "source": 5,
+      "actor": 22,
+      "target": 63,
+      "door": 42,
+      "targetPresent": true
+    },
+    {
+      "source": 5,
+      "actor": 30,
+      "target": 61,
+      "door": 12,
+      "targetPresent": true
+    },
+    {
+      "source": 6,
+      "actor": 3,
+      "target": 4,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 6,
+      "actor": 4,
+      "target": 10,
+      "door": 6,
+      "targetPresent": true
+    },
+    {
+      "source": 7,
+      "actor": 9,
+      "target": 8,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 7,
+      "actor": 15,
+      "target": 5,
+      "door": 5,
+      "targetPresent": true
+    },
+    {
+      "source": 8,
+      "actor": 10,
+      "target": 9,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 8,
+      "actor": 12,
+      "target": 7,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 9,
+      "actor": 11,
+      "target": 8,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 9,
+      "actor": 13,
+      "target": 65,
+      "door": 11,
+      "targetPresent": true
+    },
+    {
+      "source": 9,
+      "actor": 19,
+      "target": 61,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 9,
+      "actor": 21,
+      "target": 62,
+      "door": 21,
+      "targetPresent": true
+    },
+    {
+      "source": 10,
+      "actor": 9,
+      "target": 0,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 10,
+      "actor": 11,
+      "target": 6,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 13,
+      "actor": 3,
+      "target": 0,
+      "door": 5,
+      "targetPresent": true
+    },
+    {
+      "source": 14,
+      "actor": 41,
+      "target": 0,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 14,
+      "actor": 43,
+      "target": 15,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 14,
+      "actor": 45,
+      "target": 15,
+      "door": 6,
+      "targetPresent": true
+    },
+    {
+      "source": 14,
+      "actor": 47,
+      "target": 16,
+      "door": 8,
+      "targetPresent": true
+    },
+    {
+      "source": 14,
+      "actor": 49,
+      "target": 16,
+      "door": 10,
+      "targetPresent": true
+    },
+    {
+      "source": 15,
+      "actor": 39,
+      "target": 14,
+      "door": 5,
+      "targetPresent": true
+    },
+    {
+      "source": 15,
+      "actor": 42,
+      "target": 14,
+      "door": 7,
+      "targetPresent": true
+    },
+    {
+      "source": 15,
+      "actor": 43,
+      "target": 17,
+      "door": 14,
+      "targetPresent": true
+    },
+    {
+      "source": 16,
+      "actor": 49,
+      "target": 14,
+      "door": 9,
+      "targetPresent": true
+    },
+    {
+      "source": 16,
+      "actor": 51,
+      "target": 14,
+      "door": 11,
+      "targetPresent": true
+    },
+    {
+      "source": 16,
+      "actor": 52,
+      "target": 17,
+      "door": 12,
+      "targetPresent": true
+    },
+    {
+      "source": 16,
+      "actor": 65,
+      "target": 34,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 17,
+      "actor": 49,
+      "target": 16,
+      "door": 13,
+      "targetPresent": true
+    },
+    {
+      "source": 17,
+      "actor": 51,
+      "target": 15,
+      "door": 15,
+      "targetPresent": true
+    },
+    {
+      "source": 17,
+      "actor": 52,
+      "target": 34,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 19,
+      "actor": 2,
+      "target": 41,
+      "door": 13,
+      "targetPresent": true
+    },
+    {
+      "source": 19,
+      "actor": 4,
+      "target": 20,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 19,
+      "actor": 6,
+      "target": 26,
+      "door": 5,
+      "targetPresent": true
+    },
+    {
+      "source": 19,
+      "actor": 8,
+      "target": 28,
+      "door": 6,
+      "targetPresent": true
+    },
+    {
+      "source": 20,
+      "actor": 2,
+      "target": 19,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 20,
+      "actor": 4,
+      "target": 21,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 21,
+      "actor": 2,
+      "target": 20,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 21,
+      "actor": 4,
+      "target": 22,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 21,
+      "actor": 6,
+      "target": 28,
+      "door": 5,
+      "targetPresent": true
+    },
+    {
+      "source": 21,
+      "actor": 8,
+      "target": 42,
+      "door": 6,
+      "targetPresent": true
+    },
+    {
+      "source": 22,
+      "actor": 2,
+      "target": 21,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 22,
+      "actor": 4,
+      "target": 23,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 23,
+      "actor": 2,
+      "target": 22,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 23,
+      "actor": 4,
+      "target": 24,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 23,
+      "actor": 6,
+      "target": 27,
+      "door": 9,
+      "targetPresent": true
+    },
+    {
+      "source": 24,
+      "actor": 2,
+      "target": 23,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 24,
+      "actor": 4,
+      "target": 25,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 25,
+      "actor": 2,
+      "target": 24,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 25,
+      "actor": 4,
+      "target": 26,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 25,
+      "actor": 6,
+      "target": 27,
+      "door": 11,
+      "targetPresent": true
+    },
+    {
+      "source": 26,
+      "actor": 2,
+      "target": 25,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 26,
+      "actor": 4,
+      "target": 19,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 27,
+      "actor": 2,
+      "target": 25,
+      "door": 10,
+      "targetPresent": true
+    },
+    {
+      "source": 27,
+      "actor": 4,
+      "target": 23,
+      "door": 8,
+      "targetPresent": true
+    },
+    {
+      "source": 27,
+      "actor": 7,
+      "target": 28,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 27,
+      "actor": 8,
+      "target": 28,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 27,
+      "actor": 11,
+      "target": 28,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 27,
+      "actor": 13,
+      "target": 28,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 28,
+      "actor": 3,
+      "target": 21,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 28,
+      "actor": 4,
+      "target": 27,
+      "door": 15,
+      "targetPresent": true
+    },
+    {
+      "source": 28,
+      "actor": 7,
+      "target": 27,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 28,
+      "actor": 132,
+      "target": 19,
+      "door": 7,
+      "targetPresent": true
+    },
+    {
+      "source": 34,
+      "actor": 29,
+      "target": 16,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 40,
+      "actor": 25,
+      "target": 41,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 41,
+      "actor": 3,
+      "target": 40,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 41,
+      "actor": 4,
+      "target": 19,
+      "door": 12,
+      "targetPresent": true
+    },
+    {
+      "source": 42,
+      "actor": 3,
+      "target": 21,
+      "door": 7,
+      "targetPresent": true
+    },
+    {
+      "source": 42,
+      "actor": 4,
+      "target": 43,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 43,
+      "actor": 3,
+      "target": 42,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 43,
+      "actor": 4,
+      "target": 44,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 43,
+      "actor": 6,
+      "target": 46,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 44,
+      "actor": 3,
+      "target": 43,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 44,
+      "actor": 4,
+      "target": 5,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 45,
+      "actor": 16,
+      "target": 72,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 45,
+      "actor": 17,
+      "target": 50,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 45,
+      "actor": 19,
+      "target": 78,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 45,
+      "actor": 21,
+      "target": 76,
+      "door": 6,
+      "targetPresent": true
+    },
+    {
+      "source": 45,
+      "actor": 24,
+      "target": 76,
+      "door": 9,
+      "targetPresent": true
+    },
+    {
+      "source": 45,
+      "actor": 25,
+      "target": 77,
+      "door": 10,
+      "targetPresent": true
+    },
+    {
+      "source": 45,
+      "actor": 27,
+      "target": 74,
+      "door": 12,
+      "targetPresent": true
+    },
+    {
+      "source": 46,
+      "actor": 3,
+      "target": 43,
+      "door": 5,
+      "targetPresent": true
+    },
+    {
+      "source": 47,
+      "actor": 3,
+      "target": 50,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 50,
+      "actor": 9,
+      "target": 45,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 50,
+      "actor": 10,
+      "target": 47,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 61,
+      "actor": 3,
+      "target": 9,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 61,
+      "actor": 4,
+      "target": 5,
+      "door": 11,
+      "targetPresent": true
+    },
+    {
+      "source": 61,
+      "actor": 6,
+      "target": 5,
+      "door": 13,
+      "targetPresent": true
+    },
+    {
+      "source": 61,
+      "actor": 9,
+      "target": 63,
+      "door": 32,
+      "targetPresent": true
+    },
+    {
+      "source": 62,
+      "actor": 2,
+      "target": 9,
+      "door": 22,
+      "targetPresent": true
+    },
+    {
+      "source": 62,
+      "actor": 4,
+      "target": 63,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 62,
+      "actor": 8,
+      "target": 64,
+      "door": 52,
+      "targetPresent": true
+    },
+    {
+      "source": 63,
+      "actor": 3,
+      "target": 62,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 63,
+      "actor": 4,
+      "target": 61,
+      "door": 31,
+      "targetPresent": true
+    },
+    {
+      "source": 63,
+      "actor": 6,
+      "target": 5,
+      "door": 41,
+      "targetPresent": true
+    },
+    {
+      "source": 64,
+      "actor": 2,
+      "target": 62,
+      "door": 51,
+      "targetPresent": true
+    },
+    {
+      "source": 65,
+      "actor": 2,
+      "target": 9,
+      "door": 12,
+      "targetPresent": true
+    },
+    {
+      "source": 65,
+      "actor": 8,
+      "target": 67,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 65,
+      "actor": 11,
+      "target": 67,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 65,
+      "actor": 12,
+      "target": 66,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 65,
+      "actor": 15,
+      "target": 69,
+      "door": 7,
+      "targetPresent": true
+    },
+    {
+      "source": 65,
+      "actor": 16,
+      "target": 68,
+      "door": 8,
+      "targetPresent": true
+    },
+    {
+      "source": 66,
+      "actor": 3,
+      "target": 65,
+      "door": 5,
+      "targetPresent": true
+    },
+    {
+      "source": 66,
+      "actor": 4,
+      "target": 69,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 66,
+      "actor": 6,
+      "target": 70,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 67,
+      "actor": 3,
+      "target": 65,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 67,
+      "actor": 4,
+      "target": 65,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 67,
+      "actor": 7,
+      "target": 68,
+      "door": 5,
+      "targetPresent": true
+    },
+    {
+      "source": 67,
+      "actor": 8,
+      "target": 72,
+      "door": 6,
+      "targetPresent": true
+    },
+    {
+      "source": 68,
+      "actor": 3,
+      "target": 65,
+      "door": 9,
+      "targetPresent": true
+    },
+    {
+      "source": 68,
+      "actor": 4,
+      "target": 67,
+      "door": 4,
+      "targetPresent": true
+    },
+    {
+      "source": 69,
+      "actor": 3,
+      "target": 66,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 69,
+      "actor": 4,
+      "target": 65,
+      "door": 6,
+      "targetPresent": true
+    },
+    {
+      "source": 70,
+      "actor": 3,
+      "target": 66,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 70,
+      "actor": 4,
+      "target": 71,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 71,
+      "actor": 3,
+      "target": 70,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 72,
+      "actor": 3,
+      "target": 67,
+      "door": 7,
+      "targetPresent": true
+    },
+    {
+      "source": 72,
+      "actor": 4,
+      "target": 45,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 74,
+      "actor": 3,
+      "target": 45,
+      "door": 13,
+      "targetPresent": true
+    },
+    {
+      "source": 74,
+      "actor": 4,
+      "target": 79,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 75,
+      "actor": 3,
+      "target": 77,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 75,
+      "actor": 4,
+      "target": 80,
+      "door": 2,
+      "targetPresent": true
+    },
+    {
+      "source": 76,
+      "actor": 3,
+      "target": 45,
+      "door": 7,
+      "targetPresent": true
+    },
+    {
+      "source": 76,
+      "actor": 4,
+      "target": 45,
+      "door": 8,
+      "targetPresent": true
+    },
+    {
+      "source": 77,
+      "actor": 3,
+      "target": 45,
+      "door": 11,
+      "targetPresent": true
+    },
+    {
+      "source": 77,
+      "actor": 4,
+      "target": 75,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 78,
+      "actor": 3,
+      "target": 45,
+      "door": 5,
+      "targetPresent": true
+    },
+    {
+      "source": 79,
+      "actor": 3,
+      "target": 74,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 80,
+      "actor": 3,
+      "target": 75,
+      "door": 3,
+      "targetPresent": true
+    },
+    {
+      "source": 80,
+      "actor": 4,
+      "target": 81,
+      "door": 0,
+      "targetPresent": true
+    },
+    {
+      "source": 81,
+      "actor": 3,
+      "target": 80,
+      "door": 1,
+      "targetPresent": true
+    },
+    {
+      "source": 84,
+      "actor": 2,
+      "target": 4,
+      "door": 5,
+      "targetPresent": true
+    }
+  ]
+}
