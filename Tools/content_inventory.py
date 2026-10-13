@@ -99,7 +99,7 @@ def build():
         '2001.bin': ('仅土之秘境宝箱奖励子集；跨章奖励和条件分支未执行', 'Tools/prepare_world.py', 'A12'),
         '3032.bin': ('考试委托与入口交付为适配；首章阶段与交付条件已数据化；同盟场景、原奖励与后继事件未接入', relative(cs / 'ChapterQuest2D.cs'), 'A06'),
         '1044.bin': ('8号守护者、碎片171与少量对白；后半段西雅事件未接入，等级和战斗为适配', relative(cs / 'EarthGame2D.cs'), 'A06'),
-        '3040.bin': ('NPC只显示简化提示；速度考验、条件和计时机制未恢复', relative(cs / 'EarthGame2D.cs'), 'A06'),
+        '3040.bin': ('NPC只显示简化提示；原速度考验的先手战斗、目标配置与条件未恢复', relative(cs / 'EarthGame2D.cs'), 'A06'),
     }
     names = collections.defaultdict(list)
     active = None
@@ -407,7 +407,7 @@ def render(inv):
         ('扩展候选', counts['expansions'], '立项范围内分批设计，未实现')]) + '\n\n' + '\n'.join([
         '- [剧情与事件](STORY.md)', '- [地图、场景与宝箱](MAPS.md)', '- [怪兽与主角](MONSTERS.md)', '- [固定同伴与对话角色](PEOPLE.md)',
         '- [技能与基础效果](SKILLS.md)', '- [物品](ITEMS.md)', '- [缺失资料](GAPS.md)', '- [扩展候选](EXPANSIONS.md)',
-        '- [下一批开发与事件链](DEVELOPMENT.md)', '- [机器可读完整清单](../../Production/Content/content-inventory.json)',
+        '- [下一批开发与事件链](DEVELOPMENT.md)', '- [原版故事梳理](../Story/ORIGINAL_STORY.md)', '- [角色关系](../Story/CHARACTERS.md)', '- [重制扩写大纲](../Story/REMAKE_OUTLINE.md)', '- [机器可读完整清单](../../Production/Content/content-inventory.json)',
         '- [静态剧情依赖图数据](../../Production/Content/story-dependencies.json)']) + '\n\n## 更新与查询\n\n```sh\npython3 Tools/content_inventory.py\npython3 Tools/content_inventory.py --check\npython3 Tools/content_inventory.py --category maps --status restore_required\npython3 Tools/content_inventory.py --category skills --search 地震\n```\n\n生成器解析真实原资料和当前运行数据，所有条目保留稳定ID、来源、实现/恢复/扩展与任务字段。源哈希与Git提交保存在JSON；存在未提交代码时只证明本次静态快照，不作为该提交的运行通关证明。\n'
     graph = {'scope': 'static dependencies; NOT a verified chronological plot or runtime unlock graph',
              'scripts': [s['file'] for s in inv['scripts']],

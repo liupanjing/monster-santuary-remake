@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "scope": "当前本地参考包的完整登记；不声称拥有缺失联网内容或完整原版语义",
-  "gitHead": "4032bd3477c3438700969dc2fcc40cf0aa6b8f33",
+  "gitHead": "63d5f830132b1e6c082187ab621f9220d33dd7ed",
   "gitHeadMeaning": "HEAD at inventory generation; sourceSHA256 identifies actual files including uncommitted changes",
   "sourceSHA256": {
     "Reference/OriginalGame/scripts.json": "88b01f698ae6093528f5f7d36a95b24846e8c984b862e0c2081f27f95445670b",
@@ -16,7 +16,7 @@
     "Unity/Assets/Remake/Resources/Data/catalog.json": "e1706829008f44aee733f5f970e8b259fc8fa1e813445fcedb4b47956e77ceb0",
     "Unity/Assets/Remake/Resources/Data/story.json": "9fc9f55eefd7158c59147330df99c3f959bc9aef95b22dcd8c8746b3fbf625b0",
     "Unity/Assets/Remake/Resources/Data/items.json": "ae1422f1fdc80e49fd0807aa39e38fe7552db8dd6c5bd441af34c3babfba65fd",
-    "Art/character-review.json": "82717f445ef9620e1b867e946e22098fc52bbf7bdeb82fa740ae55f3c01f2f2b",
+    "Art/character-review.json": "532c45a41a639baecac90f91a8c390655e91cddf0597a633b55499cd9d18514d",
     "Unity/Assets/Remake/Scripts/EarthGame2D.cs": "4b4a0db9237f51c3f24201321f9b36184c6de5c845931ce30ddc1936a2a650ed",
     "Unity/Assets/Remake/Scripts/EarthData.cs": "fedb7cacad8475ee739416fa274b2bfceef2ca39a2fc2d2feafce64e9a1f5cd6",
     "Tools/prepare_world.py": "d906f53a7b788e78ebb134ab0cca8fd430614c351e6b695fdcd5220a01370ab8",
@@ -24,7 +24,7 @@
     "Unity/Assets/Remake/Scripts/QuestRules2D.cs": "4c07382efd7f4ffd7c2d1e27664bdbe559199102e2bedeb4afde61195e156636",
     "Unity/Assets/Remake/Scripts/ChapterQuest2D.cs": "31b15e90c1120e65027e225b192ed7f16124230042becbf5e29343fc0ccecf5c",
     "Unity/Assets/Remake/Resources/Data/earth-quest.json": "00e86d44a8947d3be24c8c0cfb1b1f5c9de9e8706c209566c1e6ba868772be94",
-    "Tools/content_inventory.py": "4b9ccfcdfebd4ec46bd852fabad9eecea9199c6429287615debd4b83f1a54605",
+    "Tools/content_inventory.py": "ee06e6e1edd80f1caa0dc818b295635bba3a8116809c6129635adc32f04551a0",
     "Tools/story_analysis.py": "ac01dc2badb66835f950e70eb7c606bb5a13b5b4413497704c3e9f86ba2b4d8f",
     "Reference/OriginalGame/decompiled/t.java": "d57a53e16b34ecec07ebc3caa90eac66901d219217dd8b8db43f2ae6de257813",
     "Reference/OriginalGame/decompiled/d.java": "b2a578b3ec47847c4124eb44c4aa8f10ef035b88dcddc49b1497bfefde5fc713",
@@ -6481,7 +6481,7 @@
       ],
       "importedDialogueLines": 0,
       "importedDataExecuted": false,
-      "implementation": "NPC只显示简化提示；速度考验、条件和计时机制未恢复",
+      "implementation": "NPC只显示简化提示；原速度考验的先手战斗、目标配置与条件未恢复",
       "implementationEvidence": "Unity/Assets/Remake/Scripts/EarthGame2D.cs",
       "restore": "复核条件/变量/奖励/演出与后继分支，建立数据化事件；保留原台词来源",
       "extension": "人物动机/同伴对话/区域支线按章节另行设计",
@@ -150908,6 +150908,47 @@
       "source": {
         "path": "Art/character-review.json",
         "pointer": "companions/babao"
+      },
+      "restore": "跟随、剧情和能力分别验收；动作的技术通过不代替视觉认可",
+      "task": "A04/A05"
+    },
+    {
+      "id": "companion:qibei",
+      "name": "七贝",
+      "provenance": "original_partial",
+      "status": "restore_required",
+      "reviewRecord": {
+        "id": "qibei",
+        "name": "七贝",
+        "role": "story_npc_companion",
+        "status": "draft_review",
+        "candidateVersion": "v1",
+        "approvedVersion": null,
+        "approvedBy": null,
+        "authorization": "用户本轮指定：继续这个思路建模另外角色，西雅和七贝",
+        "reviewFile": "Art/Companions/qibei/REVIEW.md",
+        "candidateComparison": "Art/Companions/qibei/v1/original-vs-redraw.png",
+        "originalReferences": [
+          "Reference/OriginalGame/extracted/cw2.png",
+          "Reference/OriginalGame/extracted/cw2.bin",
+          "Reference/OriginalGame/extracted/heads/hpic6.png"
+        ],
+        "originalReferenceSHA256": {
+          "cw2.png": "09f57aadc6690c557d38170736ea0f2333b6c955715247053a9555cce226d3e9",
+          "cw2.bin": "1a8a81808bd05194e40b0ce9faba61176838f9dffd7af6976a56ee433dfc3077",
+          "hpic6.png": "b882a8412946d2e13906be91073c23118f8da7603152612ac5db4d2b48b70577"
+        },
+        "runtimeIntegrated": false,
+        "newAnimationFrames": 0,
+        "staticArt": "Art/Companions/qibei/v1/static",
+        "originalFieldResource": "cw2",
+        "originalPortrait": "heads/hpic6.png",
+        "followOwner": "npc:xiya",
+        "twoOriginalForms": "portrait: blue eyes/pink cheeks; field: sleepy eyes/yellow-green cheeks"
+      },
+      "source": {
+        "path": "Art/character-review.json",
+        "pointer": "companions/qibei"
       },
       "restore": "跟随、剧情和能力分别验收；动作的技术通过不代替视觉认可",
       "task": "A04/A05"

@@ -23,6 +23,9 @@
 - [缺失资料](GAPS.md)
 - [扩展候选](EXPANSIONS.md)
 - [下一批开发与事件链](DEVELOPMENT.md)
+- [原版故事梳理](../Story/ORIGINAL_STORY.md)
+- [角色关系](../Story/CHARACTERS.md)
+- [重制扩写大纲](../Story/REMAKE_OUTLINE.md)
 - [机器可读完整清单](../../Production/Content/content-inventory.json)
 - [静态剧情依赖图数据](../../Production/Content/story-dependencies.json)
 
