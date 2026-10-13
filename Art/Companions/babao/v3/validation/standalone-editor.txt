@@ -1,0 +1,1 @@
+PASS: approved v2 design; 4 directions x 4 loadable wing poses (right mirrors left), six-phase wing loop; registered body pivot and scale; polyline follower does not cut across corners; delayed layer change; teleport reset; reloadable two-child prefab. New v3 motion awaits visual feedback.

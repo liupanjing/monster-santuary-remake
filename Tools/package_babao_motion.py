@@ -1,11 +1,15 @@
 """Package the verified Babao player and cache-free Unity source snapshot."""
 from pathlib import Path
+import argparse
 import hashlib
 import json
 import subprocess
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
+parser = argparse.ArgumentParser()
+parser.add_argument('--player-path', type=Path, default=ROOT / 'Production/Build/MonsterWonderland2D.app')
+options = parser.parse_args()
 OUT = ROOT / 'Production/Deliveries'
 OUT.mkdir(exist_ok=True)
 REVIEW = ROOT / 'Art/Companions/babao/v3'
@@ -16,7 +20,8 @@ for marker, log in [('BABAO_MAC_BUILD_PASSED', 'babao-build.log'),
 build_time = (ROOT / 'Production/babao-build.log').stat().st_mtime
 for log in ('babao-preview.log', 'earth-babao-v3.log'):
     assert (ROOT / 'Production' / log).stat().st_mtime >= build_time, 'Runtime evidence predates current build'
-app = ROOT / 'Production/Build/MonsterWonderland2D.app'
+app = options.player_path.resolve()
+assert app.is_dir(), 'Verified player path required'
 mac = OUT / '怪兽仙境2D-八宝跟随版-Mac.zip'
 with zipfile.ZipFile(mac, 'w', zipfile.ZIP_DEFLATED) as archive:
     for path in sorted(app.rglob('*')):
