@@ -1,0 +1,70 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "views": [
+    {
+      "view": "portrait",
+      "bounds": [
+        113,
+        20,
+        700,
+        534
+      ],
+      "size": [
+        587,
+        514
+      ]
+    },
+    {
+      "view": "field-front",
+      "bounds": [
+        822,
+        142,
+        1479,
+        535
+      ],
+      "size": [
+        657,
+        393
+      ]
+    },
+    {
+      "view": "field-left",
+      "bounds": [
+        168,
+        581,
+        643,
+        985
+      ],
+      "size": [
+        475,
+        404
+      ]
+    },
+    {
+      "view": "field-back",
+      "bounds": [
+        816,
+        565,
+        1487,
+        979
+      ],
+      "size": [
+        671,
+        414
+      ]
+    }
+  ],
+  "cutPolicy": "Alpha >=32 connected regions >=64 pixels assigned by majority cell; retained alpha preserved, no semantic repainting",
+  "sourceSHA256": {
+    "design.png": "f59c5bea851f10440313a66c9c972bf9a33d8a2dc92e52acdf439082fa688a80"
+  },
+  "originalEvidence": "reference-evidence.json",
+  "prompts": [
+    "prompts/design.txt"
+  ]
+}

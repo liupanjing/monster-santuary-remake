@@ -7,9 +7,15 @@
   "approvedDesigns": 1,
   "currentCharacter": 51,
   "spriteMetadata": "pass",
-  "companions": 1,
-  "currentReviewSubject": "companion:babao",
+  "companions": 2,
+  "currentReviewSubject": "npc:xiya",
   "approvedCompanionDesigns": 1,
+  "storyNPCs": 1,
+  "approvedNPCDesigns": 0,
+  "currentReviewSubjects": [
+    "npc:xiya",
+    "companion:qibei"
+  ],
   "toolsSyntax": "pass",
   "oldActiveToolPaths": "none",
   "scope": "Workspace integrity and review bookkeeping; not art approval or Unity runtime replay"

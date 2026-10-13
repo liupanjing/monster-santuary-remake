@@ -1146,7 +1146,7 @@
     }
   ],
   "approvedDesignCount": 1,
-  "currentReviewSubject": "companion:babao",
+  "currentReviewSubject": "npc:xiya",
   "companions": [
     {
       "id": "babao",
@@ -1194,6 +1194,68 @@
       "motionStatus": "motion_candidate_v3",
       "motionLibrary": "Unity/Assets/Remake/Resources/BabaoMotion/Animations.asset",
       "prefab": "Unity/Assets/Remake/Resources/BabaoMotion/Prefabs/BabaoFollower.prefab"
+    },
+    {
+      "id": "qibei",
+      "name": "七贝",
+      "role": "story_npc_companion",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户本轮指定：继续这个思路建模另外角色，西雅和七贝",
+      "reviewFile": "Art/Companions/qibei/REVIEW.md",
+      "candidateComparison": "Art/Companions/qibei/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/cw2.png",
+        "Reference/OriginalGame/extracted/cw2.bin",
+        "Reference/OriginalGame/extracted/heads/hpic6.png"
+      ],
+      "originalReferenceSHA256": {
+        "cw2.png": "09f57aadc6690c557d38170736ea0f2333b6c955715247053a9555cce226d3e9",
+        "cw2.bin": "1a8a81808bd05194e40b0ce9faba61176838f9dffd7af6976a56ee433dfc3077",
+        "hpic6.png": "b882a8412946d2e13906be91073c23118f8da7603152612ac5db4d2b48b70577"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/Companions/qibei/v1/static",
+      "originalFieldResource": "cw2",
+      "originalPortrait": "heads/hpic6.png",
+      "followOwner": "npc:xiya",
+      "twoOriginalForms": "portrait: blue eyes/pink cheeks; field: sleepy eyes/yellow-green cheeks"
     }
+  ],
+  "npcs": [
+    {
+      "id": "xiya",
+      "name": "西雅",
+      "role": "story_npc",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户本轮指定：继续这个思路建模另外角色，西雅和七贝",
+      "reviewFile": "Art/NPCs/xiya/REVIEW.md",
+      "candidateComparison": "Art/NPCs/xiya/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc_xiya.png",
+        "Reference/OriginalGame/extracted/npc_xiya.bin",
+        "Reference/OriginalGame/extracted/heads/hpic4.png"
+      ],
+      "originalReferenceSHA256": {
+        "npc_xiya.png": "df2991f1be8abbc583289bfb0e6f94328343297960aebc0861af6ff417e86dc1",
+        "npc_xiya.bin": "79864b10c36a80c0c9762cfc25e239c0e0b7ebd59f80d3f12ceffb5eb55320dc",
+        "hpic4.png": "55baee7429ccc05a9b99fd51cbaacc72b431753c98a3ba4d5f42bf924dc26cc5"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/xiya/v1/static",
+      "originalFieldResource": "npc_xiya",
+      "originalPortrait": "heads/hpic4.png"
+    }
+  ],
+  "currentReviewSubjects": [
+    "npc:xiya",
+    "companion:qibei"
   ]
 }

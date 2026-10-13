@@ -70,6 +70,21 @@ for row in companions:
                 sprite = ROOT / f'Unity/Assets/Remake/Resources/BabaoMotion/Art/{direction}/{frame}.png'
                 check(sprite.is_file() and sprite.with_suffix('.png.meta').is_file(), 'Companion frame and metadata')
 
+npcs = review.get('npcs', [])
+check(len({row['id'] for row in npcs}) == len(npcs), 'Unique story NPC IDs')
+for row in npcs:
+    check((ROOT / row['reviewFile']).is_file(), 'NPC review exists')
+    check((ROOT / row['candidateComparison']).is_file(), 'NPC comparison exists')
+    for relative in row['originalReferences']:
+        path = ROOT / relative
+        check(path.is_file(), f'Missing NPC reference: {relative}')
+        check(hashlib.sha256(path.read_bytes()).hexdigest() == row['originalReferenceSHA256'][path.name],
+              f'NPC reference checksum: {relative}')
+    if row['approvedVersion']:
+        check(bool(row['approvedBy']), 'NPC approval requires human evidence')
+    else:
+        check(row['approvedBy'] is None and not row['runtimeIntegrated'], 'Unapproved NPC is a static candidate')
+
 for i in range(12):
     check((ROOT / f'Unity/Assets/Remake/Resources/Art/Hero/f{i}.png').is_file(), 'Hero frame exists')
 check((ROOT / 'Unity/Assets/Remake/Scenes/Earth2D.unity').is_file(), 'Playable scene exists')
@@ -87,6 +102,8 @@ report = {
     'currentCharacter': review['currentCharacter'], 'spriteMetadata': 'pass',
     'companions': len(companions), 'currentReviewSubject': review.get('currentReviewSubject'),
     'approvedCompanionDesigns': sum(bool(row['approvedVersion']) for row in companions),
+    'storyNPCs': len(npcs), 'approvedNPCDesigns': sum(bool(row['approvedVersion']) for row in npcs),
+    'currentReviewSubjects': review.get('currentReviewSubjects', []),
     'toolsSyntax': 'pass', 'oldActiveToolPaths': 'none',
     'scope': 'Workspace integrity and review bookkeeping; not art approval or Unity runtime replay',
 }

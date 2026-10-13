@@ -10,7 +10,7 @@ SOURCE = ROOT / 'Reference/OriginalGame/extracted'
 OUT = ROOT / 'Art/Companions/babao/v1'
 
 
-def decode(name):
+def decode(name, out=OUT):
     data = (SOURCE / f'{name}.bin').read_bytes()
     position = 4
 
@@ -46,7 +46,7 @@ def decode(name):
                 part = part.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
                 y -= height
             canvas.alpha_composite(part, (48 + x, 48 + y))
-        canvas.save(OUT / 'original' / f'{name}-frame-{i:02}.png')
+        canvas.save(out / 'original' / f'{name}-frame-{i:02}.png')
         images.append(canvas)
     return images, {'resource': name, 'rectangles': rects, 'frames': frames,
                     'animations': animations, 'decodedBytes': position,
