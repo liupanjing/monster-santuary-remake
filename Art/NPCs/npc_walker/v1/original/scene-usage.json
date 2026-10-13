@@ -1,0 +1,46 @@
+[
+  {
+    "scene": 14,
+    "actor": {
+      "index": 53,
+      "type": "npc_walker",
+      "anim": 0,
+      "flags": 8,
+      "bounds": [
+        -44,
+        409,
+        -52,
+        398,
+        -36,
+        409
+      ],
+      "params": [
+        0,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 14,
+    "actor": {
+      "index": 54,
+      "type": "npc_walker",
+      "anim": 0,
+      "flags": 8,
+      "bounds": [
+        -26,
+        409,
+        -34,
+        398,
+        -18,
+        409
+      ],
+      "params": [
+        0,
+        1022,
+        0
+      ]
+    }
+  }
+]

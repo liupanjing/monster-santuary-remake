@@ -1,0 +1,37 @@
+{
+  "resource": "npc7",
+  "rectangles": [
+    [
+      0,
+      0,
+      17,
+      23
+    ]
+  ],
+  "frames": [
+    [
+      [
+        0,
+        0,
+        65528,
+        65514
+      ]
+    ]
+  ],
+  "animations": [
+    {
+      "sequence": [
+        [
+          0,
+          4
+        ]
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    }
+  ],
+  "decodedBytes": 45,
+  "unusedTailBytes": 0
+}

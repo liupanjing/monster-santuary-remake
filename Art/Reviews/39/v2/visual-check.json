@@ -1,0 +1,7 @@
+{
+  "status": "assistant_static_check",
+  "correction": "Rebuilt the tail fan after first draft had insufficient visible tips",
+  "visibleTailTipsFront": 9,
+  "visibleTailTipsRear": 9,
+  "humanApproved": false
+}

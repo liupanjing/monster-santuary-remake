@@ -1,6 +1,6 @@
 # 灯神（ID 14）逐角色审核
 
-状态：待原版审阅。现有重绘 v1 未通过审核，仅为运行占位。
+状态：v2 静态重绘待审核。旧 v1 未通过，仅为运行占位。
 
 ## 原版依据
 
@@ -23,3 +23,18 @@
 |v1 旧重绘|归档素材|用户指出整体偏离原画|未通过，待替换|
 
 新版需先提交单角色对照图；用户认可后再扩展动作。
+
+## 全角色静态重绘 v2
+
+状态：静态候选，未认可；未制作新动作或替换运行素材。
+
+## 源图约束 / 候选解释
+
+Blue genie emerging from an ornate orange/gold oil lamp, thick round cyan upper body and smiling stern face, bald crown/topknot-like upward smoke tuft, tiny red hair tie detail, arms raised beside swirly gray-brown smoke transition, lamp wide bowl long curved spout and handle on either side. No feet, no separate rug.
+
+低分辨率无法明确的表面材质、器官细节、立体转折与服装结构为候选解释，需逐角色审阅。原有配色变体分别保留。
+
+- [原版 / 新版对照](v2/original-vs-redraw.png)
+- [透明分视图](v2/static/)
+- [提示词](v2/prompts/design.txt)
+- [生成与源图记录](v2/generation-manifest.json)

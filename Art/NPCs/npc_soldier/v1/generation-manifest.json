@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "npc_soldier",
+  "views": [
+    {
+      "name": "field-front",
+      "bounds": [
+        223,
+        86,
+        686,
+        782
+      ],
+      "size": [
+        463,
+        696
+      ]
+    },
+    {
+      "name": "field-back",
+      "bounds": [
+        1113,
+        88,
+        1578,
+        801
+      ],
+      "size": [
+        465,
+        713
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/npc_soldier.png": "5a6c508b714ff9918e8992b95eaf9d9bc1d58fe4a42d28178ade17067bbed49f",
+    "Reference/OriginalGame/extracted/npc_soldier.bin": "a8bd55d2795c9e7828a83ad64b7767d5769ecc9b23071401f653f376dcaab90e"
+  },
+  "sourceSHA256": "f448a8c655faade20e207090eb5ca24a97d872d2fed7a6cab5c5d4e92dd6c0bc",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/npc_soldier/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design.png": "f448a8c655faade20e207090eb5ca24a97d872d2fed7a6cab5c5d4e92dd6c0bc"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "a6a910f197e10d431314f7e381c5d6ad688a23d11f1d2ad025c0224dbd8675d8"
+  }
+}

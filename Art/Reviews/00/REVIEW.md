@@ -1,6 +1,6 @@
 # 夜魇（ID 0）逐角色审核
 
-状态：待原版审阅。现有重绘 v1 未通过审核，仅为运行占位。
+状态：v2 静态重绘待审核。旧 v1 未通过，仅为运行占位。
 
 ## 原版依据
 
@@ -23,3 +23,20 @@
 |v1 旧重绘|归档素材|用户指出整体偏离原画|未通过，待替换|
 
 新版需先提交单角色对照图；用户认可后再扩展动作。
+
+## 全角色静态重绘 v2
+
+状态：静态候选，未认可；未制作新动作或替换运行素材。
+
+原包只有公共占位剪影；本版配色、器官和细节均为新设计，不是原画复原。
+
+## 源图约束 / 候选解释
+
+NEW DESIGN NIGHTMARE: original image is a shared generic black placeholder, not a true character silhouette. Create distinct complete colored creature: low stalking midnight-indigo quadruped dream predator, broad pale lavender crescent-mask face, violet eyes, flowing smoky mane whose shapes stay solid at small size, long tapered split plume tail, four clawed paws. Small cyan dream crescent markings. No humanoid weapons, no generic shared black silhouette. This is a redesign, not recovered art.
+
+低分辨率无法明确的表面材质、器官细节、立体转折与服装结构为候选解释，需逐角色审阅。原有配色变体分别保留。
+
+- [原版 / 新版对照](v2/original-vs-redraw.png)
+- [透明分视图](v2/static/)
+- [提示词](v2/prompts/design.txt)
+- [生成与源图记录](v2/generation-manifest.json)

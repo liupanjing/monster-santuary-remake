@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "npc_wolfman",
+  "views": [
+    {
+      "name": "field-front",
+      "bounds": [
+        95,
+        60,
+        776,
+        785
+      ],
+      "size": [
+        681,
+        725
+      ]
+    },
+    {
+      "name": "field-back",
+      "bounds": [
+        1040,
+        75,
+        1700,
+        790
+      ],
+      "size": [
+        660,
+        715
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/npc_wolfman.png": "16414799a616ea87f77c96ff9242e8af80112fc381adc58f149af225b683336a",
+    "Reference/OriginalGame/extracted/npc_wolfman.bin": "300c6abd082b365f2d250c78a04ec08df09d105a352fad19b14f6afdd9ef411e"
+  },
+  "sourceSHA256": "3d01ea5e0569529a81946d98bd9283692c664aa6f308326a8c2ed22d4e4c47d7",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/npc_wolfman/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design.png": "3d01ea5e0569529a81946d98bd9283692c664aa6f308326a8c2ed22d4e4c47d7"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "46992575197d8b6f25154ab31bb40d15598068da6c94064ff11743ebf0d1a385"
+  }
+}

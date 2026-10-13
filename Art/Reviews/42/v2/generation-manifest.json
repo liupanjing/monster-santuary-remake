@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "monster-42",
+  "views": [
+    {
+      "name": "battle-front",
+      "bounds": [
+        65,
+        94,
+        816,
+        816
+      ],
+      "size": [
+        751,
+        722
+      ]
+    },
+    {
+      "name": "battle-back",
+      "bounds": [
+        957,
+        94,
+        1714,
+        816
+      ],
+      "size": [
+        757,
+        722
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/mpic/s42_0.png": "3fe8e070ac3b83c94d8e0a6c161397f8de7b066ae7af13b3212ba04ee865f733",
+    "Reference/OriginalGame/extracted/mpic/s42_1.png": "ecc65d88fd84f578f42f2aa1f2136a6349d68b2d481a60ff23a648988add9871"
+  },
+  "sourceSHA256": "af0b224b465435771e5141e22e6f9db53c35fccd9b9e44c68dd954ece05510ca",
+  "prompt": "prompts/design.txt",
+  "reference": "Art/Reviews/42/v2/original-reference.png",
+  "silhouetteOnly": false,
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "sourceVariantsSHA256": {
+    "design.png": "af0b224b465435771e5141e22e6f9db53c35fccd9b9e44c68dd954ece05510ca"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "c609965327b36dee23bac3e9c29f20e31e2e5be6234ff44fc91ba4dd881725d8"
+  }
+}

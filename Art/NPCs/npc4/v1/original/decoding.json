@@ -1,0 +1,73 @@
+{
+  "resource": "npc4",
+  "rectangles": [
+    [
+      0,
+      0,
+      41,
+      28
+    ]
+  ],
+  "frames": [
+    [
+      [
+        0,
+        0,
+        65516,
+        65513
+      ]
+    ]
+  ],
+  "animations": [
+    {
+      "sequence": [
+        [
+          0,
+          4
+        ]
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sequence": [
+        [
+          0,
+          4
+        ]
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sequence": [
+        [
+          0,
+          4
+        ]
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sequence": [
+        [
+          0,
+          4
+        ]
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    }
+  ],
+  "decodedBytes": 69,
+  "unusedTailBytes": 0
+}

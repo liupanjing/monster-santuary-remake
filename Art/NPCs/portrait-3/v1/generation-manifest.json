@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "portrait-3",
+  "views": [
+    {
+      "name": "portrait",
+      "bounds": [
+        200,
+        71,
+        1170,
+        1075
+      ],
+      "size": [
+        970,
+        1004
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/heads/hpic3.png": "96116795c6871fe3736ec51b05d7d9ff8115362b8389393db11097dec4d82603"
+  },
+  "sourceSHA256": "09e71298144500bab06d75260745d405e2c4930e52d568a096e8a3aa387b689a",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/portrait-3/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design.png": "09e71298144500bab06d75260745d405e2c4930e52d568a096e8a3aa387b689a"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "a669dd1b721468909c18c20befcf83fef233f581026c5f413411fca485dfd022"
+  }
+}

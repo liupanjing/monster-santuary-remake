@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "portrait-9",
+  "views": [
+    {
+      "name": "portrait",
+      "bounds": [
+        76,
+        21,
+        1287,
+        1127
+      ],
+      "size": [
+        1211,
+        1106
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/heads/hpic9.png": "c325ce9515a29ca63d777bbf210188803971db7ebc2eec17329ee1a4f22d9ec5"
+  },
+  "sourceSHA256": "752a6bfbc415921564ec36188e4f8acac6ac19d70dd63734a1dbeab4cf3b9a3d",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/portrait-9/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design.png": "752a6bfbc415921564ec36188e4f8acac6ac19d70dd63734a1dbeab4cf3b9a3d"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "25ec8250bf56d27dd79ffcac65c5b96a0ee27bdb4ecc3cbf5b89beca1c999cfc"
+  }
+}

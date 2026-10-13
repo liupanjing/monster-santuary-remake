@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "npc_walker",
+  "views": [
+    {
+      "name": "field-front",
+      "bounds": [
+        227,
+        109,
+        766,
+        771
+      ],
+      "size": [
+        539,
+        662
+      ]
+    },
+    {
+      "name": "field-back",
+      "bounds": [
+        1008,
+        108,
+        1542,
+        783
+      ],
+      "size": [
+        534,
+        675
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/npc_walker.png": "41eb51b2c6a2204cc357afcc5c38b47d5363aa3f498143905290972c5890aeef",
+    "Reference/OriginalGame/extracted/npc_walker.bin": "6f05ea283c8793c4dda7fd151747d8460725db31ae7bf3df8c47c49a8da39658"
+  },
+  "sourceSHA256": "6a76ec26cae07cc902f5f57c5f2e98c90d7cdc82fcdc58fa7629ba8fd85f72a8",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/npc_walker/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design.png": "6a76ec26cae07cc902f5f57c5f2e98c90d7cdc82fcdc58fa7629ba8fd85f72a8"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "efd1d0bc3efe55cdcde20b14e9f08e53d4dfbe3d24b44d7ac5cbd5856c148059"
+  }
+}

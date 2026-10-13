@@ -1,0 +1,2205 @@
+[
+  {
+    "key": "monster-21",
+    "name": "豆猪",
+    "kind": "monster",
+    "id": 21,
+    "tier": 1,
+    "folder": "Art/Reviews/21/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s21_0.png",
+      "Reference/OriginalGame/extracted/mpic/s21_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/21/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s21_0.png": "777192b12e8e37746594b4afdb8827fdcf9f1573e469443393a58a197227df79",
+      "Reference/OriginalGame/extracted/mpic/s21_1.png": "de7030f37ea3d78764e5b3db071fe4feb637d7c23007359f623a463df58fafe0"
+    },
+    "observedConstraints": "Tiny squat pink pig, body almost one round cube, huge head continuous with body, tiny dark dot eyes, rectangular salmon snout with two dark vertical nostrils, small lateral pale-pink ears with pale gray tips, dark magenta feet and tiny curled tail. Cream angular highlights on top. No tusks, horns, mane or armor.",
+    "comparison": "Art/Reviews/21/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-22",
+    "name": "软泥怪",
+    "kind": "monster",
+    "id": 22,
+    "tier": 2,
+    "folder": "Art/Reviews/22/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s22_0.png",
+      "Reference/OriginalGame/extracted/mpic/s22_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/22/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s22_0.png": "7b5d7944b5566d71faf68e3643e3427eb9225b70f53218efb1d9b36f42f4bc46",
+      "Reference/OriginalGame/extracted/mpic/s22_1.png": "79a0381ca0952ec179226da1c0a3d4f4e3f2f72334ef54d27d061ffa8f674395"
+    },
+    "observedConstraints": "Earth-brown mud creature made of vertically stacked rounded lumps, tapered bald upper head, narrow bright cyan eyes below brow, wide pooled base, tan dried-mud patches. No limbs or mouth added. Not a green jelly slime.",
+    "comparison": "Art/Reviews/22/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-23",
+    "name": "魔化巨蝎",
+    "kind": "monster",
+    "id": 23,
+    "tier": 3,
+    "folder": "Art/Reviews/23/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s23_0.png",
+      "Reference/OriginalGame/extracted/mpic/s23_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/23/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s23_0.png": "c987bee9eae219eee959c10bb3c9b3608d15e7b8b3e721d2736632c84080d9f8",
+      "Reference/OriginalGame/extracted/mpic/s23_1.png": "9ca1d87841f13599b01c8c92809fd30523c2a2b2ffb3cc375d18e6ce4cdddf25"
+    },
+    "observedConstraints": "Compact scorpion, disproportionately enormous glossy crimson pincers dominate front silhouette, yellow/gold chitin abdomen and thin segmented upward looping gold tail with large orange stinger, tiny cyan eyes, thin gold legs. Rear shows abdomen between claws. Preserve red/gold contrast.",
+    "comparison": "Art/Reviews/23/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-24",
+    "name": "魔化野猪",
+    "kind": "monster",
+    "id": 24,
+    "tier": 4,
+    "folder": "Art/Reviews/24/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s24_0.png",
+      "Reference/OriginalGame/extracted/mpic/s24_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/24/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s24_0.png": "0b0b6e14452e62d1edab75c398c72aa50bd8b2e469acb04b658a0f05b7d25852",
+      "Reference/OriginalGame/extracted/mpic/s24_1.png": "1fc36e9fb77899d485d0a59e0599a72fbbe857843642da376ccae85898ae89be"
+    },
+    "observedConstraints": "Stocky russet orange-brown boar, four short stout legs, angry narrow orange-red eyes, pale gray snout, two large pale pink-gray curved cheek tusks. Jagged lavender/blue crystal-like upright mane from head down spine, not ordinary brown bristles. No armor.",
+    "comparison": "Art/Reviews/24/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-25",
+    "name": "土精",
+    "kind": "monster",
+    "id": 25,
+    "tier": 5,
+    "folder": "Art/Reviews/25/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s25_0.png",
+      "Reference/OriginalGame/extracted/mpic/s25_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/25/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s25_0.png": "96d50885e83101f3c2de692872f7f55091236b8d525df6df4bc62285511c3815",
+      "Reference/OriginalGame/extracted/mpic/s25_1.png": "888d3487442a478dd9a763227b29db007233fa504a6559baac2b322eae6645db"
+    },
+    "observedConstraints": "Squat biped earth golem assembled from rough brown/tan rock plates, extremely broad block shoulders, long bulky arms reaching low with broad flat angular hands, small orange eyes in recessed stony face, short heavy feet, olive seams, tall central head rock. Preserve low wide proportions, not a huge human knight.",
+    "comparison": "Art/Reviews/25/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-26",
+    "name": "石灵",
+    "kind": "monster",
+    "id": 26,
+    "tier": 6,
+    "folder": "Art/Reviews/26/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s26_0.png",
+      "Reference/OriginalGame/extracted/mpic/s26_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/26/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s26_0.png": "5c2f97598e01944976ec973fe16dac12ef347fa41d107168a3bf964268da8a82",
+      "Reference/OriginalGame/extracted/mpic/s26_1.png": "f4bbe04a4743bd0ce9a9d70debd9d4d40bf84d47d0f20fda25bef882d547cc44"
+    },
+    "observedConstraints": "Same low broad rock-golem structure as its original: gray/lavender stony plates with dark purple seams, broad shoulder boulders, long chunky low arms with flat angular hands, tiny orange recessed eyes, short sturdy legs. No added gems, armor or weapons.",
+    "comparison": "Art/Reviews/26/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-27",
+    "name": "厚土龙蛭",
+    "kind": "monster",
+    "id": 27,
+    "tier": 7,
+    "folder": "Art/Reviews/27/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s27_0.png",
+      "Reference/OriginalGame/extracted/mpic/s27_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/27/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s27_0.png": "c03050acaffe1b30f57007600e9d0c327236e23dd788b3b92afc6d71ce9523b6",
+      "Reference/OriginalGame/extracted/mpic/s27_1.png": "cf6246f57e923e231474218a3f782d0a07b344214f32e4479b26d9155176be4c"
+    },
+    "observedConstraints": "Salmon-red squat quadrupedal reptile/dragon-leech, oversized low round head with cyan round eyes and cyan muzzle dots, freckles, small ivory tusks/teeth, stubby claw feet, long curled upward red tail, multiple curling olive-green tentacle-like horns extending from crown and shoulder/back. Preserve unusual curls, not an ordinary winged dragon.",
+    "comparison": "Art/Reviews/27/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-28",
+    "name": "石吼",
+    "kind": "monster",
+    "id": 28,
+    "tier": 8,
+    "folder": "Art/Reviews/28/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s28_0.png",
+      "Reference/OriginalGame/extracted/mpic/s28_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/28/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s28_0.png": "8004b9d541ead31522b495aedbe20035a22d49d262b56acf45415320fb429c4e",
+      "Reference/OriginalGame/extracted/mpic/s28_1.png": "61c4851669aba7896090102fcffbb817281103cafadb7b104f31d4a748bbda15"
+    },
+    "observedConstraints": "Dark brown thick biped roaring beast, hunched small head atop huge heavy torso, mouth gaping black/red with ivory fangs and red tongue, thick curling brown tail, rows of pale gray blade-like dorsal ridges, wide arms and short powerful legs. Not an elephant, no trunk.",
+    "comparison": "Art/Reviews/28/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-29",
+    "name": "坚石魔象",
+    "kind": "monster",
+    "id": 29,
+    "tier": 9,
+    "folder": "Art/Reviews/29/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s29_0.png",
+      "Reference/OriginalGame/extracted/mpic/s29_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/29/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s29_0.png": "4103735c1612d4b70962678b76522c966d05009e0a91a1fd9f7223218f221325",
+      "Reference/OriginalGame/extracted/mpic/s29_1.png": "fb5a26937174f9aeef55255924aaf3c4ae1592becc182e0c57772758e4dde591"
+    },
+    "observedConstraints": "Dark gray-purple stone humanoid sentinel with broad segmented shoulders, rounded plated torso, thick articulated forearms and four-section stout legs, black recessed helmet-like face with tiny red eyes. No tusks or elephant trunk despite name. Preserve angular low head and stone body.",
+    "comparison": "Art/Reviews/29/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-08",
+    "name": "异翅巨蟒",
+    "kind": "monster",
+    "id": 8,
+    "tier": 8,
+    "folder": "Art/Reviews/08/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s8_0.png",
+      "Reference/OriginalGame/extracted/mpic/s8_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/08/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s8_0.png": "c8ecb5025d46fbb102b70e9988a62fad6d46634d7570cfd8598a13eed5f6149b",
+      "Reference/OriginalGame/extracted/mpic/s8_1.png": "3d47612bc2a29d58091343ac5bb7d6a7479bd6ae3c86946b7cecb6faa03e557d"
+    },
+    "observedConstraints": "Coiled upright winged python: purple belly/scales, mint-green spine/side scale bands, pointed serpent head with pale fang jaw, tall raised hood/body, large paired turquoise bat-like wings, long S-coiled purple/mint tail underneath. No legs or arms.",
+    "comparison": "Art/Reviews/08/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-00",
+    "name": "夜魇",
+    "kind": "monster",
+    "id": 0,
+    "tier": 10,
+    "folder": "Art/Reviews/00/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s0_0.png",
+      "Reference/OriginalGame/extracted/mpic/s0_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": true,
+    "reference": "Art/Reviews/00/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s0_0.png": "aac33da3fa5825ea6c3c52afee9d04d97e306cff73ba6d1763e6516eb6fe8674",
+      "Reference/OriginalGame/extracted/mpic/s0_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
+    },
+    "observedConstraints": "NEW DESIGN NIGHTMARE: original image is a shared generic black placeholder, not a true character silhouette. Create distinct complete colored creature: low stalking midnight-indigo quadruped dream predator, broad pale lavender crescent-mask face, violet eyes, flowing smoky mane whose shapes stay solid at small size, long tapered split plume tail, four clawed paws. Small cyan dream crescent markings. No humanoid weapons, no generic shared black silhouette. This is a redesign, not recovered art.",
+    "comparison": "Art/Reviews/00/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-01",
+    "name": "豆蝇",
+    "kind": "monster",
+    "id": 1,
+    "tier": 1,
+    "folder": "Art/Reviews/01/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s1_0.png",
+      "Reference/OriginalGame/extracted/mpic/s1_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/01/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s1_0.png": "53e58718a9e3e9f82e04b58ba3d62d613b61a79171abc4be18cc6e8956022960",
+      "Reference/OriginalGame/extracted/mpic/s1_1.png": "1e45d765e06c8d0d88036b45d075b4fe17ec7c4ff9797eb35e1f1578da50db29"
+    },
+    "observedConstraints": "Tiny floating teal/navy segmented fly, two enormous protruding orange-red compound eyes, small black lower body and two silver-gray tiny foot/claw tips, one pair pale cyan translucent oval wings above head, compact chubby insect shape. Not a bee, no yellow stripes.",
+    "comparison": "Art/Reviews/01/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-02",
+    "name": "蜜蜂",
+    "kind": "monster",
+    "id": 2,
+    "tier": 2,
+    "folder": "Art/Reviews/02/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s2_0.png",
+      "Reference/OriginalGame/extracted/mpic/s2_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/02/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s2_0.png": "5c1546c283abe5407b46edb5c0e92b097c7bb23962da49a8a58593b9ebdcf632",
+      "Reference/OriginalGame/extracted/mpic/s2_1.png": "db1eff3d6bb77eaa743f328399d108c8ed187ada5bcdcb6c5768755248214793"
+    },
+    "observedConstraints": "Small hovering gold bee, golden angular head with orange highlights, two brown antennae, four bright pale lemon wings (two large upper two small lower), hanging rounded dark brown/purple abdomen with orange gold stripe/spiral patches, thin brown legs. Preserve purple abdomen, not generic yellow-black bee.",
+    "comparison": "Art/Reviews/02/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-03",
+    "name": "魔化飞鹞",
+    "kind": "monster",
+    "id": 3,
+    "tier": 3,
+    "folder": "Art/Reviews/03/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s3_0.png",
+      "Reference/OriginalGame/extracted/mpic/s3_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/03/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s3_0.png": "949194b6fc41c420575cd133c9f6892013cc33e896229e6ece421062c02cf142",
+      "Reference/OriginalGame/extracted/mpic/s3_1.png": "49c56878013e71ecd607733086370b24342ae3c5049431dc8a5c6ca63d7e46f7"
+    },
+    "observedConstraints": "Reddish brown predatory bird hovering with wings lifted, pale yellow outer wing rims, russet layered feathers, orange hooked beak and gripping orange talons, hunched dark maroon chest, stern little eye. No added armor.",
+    "comparison": "Art/Reviews/03/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-04",
+    "name": "魔化巨鹰",
+    "kind": "monster",
+    "id": 4,
+    "tier": 4,
+    "folder": "Art/Reviews/04/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s4_0.png",
+      "Reference/OriginalGame/extracted/mpic/s4_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/04/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s4_0.png": "2c41becc016e1c77be4a0b328974ee203abf3d922022ceea139d03923c85f7eb",
+      "Reference/OriginalGame/extracted/mpic/s4_1.png": "65e9ad9230ccf1532187a9c15efed6cb55a53d6944532bfa77d0cdfd0bd5c227"
+    },
+    "observedConstraints": "Compact blue eagle with tall upward navy wings, bright gold feather edging along wing underside, pale yellow chest and golden hooked beak, red orange talons, short navy fan tail. Preserve blue/yellow/red color blocking.",
+    "comparison": "Art/Reviews/04/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-05",
+    "name": "风精",
+    "kind": "monster",
+    "id": 5,
+    "tier": 5,
+    "folder": "Art/Reviews/05/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s5_0.png",
+      "Reference/OriginalGame/extracted/mpic/s5_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/05/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s5_0.png": "379552c92374cd0222e809f87f589eda994ff4e7e51cae16f1e077e9d401f8d2",
+      "Reference/OriginalGame/extracted/mpic/s5_1.png": "25e7d0eea6073b196cb6f0d1d6adcedc7e1900eb79edc20f8d8b3e949fd5c848"
+    },
+    "observedConstraints": "Mauve pink/lavender wind elemental: entire body a spiraling tornado cone of ribbon-like bands, wider middle, tapering curled lower tip, small face/head near top with a long sideways swept wind tuft. No legs, no separate robes, no human equipment.",
+    "comparison": "Art/Reviews/05/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-06",
+    "name": "龙卷",
+    "kind": "monster",
+    "id": 6,
+    "tier": 6,
+    "folder": "Art/Reviews/06/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s6_0.png",
+      "Reference/OriginalGame/extracted/mpic/s6_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/06/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s6_0.png": "59bfbc24326c418a0c37e69c8040f7bed3d0a1c5e0787dab86c3f33e6a2bc020",
+      "Reference/OriginalGame/extracted/mpic/s6_1.png": "baaa962d450a2fbaf5a93d30482e4c03ca79ec57c67806ce3371b27da96ff8ed"
+    },
+    "observedConstraints": "Tan/ochre tornado elemental, stacked spiral wind ribbons form wider middle and long pointed curved bottom, head near top with long horizontally blown brown pointed tuft. Preserve same family as mauve wind spirit but tan/brown palette.",
+    "comparison": "Art/Reviews/06/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-07",
+    "name": "巨镰",
+    "kind": "monster",
+    "id": 7,
+    "tier": 7,
+    "folder": "Art/Reviews/07/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s7_0.png",
+      "Reference/OriginalGame/extracted/mpic/s7_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/07/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s7_0.png": "2ace32b8b07c5898f4461748f7c6bd106b36857666df7dd3ccd2f60f30af6275",
+      "Reference/OriginalGame/extracted/mpic/s7_1.png": "a0b83625a42e4f598a6d9c529749d4370be99c9faf86997b45ff8e44b373bdb5"
+    },
+    "observedConstraints": "Floating magenta-purple hooded reaper-like spirit with orange/pink jagged swept head crest, dark face with tiny eyes, narrow pointed ragged lower robe with orange trim, pale hands holding an oversized long wooden scythe with enormous light cyan crescent steel blade. Match original scythe silhouette, not an insect interpretation of the Chinese name.",
+    "comparison": "Art/Reviews/07/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-09",
+    "name": "九转化风",
+    "kind": "monster",
+    "id": 9,
+    "tier": 9,
+    "folder": "Art/Reviews/09/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s9_0.png",
+      "Reference/OriginalGame/extracted/mpic/s9_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/09/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s9_0.png": "5cbd8fe66c1a1429a6103b6bb14a778f825dd39a00eff66584275213c1792ecc",
+      "Reference/OriginalGame/extracted/mpic/s9_1.png": "763f1c95cd3ac0d969b5584ed9db814791afd28545098578bf532d9e36bd6d48"
+    },
+    "observedConstraints": "Floating blue vortex spirit made of bright azure swirling loops, thick long streaming blue wind hair around sinister masklike face, pale cyan narrowed eyes, no limbs or armor. Rear is swirling hair/back vortex with no face. Keep compact oval silhouette, not a humanoid.",
+    "comparison": "Art/Reviews/09/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-10",
+    "name": "风油精",
+    "kind": "monster",
+    "id": 10,
+    "tier": 6,
+    "folder": "Art/Reviews/10/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s10_0.png",
+      "Reference/OriginalGame/extracted/mpic/s10_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/10/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s10_0.png": "2aaf089bee4dd469c166561b37523e0dd14f721f307a31eea16576eaddc598b4",
+      "Reference/OriginalGame/extracted/mpic/s10_1.png": "0cf4dbaff7577f18aafe71b8e4fa78b00760f26fd53b330e856463291fc6cd04"
+    },
+    "observedConstraints": "Comedic bottle creature: upright dark emerald green medicine bottle with short narrow green cap/neck, broad round body, round yellow label on front with simple orange abstract mark, two stout gray stone-like arms and squat gray round feet around base. Rear green round label darker. Not a humanoid fairy.",
+    "comparison": "Art/Reviews/10/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-11",
+    "name": "豆蛛",
+    "kind": "monster",
+    "id": 11,
+    "tier": 1,
+    "folder": "Art/Reviews/11/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s11_0.png",
+      "Reference/OriginalGame/extracted/mpic/s11_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/11/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s11_0.png": "f9e0637532b57a0707668a78eae63ef7d6ea69e40523c86dc3cc5d3bb6c5c931",
+      "Reference/OriginalGame/extracted/mpic/s11_1.png": "ca618c6552af023bb26193837f6c8f4b55ac05bdf8af410ae1e4757720930c4f"
+    },
+    "observedConstraints": "Small bulbous spider, domed deep violet/magenta abdomen with salmon pink highlights, two huge cyan blue eyes low on front, eight thin jointed red/brown legs splayed around body, no mammal ears or clothing.",
+    "comparison": "Art/Reviews/11/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-12",
+    "name": "小蝙蝠",
+    "kind": "monster",
+    "id": 12,
+    "tier": 2,
+    "folder": "Art/Reviews/12/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s12_0.png",
+      "Reference/OriginalGame/extracted/mpic/s12_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/12/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s12_0.png": "a904cf6ea236a2bee0a508ee94c94448e6754d102740d8492409223b6369db60",
+      "Reference/OriginalGame/extracted/mpic/s12_1.png": "c50590dfbe6a939ddc41a2faaeed24a6ab0a06801bc7ed0ee28a10943f96c182"
+    },
+    "observedConstraints": "Tiny dark navy/violet bat facing camera with very large spread membranous wings; wing fingers/leading edges vivid orange/red, inner membrane lavender violet, small angry orange eyes, pointed ears, small lower pointed tail/feet, no fur costume.",
+    "comparison": "Art/Reviews/12/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-13",
+    "name": "雷鸟",
+    "kind": "monster",
+    "id": 13,
+    "tier": 3,
+    "folder": "Art/Reviews/13/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s13_0.png",
+      "Reference/OriginalGame/extracted/mpic/s13_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/13/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s13_0.png": "cc30a6b6045b867ea3ded1e1c63a8d9f8e85746a56c3ebc8c47939c2f3ad80fb",
+      "Reference/OriginalGame/extracted/mpic/s13_1.png": "8e9080fa3fa3ff3aea98c10ccaa9757ce9542547043608888e1728b223714b49"
+    },
+    "observedConstraints": "Gold/brown round thunderbird standing on two thin gold claw feet, yellow layered wing feathers, small green head crest and green throat patch, two red-rimmed round goggle-like large eyes, short orange/gold beak, squat brown chest. No invented armor.",
+    "comparison": "Art/Reviews/13/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-14",
+    "name": "灯神",
+    "kind": "monster",
+    "id": 14,
+    "tier": 4,
+    "folder": "Art/Reviews/14/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s14_0.png",
+      "Reference/OriginalGame/extracted/mpic/s14_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/14/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s14_0.png": "9fea1f5414cfabd9cbc8caa66f3f5fc64f5f9f02b6db5f4d70b3666b626efaed",
+      "Reference/OriginalGame/extracted/mpic/s14_1.png": "37c6329e1588dd4a9c86d3a0cefe58c1d98d0c6d59ea40b741730b904797e24a"
+    },
+    "observedConstraints": "Blue genie emerging from an ornate orange/gold oil lamp, thick round cyan upper body and smiling stern face, bald crown/topknot-like upward smoke tuft, tiny red hair tie detail, arms raised beside swirly gray-brown smoke transition, lamp wide bowl long curved spout and handle on either side. No feet, no separate rug.",
+    "comparison": "Art/Reviews/14/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-15",
+    "name": "电魂",
+    "kind": "monster",
+    "id": 15,
+    "tier": 5,
+    "folder": "Art/Reviews/15/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s15_0.png",
+      "Reference/OriginalGame/extracted/mpic/s15_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/15/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s15_0.png": "b54933e3ee8ed1f096b3bc89bf7b9f26026730378204660384fbc3750a75bdf4",
+      "Reference/OriginalGame/extracted/mpic/s15_1.png": "503a3bc018ef161aeff49dc1a39c2dfac3853c885e5c89f691d3866f51c2c93a"
+    },
+    "observedConstraints": "Floating dark dusky purple hooded electric specter, face almost hidden black with tiny orange eyes, green skeletal hands around angular pale cyan lightning bolt in front, long torn dark purple robe hem with wiry black floating tendrils underneath. No feet and no scythe.",
+    "comparison": "Art/Reviews/15/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-16",
+    "name": "雷魄",
+    "kind": "monster",
+    "id": 16,
+    "tier": 6,
+    "folder": "Art/Reviews/16/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s16_0.png",
+      "Reference/OriginalGame/extracted/mpic/s16_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/16/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s16_0.png": "e936c44bf71f1bea667f431bbd68eb94aa271c0ef0b1cc2b9bd51c831428e57d",
+      "Reference/OriginalGame/extracted/mpic/s16_1.png": "632b9b48ad5988efb2416dbd229c42c119119871826d8921d43470a08ac6086e"
+    },
+    "observedConstraints": "Deep saturated violet hooded specter, dark hidden face and two red eyes, pale green-gray claw hands holding luminous circular pale cyan energy orb. Broad draped purple folds taper to ragged hovering base, no legs, no scythe, solid readable orb.",
+    "comparison": "Art/Reviews/16/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-17",
+    "name": "雷老虎",
+    "kind": "monster",
+    "id": 17,
+    "tier": 7,
+    "folder": "Art/Reviews/17/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s17_0.png",
+      "Reference/OriginalGame/extracted/mpic/s17_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/17/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s17_0.png": "5209dd9c527197fad0b03e280dae021c4f8b4437c110ac905b48fb9d9b6c2c56",
+      "Reference/OriginalGame/extracted/mpic/s17_1.png": "3a05e4bb374ac096c92d1dcd18b2e4071025996aba49b16dc05ef6af43edec89"
+    },
+    "observedConstraints": "Large biped orange tiger-like muscular beast, teal-green narrowed eyes, white muzzle and fangs, dark brown stripes, enormous hunched orange shoulder mane, stout fists and claw feet, dark red/brown cape with gold trim behind. Original cape has GOLD CHINESE TEXT 金服; preserve visible lettering as stylized gold inscription, no invented English text.",
+    "comparison": "Art/Reviews/17/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-18",
+    "name": "惊雷使者",
+    "kind": "monster",
+    "id": 18,
+    "tier": 8,
+    "folder": "Art/Reviews/18/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s18_0.png",
+      "Reference/OriginalGame/extracted/mpic/s18_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/18/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s18_0.png": "26f90b64f53856b6ca289cffce18edf8de62b38dad3e10a193f9440732d12f6a",
+      "Reference/OriginalGame/extracted/mpic/s18_1.png": "06860e1bf2d7b3a0963b2d3048a7f65bd1f03852941dbe51fe9780f763a33aef"
+    },
+    "observedConstraints": "Floating slender scarlet/coral hooded female-shaped electric spirit, tiny pale face opening, long pink-red tapered body, multiple thick looping ribbon tentacles flowing around shoulders and lower body. No legs, no giant electrical effects, preserve solid red loops.",
+    "comparison": "Art/Reviews/18/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-19",
+    "name": "裂天",
+    "kind": "monster",
+    "id": 19,
+    "tier": 9,
+    "folder": "Art/Reviews/19/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s19_0.png",
+      "Reference/OriginalGame/extracted/mpic/s19_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/19/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s19_0.png": "72524f71ddbc61707c9cd1d79db8f50f5a7bfe71443a463acc663d536c46b840",
+      "Reference/OriginalGame/extracted/mpic/s19_1.png": "d571ab6cde0cb2dd2cb33876dc66e6590478dff6acaf9ae92479c7fae2318acd"
+    },
+    "observedConstraints": "Powerful upright violet dragon demon with broad shoulders, thick coiled arms, muscular stout legs, large teal membranous bat wings, two curled teal-edged horns, orange-red open mouth, gold upper-arm/claw accents, short curled tail. Original stout armored/scale silhouette, not a slim wizard.",
+    "comparison": "Art/Reviews/19/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-20",
+    "name": "凯米拉",
+    "kind": "monster",
+    "id": 20,
+    "tier": 10,
+    "folder": "Art/Reviews/20/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s20_0.png",
+      "Reference/OriginalGame/extracted/mpic/s20_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": true,
+    "reference": "Art/Reviews/20/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s20_0.png": "aac33da3fa5825ea6c3c52afee9d04d97e306cff73ba6d1763e6516eb6fe8674",
+      "Reference/OriginalGame/extracted/mpic/s20_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
+    },
+    "observedConstraints": "NEW DESIGN CHIMERA: original source is a shared generic black placeholder. Design complete distinct colored chimera: muscular tawny lion front, cream mane and horned teal goat head rising from right shoulder, dark purple snake tail ending in a small serpent head, lion paws with ivory claws, compact teal bat wings. Each anatomical part coherently appears in front and rear. No shared placeholder black silhouette. New design, not recovered original.",
+    "comparison": "Art/Reviews/20/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-30",
+    "name": "武魂",
+    "kind": "monster",
+    "id": 30,
+    "tier": 10,
+    "folder": "Art/Reviews/30/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s30_0.png",
+      "Reference/OriginalGame/extracted/mpic/s30_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": true,
+    "reference": "Art/Reviews/30/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s30_0.png": "aac33da3fa5825ea6c3c52afee9d04d97e306cff73ba6d1763e6516eb6fe8674",
+      "Reference/OriginalGame/extracted/mpic/s30_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
+    },
+    "observedConstraints": "NEW DESIGN MARTIAL SOUL: source has only shared generic black placeholder. Create full colored spectral armored martial warrior, compact strong humanoid proportions, bronze ochre floating segmented armor, dark crimson cloth sash, pale blue inner spirit face behind simple bronze browguard, two large bare armored gauntlet fists, boots hovering above a tiny pale cyan spirit wisp. No firearm or sword; powerful empty-hand fighter. Distinct from all other new designs.",
+    "comparison": "Art/Reviews/30/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-31",
+    "name": "鬼火",
+    "kind": "monster",
+    "id": 31,
+    "tier": 1,
+    "folder": "Art/Reviews/31/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s31_0.png",
+      "Reference/OriginalGame/extracted/mpic/s31_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/31/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s31_0.png": "0ce0659cd1b39bf86fe4448417a6d0fedf3d38c80cef65975fff621aa5d360de",
+      "Reference/OriginalGame/extracted/mpic/s31_1.png": "f82d1162ce380536ed570dd5aae8c8243d48825d2cf385ec69d8c28aadbe31f4"
+    },
+    "observedConstraints": "Small long tapering purple ghost flame, narrow pointed two or three tongue-like upward flame tips, bright pink-white center, lower round face with tiny angular violet eyes and broad dark mouth with pale little teeth. No body or arms, not orange fire.",
+    "comparison": "Art/Reviews/31/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-32",
+    "name": "灵能火",
+    "kind": "monster",
+    "id": 32,
+    "tier": 2,
+    "folder": "Art/Reviews/32/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s32_0.png",
+      "Reference/OriginalGame/extracted/mpic/s32_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/32/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s32_0.png": "d869161625c343580d8644b901305a07ef87661f4f0bbb51c2f6a411d2973b1d",
+      "Reference/OriginalGame/extracted/mpic/s32_1.png": "4cc116f1eb7ee7af89cb569842007c2d89bb78d5aace951021f7fab524e0259a"
+    },
+    "observedConstraints": "Squat living orange flame blob with wide pooled fiery bottom, bright yellow center/head with sharp red rim flame tufts, narrow dark angry eyes and red-black grinning horizontal mouth. Short two flame-lobed base feet but no limbs or equipment.",
+    "comparison": "Art/Reviews/32/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-33",
+    "name": "魔化猎犬",
+    "kind": "monster",
+    "id": 33,
+    "tier": 3,
+    "folder": "Art/Reviews/33/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s33_0.png",
+      "Reference/OriginalGame/extracted/mpic/s33_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/33/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s33_0.png": "1f74fccd8f2fda779a9eadb55f274218e59c8d41e84f7b3fe1a1779d8641bbc0",
+      "Reference/OriginalGame/extracted/mpic/s33_1.png": "3bff9ab2b7a9aa11b0b361e65cf0972798021a5809f6ae72e5b3308566384a4a"
+    },
+    "observedConstraints": "Dark navy/slate monstrous crouching hound on four legs, oversized front paws with red claws, red narrow eyes and red open mouth with fangs, small curled horn-like gray growths on head/spine, raised curved tail. Dark blue color, no red flame mane or armor.",
+    "comparison": "Art/Reviews/33/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-34",
+    "name": "火眼蛮牛",
+    "kind": "monster",
+    "id": 34,
+    "tier": 4,
+    "folder": "Art/Reviews/34/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s34_0.png",
+      "Reference/OriginalGame/extracted/mpic/s34_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/34/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s34_0.png": "ecf2b57b5a6b716d8131f5b404e641a8d738222b514cb0dfb189ed5dec0d8c1e",
+      "Reference/OriginalGame/extracted/mpic/s34_1.png": "4954c1f8069ae92a2ef20d1c7107f809c01418791504b062f144391114e87757"
+    },
+    "observedConstraints": "Large muscular dark brown bull on four stout legs, bright red eyes, pale yellow two sideways upward curved horns, yellow-gold large nose ring, ochre hoof tips, low drooping brown tail. No lava, no human bull armor.",
+    "comparison": "Art/Reviews/34/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-35",
+    "name": "油精",
+    "kind": "monster",
+    "id": 35,
+    "tier": 5,
+    "folder": "Art/Reviews/35/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s35_0.png",
+      "Reference/OriginalGame/extracted/mpic/s35_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/35/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s35_0.png": "cc33754b509fe8c7d8041bfdf8a89a436eabf649b5d3b716e1ac1b322e0b4e66",
+      "Reference/OriginalGame/extracted/mpic/s35_1.png": "065b9461b0459d4713f11fb59fe5ed2ff93c47f88c661114f3dbdac85114c9c1"
+    },
+    "observedConstraints": "Slender hovering orange/gold oil/fire elemental composed of thick smooth curved ribbons, enormous asymmetric looped swept golden head/crest, orange dark face and pointed teeth, bright yellow round belly core, thin curling arm shapes, long red/orange pointed lower ribbon tips. No feet or armor.",
+    "comparison": "Art/Reviews/35/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-36",
+    "name": "炎魂",
+    "kind": "monster",
+    "id": 36,
+    "tier": 6,
+    "folder": "Art/Reviews/36/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s36_0.png",
+      "Reference/OriginalGame/extracted/mpic/s36_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/36/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s36_0.png": "1f1b8ec93551859db480531e8221ab864e5c5a177d8c4f8b370bfc6a5f2376ad",
+      "Reference/OriginalGame/extracted/mpic/s36_1.png": "63eea62edead1de4763b29f172d9e823de5a4f4c6e552a20479009e622efbefd"
+    },
+    "observedConstraints": "Slender golden yellow hovering flame soul with huge asymmetrical curled head flame crest, orange/pink shaded ribbons, glowing small pale blue-white round belly orb, thin curling arms and multiple long pointed lower ribbon tips. Distinguish from orange oil spirit by yellow palette and pale core.",
+    "comparison": "Art/Reviews/36/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-37",
+    "name": "赤炎兽",
+    "kind": "monster",
+    "id": 37,
+    "tier": 7,
+    "folder": "Art/Reviews/37/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s37_0.png",
+      "Reference/OriginalGame/extracted/mpic/s37_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/37/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s37_0.png": "da63f5343a8a22fabc2bbe5dc29eee0f513c06820acc3454c1dacbc103fd2a4b",
+      "Reference/OriginalGame/extracted/mpic/s37_1.png": "b8c13eb1c19132912bb894b10015b6b74eeeb56c138829e391e1be8cd802d8a8"
+    },
+    "observedConstraints": "Fiery orange lion-like quadruped with huge upright bright yellow and red flame-shaped head mane, sharp blue eyes, wide grin, orange powerful forelegs and teal-blue claw tips, red flaming tufts along spine and curled tail. Preserve lion anatomy and readable solid flame shapes.",
+    "comparison": "Art/Reviews/37/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-38",
+    "name": "焦土行者",
+    "kind": "monster",
+    "id": 38,
+    "tier": 8,
+    "folder": "Art/Reviews/38/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s38_0.png",
+      "Reference/OriginalGame/extracted/mpic/s38_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/38/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s38_0.png": "7f60be0a9c2adbe0d71cdcae4fd38f01f8c30e0e317830bec1285c4d682ed1e1",
+      "Reference/OriginalGame/extracted/mpic/s38_1.png": "5a867dafbf629e728303bef2757c119a6495fbd32b0ebc9c21e979dc47f10dfa"
+    },
+    "observedConstraints": "Dusty rose/tan hooded walking earth/fire spirit with pointed jagged bushy leaf/flame mane, face partly shaded under tan pointed brow, thick looped band-like body ending in coiled legless base, broad stone-like hands and elbows, compact hunched silhouette. Preserve original tan/rose colors, no generic lava golem.",
+    "comparison": "Art/Reviews/38/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-39",
+    "name": "九尾狐",
+    "kind": "monster",
+    "id": 39,
+    "tier": 9,
+    "folder": "Art/Reviews/39/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s39_0.png",
+      "Reference/OriginalGame/extracted/mpic/s39_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/39/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s39_0.png": "e2e0e06ee447450c6071f5d32c860c93abbff017f5ae56f1e9f8bd4b0debb127",
+      "Reference/OriginalGame/extracted/mpic/s39_1.png": "28841261e0933c520adfd2e264563766cdf5385dae613e2e660c9c38f4d3bf51"
+    },
+    "observedConstraints": "Lavender/mauve nine-tailed fox, narrow sharp violet face with bright pink-red eyes, white chest, pointed ears, long slender front legs, elaborate bouquet of nine upward curling purple tails with white tips, white paws. Tail count nine coherent in both views, no wings.",
+    "comparison": "Art/Reviews/39/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-40",
+    "name": "维娜丽斯",
+    "kind": "monster",
+    "id": 40,
+    "tier": 10,
+    "folder": "Art/Reviews/40/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s40_0.png",
+      "Reference/OriginalGame/extracted/mpic/s40_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": true,
+    "reference": "Art/Reviews/40/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s40_0.png": "aac33da3fa5825ea6c3c52afee9d04d97e306cff73ba6d1763e6516eb6fe8674",
+      "Reference/OriginalGame/extracted/mpic/s40_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
+    },
+    "observedConstraints": "NEW DESIGN VINARIS: original source is same shared generic black placeholder. Create distinct mythic winged spirit serpent-deer: graceful pearl-white and pale lavender quadruped with long swan-like neck, delicate lavender horn pair swept backward, gold small brow gem, one pair pale aqua two-lobed feathered wings, long flowing white tail with lavender end, pink-violet eyes. Keep elegant compact beast, no humanoid woman and no clothing. Clearly a new design.",
+    "comparison": "Art/Reviews/40/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-41",
+    "name": "水泡",
+    "kind": "monster",
+    "id": 41,
+    "tier": 1,
+    "folder": "Art/Reviews/41/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s41_0.png",
+      "Reference/OriginalGame/extracted/mpic/s41_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/41/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s41_0.png": "34ef86f0f35138327f603883f38794e793d3bd869ea43a26e5a56af6e63baeaf",
+      "Reference/OriginalGame/extracted/mpic/s41_1.png": "c29915bc042fe3ebd9c6d7083fefa5f5e14cb7de0074b53814c781fcff6a61c9"
+    },
+    "observedConstraints": "Small turquoise/azure round water bubble monster, asymmetrical squinting dark blue eyes, wide red mouth with pale tiny tooth, three little blue floating bubbles above head, brighter cyan upper-left highlights and dark navy lower rim. No arms legs or wings, preserve round liquid body.",
+    "comparison": "Art/Reviews/41/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-42",
+    "name": "灰泥怪",
+    "kind": "monster",
+    "id": 42,
+    "tier": 2,
+    "folder": "Art/Reviews/42/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s42_0.png",
+      "Reference/OriginalGame/extracted/mpic/s42_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/42/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s42_0.png": "3fe8e070ac3b83c94d8e0a6c161397f8de7b066ae7af13b3212ba04ee865f733",
+      "Reference/OriginalGame/extracted/mpic/s42_1.png": "ecc65d88fd84f578f42f2aa1f2136a6349d68b2d481a60ff23a648988add9871"
+    },
+    "observedConstraints": "Gray-green mud creature made from upright stacked rounded lumps and broad pooled base, light pale olive mud patches, narrow bright cyan eyes below head, no arms legs or mouth added. Same family as brown earth mud creature but muted olive/gray palette.",
+    "comparison": "Art/Reviews/42/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-43",
+    "name": "大眼睛",
+    "kind": "monster",
+    "id": 43,
+    "tier": 3,
+    "folder": "Art/Reviews/43/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s43_0.png",
+      "Reference/OriginalGame/extracted/mpic/s43_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/43/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s43_0.png": "a00dea343bb8919b43c579b62f3f057f73e4aba87ff7020818cfa7171806548c",
+      "Reference/OriginalGame/extracted/mpic/s43_1.png": "3ed15a646f40b083d025203e5457e2fc30ea46f057b2297c6c12de91bb70a89f"
+    },
+    "observedConstraints": "Round brown/tan one-eyed creature, giant bright blue central eyeball embedded in front of spherical wooden/stony body, gold crack/band markings above eye, two tiny pale tan claw arms and two stout frog-like claw feet. Rear round brown back with pale tan crack marks, no rear eye.",
+    "comparison": "Art/Reviews/43/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-44",
+    "name": "魔化凶鳄",
+    "kind": "monster",
+    "id": 44,
+    "tier": 4,
+    "folder": "Art/Reviews/44/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s44_0.png",
+      "Reference/OriginalGame/extracted/mpic/s44_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/44/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s44_0.png": "bb04165233044b357a37fd505d755c883924f919775ea7f67dd4634f37a91170",
+      "Reference/OriginalGame/extracted/mpic/s44_1.png": "d968e2b745a727938798a47aa183d02930ffe81fe1e7b2984c22d7679a01f323"
+    },
+    "observedConstraints": "Upright green crocodile/dragon on two feet, yellow segmented belly, long curled green tail with yellow underside, broad white toothy jaw, red narrowed eyes, small curling golden ear/horn shapes, small muscular bent green arms. No wings, no clothes.",
+    "comparison": "Art/Reviews/44/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-45",
+    "name": "水精",
+    "kind": "monster",
+    "id": 45,
+    "tier": 5,
+    "folder": "Art/Reviews/45/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s45_0.png",
+      "Reference/OriginalGame/extracted/mpic/s45_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/45/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s45_0.png": "c49343d885982e3d5410bbe940e4d3742c9e93f6c4fe4ba7d5f0e8ed0c34a5b1",
+      "Reference/OriginalGame/extracted/mpic/s45_1.png": "f0f26a1ac60cfff220a63543bb474b737b2728139312c165dd690c4428b7d1db"
+    },
+    "observedConstraints": "Light and medium blue water elemental made entirely of looping thick waves, small pale blue face mid-left, huge curled wave sweeping overhead, pale foamy crest at top rear, many spiral ribbons form pooled base. No legs, no equipment, no orange/purple colors.",
+    "comparison": "Art/Reviews/45/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-46",
+    "name": "冰灵",
+    "kind": "monster",
+    "id": 46,
+    "tier": 6,
+    "folder": "Art/Reviews/46/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s46_0.png",
+      "Reference/OriginalGame/extracted/mpic/s46_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/46/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s46_0.png": "5ed4d00baabd58f5e769961aaaeef78e68780876534721c23efa0aab5aef7380",
+      "Reference/OriginalGame/extracted/mpic/s46_1.png": "4124bfa6504f336a844f22142febafd5776ad60dc8e778d702d70be4004a37a7"
+    },
+    "observedConstraints": "Bright faceted cyan ice elemental, tall irregular cluster of large upward-pointing blue crystal spikes, tiny face recessed toward lower front, white translucent frosty plume behind upper left, multiple broad blue crystals around lower base, tiny sparse blue sparkles. No stone humanoid limbs.",
+    "comparison": "Art/Reviews/46/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-47",
+    "name": "撕裂者",
+    "kind": "monster",
+    "id": 47,
+    "tier": 7,
+    "folder": "Art/Reviews/47/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s47_0.png",
+      "Reference/OriginalGame/extracted/mpic/s47_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/47/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s47_0.png": "8acf642b43c014afd35262b5d3ad67e43df54328af290af37cb4d86367274e6a",
+      "Reference/OriginalGame/extracted/mpic/s47_1.png": "356527b0aeaa67bbae4cd449544e9d0f97a8e7bb94b64786d4a4a59375a063fa"
+    },
+    "observedConstraints": "Muscular upright green reptilian brawler with large white/blue claws, red eyes and snarling open mouth, tall purple spiked fins along head and back, purple shoulder/forearm armor-like scales, long swept violet tail, two stout green claw feet. No clothing or handheld weapons.",
+    "comparison": "Art/Reviews/47/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-48",
+    "name": "巨齿",
+    "kind": "monster",
+    "id": 48,
+    "tier": 8,
+    "folder": "Art/Reviews/48/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s48_0.png",
+      "Reference/OriginalGame/extracted/mpic/s48_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/48/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s48_0.png": "8576e64d6e151977dfe8a99312198427d474fd471385d342348536cf93360711",
+      "Reference/OriginalGame/extracted/mpic/s48_1.png": "21a25ff4e413ec4f29461b33e340ff319281a019dd11c283df870bf54da7bd40"
+    },
+    "observedConstraints": "Purple huge-fanged crouching quadruped hound, oversized gray lavender forepaws, huge turquoise blue-white teeth in snarling broad jaw, bright cyan eyes, tall jagged orange-red dorsal mane/spikes, curled purple tail with pale highlight, muscular shoulders. Not a crocodile; no fins added.",
+    "comparison": "Art/Reviews/48/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-49",
+    "name": "深渊残影",
+    "kind": "monster",
+    "id": 49,
+    "tier": 9,
+    "folder": "Art/Reviews/49/v2",
+    "originals": [
+      "Reference/OriginalGame/extracted/mpic/s49_0.png",
+      "Reference/OriginalGame/extracted/mpic/s49_1.png"
+    ],
+    "views": [
+      "battle-front",
+      "battle-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/49/v2/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/mpic/s49_0.png": "5207b35026edde01754aa7967adaaddd3b5624b1a6eb7c42da370b61323fd596",
+      "Reference/OriginalGame/extracted/mpic/s49_1.png": "08466c06e3e7a39d6f3468804c90566b8836ba05cfb6966a0094087205a26fad"
+    },
+    "observedConstraints": "Coiled pale blue/lavender hydra-like reptile, central cobra head with dark blue snout and red eyes/mouth, two smaller pale lavender serpent heads curled up from each side of neck, long pale blue coiled tail, bright green dorsal spikes on heads/back, small pale claw feet at base. Three coherent heads, no wings.",
+    "comparison": "Art/Reviews/49/v2/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc1",
+    "name": "npc1",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc1/v1",
+    "resource": "npc1",
+    "originals": [
+      "Art/NPCs/npc1/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc1.png",
+      "Reference/OriginalGame/extracted/npc1.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 1,
+    "reference": "Art/NPCs/npc1/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc1.png": "ea75c406a4768d3a4a46fd2bad4e4e493e9b8c75c77bb45a6c537accf5db7710",
+      "Reference/OriginalGame/extracted/npc1.bin": "38404d65346c6581b4aaec5341000cf553362837cc06a08d63383c26591d566c"
+    },
+    "observedConstraints": "A single small side-view black-and-white dairy cow with broad white flank patch, little golden horns, pink udder, dark hooves and short hanging tail. Facing left as original. Not a humanoid and not a collectible monster. One pose only, no fake rear view.",
+    "comparison": "Art/NPCs/npc1/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc10",
+    "name": "npc10",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc10/v1",
+    "resource": "npc10",
+    "originals": [
+      "Art/NPCs/npc10/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc10.png",
+      "Reference/OriginalGame/extracted/npc10.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 4,
+    "reference": "Art/NPCs/npc10/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc10.png": "287276ffc87c7a1d70c816ba1630c972cef32640a64a053faea9db6d5c699bf0",
+      "Reference/OriginalGame/extracted/npc10.bin": "5d1da61e48fd7a6d75082808b2c6b5b9f57b43c7396dd30ed69ec58368d535eb"
+    },
+    "observedConstraints": "Small Q boy/worker, large black messy swept hair with one upright tuft, pale warm face, tiny sideburns, white short-sleeve shirt, red neck cloth, blue suspenders with yellow fittings, dark blue trousers and black shoes. Large head and very short body, no added tool.",
+    "comparison": "Art/NPCs/npc10/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc11",
+    "name": "npc11",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc11/v1",
+    "resource": "npc11",
+    "originals": [
+      "Art/NPCs/npc11/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc11.png",
+      "Reference/OriginalGame/extracted/npc11.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 4,
+    "reference": "Art/NPCs/npc11/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc11.png": "e738809e159648600465dedcd92a629132c6747ca07d5d82a48e8a7e0b12d675",
+      "Reference/OriginalGame/extracted/npc11.bin": "b2218fdc474e804295134f6f048b85feef3357862d58d7d01c06c28339625a68"
+    },
+    "observedConstraints": "Q physician with dark blue square glasses, white cap with red cross, brown short side hair, white short-sleeve medical coat, gray trousers and dark shoes. Keep original tiny compact body, no stethoscope added without reference.",
+    "comparison": "Art/NPCs/npc11/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc12",
+    "name": "npc12",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc12/v1",
+    "resource": "npc12",
+    "originals": [
+      "Art/NPCs/npc12/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc12.png",
+      "Reference/OriginalGame/extracted/npc12.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 3,
+    "reference": "Art/NPCs/npc12/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc12.png": "e63f1b83623fd233c6c4a9a248eb7044760b81eb0065a4c5c0c9ef148ff2250a",
+      "Reference/OriginalGame/extracted/npc12.bin": "f64dd8883cfad11a0d89f736247a2d08ad9d607cec4bff434fb54e1241e1dde3"
+    },
+    "observedConstraints": "Q elderly person with gray-white high swept hair, closed narrow eyes and gray brows/moustache, orange face, cream shoulder garment open over orange chest, blue waist/belt, dark brown trousers and boots, a little white rising pipe-smoke-like curl to their left as original. No invented huge beard.",
+    "comparison": "Art/NPCs/npc12/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc13",
+    "name": "npc13",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc13/v1",
+    "resource": "npc13",
+    "originals": [
+      "Art/NPCs/npc13/v1/original/field-front.png",
+      "Art/NPCs/npc13/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc13.png",
+      "Reference/OriginalGame/extracted/npc13.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 5,
+    "reference": "Art/NPCs/npc13/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc13.png": "29293c7098bd928609a059f7b49e133a2d8fef26ef924ca3a10cb482be04cb49",
+      "Reference/OriginalGame/extracted/npc13.bin": "ac07f9fb85c5b7073481bfbb5f855894c0472a1b2df7be45d0453167458f2b95"
+    },
+    "observedConstraints": "Tiny Q gray-haired elder with upright swept silver tuft, warm peach face and narrow eyes, blue tunic/apron with square pale blue center patch, small yellow shoulder accents, dark trousers and brown boots. Rear silver hair dominates upper half; retain stubby original proportions.",
+    "comparison": "Art/NPCs/npc13/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc14",
+    "name": "npc14",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc14/v1",
+    "resource": "npc14",
+    "originals": [
+      "Art/NPCs/npc14/v1/original/field-front.png",
+      "Art/NPCs/npc14/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc14.png",
+      "Reference/OriginalGame/extracted/npc14.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 14,
+    "reference": "Art/NPCs/npc14/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc14.png": "0da7c0df423ba362462e679f941d0b422ef5cd694c67a821d692fc21749f4564",
+      "Reference/OriginalGame/extracted/npc14.bin": "d812a2a6c3079f575a5515a470251012616b1ae8bd745313e8bb9b000639b003"
+    },
+    "observedConstraints": "Q character with very large blue helmet/cap with yellow band and white block marks on front, warm face visible below, small dark brown side hair, black tunic/vest with small white fasteners, pale short sleeves, blue trousers/shoes. Rear large blue headwear with white crescent patch. No sunglasses in this base variant.",
+    "comparison": "Art/NPCs/npc14/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc14_1",
+    "name": "npc14_1",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc14_1/v1",
+    "resource": "npc14_1",
+    "originals": [
+      "Art/NPCs/npc14_1/v1/original/field-front.png",
+      "Art/NPCs/npc14_1/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc14_1.png",
+      "Reference/OriginalGame/extracted/npc14_1.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 8,
+    "reference": "Art/NPCs/npc14_1/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc14_1.png": "0da7c0df423ba362462e679f941d0b422ef5cd694c67a821d692fc21749f4564",
+      "Reference/OriginalGame/extracted/npc14_1.bin": "ee3431d3667e956ff53dc13875f896f4c0e1851e71033eacd3cb0c2e52d6b648"
+    },
+    "observedConstraints": "Independent variant of the original blue helmet/cap character: big blue cap with yellow band and white block markings, black rectangular sunglasses with white highlights, orange beard/moustache, black vest with white fasteners, pale sleeves, blue trousers/shoes. Rear big blue cap with white crescent patch. Do not merge into base npc14.",
+    "comparison": "Art/NPCs/npc14_1/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc15",
+    "name": "npc15",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc15/v1",
+    "resource": "npc15",
+    "originals": [
+      "Art/NPCs/npc15/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc15.png",
+      "Reference/OriginalGame/extracted/npc15.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 14,
+    "reference": "Art/NPCs/npc15/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc15.png": "715dba440c6227e62fb5e37815f5629dd8dce9d0fa864e0c70a6f21a62199151",
+      "Reference/OriginalGame/extracted/npc15.bin": "05736c191d7b2df254776e93e509df29073584503716e6ca599a48dbefe28391"
+    },
+    "observedConstraints": "Q woman with large long violet/purple hair, paler purple sheen on crown, warm skin, simple large dark eyes, white blouse, green chest detail, bright pink waist band, short dark skirt/lower garment and dark shoes. Not Xiya: no green hat and original hairstyle is its own. One static field pose only.",
+    "comparison": "Art/NPCs/npc15/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc16",
+    "name": "npc16",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc16/v1",
+    "resource": "npc16",
+    "originals": [
+      "Art/NPCs/npc16/v1/original/field-front.png",
+      "Art/NPCs/npc16/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc16.png",
+      "Reference/OriginalGame/extracted/npc16.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 18,
+    "reference": "Art/NPCs/npc16/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc16.png": "afc9b24d6f2b2b3a79bc155fc95564cd9b1455e420fadaa861df02de45e9ac27",
+      "Reference/OriginalGame/extracted/npc16.bin": "95a4acd0b3bdf305633def9e348c6bafc030308025ae8a8c42d0e0b28f04eab9"
+    },
+    "observedConstraints": "Q black-clothed masked hooded figure, huge solid black hood/hair silhouette, pale porcelain-like face, black horizontal eyes, small coral red square forehead mark and two coral cheek blocks, entire body short and black with black shoes. Preserve plain mysterious form; do not create armor or elaborate robe.",
+    "comparison": "Art/NPCs/npc16/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc16_1",
+    "name": "npc16_1",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc16_1/v1",
+    "resource": "npc16_1",
+    "originals": [
+      "Art/NPCs/npc16_1/v1/original/field-front.png",
+      "Art/NPCs/npc16_1/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc16_1.png",
+      "Reference/OriginalGame/extracted/npc16_1.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 0,
+    "reference": "Art/NPCs/npc16_1/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc16_1.png": "afc9b24d6f2b2b3a79bc155fc95564cd9b1455e420fadaa861df02de45e9ac27",
+      "Reference/OriginalGame/extracted/npc16_1.bin": "cb7ee0abc31457d264d41d26bf7c0f531f3f5d4719f77f0369432714e64389a3"
+    },
+    "observedConstraints": "Separate masked variant: Q entirely black hood and clothes, pale white mask with red marks and vertical dark central stripe, pale lavender lower mask, very short black legs. Do not merge with base npc16; no exposed hair or weapons.",
+    "comparison": "Art/NPCs/npc16_1/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc17",
+    "name": "npc17",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc17/v1",
+    "resource": "npc17",
+    "originals": [
+      "Art/NPCs/npc17/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc17.png",
+      "Reference/OriginalGame/extracted/npc17.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 1,
+    "reference": "Art/NPCs/npc17/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc17.png": "d4b85b9b40d8f96dbf5a185ec9b23f9771466d6c842b4d8dcb1a0375ce47f041",
+      "Reference/OriginalGame/extracted/npc17.bin": "37dfd7f5e62090e210d12e5e91031f436e4ff9a5edb1c124f8b23575eb74bed5"
+    },
+    "observedConstraints": "Q boy with very large spiky teal-green cap/hair with pale cyan hat band, brown fringe peeking below, warm peach face, blue/teal shirt with green accents, short black trousers/boots. Original one static field pose; no invented sword.",
+    "comparison": "Art/NPCs/npc17/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc18",
+    "name": "npc18",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc18/v1",
+    "resource": "npc18",
+    "originals": [
+      "Art/NPCs/npc18/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc18.png",
+      "Reference/OriginalGame/extracted/npc18.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 2,
+    "reference": "Art/NPCs/npc18/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc18.png": "56704c6c19359c97d2dad68e515e7328da89150bee427e22b27792935cafc3e5",
+      "Reference/OriginalGame/extracted/npc18.bin": "baad9df56abc8bb58b671104a810dba3f19522f1fc35ec66aa97637976f45208"
+    },
+    "observedConstraints": "Q figure in long blue head covering with large yellow crescent ornament rising on top, warm face and short brown fringe, green little collar, blue long robe with pale blue broad horizontal waist/panel stripes, dark blue base. One pose, preserve compact short body.",
+    "comparison": "Art/NPCs/npc18/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc19",
+    "name": "npc19",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc19/v1",
+    "resource": "npc19",
+    "originals": [
+      "Art/NPCs/npc19/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc19.png",
+      "Reference/OriginalGame/extracted/npc19.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 1,
+    "reference": "Art/NPCs/npc19/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc19.png": "4117de4b6ab885d2f50c4bf624c1435aa209193cdb75ae4f6da59616ae423b30",
+      "Reference/OriginalGame/extracted/npc19.bin": "ed0a3dec2de33f9735124f3a4bac0aae3d45d91f3cbf43c691231f201e7c16c8"
+    },
+    "observedConstraints": "Q young boy with enormous spiky azure/navy hair, blue eyes, warm face, sleeveless white shirt over blue dark chest detail, dark navy trousers with bright red footwear tips. Short body, no grown-up muscular build.",
+    "comparison": "Art/NPCs/npc19/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc2",
+    "name": "npc2",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc2/v1",
+    "resource": "npc2",
+    "originals": [
+      "Art/NPCs/npc2/v1/original/field-front.png",
+      "Art/NPCs/npc2/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc2.png",
+      "Reference/OriginalGame/extracted/npc2.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 4,
+    "reference": "Art/NPCs/npc2/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc2.png": "72ade37b990f3ac30ad4800238e377013cd6c3b323ea1eec1e1ee02aba6dd401",
+      "Reference/OriginalGame/extracted/npc2.bin": "33f6b23aba6b6ec08e81f6e97310da6d48c085370df9cc268b42299f364064c8"
+    },
+    "observedConstraints": "Q elderly woman with gray hair in two small side buns held by gold/red pins, closed small smiling eyes, warm skin, mustard/gold dress/apron with tan large front panel, dark sleeves, dark brown small shoes. Match short elderly proportions.",
+    "comparison": "Art/NPCs/npc2/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc3",
+    "name": "npc3",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc3/v1",
+    "resource": "npc3",
+    "originals": [
+      "Art/NPCs/npc3/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc3.png",
+      "Reference/OriginalGame/extracted/npc3.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 1,
+    "reference": "Art/NPCs/npc3/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc3.png": "62a9f9c7b71e4883c006b832b49265342efcadf9d34ae7549b59d2f1be920b16",
+      "Reference/OriginalGame/extracted/npc3.bin": "1ac39556ca82ed217477724ed0225e6c6cfa6fb39006c0476577fe4c1f3f0420"
+    },
+    "observedConstraints": "Q farmer/adventurer, large green brimmed hat with silver-gray band, brown fringe, orange shirt, brown belt/pants and dark boots, long brown-handled gray metal hoe visible diagonally behind right shoulder. Neutral static front pose. Tool is an outfit reference; for final animation equipment is separate, do not make it part of anatomy.",
+    "comparison": "Art/NPCs/npc3/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc4",
+    "name": "npc4",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc4/v1",
+    "resource": "npc4",
+    "originals": [
+      "Art/NPCs/npc4/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc4.png",
+      "Reference/OriginalGame/extracted/npc4.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 1,
+    "reference": "Art/NPCs/npc4/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc4.png": "b333af3031ce6e0a3d162182424a5659909b9e197c466a80e37fab44564af327",
+      "Reference/OriginalGame/extracted/npc4.bin": "2a294d3b068d7bcc3eafefc4437b9329c477ea89dee595ba1d63a18a08b291c2"
+    },
+    "observedConstraints": "Q elderly turbaned vendor seated on floating red/orange rectangular carpet with golden border and four curled corners. White-gray turban with dark blue central jewel, warm peach face, blue moustache/face cloth-like detail, deep blue robe. Character and carpet same silhouette as original, no genie lamp.",
+    "comparison": "Art/NPCs/npc4/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc5",
+    "name": "npc5",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc5/v1",
+    "resource": "npc5",
+    "originals": [
+      "Art/NPCs/npc5/v1/original/field-front.png",
+      "Art/NPCs/npc5/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc5.png",
+      "Reference/OriginalGame/extracted/npc5.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 3,
+    "reference": "Art/NPCs/npc5/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc5.png": "39e9cc2990f9b32cda1aebf94496537c0de9830190f5e3737145d5fe0b5b5cb0",
+      "Reference/OriginalGame/extracted/npc5.bin": "cd2f1638e89c18e3651f4bfe474dbd4d3f108f0f824642a7e5a75ba25e6d3c32"
+    },
+    "observedConstraints": "Q blonde girl with huge straight yellow-blond hair, curled top tuft with tiny red tie, brown/dark eyes, white tunic or blouse, gray neck band, dark lower clothes with red trim and small red shoes. Rear broad blond hair down to waist. Original very short body, do not give an adult fashion shape.",
+    "comparison": "Art/NPCs/npc5/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc6",
+    "name": "npc6",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc6/v1",
+    "resource": "npc6",
+    "originals": [
+      "Art/NPCs/npc6/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc6.png",
+      "Reference/OriginalGame/extracted/npc6.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 5,
+    "reference": "Art/NPCs/npc6/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc6.png": "781f7c54f6a2212985e2e830517dc400f58d2c48bb10fb68a818c50e5ab15490",
+      "Reference/OriginalGame/extracted/npc6.bin": "e9ade5e64bb2b04dc5137e11bd7149fac8be2dbcc31ee57817bf5230b49301c7"
+    },
+    "observedConstraints": "Q elderly bearded man, large white/gray side hair and small dark gray cap, warm orange face, thick white moustache, muted olive beige vest/tunic, short sleeves, dark trousers and reddish brown boots. Original one static pose.",
+    "comparison": "Art/NPCs/npc6/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc7",
+    "name": "npc7",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc7/v1",
+    "resource": "npc7",
+    "originals": [
+      "Art/NPCs/npc7/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc7.png",
+      "Reference/OriginalGame/extracted/npc7.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 2,
+    "reference": "Art/NPCs/npc7/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc7.png": "88155c2d5544a1fb643508c8988bd5e28c43900d331783cb7f4270fd693be86e",
+      "Reference/OriginalGame/extracted/npc7.bin": "235426165d7bae8393ed58596bfbe6d4680c56084a3882afcb8418c9e5c0c21f"
+    },
+    "observedConstraints": "Q brown animal-faced NPC, elongated brown muzzle with pale orange cheek blocks, two small upturned brown/cream ear projections, black vest with white V collar, short dark trousers and boots. Species is not identified from resource name. Original appearance is shared by dialogue roles including 美少女 and 客人; do not label it a new collectible monster or force a human face.",
+    "promptInterpretationNote": "Original design prompt initially described the tiny face as human. Output followed the supplied original animal-like muzzle more closely; source interpretation corrected after inspecting full enlargement and scene interaction scripts 3043/3013. Actual generation prompt retained unchanged for provenance.",
+    "comparison": "Art/NPCs/npc7/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc8",
+    "name": "npc8",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc8/v1",
+    "resource": "npc8",
+    "originals": [
+      "Art/NPCs/npc8/v1/original/field-front.png",
+      "Art/NPCs/npc8/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc8.png",
+      "Reference/OriginalGame/extracted/npc8.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 2,
+    "reference": "Art/NPCs/npc8/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc8.png": "afc9b24d6f2b2b3a79bc155fc95564cd9b1455e420fadaa861df02de45e9ac27",
+      "Reference/OriginalGame/extracted/npc8.bin": "1b822dbf724da369e65055558302b49cfd5c608e6728918f8a1ec8980a902f95"
+    },
+    "observedConstraints": "Q mysterious solid black human silhouette with two tiny white vertical eyes, big round-black head and stubby black body/feet. This original is an intentional mystery figure: preserve black silhouette and plain white eyes, no detailed face. This is different from generic monster placeholders.",
+    "comparison": "Art/NPCs/npc8/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc9",
+    "name": "npc9",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc9/v1",
+    "resource": "npc9",
+    "originals": [
+      "Art/NPCs/npc9/v1/original/field-pose.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc9.png",
+      "Reference/OriginalGame/extracted/npc9.bin"
+    ],
+    "views": [
+      "field-pose"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 4,
+    "reference": "Art/NPCs/npc9/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc9.png": "7fdbdfdaf4e68c1c48338cf44173ce50b8895105d30c78097afb02b63b331061",
+      "Reference/OriginalGame/extracted/npc9.bin": "2456fca9f9ff7f343ba5a3718c930294fae67c17c5b12b2409f09eba6d7268b4"
+    },
+    "observedConstraints": "Q young turbaned character, large white-gray turban with navy blue central jewel, brown side hair, warm face and dark eyes, bright azure blue long tunic with dark blue panels, dark lower trousers/shoes. Original one pose; no carpet in this character.",
+    "comparison": "Art/NPCs/npc9/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc_fighter1",
+    "name": "npc_fighter1",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc_fighter1/v1",
+    "resource": "npc_fighter1",
+    "originals": [
+      "Art/NPCs/npc_fighter1/v1/original/field-front.png",
+      "Art/NPCs/npc_fighter1/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc_fighter1.png",
+      "Reference/OriginalGame/extracted/npc_fighter1.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 10,
+    "reference": "Art/NPCs/npc_fighter1/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc_fighter1.png": "902b9176e5a4a55fec3c24daa0b8a0cc70e1c018723ae9816f817480d2c35523",
+      "Reference/OriginalGame/extracted/npc_fighter1.bin": "b7f4bd3e5db330eb25b544298891e40b7d646cbd482e0bae893cf47a11317509"
+    },
+    "observedConstraints": "Q orange-haired young fighter, enormous messy golden-orange head hair, small red band at right temple, blue eyes, short brown leather vest/tunic with dark sleeves, tan belt and pale tan lower panel, dark brown tiny boots. Neutral front/back, no added weapon.",
+    "comparison": "Art/NPCs/npc_fighter1/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc_fighter2",
+    "name": "npc_fighter2",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc_fighter2/v1",
+    "resource": "npc_fighter2",
+    "originals": [
+      "Art/NPCs/npc_fighter2/v1/original/field-front.png",
+      "Art/NPCs/npc_fighter2/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc_fighter2.png",
+      "Reference/OriginalGame/extracted/npc_fighter2.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 5,
+    "reference": "Art/NPCs/npc_fighter2/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc_fighter2.png": "b05c987407c7be20b2c72ecc41817b1e1fba7ad47bfbf3b557c4e6d65d777a50",
+      "Reference/OriginalGame/extracted/npc_fighter2.bin": "d6384fce362558329b200f16254fe7b3a689c08891d002c6cc927151098a6f4a"
+    },
+    "observedConstraints": "Q magenta-haired young fighter, enormous round spiky pink/magenta hair, blue eyes, purple chest armor/tunic and lavender bands, dark sleeves, pale tan belt, purple tiny boots. Neutral front/back. Different shape and colors from orange fighter, no added weapon.",
+    "comparison": "Art/NPCs/npc_fighter2/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc_klaier",
+    "name": "克莱尔",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc_klaier/v1",
+    "resource": "npc_klaier",
+    "originals": [
+      "Art/NPCs/npc_klaier/v1/original/field-front.png",
+      "Art/NPCs/npc_klaier/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc_klaier.png",
+      "Reference/OriginalGame/extracted/npc_klaier.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 1,
+    "reference": "Art/NPCs/npc_klaier/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc_klaier.png": "bf3a5a68e8bf806f3989341050d983e57c3feb21ca0a61bf96ad831eca61dea5",
+      "Reference/OriginalGame/extracted/npc_klaier.bin": "d4fdbe48df5ecf0ce77e1e760958a948dbe62386b06c09fa2f008daaf7857a64"
+    },
+    "observedConstraints": "Q Claire/Klaier, very large smooth teal green shoulder-length hair swept over left side, mint highlights, green eyes, violet/purple cropped outfit with small gold neck/chest buckle, dark waistband and pale violet boots. Original warm peach face and very short compact body, no hat.",
+    "comparison": "Art/NPCs/npc_klaier/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc_soldier",
+    "name": "npc_soldier",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc_soldier/v1",
+    "resource": "npc_soldier",
+    "originals": [
+      "Art/NPCs/npc_soldier/v1/original/field-front.png",
+      "Art/NPCs/npc_soldier/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc_soldier.png",
+      "Reference/OriginalGame/extracted/npc_soldier.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 13,
+    "reference": "Art/NPCs/npc_soldier/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc_soldier.png": "5a6c508b714ff9918e8992b95eaf9d9bc1d58fe4a42d28178ade17067bbed49f",
+      "Reference/OriginalGame/extracted/npc_soldier.bin": "a8bd55d2795c9e7828a83ad64b7767d5769ecc9b23071401f653f376dcaab90e"
+    },
+    "observedConstraints": "Q armored soldier, huge gray metal domed helmet with vertical narrow red crest, face visible under brow, gray layered chest armor, dark blue sleeves with red shoulder accents, blue cape on rear, gray-black tiny boots. No gun or spear added.",
+    "comparison": "Art/NPCs/npc_soldier/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc_walker",
+    "name": "npc_walker",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc_walker/v1",
+    "resource": "npc_walker",
+    "originals": [
+      "Art/NPCs/npc_walker/v1/original/field-front.png",
+      "Art/NPCs/npc_walker/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc_walker.png",
+      "Reference/OriginalGame/extracted/npc_walker.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 2,
+    "reference": "Art/NPCs/npc_walker/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc_walker.png": "41eb51b2c6a2204cc357afcc5c38b47d5363aa3f498143905290972c5890aeef",
+      "Reference/OriginalGame/extracted/npc_walker.bin": "6f05ea283c8793c4dda7fd151747d8460725db31ae7bf3df8c47c49a8da39658"
+    },
+    "observedConstraints": "Thin Q wandering man, blue cap with pale beige front/crown patch and tan band, brown hair, large square dark blue glasses, pale face and small dark moustache, navy shirt with red accents and olive lower trousers/pouch, very short legs, a small brown stalk/pipe detail by face. Preserve original thin proportions.",
+    "comparison": "Art/NPCs/npc_walker/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "npc_wolfman",
+    "name": "npc_wolfman",
+    "kind": "npc",
+    "folder": "Art/NPCs/npc_wolfman/v1",
+    "resource": "npc_wolfman",
+    "originals": [
+      "Art/NPCs/npc_wolfman/v1/original/field-front.png",
+      "Art/NPCs/npc_wolfman/v1/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc_wolfman.png",
+      "Reference/OriginalGame/extracted/npc_wolfman.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "originalSceneUses": 1,
+    "reference": "Art/NPCs/npc_wolfman/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc_wolfman.png": "16414799a616ea87f77c96ff9242e8af80112fc381adc58f149af225b683336a",
+      "Reference/OriginalGame/extracted/npc_wolfman.bin": "300c6abd082b365f2d250c78a04ec08df09d105a352fad19b14f6afdd9ef411e"
+    },
+    "observedConstraints": "Q brown wolfman, huge pointed brown ears with pink interiors, tan wolf muzzle with one golden eye visible, broad red diagonal scar or eye band across face, pale shaggy chest tuft, dark reddish brown pants and boots, gray metal axe on brown handle over shoulder visible beside head. Tail/hair from back follows original. Do not identify as Nefari without evidence; tool is separately replaceable in later animation.",
+    "comparison": "Art/NPCs/npc_wolfman/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "portrait-3",
+    "name": "许愿池精灵·头像",
+    "kind": "portrait",
+    "folder": "Art/NPCs/portrait-3/v1",
+    "originals": [
+      "Reference/OriginalGame/extracted/heads/hpic3.png"
+    ],
+    "views": [
+      "portrait"
+    ],
+    "silhouette": false,
+    "portraitId": 3,
+    "reference": "Art/NPCs/portrait-3/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/heads/hpic3.png": "96116795c6871fe3736ec51b05d7d9ff8115362b8389393db11097dec4d82603"
+    },
+    "observedConstraints": "Dialogue portrait of a cream pale blond little wish-pool spirit with a sweeping pale blond/cream face and hair mass, bright blue ribbon-like pointed crest along upper right, pale blue collar/bow at bottom, tiny orange nose/mouth at left. Match sideward face profile and original few colors. Do not invent a full human body or wings beyond reference.",
+    "comparison": "Art/NPCs/portrait-3/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "portrait-5",
+    "name": "耐法瑞·头像",
+    "kind": "portrait",
+    "folder": "Art/NPCs/portrait-5/v1",
+    "originals": [
+      "Reference/OriginalGame/extracted/heads/hpic5.png"
+    ],
+    "views": [
+      "portrait"
+    ],
+    "silhouette": false,
+    "portraitId": 5,
+    "reference": "Art/NPCs/portrait-5/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/heads/hpic5.png": "080650dd3c2989f452eb34ac8fbaf031c69e1d169365b2c41b126084d5a15885"
+    },
+    "observedConstraints": "Dialogue head-and-shoulders portrait of elderly Nefari, stern pale warm face, receding silver-gray hair, thick silver eyebrows, pale gray thick moustache and pointed beard, dark navy high collar/shoulder cloth. Preserve wrinkles and original short hair, not a wizard hat.",
+    "comparison": "Art/NPCs/portrait-5/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "portrait-9",
+    "name": "芙蕾尔·头像",
+    "kind": "portrait",
+    "folder": "Art/NPCs/portrait-9/v1",
+    "originals": [
+      "Reference/OriginalGame/extracted/heads/hpic9.png"
+    ],
+    "views": [
+      "portrait"
+    ],
+    "silhouette": false,
+    "portraitId": 9,
+    "reference": "Art/NPCs/portrait-9/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/heads/hpic9.png": "c325ce9515a29ca63d777bbf210188803971db7ebc2eec17329ee1a4f22d9ec5"
+    },
+    "observedConstraints": "Dialogue head-and-shoulders portrait of Frel/Fleur: young blonde woman with long straight golden hair and bangs, clear blue eyes, large red beret-like slanted cap with pale gray edge/band along right, warm pale skin, gray-white clothing at lower crop. Same angle and expression as original.",
+    "comparison": "Art/NPCs/portrait-9/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "portrait-10",
+    "name": "克莱尔·头像",
+    "kind": "portrait",
+    "folder": "Art/NPCs/portrait-10/v1",
+    "originals": [
+      "Reference/OriginalGame/extracted/heads/hpic10.png"
+    ],
+    "views": [
+      "portrait"
+    ],
+    "silhouette": false,
+    "portraitId": 10,
+    "reference": "Art/NPCs/portrait-10/v1/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/heads/hpic10.png": "1498db334169011e2fbed5ba2884ddde7b8afb358e36e715d56496406e1506f6"
+    },
+    "observedConstraints": "Dialogue head-and-shoulders portrait of Claire: teal/mint swept short bob partly covering left eye, green eyes, warm pale skin, slightly smiling mouth, purple/violet high collar with dark edges. Match original face angle and hair, not blue hair.",
+    "comparison": "Art/NPCs/portrait-10/v1/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  },
+  {
+    "key": "monster-08-field",
+    "name": "异翅巨蟒·跑图版",
+    "kind": "monster_field",
+    "id": 8,
+    "folder": "Art/Reviews/08/v2-field",
+    "resource": "npc_s8_0",
+    "originals": [
+      "Art/Reviews/08/v2-field/original/field-front.png",
+      "Art/Reviews/08/v2-field/original/field-back.png"
+    ],
+    "sourceReferences": [
+      "Reference/OriginalGame/extracted/npc_s8_0.png",
+      "Reference/OriginalGame/extracted/npc_s8_0.bin"
+    ],
+    "views": [
+      "field-front",
+      "field-back"
+    ],
+    "silhouette": false,
+    "reference": "Art/Reviews/08/v2-field/original-reference.png",
+    "sourceSHA256": {
+      "Reference/OriginalGame/extracted/npc_s8_0.png": "385537423ea18fae6f9fe9da4ac572d15b1395db5ec324dfb09a9fcb9a850afc",
+      "Reference/OriginalGame/extracted/npc_s8_0.bin": "7709d6a67a9e25ee3ee4cb3528794703c1ea865b9f9d2ca62bbdf5ee28efdb25"
+    },
+    "observedConstraints": "Original compact overworld serpent: short broad face, purple vertical neck, pale lavender belly, mint-green bands and turquoise horizontally extended bat wings, little teardrop-coiled base, same identity as battle monster 8, no legs or arms. Independent field proportions from npc_s8_0, not simply scaling its elaborate battle illustration.",
+    "comparison": "Art/Reviews/08/v2-field/original-vs-redraw.png",
+    "status": "draft_review",
+    "approvedVersion": null
+  }
+]

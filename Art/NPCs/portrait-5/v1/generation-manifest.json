@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "portrait-5",
+  "views": [
+    {
+      "name": "portrait",
+      "bounds": [
+        213,
+        52,
+        1206,
+        1148
+      ],
+      "size": [
+        993,
+        1096
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/heads/hpic5.png": "080650dd3c2989f452eb34ac8fbaf031c69e1d169365b2c41b126084d5a15885"
+  },
+  "sourceSHA256": "17afd068964f64d1b307cd9834fe7703dfc53b42d77aaf6410e9001faeb7794b",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/portrait-5/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design.png": "17afd068964f64d1b307cd9834fe7703dfc53b42d77aaf6410e9001faeb7794b"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "274c6ac625b42d7478185e31111904d94592c028cbe5f54b2f3079cb341f7764"
+  }
+}

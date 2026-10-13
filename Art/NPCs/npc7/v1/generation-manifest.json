@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "npc7",
+  "views": [
+    {
+      "name": "field-pose",
+      "bounds": [
+        272,
+        117,
+        957,
+        1150
+      ],
+      "size": [
+        685,
+        1033
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/npc7.png": "88155c2d5544a1fb643508c8988bd5e28c43900d331783cb7f4270fd693be86e",
+    "Reference/OriginalGame/extracted/npc7.bin": "235426165d7bae8393ed58596bfbe6d4680c56084a3882afcb8418c9e5c0c21f"
+  },
+  "sourceSHA256": "a67547e1ca9a96281132e8a1e44db8bf4911f3e89ae75b5668ee2c3da5f136e3",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/npc7/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design.png": "a67547e1ca9a96281132e8a1e44db8bf4911f3e89ae75b5668ee2c3da5f136e3"
+  },
+  "promptInterpretationNote": "Original design prompt initially described the tiny face as human. Output followed the supplied original animal-like muzzle more closely; source interpretation corrected after inspecting full enlargement and scene interaction scripts 3043/3013. Actual generation prompt retained unchanged for provenance.",
+  "promptSHA256": {
+    "prompts/design.txt": "aa9d853a0bc0aca20ee5cbeca8d682c57d6475eaf7e40f81b861902f04a49b92"
+  }
+}

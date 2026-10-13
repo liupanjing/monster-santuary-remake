@@ -1,0 +1,41 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "npc11",
+  "views": [
+    {
+      "name": "field-pose",
+      "bounds": [
+        200,
+        157,
+        926,
+        1191
+      ],
+      "size": [
+        726,
+        1034
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/npc11.png": "e738809e159648600465dedcd92a629132c6747ca07d5d82a48e8a7e0b12d675",
+    "Reference/OriginalGame/extracted/npc11.bin": "b2218fdc474e804295134f6f048b85feef3357862d58d7d01c06c28339625a68"
+  },
+  "sourceSHA256": "77b06a7312d452e7cd86e9085857d36a638b163ac75aca04c226aabd6d3fd06a",
+  "prompt": "prompts/design.txt",
+  "reference": "Art/NPCs/npc11/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "sourceVariantsSHA256": {
+    "design.png": "77b06a7312d452e7cd86e9085857d36a638b163ac75aca04c226aabd6d3fd06a"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "5e9e82ea9e878a25ac36f58027036acd75bca2fbb097220abf259c74af91214d"
+  }
+}

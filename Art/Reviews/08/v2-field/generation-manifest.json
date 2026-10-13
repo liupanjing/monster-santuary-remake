@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "monster-08-field",
+  "views": [
+    {
+      "name": "field-front",
+      "bounds": [
+        68,
+        122,
+        838,
+        792
+      ],
+      "size": [
+        770,
+        670
+      ]
+    },
+    {
+      "name": "field-back",
+      "bounds": [
+        943,
+        121,
+        1716,
+        793
+      ],
+      "size": [
+        773,
+        672
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/npc_s8_0.png": "385537423ea18fae6f9fe9da4ac572d15b1395db5ec324dfb09a9fcb9a850afc",
+    "Reference/OriginalGame/extracted/npc_s8_0.bin": "7709d6a67a9e25ee3ee4cb3528794703c1ea865b9f9d2ca62bbdf5ee28efdb25"
+  },
+  "sourceSHA256": "2e8c20c817dcc289ce59936b796a0c0a220b04bc58cc6e094d41658eacbdbada",
+  "prompt": "prompts/design.txt",
+  "reference": "Art/Reviews/08/v2-field/original-reference.png",
+  "silhouetteOnly": false,
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "sourceVariantsSHA256": {
+    "design.png": "2e8c20c817dcc289ce59936b796a0c0a220b04bc58cc6e094d41658eacbdbada"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "6e02a36e2a85e8c757156b13949f11cb4df846196e6887e2e7dee4ad8e2d06f0"
+  }
+}

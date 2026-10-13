@@ -1,0 +1,24 @@
+[
+  {
+    "scene": 80,
+    "actor": {
+      "index": 8,
+      "type": "npc_wolfman",
+      "anim": 3,
+      "flags": 8,
+      "bounds": [
+        95,
+        207,
+        87,
+        196,
+        103,
+        207
+      ],
+      "params": [
+        0,
+        -1,
+        0
+      ]
+    }
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "scene": 5,
+    "actor": {
+      "index": 14,
+      "type": "npc_fighter1",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        -87,
+        349,
+        -95,
+        338,
+        -79,
+        349
+      ],
+      "params": [
+        0,
+        1997,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 151,
+      "type": "npc_fighter1",
+      "anim": 3,
+      "flags": 8,
+      "bounds": [
+        -89,
+        892,
+        -97,
+        881,
+        -81,
+        892
+      ],
+      "params": [
+        0,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 153,
+      "type": "npc_fighter1",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        906,
+        446,
+        898,
+        435,
+        914,
+        446
+      ],
+      "params": [
+        0,
+        3061,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 34,
+    "actor": {
+      "index": 16,
+      "type": "npc_fighter1",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        360,
+        337,
+        352,
+        326,
+        368,
+        337
+      ],
+      "params": [
+        0,
+        3061,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 35,
+    "actor": {
+      "index": 16,
+      "type": "npc_fighter1",
+      "anim": 0,
+      "flags": 8,
+      "bounds": [
+        200,
+        191,
+        192,
+        180,
+        208,
+        191
+      ],
+      "params": [
+        0,
+        3016,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 35,
+    "actor": {
+      "index": 17,
+      "type": "npc_fighter1",
+      "anim": 0,
+      "flags": 8,
+      "bounds": [
+        120,
+        193,
+        112,
+        182,
+        128,
+        193
+      ],
+      "params": [
+        0,
+        3016,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 35,
+    "actor": {
+      "index": 18,
+      "type": "npc_fighter1",
+      "anim": 0,
+      "flags": 8,
+      "bounds": [
+        72,
+        193,
+        64,
+        182,
+        80,
+        193
+      ],
+      "params": [
+        0,
+        3016,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 52,
+    "actor": {
+      "index": 16,
+      "type": "npc_fighter1",
+      "anim": 0,
+      "flags": 8,
+      "bounds": [
+        209,
+        193,
+        201,
+        182,
+        217,
+        193
+      ],
+      "params": [
+        0,
+        3057,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 54,
+    "actor": {
+      "index": 10,
+      "type": "npc_fighter1",
+      "anim": 3,
+      "flags": 8,
+      "bounds": [
+        47,
+        152,
+        39,
+        141,
+        55,
+        152
+      ],
+      "params": [
+        0,
+        3055,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 61,
+    "actor": {
+      "index": 12,
+      "type": "npc_fighter1",
+      "anim": 3,
+      "flags": 8,
+      "bounds": [
+        24,
+        159,
+        16,
+        140,
+        32,
+        159
+      ],
+      "params": [
+        0,
+        3033,
+        0
+      ]
+    }
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "npc5",
+  "views": [
+    {
+      "name": "field-front",
+      "bounds": [
+        181,
+        87,
+        711,
+        798
+      ],
+      "size": [
+        530,
+        711
+      ]
+    },
+    {
+      "name": "field-back",
+      "bounds": [
+        1107,
+        93,
+        1607,
+        810
+      ],
+      "size": [
+        500,
+        717
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/npc5.png": "39e9cc2990f9b32cda1aebf94496537c0de9830190f5e3737145d5fe0b5b5cb0",
+    "Reference/OriginalGame/extracted/npc5.bin": "cd2f1638e89c18e3651f4bfe474dbd4d3f108f0f824642a7e5a75ba25e6d3c32"
+  },
+  "sourceSHA256": "8f5706bbc5a9b1020cf63e99dc6b6735e014a520b2ee60ec455db502ab27c023",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/npc5/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design.png": "8f5706bbc5a9b1020cf63e99dc6b6735e014a520b2ee60ec455db502ab27c023"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "070643964e5693344391f503e311d9fc0426a1f765255f07c6fe0284c9536fe6"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "status": "assistant_static_check",
+  "correction": "Removed brown areas misinterpreted from original ground shadow; retained near-black body",
+  "humanApproved": false
+}

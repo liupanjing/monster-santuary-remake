@@ -1,0 +1,57 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "npc8",
+  "views": [
+    {
+      "name": "field-front",
+      "bounds": [
+        174,
+        81,
+        707,
+        789
+      ],
+      "size": [
+        533,
+        708
+      ]
+    },
+    {
+      "name": "field-back",
+      "bounds": [
+        1072,
+        80,
+        1608,
+        798
+      ],
+      "size": [
+        536,
+        718
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/npc8.png": "afc9b24d6f2b2b3a79bc155fc95564cd9b1455e420fadaa861df02de45e9ac27",
+    "Reference/OriginalGame/extracted/npc8.bin": "1b822dbf724da369e65055558302b49cfd5c608e6728918f8a1ec8980a902f95"
+  },
+  "sourceSHA256": "4cb51bfb303bb454931cfeef9820adcbe79068b4a13ef75f3eccd6f553b03405",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/black-hands.txt",
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/npc8/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design-glove-draft.png": "c0a79f4b1c060fded7ff131f5cdce2f451b24c758e0318c0a1f4f9dbc18fe6e2",
+    "design.png": "4cb51bfb303bb454931cfeef9820adcbe79068b4a13ef75f3eccd6f553b03405"
+  },
+  "promptSHA256": {
+    "prompts/black-hands.txt": "4399598163e7d117e3b9842f1ada2b77547e812e9c182548f6c38d9b1b4ec1be",
+    "prompts/design.txt": "61884471222c0eee722064f1c171582ad4ef8e34882ff3c7617a8603da6fae42"
+  }
+}

@@ -51,7 +51,7 @@
       "element": 2,
       "tier": 1,
       "reviewOrder": 2,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -64,7 +64,10 @@
         "s21_1.png": "de7030f37ea3d78764e5b3db071fe4feb637d7c23007359f623a463df58fafe0"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/21/REVIEW.md"
+      "reviewFile": "Art/Reviews/21/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/21/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/21/v2/static"
     },
     {
       "id": 22,
@@ -73,7 +76,7 @@
       "element": 2,
       "tier": 2,
       "reviewOrder": 3,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -86,7 +89,10 @@
         "s22_1.png": "79a0381ca0952ec179226da1c0a3d4f4e3f2f72334ef54d27d061ffa8f674395"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/22/REVIEW.md"
+      "reviewFile": "Art/Reviews/22/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/22/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/22/v2/static"
     },
     {
       "id": 23,
@@ -95,7 +101,7 @@
       "element": 2,
       "tier": 3,
       "reviewOrder": 4,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -108,7 +114,10 @@
         "s23_1.png": "9ca1d87841f13599b01c8c92809fd30523c2a2b2ffb3cc375d18e6ce4cdddf25"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/23/REVIEW.md"
+      "reviewFile": "Art/Reviews/23/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/23/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/23/v2/static"
     },
     {
       "id": 24,
@@ -117,7 +126,7 @@
       "element": 2,
       "tier": 4,
       "reviewOrder": 5,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -130,7 +139,10 @@
         "s24_1.png": "1fc36e9fb77899d485d0a59e0599a72fbbe857843642da376ccae85898ae89be"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/24/REVIEW.md"
+      "reviewFile": "Art/Reviews/24/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/24/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/24/v2/static"
     },
     {
       "id": 25,
@@ -139,7 +151,7 @@
       "element": 2,
       "tier": 5,
       "reviewOrder": 6,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -152,7 +164,10 @@
         "s25_1.png": "888d3487442a478dd9a763227b29db007233fa504a6559baac2b322eae6645db"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/25/REVIEW.md"
+      "reviewFile": "Art/Reviews/25/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/25/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/25/v2/static"
     },
     {
       "id": 26,
@@ -161,7 +176,7 @@
       "element": 2,
       "tier": 6,
       "reviewOrder": 7,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -174,7 +189,10 @@
         "s26_1.png": "f4bbe04a4743bd0ce9a9d70debd9d4d40bf84d47d0f20fda25bef882d547cc44"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/26/REVIEW.md"
+      "reviewFile": "Art/Reviews/26/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/26/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/26/v2/static"
     },
     {
       "id": 27,
@@ -183,7 +201,7 @@
       "element": 2,
       "tier": 7,
       "reviewOrder": 8,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -196,7 +214,10 @@
         "s27_1.png": "cf6246f57e923e231474218a3f782d0a07b344214f32e4479b26d9155176be4c"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/27/REVIEW.md"
+      "reviewFile": "Art/Reviews/27/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/27/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/27/v2/static"
     },
     {
       "id": 28,
@@ -205,7 +226,7 @@
       "element": 2,
       "tier": 8,
       "reviewOrder": 9,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -218,7 +239,10 @@
         "s28_1.png": "61c4851669aba7896090102fcffbb817281103cafadb7b104f31d4a748bbda15"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/28/REVIEW.md"
+      "reviewFile": "Art/Reviews/28/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/28/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/28/v2/static"
     },
     {
       "id": 29,
@@ -227,7 +251,7 @@
       "element": 2,
       "tier": 9,
       "reviewOrder": 10,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -240,7 +264,10 @@
         "s29_1.png": "fb5a26937174f9aeef55255924aaf3c4ae1592becc182e0c57772758e4dde591"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/29/REVIEW.md"
+      "reviewFile": "Art/Reviews/29/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/29/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/29/v2/static"
     },
     {
       "id": 8,
@@ -249,7 +276,7 @@
       "element": 0,
       "tier": 8,
       "reviewOrder": 11,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -262,7 +289,12 @@
         "s8_1.png": "3d47612bc2a29d58091343ac5bb7d6a7479bd6ae3c86946b7cecb6faa03e557d"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/08/REVIEW.md"
+      "reviewFile": "Art/Reviews/08/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/08/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/08/v2/static",
+      "staticFieldArt": "Art/Reviews/08/v2-field/static",
+      "fieldComparison": "Art/Reviews/08/v2-field/original-vs-redraw.png"
     },
     {
       "id": 0,
@@ -271,7 +303,7 @@
       "element": 5,
       "tier": 10,
       "reviewOrder": 12,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "silhouette_only",
@@ -284,7 +316,10 @@
         "s0_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/00/REVIEW.md"
+      "reviewFile": "Art/Reviews/00/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/00/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/00/v2/static"
     },
     {
       "id": 1,
@@ -293,7 +328,7 @@
       "element": 0,
       "tier": 1,
       "reviewOrder": 13,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -306,7 +341,10 @@
         "s1_1.png": "1e45d765e06c8d0d88036b45d075b4fe17ec7c4ff9797eb35e1f1578da50db29"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/01/REVIEW.md"
+      "reviewFile": "Art/Reviews/01/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/01/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/01/v2/static"
     },
     {
       "id": 2,
@@ -315,7 +353,7 @@
       "element": 0,
       "tier": 2,
       "reviewOrder": 14,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -328,7 +366,10 @@
         "s2_1.png": "db1eff3d6bb77eaa743f328399d108c8ed187ada5bcdcb6c5768755248214793"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/02/REVIEW.md"
+      "reviewFile": "Art/Reviews/02/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/02/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/02/v2/static"
     },
     {
       "id": 3,
@@ -337,7 +378,7 @@
       "element": 0,
       "tier": 3,
       "reviewOrder": 15,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -350,7 +391,10 @@
         "s3_1.png": "49c56878013e71ecd607733086370b24342ae3c5049431dc8a5c6ca63d7e46f7"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/03/REVIEW.md"
+      "reviewFile": "Art/Reviews/03/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/03/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/03/v2/static"
     },
     {
       "id": 4,
@@ -359,7 +403,7 @@
       "element": 0,
       "tier": 4,
       "reviewOrder": 16,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -372,7 +416,10 @@
         "s4_1.png": "65e9ad9230ccf1532187a9c15efed6cb55a53d6944532bfa77d0cdfd0bd5c227"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/04/REVIEW.md"
+      "reviewFile": "Art/Reviews/04/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/04/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/04/v2/static"
     },
     {
       "id": 5,
@@ -381,7 +428,7 @@
       "element": 0,
       "tier": 5,
       "reviewOrder": 17,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -394,7 +441,10 @@
         "s5_1.png": "25e7d0eea6073b196cb6f0d1d6adcedc7e1900eb79edc20f8d8b3e949fd5c848"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/05/REVIEW.md"
+      "reviewFile": "Art/Reviews/05/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/05/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/05/v2/static"
     },
     {
       "id": 6,
@@ -403,7 +453,7 @@
       "element": 0,
       "tier": 6,
       "reviewOrder": 18,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -416,7 +466,10 @@
         "s6_1.png": "baaa962d450a2fbaf5a93d30482e4c03ca79ec57c67806ce3371b27da96ff8ed"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/06/REVIEW.md"
+      "reviewFile": "Art/Reviews/06/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/06/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/06/v2/static"
     },
     {
       "id": 7,
@@ -425,7 +478,7 @@
       "element": 0,
       "tier": 7,
       "reviewOrder": 19,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -438,7 +491,10 @@
         "s7_1.png": "a0b83625a42e4f598a6d9c529749d4370be99c9faf86997b45ff8e44b373bdb5"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/07/REVIEW.md"
+      "reviewFile": "Art/Reviews/07/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/07/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/07/v2/static"
     },
     {
       "id": 9,
@@ -447,7 +503,7 @@
       "element": 0,
       "tier": 9,
       "reviewOrder": 20,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -460,7 +516,10 @@
         "s9_1.png": "763f1c95cd3ac0d969b5584ed9db814791afd28545098578bf532d9e36bd6d48"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/09/REVIEW.md"
+      "reviewFile": "Art/Reviews/09/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/09/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/09/v2/static"
     },
     {
       "id": 10,
@@ -469,7 +528,7 @@
       "element": 5,
       "tier": 6,
       "reviewOrder": 21,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -482,7 +541,10 @@
         "s10_1.png": "0cf4dbaff7577f18aafe71b8e4fa78b00760f26fd53b330e856463291fc6cd04"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/10/REVIEW.md"
+      "reviewFile": "Art/Reviews/10/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/10/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/10/v2/static"
     },
     {
       "id": 11,
@@ -491,7 +553,7 @@
       "element": 1,
       "tier": 1,
       "reviewOrder": 22,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -504,7 +566,10 @@
         "s11_1.png": "ca618c6552af023bb26193837f6c8f4b55ac05bdf8af410ae1e4757720930c4f"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/11/REVIEW.md"
+      "reviewFile": "Art/Reviews/11/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/11/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/11/v2/static"
     },
     {
       "id": 12,
@@ -513,7 +578,7 @@
       "element": 1,
       "tier": 2,
       "reviewOrder": 23,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -526,7 +591,10 @@
         "s12_1.png": "c50590dfbe6a939ddc41a2faaeed24a6ab0a06801bc7ed0ee28a10943f96c182"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/12/REVIEW.md"
+      "reviewFile": "Art/Reviews/12/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/12/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/12/v2/static"
     },
     {
       "id": 13,
@@ -535,7 +603,7 @@
       "element": 1,
       "tier": 3,
       "reviewOrder": 24,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -548,7 +616,10 @@
         "s13_1.png": "8e9080fa3fa3ff3aea98c10ccaa9757ce9542547043608888e1728b223714b49"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/13/REVIEW.md"
+      "reviewFile": "Art/Reviews/13/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/13/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/13/v2/static"
     },
     {
       "id": 14,
@@ -557,7 +628,7 @@
       "element": 1,
       "tier": 4,
       "reviewOrder": 25,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -570,7 +641,10 @@
         "s14_1.png": "37c6329e1588dd4a9c86d3a0cefe58c1d98d0c6d59ea40b741730b904797e24a"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/14/REVIEW.md"
+      "reviewFile": "Art/Reviews/14/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/14/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/14/v2/static"
     },
     {
       "id": 15,
@@ -579,7 +653,7 @@
       "element": 1,
       "tier": 5,
       "reviewOrder": 26,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -592,7 +666,10 @@
         "s15_1.png": "503a3bc018ef161aeff49dc1a39c2dfac3853c885e5c89f691d3866f51c2c93a"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/15/REVIEW.md"
+      "reviewFile": "Art/Reviews/15/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/15/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/15/v2/static"
     },
     {
       "id": 16,
@@ -601,7 +678,7 @@
       "element": 1,
       "tier": 6,
       "reviewOrder": 27,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -614,7 +691,10 @@
         "s16_1.png": "632b9b48ad5988efb2416dbd229c42c119119871826d8921d43470a08ac6086e"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/16/REVIEW.md"
+      "reviewFile": "Art/Reviews/16/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/16/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/16/v2/static"
     },
     {
       "id": 17,
@@ -623,7 +703,7 @@
       "element": 1,
       "tier": 7,
       "reviewOrder": 28,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -636,7 +716,10 @@
         "s17_1.png": "3a05e4bb374ac096c92d1dcd18b2e4071025996aba49b16dc05ef6af43edec89"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/17/REVIEW.md"
+      "reviewFile": "Art/Reviews/17/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/17/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/17/v2/static"
     },
     {
       "id": 18,
@@ -645,7 +728,7 @@
       "element": 1,
       "tier": 8,
       "reviewOrder": 29,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -658,7 +741,10 @@
         "s18_1.png": "06860e1bf2d7b3a0963b2d3048a7f65bd1f03852941dbe51fe9780f763a33aef"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/18/REVIEW.md"
+      "reviewFile": "Art/Reviews/18/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/18/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/18/v2/static"
     },
     {
       "id": 19,
@@ -667,7 +753,7 @@
       "element": 1,
       "tier": 9,
       "reviewOrder": 30,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -680,7 +766,10 @@
         "s19_1.png": "d571ab6cde0cb2dd2cb33876dc66e6590478dff6acaf9ae92479c7fae2318acd"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/19/REVIEW.md"
+      "reviewFile": "Art/Reviews/19/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/19/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/19/v2/static"
     },
     {
       "id": 20,
@@ -689,7 +778,7 @@
       "element": 5,
       "tier": 10,
       "reviewOrder": 31,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "silhouette_only",
@@ -702,7 +791,10 @@
         "s20_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/20/REVIEW.md"
+      "reviewFile": "Art/Reviews/20/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/20/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/20/v2/static"
     },
     {
       "id": 30,
@@ -711,7 +803,7 @@
       "element": 5,
       "tier": 10,
       "reviewOrder": 32,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "silhouette_only",
@@ -724,7 +816,10 @@
         "s30_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/30/REVIEW.md"
+      "reviewFile": "Art/Reviews/30/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/30/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/30/v2/static"
     },
     {
       "id": 31,
@@ -733,7 +828,7 @@
       "element": 4,
       "tier": 1,
       "reviewOrder": 33,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -746,7 +841,10 @@
         "s31_1.png": "f82d1162ce380536ed570dd5aae8c8243d48825d2cf385ec69d8c28aadbe31f4"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/31/REVIEW.md"
+      "reviewFile": "Art/Reviews/31/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/31/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/31/v2/static"
     },
     {
       "id": 32,
@@ -755,7 +853,7 @@
       "element": 4,
       "tier": 2,
       "reviewOrder": 34,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -768,7 +866,10 @@
         "s32_1.png": "4cc116f1eb7ee7af89cb569842007c2d89bb78d5aace951021f7fab524e0259a"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/32/REVIEW.md"
+      "reviewFile": "Art/Reviews/32/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/32/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/32/v2/static"
     },
     {
       "id": 33,
@@ -777,7 +878,7 @@
       "element": 4,
       "tier": 3,
       "reviewOrder": 35,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -790,7 +891,10 @@
         "s33_1.png": "3bff9ab2b7a9aa11b0b361e65cf0972798021a5809f6ae72e5b3308566384a4a"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/33/REVIEW.md"
+      "reviewFile": "Art/Reviews/33/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/33/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/33/v2/static"
     },
     {
       "id": 34,
@@ -799,7 +903,7 @@
       "element": 4,
       "tier": 4,
       "reviewOrder": 36,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -812,7 +916,10 @@
         "s34_1.png": "4954c1f8069ae92a2ef20d1c7107f809c01418791504b062f144391114e87757"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/34/REVIEW.md"
+      "reviewFile": "Art/Reviews/34/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/34/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/34/v2/static"
     },
     {
       "id": 35,
@@ -821,7 +928,7 @@
       "element": 4,
       "tier": 5,
       "reviewOrder": 37,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -834,7 +941,10 @@
         "s35_1.png": "065b9461b0459d4713f11fb59fe5ed2ff93c47f88c661114f3dbdac85114c9c1"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/35/REVIEW.md"
+      "reviewFile": "Art/Reviews/35/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/35/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/35/v2/static"
     },
     {
       "id": 36,
@@ -843,7 +953,7 @@
       "element": 4,
       "tier": 6,
       "reviewOrder": 38,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -856,7 +966,10 @@
         "s36_1.png": "63eea62edead1de4763b29f172d9e823de5a4f4c6e552a20479009e622efbefd"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/36/REVIEW.md"
+      "reviewFile": "Art/Reviews/36/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/36/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/36/v2/static"
     },
     {
       "id": 37,
@@ -865,7 +978,7 @@
       "element": 4,
       "tier": 7,
       "reviewOrder": 39,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -878,7 +991,10 @@
         "s37_1.png": "b8c13eb1c19132912bb894b10015b6b74eeeb56c138829e391e1be8cd802d8a8"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/37/REVIEW.md"
+      "reviewFile": "Art/Reviews/37/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/37/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/37/v2/static"
     },
     {
       "id": 38,
@@ -887,7 +1003,7 @@
       "element": 4,
       "tier": 8,
       "reviewOrder": 40,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -900,7 +1016,10 @@
         "s38_1.png": "5a867dafbf629e728303bef2757c119a6495fbd32b0ebc9c21e979dc47f10dfa"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/38/REVIEW.md"
+      "reviewFile": "Art/Reviews/38/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/38/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/38/v2/static"
     },
     {
       "id": 39,
@@ -909,7 +1028,7 @@
       "element": 4,
       "tier": 9,
       "reviewOrder": 41,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -922,7 +1041,10 @@
         "s39_1.png": "28841261e0933c520adfd2e264563766cdf5385dae613e2e660c9c38f4d3bf51"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/39/REVIEW.md"
+      "reviewFile": "Art/Reviews/39/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/39/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/39/v2/static"
     },
     {
       "id": 40,
@@ -931,7 +1053,7 @@
       "element": 5,
       "tier": 10,
       "reviewOrder": 42,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "silhouette_only",
@@ -944,7 +1066,10 @@
         "s40_1.png": "542c627910ab988ff8bf153217d1bbeaef047fbe7d47f1e3b8470bb189906bfb"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/40/REVIEW.md"
+      "reviewFile": "Art/Reviews/40/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/40/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/40/v2/static"
     },
     {
       "id": 41,
@@ -953,7 +1078,7 @@
       "element": 3,
       "tier": 1,
       "reviewOrder": 43,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -966,7 +1091,10 @@
         "s41_1.png": "c29915bc042fe3ebd9c6d7083fefa5f5e14cb7de0074b53814c781fcff6a61c9"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/41/REVIEW.md"
+      "reviewFile": "Art/Reviews/41/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/41/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/41/v2/static"
     },
     {
       "id": 42,
@@ -975,7 +1103,7 @@
       "element": 3,
       "tier": 2,
       "reviewOrder": 44,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -988,7 +1116,10 @@
         "s42_1.png": "ecc65d88fd84f578f42f2aa1f2136a6349d68b2d481a60ff23a648988add9871"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/42/REVIEW.md"
+      "reviewFile": "Art/Reviews/42/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/42/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/42/v2/static"
     },
     {
       "id": 43,
@@ -997,7 +1128,7 @@
       "element": 3,
       "tier": 3,
       "reviewOrder": 45,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -1010,7 +1141,10 @@
         "s43_1.png": "3ed15a646f40b083d025203e5457e2fc30ea46f057b2297c6c12de91bb70a89f"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/43/REVIEW.md"
+      "reviewFile": "Art/Reviews/43/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/43/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/43/v2/static"
     },
     {
       "id": 44,
@@ -1019,7 +1153,7 @@
       "element": 3,
       "tier": 4,
       "reviewOrder": 46,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -1032,7 +1166,10 @@
         "s44_1.png": "d968e2b745a727938798a47aa183d02930ffe81fe1e7b2984c22d7679a01f323"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/44/REVIEW.md"
+      "reviewFile": "Art/Reviews/44/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/44/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/44/v2/static"
     },
     {
       "id": 45,
@@ -1041,7 +1178,7 @@
       "element": 3,
       "tier": 5,
       "reviewOrder": 47,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -1054,7 +1191,10 @@
         "s45_1.png": "f0f26a1ac60cfff220a63543bb474b737b2728139312c165dd690c4428b7d1db"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/45/REVIEW.md"
+      "reviewFile": "Art/Reviews/45/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/45/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/45/v2/static"
     },
     {
       "id": 46,
@@ -1063,7 +1203,7 @@
       "element": 3,
       "tier": 6,
       "reviewOrder": 48,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -1076,7 +1216,10 @@
         "s46_1.png": "4124bfa6504f336a844f22142febafd5776ad60dc8e778d702d70be4004a37a7"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/46/REVIEW.md"
+      "reviewFile": "Art/Reviews/46/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/46/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/46/v2/static"
     },
     {
       "id": 47,
@@ -1085,7 +1228,7 @@
       "element": 3,
       "tier": 7,
       "reviewOrder": 49,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -1098,7 +1241,10 @@
         "s47_1.png": "356527b0aeaa67bbae4cd449544e9d0f97a8e7bb94b64786d4a4a59375a063fa"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/47/REVIEW.md"
+      "reviewFile": "Art/Reviews/47/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/47/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/47/v2/static"
     },
     {
       "id": 48,
@@ -1107,7 +1253,7 @@
       "element": 3,
       "tier": 8,
       "reviewOrder": 50,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -1120,7 +1266,10 @@
         "s48_1.png": "21a25ff4e413ec4f29461b33e340ff319281a019dd11c283df870bf54da7bd40"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/48/REVIEW.md"
+      "reviewFile": "Art/Reviews/48/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/48/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/48/v2/static"
     },
     {
       "id": 49,
@@ -1129,7 +1278,7 @@
       "element": 3,
       "tier": 9,
       "reviewOrder": 51,
-      "status": "pending_original_review",
+      "status": "draft_review",
       "approvedVersion": null,
       "approvedBy": null,
       "originalReferenceKind": "original_sprite",
@@ -1142,11 +1291,14 @@
         "s49_1.png": "08466c06e3e7a39d6f3468804c90566b8836ba05cfb6966a0094087205a26fad"
       },
       "runtimeArtStatus": "rejected_v1_placeholder",
-      "reviewFile": "Art/Reviews/49/REVIEW.md"
+      "reviewFile": "Art/Reviews/49/REVIEW.md",
+      "candidateVersion": "v2",
+      "candidateComparison": "Art/Reviews/49/v2/original-vs-redraw.png",
+      "staticArt": "Art/Reviews/49/v2/static"
     }
   ],
   "approvedDesignCount": 1,
-  "currentReviewSubject": "npc:xiya",
+  "currentReviewSubject": "all_characters_static",
   "companions": [
     {
       "id": "babao",
@@ -1252,10 +1404,826 @@
       "staticArt": "Art/NPCs/xiya/v1/static",
       "originalFieldResource": "npc_xiya",
       "originalPortrait": "heads/hpic4.png"
+    },
+    {
+      "id": "npc1",
+      "name": "npc1",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc1/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc1/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc1.png",
+        "Reference/OriginalGame/extracted/npc1.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc1.png": "ea75c406a4768d3a4a46fd2bad4e4e493e9b8c75c77bb45a6c537accf5db7710",
+        "npc1.bin": "38404d65346c6581b4aaec5341000cf553362837cc06a08d63383c26591d566c"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc1/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc10",
+      "name": "npc10",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc10/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc10/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc10.png",
+        "Reference/OriginalGame/extracted/npc10.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc10.png": "287276ffc87c7a1d70c816ba1630c972cef32640a64a053faea9db6d5c699bf0",
+        "npc10.bin": "5d1da61e48fd7a6d75082808b2c6b5b9f57b43c7396dd30ed69ec58368d535eb"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc10/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc11",
+      "name": "npc11",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc11/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc11/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc11.png",
+        "Reference/OriginalGame/extracted/npc11.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc11.png": "e738809e159648600465dedcd92a629132c6747ca07d5d82a48e8a7e0b12d675",
+        "npc11.bin": "b2218fdc474e804295134f6f048b85feef3357862d58d7d01c06c28339625a68"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc11/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc12",
+      "name": "npc12",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc12/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc12/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc12.png",
+        "Reference/OriginalGame/extracted/npc12.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc12.png": "e63f1b83623fd233c6c4a9a248eb7044760b81eb0065a4c5c0c9ef148ff2250a",
+        "npc12.bin": "f64dd8883cfad11a0d89f736247a2d08ad9d607cec4bff434fb54e1241e1dde3"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc12/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc13",
+      "name": "npc13",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc13/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc13/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc13.png",
+        "Reference/OriginalGame/extracted/npc13.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc13.png": "29293c7098bd928609a059f7b49e133a2d8fef26ef924ca3a10cb482be04cb49",
+        "npc13.bin": "ac07f9fb85c5b7073481bfbb5f855894c0472a1b2df7be45d0453167458f2b95"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc13/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc14",
+      "name": "npc14",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc14/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc14/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc14.png",
+        "Reference/OriginalGame/extracted/npc14.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc14.png": "0da7c0df423ba362462e679f941d0b422ef5cd694c67a821d692fc21749f4564",
+        "npc14.bin": "d812a2a6c3079f575a5515a470251012616b1ae8bd745313e8bb9b000639b003"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc14/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc14_1",
+      "name": "npc14_1",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc14_1/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc14_1/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc14_1.png",
+        "Reference/OriginalGame/extracted/npc14_1.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc14_1.png": "0da7c0df423ba362462e679f941d0b422ef5cd694c67a821d692fc21749f4564",
+        "npc14_1.bin": "ee3431d3667e956ff53dc13875f896f4c0e1851e71033eacd3cb0c2e52d6b648"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc14_1/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc15",
+      "name": "npc15",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc15/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc15/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc15.png",
+        "Reference/OriginalGame/extracted/npc15.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc15.png": "715dba440c6227e62fb5e37815f5629dd8dce9d0fa864e0c70a6f21a62199151",
+        "npc15.bin": "05736c191d7b2df254776e93e509df29073584503716e6ca599a48dbefe28391"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc15/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc16",
+      "name": "npc16",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc16/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc16/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc16.png",
+        "Reference/OriginalGame/extracted/npc16.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc16.png": "afc9b24d6f2b2b3a79bc155fc95564cd9b1455e420fadaa861df02de45e9ac27",
+        "npc16.bin": "95a4acd0b3bdf305633def9e348c6bafc030308025ae8a8c42d0e0b28f04eab9"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc16/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc16_1",
+      "name": "npc16_1",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc16_1/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc16_1/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc16_1.png",
+        "Reference/OriginalGame/extracted/npc16_1.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc16_1.png": "afc9b24d6f2b2b3a79bc155fc95564cd9b1455e420fadaa861df02de45e9ac27",
+        "npc16_1.bin": "cb7ee0abc31457d264d41d26bf7c0f531f3f5d4719f77f0369432714e64389a3"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc16_1/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc17",
+      "name": "npc17",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc17/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc17/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc17.png",
+        "Reference/OriginalGame/extracted/npc17.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc17.png": "d4b85b9b40d8f96dbf5a185ec9b23f9771466d6c842b4d8dcb1a0375ce47f041",
+        "npc17.bin": "37dfd7f5e62090e210d12e5e91031f436e4ff9a5edb1c124f8b23575eb74bed5"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc17/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc18",
+      "name": "npc18",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc18/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc18/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc18.png",
+        "Reference/OriginalGame/extracted/npc18.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc18.png": "56704c6c19359c97d2dad68e515e7328da89150bee427e22b27792935cafc3e5",
+        "npc18.bin": "baad9df56abc8bb58b671104a810dba3f19522f1fc35ec66aa97637976f45208"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc18/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc19",
+      "name": "npc19",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc19/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc19/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc19.png",
+        "Reference/OriginalGame/extracted/npc19.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc19.png": "4117de4b6ab885d2f50c4bf624c1435aa209193cdb75ae4f6da59616ae423b30",
+        "npc19.bin": "ed0a3dec2de33f9735124f3a4bac0aae3d45d91f3cbf43c691231f201e7c16c8"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc19/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc2",
+      "name": "npc2",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc2/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc2/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc2.png",
+        "Reference/OriginalGame/extracted/npc2.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc2.png": "72ade37b990f3ac30ad4800238e377013cd6c3b323ea1eec1e1ee02aba6dd401",
+        "npc2.bin": "33f6b23aba6b6ec08e81f6e97310da6d48c085370df9cc268b42299f364064c8"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc2/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc3",
+      "name": "npc3",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc3/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc3/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc3.png",
+        "Reference/OriginalGame/extracted/npc3.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc3.png": "62a9f9c7b71e4883c006b832b49265342efcadf9d34ae7549b59d2f1be920b16",
+        "npc3.bin": "1ac39556ca82ed217477724ed0225e6c6cfa6fb39006c0476577fe4c1f3f0420"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc3/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc4",
+      "name": "npc4",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc4/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc4/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc4.png",
+        "Reference/OriginalGame/extracted/npc4.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc4.png": "b333af3031ce6e0a3d162182424a5659909b9e197c466a80e37fab44564af327",
+        "npc4.bin": "2a294d3b068d7bcc3eafefc4437b9329c477ea89dee595ba1d63a18a08b291c2"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc4/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc5",
+      "name": "npc5",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc5/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc5/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc5.png",
+        "Reference/OriginalGame/extracted/npc5.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc5.png": "39e9cc2990f9b32cda1aebf94496537c0de9830190f5e3737145d5fe0b5b5cb0",
+        "npc5.bin": "cd2f1638e89c18e3651f4bfe474dbd4d3f108f0f824642a7e5a75ba25e6d3c32"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc5/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc6",
+      "name": "npc6",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc6/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc6/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc6.png",
+        "Reference/OriginalGame/extracted/npc6.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc6.png": "781f7c54f6a2212985e2e830517dc400f58d2c48bb10fb68a818c50e5ab15490",
+        "npc6.bin": "e9ade5e64bb2b04dc5137e11bd7149fac8be2dbcc31ee57817bf5230b49301c7"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc6/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc7",
+      "name": "npc7",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc7/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc7/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc7.png",
+        "Reference/OriginalGame/extracted/npc7.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc7.png": "88155c2d5544a1fb643508c8988bd5e28c43900d331783cb7f4270fd693be86e",
+        "npc7.bin": "235426165d7bae8393ed58596bfbe6d4680c56084a3882afcb8418c9e5c0c21f"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc7/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc8",
+      "name": "npc8",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc8/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc8/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc8.png",
+        "Reference/OriginalGame/extracted/npc8.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc8.png": "afc9b24d6f2b2b3a79bc155fc95564cd9b1455e420fadaa861df02de45e9ac27",
+        "npc8.bin": "1b822dbf724da369e65055558302b49cfd5c608e6728918f8a1ec8980a902f95"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc8/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc9",
+      "name": "npc9",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc9/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc9/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc9.png",
+        "Reference/OriginalGame/extracted/npc9.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc9.png": "7fdbdfdaf4e68c1c48338cf44173ce50b8895105d30c78097afb02b63b331061",
+        "npc9.bin": "2456fca9f9ff7f343ba5a3718c930294fae67c17c5b12b2409f09eba6d7268b4"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc9/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc_fighter1",
+      "name": "npc_fighter1",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc_fighter1/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc_fighter1/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc_fighter1.png",
+        "Reference/OriginalGame/extracted/npc_fighter1.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc_fighter1.png": "902b9176e5a4a55fec3c24daa0b8a0cc70e1c018723ae9816f817480d2c35523",
+        "npc_fighter1.bin": "b7f4bd3e5db330eb25b544298891e40b7d646cbd482e0bae893cf47a11317509"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc_fighter1/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc_fighter2",
+      "name": "npc_fighter2",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc_fighter2/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc_fighter2/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc_fighter2.png",
+        "Reference/OriginalGame/extracted/npc_fighter2.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc_fighter2.png": "b05c987407c7be20b2c72ecc41817b1e1fba7ad47bfbf3b557c4e6d65d777a50",
+        "npc_fighter2.bin": "d6384fce362558329b200f16254fe7b3a689c08891d002c6cc927151098a6f4a"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc_fighter2/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc_klaier",
+      "name": "克莱尔",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc_klaier/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc_klaier/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc_klaier.png",
+        "Reference/OriginalGame/extracted/npc_klaier.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc_klaier.png": "bf3a5a68e8bf806f3989341050d983e57c3feb21ca0a61bf96ad831eca61dea5",
+        "npc_klaier.bin": "d4fdbe48df5ecf0ce77e1e760958a948dbe62386b06c09fa2f008daaf7857a64"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc_klaier/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc_soldier",
+      "name": "npc_soldier",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc_soldier/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc_soldier/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc_soldier.png",
+        "Reference/OriginalGame/extracted/npc_soldier.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc_soldier.png": "5a6c508b714ff9918e8992b95eaf9d9bc1d58fe4a42d28178ade17067bbed49f",
+        "npc_soldier.bin": "a8bd55d2795c9e7828a83ad64b7767d5769ecc9b23071401f653f376dcaab90e"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc_soldier/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc_walker",
+      "name": "npc_walker",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc_walker/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc_walker/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc_walker.png",
+        "Reference/OriginalGame/extracted/npc_walker.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc_walker.png": "41eb51b2c6a2204cc357afcc5c38b47d5363aa3f498143905290972c5890aeef",
+        "npc_walker.bin": "6f05ea283c8793c4dda7fd151747d8460725db31ae7bf3df8c47c49a8da39658"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc_walker/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "npc_wolfman",
+      "name": "npc_wolfman",
+      "role": "original_npc_visual_family",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/npc_wolfman/REVIEW.md",
+      "candidateComparison": "Art/NPCs/npc_wolfman/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/npc_wolfman.png",
+        "Reference/OriginalGame/extracted/npc_wolfman.bin"
+      ],
+      "originalReferenceSHA256": {
+        "npc_wolfman.png": "16414799a616ea87f77c96ff9242e8af80112fc381adc58f149af225b683336a",
+        "npc_wolfman.bin": "300c6abd082b365f2d250c78a04ec08df09d105a352fad19b14f6afdd9ef411e"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/npc_wolfman/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "portrait-3",
+      "name": "许愿池精灵·头像",
+      "role": "dialogue_portrait_variant",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/portrait-3/REVIEW.md",
+      "candidateComparison": "Art/NPCs/portrait-3/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/heads/hpic3.png"
+      ],
+      "originalReferenceSHA256": {
+        "hpic3.png": "96116795c6871fe3736ec51b05d7d9ff8115362b8389393db11097dec4d82603"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/portrait-3/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "portrait-5",
+      "name": "耐法瑞·头像",
+      "role": "dialogue_portrait_variant",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/portrait-5/REVIEW.md",
+      "candidateComparison": "Art/NPCs/portrait-5/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/heads/hpic5.png"
+      ],
+      "originalReferenceSHA256": {
+        "hpic5.png": "080650dd3c2989f452eb34ac8fbaf031c69e1d169365b2c41b126084d5a15885"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/portrait-5/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "portrait-9",
+      "name": "芙蕾尔·头像",
+      "role": "dialogue_portrait_variant",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/portrait-9/REVIEW.md",
+      "candidateComparison": "Art/NPCs/portrait-9/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/heads/hpic9.png"
+      ],
+      "originalReferenceSHA256": {
+        "hpic9.png": "c325ce9515a29ca63d777bbf210188803971db7ebc2eec17329ee1a4f22d9ec5"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/portrait-9/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
+    },
+    {
+      "id": "portrait-10",
+      "name": "克莱尔·头像",
+      "role": "dialogue_portrait_variant",
+      "status": "draft_review",
+      "candidateVersion": "v1",
+      "approvedVersion": null,
+      "approvedBy": null,
+      "authorization": "用户要求：现在继续把所有角色都做一遍，就按这个方法",
+      "reviewFile": "Art/NPCs/portrait-10/REVIEW.md",
+      "candidateComparison": "Art/NPCs/portrait-10/v1/original-vs-redraw.png",
+      "originalReferences": [
+        "Reference/OriginalGame/extracted/heads/hpic10.png"
+      ],
+      "originalReferenceSHA256": {
+        "hpic10.png": "1498db334169011e2fbed5ba2884ddde7b8afb358e36e715d56496406e1506f6"
+      },
+      "runtimeIntegrated": false,
+      "newAnimationFrames": 0,
+      "staticArt": "Art/NPCs/portrait-10/v1/static",
+      "identityPolicy": "Resource identity retained; shared appearances do not imply same story identity"
     }
   ],
   "currentReviewSubjects": [
-    "npc:xiya",
-    "companion:qibei"
+    "monster-21",
+    "monster-22",
+    "monster-23",
+    "monster-24",
+    "monster-25",
+    "monster-26",
+    "monster-27",
+    "monster-28",
+    "monster-29",
+    "monster-08",
+    "monster-00",
+    "monster-01",
+    "monster-02",
+    "monster-03",
+    "monster-04",
+    "monster-05",
+    "monster-06",
+    "monster-07",
+    "monster-09",
+    "monster-10",
+    "monster-11",
+    "monster-12",
+    "monster-13",
+    "monster-14",
+    "monster-15",
+    "monster-16",
+    "monster-17",
+    "monster-18",
+    "monster-19",
+    "monster-20",
+    "monster-30",
+    "monster-31",
+    "monster-32",
+    "monster-33",
+    "monster-34",
+    "monster-35",
+    "monster-36",
+    "monster-37",
+    "monster-38",
+    "monster-39",
+    "monster-40",
+    "monster-41",
+    "monster-42",
+    "monster-43",
+    "monster-44",
+    "monster-45",
+    "monster-46",
+    "monster-47",
+    "monster-48",
+    "monster-49",
+    "npc1",
+    "npc10",
+    "npc11",
+    "npc12",
+    "npc13",
+    "npc14",
+    "npc14_1",
+    "npc15",
+    "npc16",
+    "npc16_1",
+    "npc17",
+    "npc18",
+    "npc19",
+    "npc2",
+    "npc3",
+    "npc4",
+    "npc5",
+    "npc6",
+    "npc7",
+    "npc8",
+    "npc9",
+    "npc_fighter1",
+    "npc_fighter2",
+    "npc_klaier",
+    "npc_soldier",
+    "npc_walker",
+    "npc_wolfman",
+    "portrait-3",
+    "portrait-5",
+    "portrait-9",
+    "portrait-10",
+    "monster-08-field"
   ]
 }

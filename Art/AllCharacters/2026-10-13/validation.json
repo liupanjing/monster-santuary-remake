@@ -1,0 +1,13 @@
+{
+  "result": "pass",
+  "tasks": 82,
+  "monsters": 50,
+  "monsterFieldForms": 1,
+  "npcVisualFamilies": 27,
+  "portraits": 4,
+  "transparentStaticViews": 147,
+  "approvedNewDesigns": 0,
+  "newAnimationFrames": 0,
+  "runtimeReplacements": 0,
+  "scope": "Source hashes, alpha, coverage, independent output files; not human visual approval"
+}

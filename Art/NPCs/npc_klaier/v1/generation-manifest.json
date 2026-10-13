@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "npc_klaier",
+  "views": [
+    {
+      "name": "field-front",
+      "bounds": [
+        173,
+        63,
+        698,
+        815
+      ],
+      "size": [
+        525,
+        752
+      ]
+    },
+    {
+      "name": "field-back",
+      "bounds": [
+        1065,
+        63,
+        1588,
+        815
+      ],
+      "size": [
+        523,
+        752
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/npc_klaier.png": "bf3a5a68e8bf806f3989341050d983e57c3feb21ca0a61bf96ad831eca61dea5",
+    "Reference/OriginalGame/extracted/npc_klaier.bin": "d4fdbe48df5ecf0ce77e1e760958a948dbe62386b06c09fa2f008daaf7857a64"
+  },
+  "sourceSHA256": "2d54e54e221c584949498844b01dbd63d1ffee39d8dec0ec0debd0cf3a264368",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/npc_klaier/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design.png": "2d54e54e221c584949498844b01dbd63d1ffee39d8dec0ec0debd0cf3a264368"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "361219fcb4e18cba248763b611ba60fa762683c2890c92021c095b5c718c28e3"
+  }
+}

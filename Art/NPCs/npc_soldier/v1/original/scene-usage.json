@@ -1,0 +1,288 @@
+[
+  {
+    "scene": 28,
+    "actor": {
+      "index": 134,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        185,
+        28,
+        177,
+        17,
+        193,
+        28
+      ],
+      "params": [
+        0,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 135,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        602,
+        255,
+        594,
+        244,
+        610,
+        255
+      ],
+      "params": [
+        0,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 136,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        729,
+        254,
+        721,
+        243,
+        737,
+        254
+      ],
+      "params": [
+        0,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 137,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        1097,
+        31,
+        1089,
+        20,
+        1105,
+        31
+      ],
+      "params": [
+        0,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 154,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        410,
+        140,
+        402,
+        129,
+        418,
+        140
+      ],
+      "params": [
+        0,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 155,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        918,
+        141,
+        910,
+        130,
+        926,
+        141
+      ],
+      "params": [
+        0,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 156,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        599,
+        1249,
+        591,
+        1238,
+        607,
+        1249
+      ],
+      "params": [
+        0,
+        3061,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 157,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        728,
+        1247,
+        720,
+        1236,
+        736,
+        1247
+      ],
+      "params": [
+        0,
+        3061,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 197,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        330,
+        826,
+        322,
+        815,
+        338,
+        826
+      ],
+      "params": [
+        0,
+        3061,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 198,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        730,
+        352,
+        722,
+        341,
+        738,
+        352
+      ],
+      "params": [
+        0,
+        3061,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 199,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        1059,
+        306,
+        1051,
+        295,
+        1067,
+        306
+      ],
+      "params": [
+        0,
+        3061,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 28,
+    "actor": {
+      "index": 200,
+      "type": "npc_soldier",
+      "anim": 1,
+      "flags": 8,
+      "bounds": [
+        1054,
+        999,
+        1046,
+        988,
+        1062,
+        999
+      ],
+      "params": [
+        0,
+        3061,
+        0
+      ]
+    }
+  },
+  {
+    "scene": 35,
+    "actor": {
+      "index": 15,
+      "type": "npc_soldier",
+      "anim": 0,
+      "flags": 8,
+      "bounds": [
+        72,
+        273,
+        64,
+        262,
+        80,
+        273
+      ],
+      "params": [
+        0,
+        3016,
+        0
+      ]
+    }
+  }
+]

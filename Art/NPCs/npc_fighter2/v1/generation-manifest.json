@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "runtimeIntegrated": false,
+  "animationFrames": 0,
+  "key": "npc_fighter2",
+  "views": [
+    {
+      "name": "field-front",
+      "bounds": [
+        139,
+        61,
+        724,
+        826
+      ],
+      "size": [
+        585,
+        765
+      ]
+    },
+    {
+      "name": "field-back",
+      "bounds": [
+        1059,
+        63,
+        1636,
+        822
+      ],
+      "size": [
+        577,
+        759
+      ]
+    }
+  ],
+  "originalReferenceSHA256": {
+    "Reference/OriginalGame/extracted/npc_fighter2.png": "b05c987407c7be20b2c72ecc41817b1e1fba7ad47bfbf3b557c4e6d65d777a50",
+    "Reference/OriginalGame/extracted/npc_fighter2.bin": "d6384fce362558329b200f16254fe7b3a689c08891d002c6cc927151098a6f4a"
+  },
+  "sourceSHA256": "0147ab2f50dd92c8966dc76ddf1c1cf159768ea8d5b3f8c23d79e907105642d1",
+  "prompt": "prompts/design.txt",
+  "prompts": [
+    "prompts/design.txt"
+  ],
+  "reference": "Art/NPCs/npc_fighter2/v1/original-reference.png",
+  "silhouetteOnly": false,
+  "sourceVariantsSHA256": {
+    "design.png": "0147ab2f50dd92c8966dc76ddf1c1cf159768ea8d5b3f8c23d79e907105642d1"
+  },
+  "promptSHA256": {
+    "prompts/design.txt": "5894a8a0fe213d2ccd5f29733173d3de4ddb6ca68cc268096f62810c53e9e310"
+  }
+}

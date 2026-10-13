@@ -1,0 +1,12 @@
+{
+  "result": "pass",
+  "tasks": 82,
+  "monsterIncludingFieldFilter": 51,
+  "npcFilter": 27,
+  "portraitFilter": 4,
+  "nameSearch": "pass",
+  "linksChecked": 332,
+  "missingLinks": 0,
+  "pageErrors": 0,
+  "scope": "Local gallery rendering and interaction, not Unity gameplay"
+}
