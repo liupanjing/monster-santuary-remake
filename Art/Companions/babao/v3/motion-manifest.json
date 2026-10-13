@@ -1,0 +1,294 @@
+{
+  "designApprovedVersion": "v2",
+  "motionVersion": "v3",
+  "status": "motion_candidate",
+  "tool": "built-in image_gen",
+  "directions": [
+    "down",
+    "left",
+    "right",
+    "up"
+  ],
+  "canvas": [
+    192,
+    192
+  ],
+  "PPU": 100,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "bodyDiameterPixels": 76,
+  "distinctNewDrawings": 12,
+  "runtimeSprites": 16,
+  "rightView": "Mirror of symmetric left anatomy",
+  "loop": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "idleSamplesPerSecond": 8,
+  "followSamplesPerSecond": 12,
+  "registration": "Common scale per atlas; lower-circle center and bottom landmark registered to a common body center; no per-frame resizing",
+  "cutting": "Alpha >=32 connected components >=64 pixels, assigned by majority cell; retained alpha preserved",
+  "frontUnused": "Source front frames4/5 have mistimed raised-wing phases; only first four used, no claim of six distinct cycle drawings",
+  "frames": [
+    {
+      "direction": "down",
+      "index": 0,
+      "atlasBounds": [
+        62,
+        151,
+        479,
+        456
+      ],
+      "source": "Art/Companions/babao/v3/source/front.png",
+      "bodyDiameter": 280,
+      "anchor": [
+        207.5,
+        184.60000000000002
+      ],
+      "commonScale": 0.2714285714285714,
+      "resource": "BabaoMotion/Art/down/0"
+    },
+    {
+      "direction": "down",
+      "index": 1,
+      "atlasBounds": [
+        547,
+        154,
+        992,
+        456
+      ],
+      "source": "Art/Companions/babao/v3/source/front.png",
+      "bodyDiameter": 280,
+      "anchor": [
+        219.0,
+        181.60000000000002
+      ],
+      "commonScale": 0.2714285714285714,
+      "resource": "BabaoMotion/Art/down/1"
+    },
+    {
+      "direction": "down",
+      "index": 2,
+      "atlasBounds": [
+        1022,
+        155,
+        1512,
+        456
+      ],
+      "source": "Art/Companions/babao/v3/source/front.png",
+      "bodyDiameter": 280,
+      "anchor": [
+        241.0,
+        180.60000000000002
+      ],
+      "commonScale": 0.2714285714285714,
+      "resource": "BabaoMotion/Art/down/2"
+    },
+    {
+      "direction": "down",
+      "index": 3,
+      "atlasBounds": [
+        32,
+        609,
+        510,
+        913
+      ],
+      "source": "Art/Companions/babao/v3/source/front.png",
+      "bodyDiameter": 280,
+      "anchor": [
+        236.0,
+        183.60000000000002
+      ],
+      "commonScale": 0.2714285714285714,
+      "resource": "BabaoMotion/Art/down/3"
+    },
+    {
+      "direction": "left",
+      "index": 0,
+      "atlasBounds": [
+        228,
+        75,
+        610,
+        473
+      ],
+      "source": "Art/Companions/babao/v3/source/left.png",
+      "bodyDiameter": 303,
+      "anchor": [
+        148.0,
+        267.71000000000004
+      ],
+      "commonScale": 0.2508250825082508,
+      "resource": "BabaoMotion/Art/left/0"
+    },
+    {
+      "direction": "left",
+      "index": 1,
+      "atlasBounds": [
+        900,
+        151,
+        1296,
+        474
+      ],
+      "source": "Art/Companions/babao/v3/source/left.png",
+      "bodyDiameter": 303,
+      "anchor": [
+        146.0,
+        192.71
+      ],
+      "commonScale": 0.2508250825082508,
+      "resource": "BabaoMotion/Art/left/1"
+    },
+    {
+      "direction": "left",
+      "index": 2,
+      "atlasBounds": [
+        228,
+        611,
+        654,
+        931
+      ],
+      "source": "Art/Companions/babao/v3/source/left.png",
+      "bodyDiameter": 303,
+      "anchor": [
+        145.5,
+        189.71
+      ],
+      "commonScale": 0.2508250825082508,
+      "resource": "BabaoMotion/Art/left/2"
+    },
+    {
+      "direction": "left",
+      "index": 3,
+      "atlasBounds": [
+        900,
+        611,
+        1287,
+        931
+      ],
+      "source": "Art/Companions/babao/v3/source/left.png",
+      "bodyDiameter": 303,
+      "anchor": [
+        145.0,
+        189.71
+      ],
+      "commonScale": 0.2508250825082508,
+      "resource": "BabaoMotion/Art/left/3"
+    },
+    {
+      "direction": "up",
+      "index": 0,
+      "atlasBounds": [
+        136,
+        105,
+        686,
+        484
+      ],
+      "source": "Art/Companions/babao/v3/source/back.png",
+      "bodyDiameter": 342,
+      "anchor": [
+        268.5,
+        231.94
+      ],
+      "commonScale": 0.2222222222222222,
+      "resource": "BabaoMotion/Art/up/0"
+    },
+    {
+      "direction": "up",
+      "index": 1,
+      "atlasBounds": [
+        835,
+        118,
+        1409,
+        484
+      ],
+      "source": "Art/Companions/babao/v3/source/back.png",
+      "bodyDiameter": 342,
+      "anchor": [
+        285.0,
+        218.94
+      ],
+      "commonScale": 0.2222222222222222,
+      "resource": "BabaoMotion/Art/up/1"
+    },
+    {
+      "direction": "up",
+      "index": 2,
+      "atlasBounds": [
+        99,
+        593,
+        725,
+        948
+      ],
+      "source": "Art/Companions/babao/v3/source/back.png",
+      "bodyDiameter": 342,
+      "anchor": [
+        306.0,
+        207.94
+      ],
+      "commonScale": 0.2222222222222222,
+      "resource": "BabaoMotion/Art/up/2"
+    },
+    {
+      "direction": "up",
+      "index": 3,
+      "atlasBounds": [
+        848,
+        591,
+        1397,
+        948
+      ],
+      "source": "Art/Companions/babao/v3/source/back.png",
+      "bodyDiameter": 342,
+      "anchor": [
+        273.0,
+        209.94
+      ],
+      "commonScale": 0.2222222222222222,
+      "resource": "BabaoMotion/Art/up/3"
+    },
+    {
+      "direction": "right",
+      "index": 0,
+      "mirrorOf": "left",
+      "resource": "BabaoMotion/Art/right/0"
+    },
+    {
+      "direction": "right",
+      "index": 1,
+      "mirrorOf": "left",
+      "resource": "BabaoMotion/Art/right/1"
+    },
+    {
+      "direction": "right",
+      "index": 2,
+      "mirrorOf": "left",
+      "resource": "BabaoMotion/Art/right/2"
+    },
+    {
+      "direction": "right",
+      "index": 3,
+      "mirrorOf": "left",
+      "resource": "BabaoMotion/Art/right/3"
+    }
+  ],
+  "sourceSHA256": {
+    "left.png": "db29a0fed257ec90cb7c4932516266282e7e7b0063f2aec7e4af905df230b337",
+    "left-draft.png": "013ba2d380108c5d623939694aaf1c67d9d52fa7b1e24382ecf29070955fa053",
+    "front-draft.png": "fb8a98dc353eddf69b65c419402905ae6050e9eef1e6f63bf09e8fcfbdec8ad1",
+    "back.png": "9ab0a7ad0db98e0698553a4fba35367c67d3e86698e232b67f66f95afc63bf22",
+    "front.png": "64564a218eb57568316a52bebb23dba47e932ed90b9b5ef4b74a301eae835bea"
+  },
+  "prompts": [
+    "prompts/back.txt",
+    "prompts/front-alpha.txt",
+    "prompts/front.txt",
+    "prompts/left-far-wing.txt",
+    "prompts/left.txt"
+  ]
+}

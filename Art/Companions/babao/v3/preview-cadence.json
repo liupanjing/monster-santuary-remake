@@ -1,0 +1,24 @@
+{
+  "source": "Built Unity BabaoMotionPreview scene, not chapter gameplay footage",
+  "samples": 96,
+  "samplesPerSecond": 24,
+  "drawingLoop": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "uniqueNewDrawings": 12,
+  "rightMirrorsLeft": true,
+  "idlePhaseRate": 8,
+  "followPhaseRate": 12,
+  "interpolation": "none",
+  "chapterEvidence": [
+    "01-exploration.png",
+    "09-party-babao.png",
+    "10-switched-battle.png",
+    "11-babao-return.png"
+  ]
+}

@@ -1152,13 +1152,13 @@
       "id": "babao",
       "name": "八宝",
       "role": "fixed_field_companion",
-      "status": "draft_review",
-      "candidateVersion": "v2",
-      "approvedVersion": null,
-      "approvedBy": null,
+      "status": "runtime_review",
+      "candidateVersion": "v3",
+      "approvedVersion": "v2",
+      "approvedBy": "用户明确表示：这版八宝可以了，把四方向悬浮、扇翅和跟随动作做出来，接到主角后面，切换参战怪兽时八宝不要变。",
       "authorization": "用户于 2026-10-13 要求：主角后面跟着的八宝呢，也得做一下",
       "reviewFile": "Art/Companions/babao/REVIEW.md",
-      "candidateComparison": "Art/Companions/babao/v2/babao-original-vs-redraw.png",
+      "candidateComparison": "Art/Companions/babao/v3/motion-contact.png",
       "originalReferences": [
         "Reference/OriginalGame/extracted/cw.png",
         "Reference/OriginalGame/extracted/cw.bin"
@@ -1167,8 +1167,8 @@
         "cw.png": "166c0359e93f6e3bd0960a3be271bde01b9569f655fadf6061316dd1c3095b19",
         "cw.bin": "a5a2266589909a333c12cb9ad73b28a12cfb90360504ba8f4c19571e9d47f99d"
       },
-      "runtimeIntegrated": false,
-      "newAnimationFrames": 0,
+      "runtimeIntegrated": true,
+      "newAnimationFrames": 16,
       "wingPolicy": "Each view has one matching pair of visible blue two-lobed wings; side far wing may be partly occluded",
       "revisions": [
         {
@@ -1178,10 +1178,22 @@
         },
         {
           "version": "v2",
-          "status": "draft_review",
-          "change": "统一三视图双翼形状、颜色、连接位置和可见性"
+          "status": "design_approved",
+          "change": "统一三视图双翼形状、颜色、连接位置和可见性",
+          "approvedBy": "用户明确表示：这版八宝可以了，把四方向悬浮、扇翅和跟随动作做出来，接到主角后面，切换参战怪兽时八宝不要变。"
+        },
+        {
+          "version": "v3",
+          "status": "runtime_review",
+          "change": "四向悬浮扇翅和固定跟随，独立于参战怪兽，新动作待视觉评价"
         }
-      ]
+      ],
+      "distinctNewDrawings": 12,
+      "rightMirrorsLeft": true,
+      "motionVersion": "v3",
+      "motionStatus": "motion_candidate_v3",
+      "motionLibrary": "Unity/Assets/Remake/Resources/BabaoMotion/Animations.asset",
+      "prefab": "Unity/Assets/Remake/Resources/BabaoMotion/Prefabs/BabaoFollower.prefab"
     }
   ]
 }

@@ -62,6 +62,13 @@ for row in companions:
     else:
         check(row['approvedBy'] is None and not row['runtimeIntegrated'],
               'Unapproved static companion proposal is not a runtime release')
+    if row['runtimeIntegrated']:
+        check((ROOT / row['motionLibrary']).is_file(), 'Companion animation library exists')
+        check((ROOT / row['prefab']).is_file(), 'Companion prefab exists')
+        for direction in ('down', 'left', 'right', 'up'):
+            for frame in range(4):
+                sprite = ROOT / f'Unity/Assets/Remake/Resources/BabaoMotion/Art/{direction}/{frame}.png'
+                check(sprite.is_file() and sprite.with_suffix('.png.meta').is_file(), 'Companion frame and metadata')
 
 for i in range(12):
     check((ROOT / f'Unity/Assets/Remake/Resources/Art/Hero/f{i}.png').is_file(), 'Hero frame exists')
@@ -79,6 +86,7 @@ report = {
     'approvedDesigns': sum(bool(row['approvedVersion']) for row in rows),
     'currentCharacter': review['currentCharacter'], 'spriteMetadata': 'pass',
     'companions': len(companions), 'currentReviewSubject': review.get('currentReviewSubject'),
+    'approvedCompanionDesigns': sum(bool(row['approvedVersion']) for row in companions),
     'toolsSyntax': 'pass', 'oldActiveToolPaths': 'none',
     'scope': 'Workspace integrity and review bookkeeping; not art approval or Unity runtime replay',
 }

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc810dc03aff41f5ae2e522895b5041, type: 3}
+  m_Name: Animations
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterRemake2D.BabaoMotionLibrary2D
+  approvedDesignVersion: v2
+  designApproved: 1
+  motionApproved: 0
+  directions:
+  - direction: 0
+    frames:
+    - {fileID: 21300000, guid: a107907a87a7b42e1984d00add2ca389, type: 3}
+    - {fileID: 21300000, guid: 61c3aceed98394300b95296555cdf72d, type: 3}
+    - {fileID: 21300000, guid: eb82b9820367c4b069a9b4bab91aa5d2, type: 3}
+    - {fileID: 21300000, guid: d46add35d592c471c8a85ab28040b41c, type: 3}
+  - direction: 1
+    frames:
+    - {fileID: 21300000, guid: 10e0401851c094b9e84f35e81c5f8353, type: 3}
+    - {fileID: 21300000, guid: 6d85976468088448db7d51a48004153f, type: 3}
+    - {fileID: 21300000, guid: cde0c95b618ad41408f83e98f3842e9a, type: 3}
+    - {fileID: 21300000, guid: 055dca0f243db4369b6062b87f89f734, type: 3}
+  - direction: 2
+    frames:
+    - {fileID: 21300000, guid: d0e33c77fc77a449ca8bc95ef1e3be75, type: 3}
+    - {fileID: 21300000, guid: d9d8a3e5a1d1c43278d91b60766c386a, type: 3}
+    - {fileID: 21300000, guid: b8e2047023a5b4ce991d39ad38b435a6, type: 3}
+    - {fileID: 21300000, guid: 733db4eeb328f4f5c91e7cb9f01545c1, type: 3}
+  - direction: 3
+    frames:
+    - {fileID: 21300000, guid: d31db075b88874d20be566a3a5888850, type: 3}
+    - {fileID: 21300000, guid: cfec50efae90044ed8643bc533bda08a, type: 3}
+    - {fileID: 21300000, guid: a5ba419e873d8477ead6ccfd31ddd2ca, type: 3}
+    - {fileID: 21300000, guid: 6bcc578f66a544e83b2bfb26dd6cf34e, type: 3}
+  loop: 000000000100000002000000030000000200000001000000
+  idleRate: 8
+  followRate: 12
+  hoverHeight: 0.46
+  bobAmplitude: 0.045
+  followDistance: 1.45

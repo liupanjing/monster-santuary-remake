@@ -9,6 +9,7 @@
   "spriteMetadata": "pass",
   "companions": 1,
   "currentReviewSubject": "companion:babao",
+  "approvedCompanionDesigns": 1,
   "toolsSyntax": "pass",
   "oldActiveToolPaths": "none",
   "scope": "Workspace integrity and review bookkeeping; not art approval or Unity runtime replay"
