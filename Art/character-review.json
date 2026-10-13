@@ -1153,12 +1153,12 @@
       "name": "八宝",
       "role": "fixed_field_companion",
       "status": "draft_review",
-      "candidateVersion": "v1",
+      "candidateVersion": "v2",
       "approvedVersion": null,
       "approvedBy": null,
       "authorization": "用户于 2026-10-13 要求：主角后面跟着的八宝呢，也得做一下",
       "reviewFile": "Art/Companions/babao/REVIEW.md",
-      "candidateComparison": "Art/Companions/babao/v1/babao-original-vs-redraw.png",
+      "candidateComparison": "Art/Companions/babao/v2/babao-original-vs-redraw.png",
       "originalReferences": [
         "Reference/OriginalGame/extracted/cw.png",
         "Reference/OriginalGame/extracted/cw.bin"
@@ -1168,7 +1168,20 @@
         "cw.bin": "a5a2266589909a333c12cb9ad73b28a12cfb90360504ba8f4c19571e9d47f99d"
       },
       "runtimeIntegrated": false,
-      "newAnimationFrames": 0
+      "newAnimationFrames": 0,
+      "wingPolicy": "Each view has one matching pair of visible blue two-lobed wings; side far wing may be partly occluded",
+      "revisions": [
+        {
+          "version": "v1",
+          "status": "revision_requested",
+          "userFeedback": "不对啊，部分视角有翅膀，部分没有，统一做成有翅膀的吧"
+        },
+        {
+          "version": "v2",
+          "status": "draft_review",
+          "change": "统一三视图双翼形状、颜色、连接位置和可见性"
+        }
+      ]
     }
   ]
 }

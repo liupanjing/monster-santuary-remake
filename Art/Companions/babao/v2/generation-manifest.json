@@ -1,0 +1,58 @@
+{
+  "tool": "built-in image_gen",
+  "status": "static_design_candidate",
+  "approvedVersion": null,
+  "approvedBy": null,
+  "animationFrames": 0,
+  "runtimeIntegrated": false,
+  "views": [
+    {
+      "view": "front",
+      "atlasBounds": [
+        62,
+        178,
+        700,
+        599
+      ],
+      "opaquePixels": 160313,
+      "output": "Art/Companions/babao/v2/static/front.png"
+    },
+    {
+      "view": "left",
+      "atlasBounds": [
+        847,
+        152,
+        1387,
+        599
+      ],
+      "opaquePixels": 150142,
+      "output": "Art/Companions/babao/v2/static/left.png"
+    },
+    {
+      "view": "back",
+      "atlasBounds": [
+        1470,
+        173,
+        2109,
+        599
+      ],
+      "opaquePixels": 161805,
+      "output": "Art/Companions/babao/v2/static/back.png"
+    }
+  ],
+  "cutPolicy": "Shared atlas scale; alpha >= 32 connected regions >= 64 pixels, preserving retained alpha; no repainting",
+  "sourceSHA256": "d33300b2bcdb4f41dc063f6e1e6afa5839dea4219fc2aafe59aed8ebc361472b",
+  "prompts": [
+    "prompts/wings.txt"
+  ],
+  "references": [
+    "Art/Companions/babao/v1/source/design.png"
+  ],
+  "limits": [
+    "Visible wings in all views are a user-directed correction; not a claim of exact reconstruction of low-resolution original",
+    "Same-screen example is a static montage, not gameplay verification",
+    "cw2 alternate magenta palette found; story purpose unconfirmed, not adopted"
+  ],
+  "revisionRequest": "用户：部分视角有翅膀，部分没有，统一做成有翅膀的吧",
+  "wingPolicy": "One matching pair of cyan-blue two-lobed wings in every view; far wing partially occluded in side view"
+}

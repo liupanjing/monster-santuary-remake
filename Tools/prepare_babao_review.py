@@ -1,15 +1,19 @@
 """Cut static Babao proposals and lay out references; no painted edits or motion."""
 from pathlib import Path
 import collections
+import argparse
 import hashlib
 import json
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'Art/Companions/babao/v1'
+ORIGINAL = ROOT / 'Art/Companions/babao/v1'
 
 
-def main():
+def main(version='v1'):
+    out = ROOT / 'Art/Companions/babao' / version
+    # All versioned paths below stay local; the original reference lives in v1.
+    OUT = out
     source = OUT / 'source/design.png'
     atlas = Image.open(source).convert('RGBA')
     w, h = atlas.size
@@ -59,13 +63,13 @@ def main():
     small = ImageFont.truetype(font_path, 18)
     board = Image.new('RGB', (1500, 960), '#e9e6df')
     draw = ImageDraw.Draw(board)
-    draw.text((32, 22), '八宝 · 原版 / 2D 重绘 v1 · 静态造型待审', font=title, fill='#252833')
+    draw.text((32, 22), f'八宝 · 原版 / 2D 重绘 {version} · 静态造型待审', font=title, fill='#252833')
     draw.text((32, 72), '原版来自 cw.png + cw.bin 合成；新版为透明手绘候选。尚未制作新版动作或接入试玩。', font=small, fill='#53545b')
     for i, (frame, name) in enumerate(zip((4, 7, 1), ('正面', '侧面', '背面'))):
         base = i * 500
         draw.rounded_rectangle((base + 15, 114, base + 485, 623), radius=12, fill='#f8f6f1')
         draw.text((base + 195, 130), name, font=label, fill='#252833')
-        original = Image.open(OUT / 'original' / f'cw-frame-{frame:02}.png').convert('RGBA')
+        original = Image.open(ORIGINAL / 'original' / f'cw-frame-{frame:02}.png').convert('RGBA')
         original = original.crop(original.getbbox())
         original = original.resize((original.width * 11, original.height * 11), Image.Resampling.NEAREST)
         board.paste(original, (base + (500 - original.width) // 2, 180), original)
@@ -84,22 +88,30 @@ def main():
     # Original cw front includes a shadow; this ratio is a rough scale proposal.
     companion_h = round(210 * 15 / 23)
     companion = companion.resize((round(companion.width * companion_h / companion.height), companion_h), Image.Resampling.LANCZOS)
-    board.paste(companion, (470, 882 - companion.height), companion)
-    draw.text((40, 923), '保留青蓝圆身、卷曲突起、眯眼与粉颊。侧面翅膀/背部折线为低像素资料的重绘解释，比例待游戏镜头确认。', font=small, fill='#53545b')
+    board.paste(companion, (420 if version == 'v2' else 470, 882 - companion.height), companion)
+    footer = ('按用户要求：各视角统一一对蓝色双瓣翅膀；侧面远侧翼因遮挡仅露翼尖。比例仍待游戏镜头确认。'
+              if version == 'v2' else '保留青蓝圆身、卷曲突起、眯眼与粉颊。侧面翅膀/背部折线为低像素资料的重绘解释，比例待游戏镜头确认。')
+    draw.text((40, 923), footer, font=small, fill='#53545b')
     board.save(OUT / 'babao-original-vs-redraw.png')
     manifest = {'tool': 'built-in image_gen', 'status': 'static_design_candidate',
                 'approvedVersion': None, 'approvedBy': None, 'animationFrames': 0,
                 'runtimeIntegrated': False, 'views': records,
                 'cutPolicy': 'Shared atlas scale; alpha >= 32 connected regions >= 64 pixels, preserving retained alpha; no repainting',
                 'sourceSHA256': hashlib.sha256(source.read_bytes()).hexdigest(),
-                'prompts': ['prompts/design.txt', 'prompts/fidelity-correction.txt'],
-                'references': ['original-three-views.png', 'Unity/Assets/Remake/Resources/HeroMotion/Art/walk/1-0.png'],
+                'prompts': (['prompts/wings.txt'] if version == 'v2' else ['prompts/design.txt', 'prompts/fidelity-correction.txt']),
+                'references': (['Art/Companions/babao/v1/source/design.png'] if version == 'v2' else ['original-three-views.png', 'Unity/Assets/Remake/Resources/HeroMotion/Art/walk/1-0.png']),
                 'limits': ['Wing shape and back folded line interpreted from small original sprites',
                            'Same-screen example is a static montage, not gameplay verification',
                            'cw2 alternate magenta palette found; story purpose unconfirmed, not adopted']}
+    if version == 'v2':
+        manifest['revisionRequest'] = '用户：部分视角有翅膀，部分没有，统一做成有翅膀的吧'
+        manifest['wingPolicy'] = 'One matching pair of cyan-blue two-lobed wings in every view; far wing partially occluded in side view'
+        manifest['limits'][0] = 'Visible wings in all views are a user-directed correction; not a claim of exact reconstruction of low-resolution original'
     (OUT / 'generation-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({'views': records, 'trueTransparency': atlas.getextrema()[3], 'comparison': str(OUT / 'babao-original-vs-redraw.png')}))
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--version', choices=('v1', 'v2'), default='v1')
+    main(parser.parse_args().version)
