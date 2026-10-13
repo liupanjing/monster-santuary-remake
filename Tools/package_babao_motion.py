@@ -9,6 +9,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument('--player-path', type=Path, default=ROOT / 'Production/Build/MonsterWonderland2D.app')
+parser.add_argument('--source-ref', default='HEAD', help='Exact revision used for the verified player')
 options = parser.parse_args()
 OUT = ROOT / 'Production/Deliveries'
 OUT.mkdir(exist_ok=True)
@@ -32,7 +33,7 @@ with zipfile.ZipFile(mac, 'w', zipfile.ZIP_DEFLATED) as archive:
     archive.writestr('开始试玩.txt', '解压后打开 MonsterWonderland2D.app。\nWASD/方向键移动，Shift 奔跑，E 互动，M 地图，Esc 队伍，F5 存档。\n主角使用已有 Q 版跑图和模块化双枪战斗动作。八宝四方向悬浮扇翅，独立跟随，不随参战怪兽选择改变。\n新动作待视觉评价，其余怪兽仍为逐只待审占位。本包为 Mac 开发试玩版。\n')
 source = OUT / '怪兽仙境2D-八宝跟随版-Unity源工程.zip'
 # Export a reproducible commit, rather than collecting concurrently edited files.
-revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+revision = subprocess.check_output(['git', 'rev-parse', options.source_ref], cwd=ROOT, text=True).strip()
 subprocess.run(['git', 'archive', '--format=zip', '--prefix=monster-sanctuary-remake/',
                 '--output=' + str(source), revision], cwd=ROOT, check=True)
 checks = {}
