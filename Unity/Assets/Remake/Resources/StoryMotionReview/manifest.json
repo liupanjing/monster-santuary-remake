@@ -1,0 +1,403 @@
+{
+  "actors": [
+    {
+      "id": "xiya",
+      "actions": [
+        {
+          "key": "field-walk-down",
+          "fps": 8,
+          "loop": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/field-walk-down/0",
+            "StoryMotionReview/xiya/field-walk-down/1",
+            "StoryMotionReview/xiya/field-walk-down/2",
+            "StoryMotionReview/xiya/field-walk-down/3",
+            "StoryMotionReview/xiya/field-walk-down/4",
+            "StoryMotionReview/xiya/field-walk-down/5"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.140625
+        },
+        {
+          "key": "field-walk-left",
+          "fps": 8,
+          "loop": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/field-walk-left/0",
+            "StoryMotionReview/xiya/field-walk-left/1",
+            "StoryMotionReview/xiya/field-walk-left/2",
+            "StoryMotionReview/xiya/field-walk-left/3",
+            "StoryMotionReview/xiya/field-walk-left/4",
+            "StoryMotionReview/xiya/field-walk-left/5"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.140625
+        },
+        {
+          "key": "field-walk-right",
+          "fps": 8,
+          "loop": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/field-walk-right/0",
+            "StoryMotionReview/xiya/field-walk-right/1",
+            "StoryMotionReview/xiya/field-walk-right/2",
+            "StoryMotionReview/xiya/field-walk-right/3",
+            "StoryMotionReview/xiya/field-walk-right/4",
+            "StoryMotionReview/xiya/field-walk-right/5"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.140625
+        },
+        {
+          "key": "field-walk-up",
+          "fps": 8,
+          "loop": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/field-walk-up/0",
+            "StoryMotionReview/xiya/field-walk-up/1",
+            "StoryMotionReview/xiya/field-walk-up/2",
+            "StoryMotionReview/xiya/field-walk-up/3",
+            "StoryMotionReview/xiya/field-walk-up/4",
+            "StoryMotionReview/xiya/field-walk-up/5"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.140625
+        },
+        {
+          "key": "field-idle-left",
+          "fps": 1,
+          "loop": [
+            0
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/field-turns/0"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.140625
+        },
+        {
+          "key": "field-idle-right",
+          "fps": 1,
+          "loop": [
+            0
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/field-turns/1"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.140625
+        },
+        {
+          "key": "battle-idle",
+          "fps": 6,
+          "loop": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/battle-idle/0",
+            "StoryMotionReview/xiya/battle-idle/1",
+            "StoryMotionReview/xiya/battle-idle/2",
+            "StoryMotionReview/xiya/battle-idle/3"
+          ],
+          "hands": [
+            "StoryMotionReview/xiya/battle-idle/0-hand",
+            "StoryMotionReview/xiya/battle-idle/1-hand",
+            "StoryMotionReview/xiya/battle-idle/2-hand",
+            "StoryMotionReview/xiya/battle-idle/3-hand"
+          ],
+          "grips": [
+            {
+              "x": -0.5142247744052503,
+              "y": 3.2538356967069024,
+              "angle": 25
+            },
+            {
+              "x": -0.5103808742529004,
+              "y": 3.2538356967069024,
+              "angle": 25
+            },
+            {
+              "x": -0.5134735731864527,
+              "y": 3.216147896402203,
+              "angle": 25
+            },
+            {
+              "x": -0.5065369741005509,
+              "y": 3.2023039962498534,
+              "angle": 25
+            }
+          ],
+          "pivotY": 0.0625
+        },
+        {
+          "key": "battle-slash",
+          "fps": 6,
+          "loop": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/battle-slash/0",
+            "StoryMotionReview/xiya/battle-slash/1",
+            "StoryMotionReview/xiya/battle-slash/2",
+            "StoryMotionReview/xiya/battle-slash/3",
+            "StoryMotionReview/xiya/battle-slash/4",
+            "StoryMotionReview/xiya/battle-slash/5"
+          ],
+          "hands": [
+            "StoryMotionReview/xiya/battle-slash/0-hand",
+            "StoryMotionReview/xiya/battle-slash/1-hand",
+            "StoryMotionReview/xiya/battle-slash/2-hand",
+            "StoryMotionReview/xiya/battle-slash/3-hand",
+            "StoryMotionReview/xiya/battle-slash/4-hand",
+            "StoryMotionReview/xiya/battle-slash/5-hand"
+          ],
+          "grips": [
+            {
+              "x": -0.5508709820171379,
+              "y": 3.07476928028322,
+              "angle": 25
+            },
+            {
+              "x": -0.9030422013919619,
+              "y": 5.76779901033914,
+              "angle": 120
+            },
+            {
+              "x": 0.17923321398398856,
+              "y": 3.546084402783924,
+              "angle": 55
+            },
+            {
+              "x": 1.2052456048597986,
+              "y": 2.823543468640624,
+              "angle": -75
+            },
+            {
+              "x": 1.219322524842097,
+              "y": 2.765094339622641,
+              "angle": -120
+            },
+            {
+              "x": -0.5430570865349802,
+              "y": 3.0188313151225,
+              "angle": 25
+            }
+          ],
+          "pivotY": 0.0625
+        },
+        {
+          "key": "battle-hurt",
+          "fps": 6,
+          "loop": [
+            0,
+            1
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/battle-hurt/0",
+            "StoryMotionReview/xiya/battle-hurt/1"
+          ],
+          "hands": [
+            "StoryMotionReview/xiya/battle-hurt/0-hand",
+            "StoryMotionReview/xiya/battle-hurt/1-hand"
+          ],
+          "grips": [
+            {
+              "x": -0.6834501347708897,
+              "y": 3.340746071301429,
+              "angle": 25
+            },
+            {
+              "x": -0.77436454254183,
+              "y": 3.1104867009103394,
+              "angle": 25
+            }
+          ],
+          "pivotY": 0.0625
+        },
+        {
+          "key": "field-idle-down",
+          "fps": 1,
+          "loop": [
+            0
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/field-idle-down/0"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.140625
+        },
+        {
+          "key": "field-idle-up",
+          "fps": 1,
+          "loop": [
+            0
+          ],
+          "frames": [
+            "StoryMotionReview/xiya/field-idle-up/0"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.140625
+        }
+      ],
+      "portrait": "StoryMotionReview/original/xiya-portrait",
+      "originalField": "StoryMotionReview/original/xiya-field"
+    },
+    {
+      "id": "qibei",
+      "actions": [
+        {
+          "key": "field-flap-down",
+          "fps": 9,
+          "loop": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "frames": [
+            "StoryMotionReview/qibei/field-flap-down/0",
+            "StoryMotionReview/qibei/field-flap-down/1",
+            "StoryMotionReview/qibei/field-flap-down/2",
+            "StoryMotionReview/qibei/field-flap-down/3"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.5
+        },
+        {
+          "key": "field-flap-left",
+          "fps": 9,
+          "loop": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "frames": [
+            "StoryMotionReview/qibei/field-flap-left/0",
+            "StoryMotionReview/qibei/field-flap-left/1",
+            "StoryMotionReview/qibei/field-flap-left/2",
+            "StoryMotionReview/qibei/field-flap-left/3"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.5
+        },
+        {
+          "key": "field-flap-up",
+          "fps": 9,
+          "loop": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "frames": [
+            "StoryMotionReview/qibei/field-flap-up/0",
+            "StoryMotionReview/qibei/field-flap-up/1",
+            "StoryMotionReview/qibei/field-flap-up/2",
+            "StoryMotionReview/qibei/field-flap-up/3"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.5
+        },
+        {
+          "key": "battle-hover",
+          "fps": 9,
+          "loop": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "frames": [
+            "StoryMotionReview/qibei/battle-hover/0",
+            "StoryMotionReview/qibei/battle-hover/1",
+            "StoryMotionReview/qibei/battle-hover/2",
+            "StoryMotionReview/qibei/battle-hover/3"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.5
+        },
+        {
+          "key": "field-flap-right",
+          "fps": 9,
+          "loop": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "frames": [
+            "StoryMotionReview/qibei/field-flap-right/0",
+            "StoryMotionReview/qibei/field-flap-right/1",
+            "StoryMotionReview/qibei/field-flap-right/2",
+            "StoryMotionReview/qibei/field-flap-right/3"
+          ],
+          "hands": [],
+          "grips": [],
+          "pivotY": 0.5,
+          "mirrorOf": "field-flap-left"
+        }
+      ],
+      "portrait": "StoryMotionReview/original/qibei-portrait",
+      "originalField": "StoryMotionReview/original/qibei-field"
+    }
+  ]
+}

@@ -1,0 +1,1330 @@
+{
+  "tool": "built-in image_gen",
+  "status": "motion_review_candidate",
+  "userAuthorization": "一个一个立绘来review，要有动作那种；西雅和七贝；战斗立绘和Q跑图两套一起",
+  "approvedVersion": null,
+  "runtimeIntegrated": false,
+  "reviewSceneOnly": true,
+  "handDrawnKeys": [
+    {
+      "key": "field-walk-down",
+      "index": 0,
+      "atlasBounds": [
+        134,
+        19,
+        470,
+        496
+      ],
+      "anchor": [
+        169.0,
+        477
+      ],
+      "commonScale": 0.31512605042016806,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        75,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-down",
+      "index": 1,
+      "atlasBounds": [
+        592,
+        19,
+        921,
+        496
+      ],
+      "anchor": [
+        165.5,
+        477
+      ],
+      "commonScale": 0.31512605042016806,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        76,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-down",
+      "index": 2,
+      "atlasBounds": [
+        1039,
+        19,
+        1364,
+        498
+      ],
+      "anchor": [
+        164.0,
+        479
+      ],
+      "commonScale": 0.31512605042016806,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        76,
+        69
+      ]
+    },
+    {
+      "key": "field-walk-down",
+      "index": 3,
+      "atlasBounds": [
+        134,
+        522,
+        473,
+        994
+      ],
+      "anchor": [
+        169.5,
+        472
+      ],
+      "commonScale": 0.31512605042016806,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        75,
+        71
+      ]
+    },
+    {
+      "key": "field-walk-down",
+      "index": 4,
+      "atlasBounds": [
+        581,
+        521,
+        921,
+        993
+      ],
+      "anchor": [
+        169.5,
+        472
+      ],
+      "commonScale": 0.31512605042016806,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        75,
+        71
+      ]
+    },
+    {
+      "key": "field-walk-down",
+      "index": 5,
+      "atlasBounds": [
+        1034,
+        518,
+        1371,
+        993
+      ],
+      "anchor": [
+        169.0,
+        475
+      ],
+      "commonScale": 0.31512605042016806,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        75,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-left",
+      "index": 0,
+      "atlasBounds": [
+        146,
+        10,
+        474,
+        502
+      ],
+      "anchor": [
+        155.5,
+        492
+      ],
+      "commonScale": 0.30643513789581206,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        80,
+        69
+      ]
+    },
+    {
+      "key": "field-walk-left",
+      "index": 1,
+      "atlasBounds": [
+        612,
+        10,
+        938,
+        504
+      ],
+      "anchor": [
+        151.5,
+        494
+      ],
+      "commonScale": 0.30643513789581206,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        82,
+        69
+      ]
+    },
+    {
+      "key": "field-walk-left",
+      "index": 2,
+      "atlasBounds": [
+        1093,
+        10,
+        1417,
+        504
+      ],
+      "anchor": [
+        153.0,
+        494
+      ],
+      "commonScale": 0.30643513789581206,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        81,
+        69
+      ]
+    },
+    {
+      "key": "field-walk-left",
+      "index": 3,
+      "atlasBounds": [
+        145,
+        519,
+        477,
+        1001
+      ],
+      "anchor": [
+        155.5,
+        482
+      ],
+      "commonScale": 0.30643513789581206,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        80,
+        72
+      ]
+    },
+    {
+      "key": "field-walk-left",
+      "index": 4,
+      "atlasBounds": [
+        620,
+        519,
+        945,
+        1006
+      ],
+      "anchor": [
+        153.5,
+        487
+      ],
+      "commonScale": 0.30643513789581206,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        81,
+        71
+      ]
+    },
+    {
+      "key": "field-walk-left",
+      "index": 5,
+      "atlasBounds": [
+        1100,
+        519,
+        1426,
+        1003
+      ],
+      "anchor": [
+        154.5,
+        484
+      ],
+      "commonScale": 0.30643513789581206,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        81,
+        72
+      ]
+    },
+    {
+      "key": "field-walk-right",
+      "index": 0,
+      "atlasBounds": [
+        117,
+        13,
+        437,
+        498
+      ],
+      "anchor": [
+        178.0,
+        485
+      ],
+      "commonScale": 0.3080082135523614,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        73,
+        71
+      ]
+    },
+    {
+      "key": "field-walk-right",
+      "index": 1,
+      "atlasBounds": [
+        592,
+        13,
+        911,
+        501
+      ],
+      "anchor": [
+        178.5,
+        488
+      ],
+      "commonScale": 0.3080082135523614,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        73,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-right",
+      "index": 2,
+      "atlasBounds": [
+        1073,
+        11,
+        1387,
+        498
+      ],
+      "anchor": [
+        174.0,
+        487
+      ],
+      "commonScale": 0.3080082135523614,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        74,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-right",
+      "index": 3,
+      "atlasBounds": [
+        120,
+        523,
+        439,
+        1009
+      ],
+      "anchor": [
+        175.5,
+        486
+      ],
+      "commonScale": 0.3080082135523614,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        74,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-right",
+      "index": 4,
+      "atlasBounds": [
+        596,
+        523,
+        919,
+        1010
+      ],
+      "anchor": [
+        179.5,
+        487
+      ],
+      "commonScale": 0.3080082135523614,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        73,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-right",
+      "index": 5,
+      "atlasBounds": [
+        1069,
+        520,
+        1390,
+        1007
+      ],
+      "anchor": [
+        178.0,
+        487
+      ],
+      "commonScale": 0.3080082135523614,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        73,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-up",
+      "index": 0,
+      "atlasBounds": [
+        124,
+        36,
+        401,
+        487
+      ],
+      "anchor": [
+        137.0,
+        451
+      ],
+      "commonScale": 0.3303964757709251,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        83,
+        71
+      ]
+    },
+    {
+      "key": "field-walk-up",
+      "index": 1,
+      "atlasBounds": [
+        626,
+        33,
+        907,
+        487
+      ],
+      "anchor": [
+        139.5,
+        454
+      ],
+      "commonScale": 0.3303964757709251,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        82,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-up",
+      "index": 2,
+      "atlasBounds": [
+        1135,
+        33,
+        1408,
+        487
+      ],
+      "anchor": [
+        135.5,
+        454
+      ],
+      "commonScale": 0.3303964757709251,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        83,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-up",
+      "index": 3,
+      "atlasBounds": [
+        123,
+        535,
+        406,
+        990
+      ],
+      "anchor": [
+        139.5,
+        455
+      ],
+      "commonScale": 0.3303964757709251,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        82,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-up",
+      "index": 4,
+      "atlasBounds": [
+        628,
+        535,
+        911,
+        989
+      ],
+      "anchor": [
+        141.0,
+        454
+      ],
+      "commonScale": 0.3303964757709251,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        81,
+        70
+      ]
+    },
+    {
+      "key": "field-walk-up",
+      "index": 5,
+      "atlasBounds": [
+        1131,
+        535,
+        1412,
+        990
+      ],
+      "anchor": [
+        139.5,
+        455
+      ],
+      "commonScale": 0.3303964757709251,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        82,
+        70
+      ]
+    },
+    {
+      "key": "field-turns",
+      "index": 0,
+      "atlasBounds": [
+        264,
+        19,
+        781,
+        870
+      ],
+      "anchor": [
+        241.0,
+        851
+      ],
+      "commonScale": 0.17615971814445097,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        86,
+        70
+      ]
+    },
+    {
+      "key": "field-turns",
+      "index": 1,
+      "atlasBounds": [
+        993,
+        18,
+        1493,
+        870
+      ],
+      "anchor": [
+        275.0,
+        852
+      ],
+      "commonScale": 0.17615971814445097,
+      "canvas": [
+        256,
+        256
+      ],
+      "offset": [
+        80,
+        70
+      ]
+    },
+    {
+      "key": "battle-idle",
+      "index": 0,
+      "atlasBounds": [
+        141,
+        10,
+        444,
+        772
+      ],
+      "anchor": [
+        150.5,
+        762
+      ],
+      "commonScale": 0.7687800304699403,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        204,
+        134
+      ],
+      "grip": {
+        "x": -0.5142247744052503,
+        "y": 3.2538356967069024,
+        "angle": 25
+      },
+      "sourceHandBounds": [
+        62,
+        317,
+        106,
+        361
+      ]
+    },
+    {
+      "key": "battle-idle",
+      "index": 1,
+      "atlasBounds": [
+        621,
+        10,
+        924,
+        772
+      ],
+      "anchor": [
+        151.5,
+        762
+      ],
+      "commonScale": 0.7687800304699403,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        204,
+        134
+      ],
+      "grip": {
+        "x": -0.5103808742529004,
+        "y": 3.2538356967069024,
+        "angle": 25
+      },
+      "sourceHandBounds": [
+        62,
+        317,
+        107,
+        361
+      ]
+    },
+    {
+      "key": "battle-idle",
+      "index": 2,
+      "atlasBounds": [
+        137,
+        778,
+        444,
+        1536
+      ],
+      "anchor": [
+        155.0,
+        758
+      ],
+      "commonScale": 0.7687800304699403,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        201,
+        137
+      ],
+      "grip": {
+        "x": -0.5134735731864527,
+        "y": 3.216147896402203,
+        "angle": 25
+      },
+      "sourceHandBounds": [
+        66,
+        318,
+        110,
+        362
+      ]
+    },
+    {
+      "key": "battle-idle",
+      "index": 3,
+      "atlasBounds": [
+        622,
+        779,
+        924,
+        1536
+      ],
+      "anchor": [
+        150.5,
+        757
+      ],
+      "commonScale": 0.7687800304699403,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        204,
+        138
+      ],
+      "grip": {
+        "x": -0.5065369741005509,
+        "y": 3.2023039962498534,
+        "angle": 25
+      },
+      "sourceHandBounds": [
+        63,
+        319,
+        107,
+        362
+      ]
+    },
+    {
+      "key": "battle-slash",
+      "index": 0,
+      "atlasBounds": [
+        226,
+        9,
+        464,
+        516
+      ],
+      "anchor": [
+        118.0,
+        507
+      ],
+      "commonScale": 1.187593032143863,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        180,
+        118
+      ],
+      "grip": {
+        "x": -0.5508709820171379,
+        "y": 3.07476928028322,
+        "angle": 25
+      },
+      "sourceHandBounds": [
+        55,
+        232,
+        88,
+        264
+      ]
+    },
+    {
+      "key": "battle-slash",
+      "index": 1,
+      "atlasBounds": [
+        602,
+        7,
+        934,
+        507
+      ],
+      "anchor": [
+        165.0,
+        500
+      ],
+      "commonScale": 1.187593032143863,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        124,
+        126
+      ],
+      "grip": {
+        "x": -0.9030422013919619,
+        "y": 5.76779901033914,
+        "angle": 120
+      },
+      "sourceHandBounds": [
+        69,
+        1,
+        109,
+        28
+      ]
+    },
+    {
+      "key": "battle-slash",
+      "index": 2,
+      "atlasBounds": [
+        1028,
+        33,
+        1364,
+        510
+      ],
+      "anchor": [
+        168.0,
+        477
+      ],
+      "commonScale": 1.187593032143863,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        120,
+        154
+      ],
+      "grip": {
+        "x": 0.17923321398398856,
+        "y": 3.546084402783924,
+        "angle": 55
+      },
+      "sourceHandBounds": [
+        165,
+        160,
+        202,
+        196
+      ]
+    },
+    {
+      "key": "battle-slash",
+      "index": 3,
+      "atlasBounds": [
+        189,
+        543,
+        516,
+        1003
+      ],
+      "anchor": [
+        162.5,
+        460
+      ],
+      "commonScale": 1.187593032143863,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        127,
+        174
+      ],
+      "grip": {
+        "x": 1.2052456048597986,
+        "y": 2.823543468640624,
+        "angle": -75
+      },
+      "sourceHandBounds": [
+        246,
+        206,
+        282,
+        238
+      ]
+    },
+    {
+      "key": "battle-slash",
+      "index": 4,
+      "atlasBounds": [
+        595,
+        535,
+        951,
+        1002
+      ],
+      "anchor": [
+        177.0,
+        467
+      ],
+      "commonScale": 1.187593032143863,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        110,
+        165
+      ],
+      "grip": {
+        "x": 1.219322524842097,
+        "y": 2.765094339622641,
+        "angle": -120
+      },
+      "sourceHandBounds": [
+        259,
+        216,
+        300,
+        253
+      ]
+    },
+    {
+      "key": "battle-slash",
+      "index": 5,
+      "atlasBounds": [
+        1088,
+        508,
+        1327,
+        1011
+      ],
+      "anchor": [
+        119.0,
+        503
+      ],
+      "commonScale": 1.187593032143863,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        179,
+        123
+      ],
+      "grip": {
+        "x": -0.5430570865349802,
+        "y": 3.0188313151225,
+        "angle": 25
+      },
+      "sourceHandBounds": [
+        56,
+        232,
+        90,
+        265
+      ]
+    },
+    {
+      "key": "battle-hurt",
+      "index": 0,
+      "atlasBounds": [
+        232,
+        21,
+        674,
+        1012
+      ],
+      "anchor": [
+        220.5,
+        991
+      ],
+      "commonScale": 0.6005187407821797,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        188,
+        125
+      ],
+      "grip": {
+        "x": -0.6834501347708897,
+        "y": 3.340746071301429,
+        "angle": 25
+      },
+      "sourceHandBounds": [
+        75,
+        404,
+        137,
+        465
+      ]
+    },
+    {
+      "key": "battle-hurt",
+      "index": 1,
+      "atlasBounds": [
+        867,
+        10,
+        1372,
+        1012
+      ],
+      "anchor": [
+        252.0,
+        1002
+      ],
+      "commonScale": 0.6005187407821797,
+      "canvas": [
+        640,
+        768
+      ],
+      "offset": [
+        169,
+        118
+      ],
+      "grip": {
+        "x": -0.77436454254183,
+        "y": 3.1104867009103394,
+        "angle": 25
+      },
+      "sourceHandBounds": [
+        91,
+        453,
+        154,
+        516
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "key": "field-walk-down",
+      "fps": 8,
+      "loop": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/field-walk-down/0",
+        "StoryMotionReview/xiya/field-walk-down/1",
+        "StoryMotionReview/xiya/field-walk-down/2",
+        "StoryMotionReview/xiya/field-walk-down/3",
+        "StoryMotionReview/xiya/field-walk-down/4",
+        "StoryMotionReview/xiya/field-walk-down/5"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.140625
+    },
+    {
+      "key": "field-walk-left",
+      "fps": 8,
+      "loop": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/field-walk-left/0",
+        "StoryMotionReview/xiya/field-walk-left/1",
+        "StoryMotionReview/xiya/field-walk-left/2",
+        "StoryMotionReview/xiya/field-walk-left/3",
+        "StoryMotionReview/xiya/field-walk-left/4",
+        "StoryMotionReview/xiya/field-walk-left/5"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.140625
+    },
+    {
+      "key": "field-walk-right",
+      "fps": 8,
+      "loop": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/field-walk-right/0",
+        "StoryMotionReview/xiya/field-walk-right/1",
+        "StoryMotionReview/xiya/field-walk-right/2",
+        "StoryMotionReview/xiya/field-walk-right/3",
+        "StoryMotionReview/xiya/field-walk-right/4",
+        "StoryMotionReview/xiya/field-walk-right/5"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.140625
+    },
+    {
+      "key": "field-walk-up",
+      "fps": 8,
+      "loop": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/field-walk-up/0",
+        "StoryMotionReview/xiya/field-walk-up/1",
+        "StoryMotionReview/xiya/field-walk-up/2",
+        "StoryMotionReview/xiya/field-walk-up/3",
+        "StoryMotionReview/xiya/field-walk-up/4",
+        "StoryMotionReview/xiya/field-walk-up/5"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.140625
+    },
+    {
+      "key": "field-idle-left",
+      "fps": 1,
+      "loop": [
+        0
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/field-turns/0"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.140625
+    },
+    {
+      "key": "field-idle-right",
+      "fps": 1,
+      "loop": [
+        0
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/field-turns/1"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.140625
+    },
+    {
+      "key": "battle-idle",
+      "fps": 6,
+      "loop": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/battle-idle/0",
+        "StoryMotionReview/xiya/battle-idle/1",
+        "StoryMotionReview/xiya/battle-idle/2",
+        "StoryMotionReview/xiya/battle-idle/3"
+      ],
+      "hands": [
+        "StoryMotionReview/xiya/battle-idle/0-hand",
+        "StoryMotionReview/xiya/battle-idle/1-hand",
+        "StoryMotionReview/xiya/battle-idle/2-hand",
+        "StoryMotionReview/xiya/battle-idle/3-hand"
+      ],
+      "grips": [
+        {
+          "x": -0.5142247744052503,
+          "y": 3.2538356967069024,
+          "angle": 25
+        },
+        {
+          "x": -0.5103808742529004,
+          "y": 3.2538356967069024,
+          "angle": 25
+        },
+        {
+          "x": -0.5134735731864527,
+          "y": 3.216147896402203,
+          "angle": 25
+        },
+        {
+          "x": -0.5065369741005509,
+          "y": 3.2023039962498534,
+          "angle": 25
+        }
+      ],
+      "pivotY": 0.0625
+    },
+    {
+      "key": "battle-slash",
+      "fps": 6,
+      "loop": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/battle-slash/0",
+        "StoryMotionReview/xiya/battle-slash/1",
+        "StoryMotionReview/xiya/battle-slash/2",
+        "StoryMotionReview/xiya/battle-slash/3",
+        "StoryMotionReview/xiya/battle-slash/4",
+        "StoryMotionReview/xiya/battle-slash/5"
+      ],
+      "hands": [
+        "StoryMotionReview/xiya/battle-slash/0-hand",
+        "StoryMotionReview/xiya/battle-slash/1-hand",
+        "StoryMotionReview/xiya/battle-slash/2-hand",
+        "StoryMotionReview/xiya/battle-slash/3-hand",
+        "StoryMotionReview/xiya/battle-slash/4-hand",
+        "StoryMotionReview/xiya/battle-slash/5-hand"
+      ],
+      "grips": [
+        {
+          "x": -0.5508709820171379,
+          "y": 3.07476928028322,
+          "angle": 25
+        },
+        {
+          "x": -0.9030422013919619,
+          "y": 5.76779901033914,
+          "angle": 120
+        },
+        {
+          "x": 0.17923321398398856,
+          "y": 3.546084402783924,
+          "angle": 55
+        },
+        {
+          "x": 1.2052456048597986,
+          "y": 2.823543468640624,
+          "angle": -75
+        },
+        {
+          "x": 1.219322524842097,
+          "y": 2.765094339622641,
+          "angle": -120
+        },
+        {
+          "x": -0.5430570865349802,
+          "y": 3.0188313151225,
+          "angle": 25
+        }
+      ],
+      "pivotY": 0.0625
+    },
+    {
+      "key": "battle-hurt",
+      "fps": 6,
+      "loop": [
+        0,
+        1
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/battle-hurt/0",
+        "StoryMotionReview/xiya/battle-hurt/1"
+      ],
+      "hands": [
+        "StoryMotionReview/xiya/battle-hurt/0-hand",
+        "StoryMotionReview/xiya/battle-hurt/1-hand"
+      ],
+      "grips": [
+        {
+          "x": -0.6834501347708897,
+          "y": 3.340746071301429,
+          "angle": 25
+        },
+        {
+          "x": -0.77436454254183,
+          "y": 3.1104867009103394,
+          "angle": 25
+        }
+      ],
+      "pivotY": 0.0625
+    },
+    {
+      "key": "field-idle-down",
+      "fps": 1,
+      "loop": [
+        0
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/field-idle-down/0"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.140625
+    },
+    {
+      "key": "field-idle-up",
+      "fps": 1,
+      "loop": [
+        0
+      ],
+      "frames": [
+        "StoryMotionReview/xiya/field-idle-up/0"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.140625
+    }
+  ],
+  "registration": "One common scale per sheet; fixed ground anchor for Xiya; lower-core circle registration for Qibei. No per-frame rescaling.",
+  "rightMirror": false,
+  "sourceSHA256": {
+    "battle-slash.png": "2a76d2065f7fb0cfbfbd510181283a693e981ef9a0a14823ae4067e424f0bc29",
+    "battle-idle.png": "f0d3932e984821761e402ded3463a75c5ca1932f60010829ccf6064b7c677e3d",
+    "battle-hurt.png": "5b473c4c1860c06d96d02afd0e971ab1ebf77f08f4f7a3433550d079d52b0c7f",
+    "battle-body.png": "372906cf6fc3bda1d12f3b3ecbcbc1097acc1fccddbe5c4f4e495cbe30c63146",
+    "field-walk-up.png": "d9cf61a74403689a4dd045294c55de97c0ed4ee62cc6af68d3ff15aa2623dda9",
+    "field-walk-down.png": "e973bacfe64a0313590bfda21da69a5538f0df588e68e6e1276c1bee3b56811c",
+    "sword.png": "d7879351cea11d5789301a4b09848ed2f35e5659dab486b2fcea833161471378",
+    "field-walk-left.png": "b92c84778c5d96d5993f75b4324f2df6809292e7b0f382cde34bb1f5693338df",
+    "field-walk-right.png": "1c66fb76dd86cfa3510209cc6f6a17b80eadca81571ef3278d9652d50924640b",
+    "field-walk-down-stride-draft.png": "1f0c7e0b6089cd6b3e23861d5d96957afcf92f78639c6da0016f36a363cecbd8",
+    "field-turns.png": "5bc023163acaee95cecbc937459369cf0ce4a5a5564fde149c7434211d909442"
+  },
+  "prompts": [
+    "prompts/field-walk-up.txt",
+    "prompts/field-walk-down.txt",
+    "prompts/battle-slash.txt",
+    "prompts/battle-idle.txt",
+    "prompts/battle-body.txt",
+    "prompts/battle-hurt.txt",
+    "prompts/field-walk-right.txt",
+    "prompts/field-turns.txt",
+    "prompts/field-walk-down-passing-fix.txt",
+    "prompts/sword.txt",
+    "prompts/field-walk-left.txt"
+  ],
+  "reviewScene": "Unity/Assets/Remake/Scenes/StoryMotionReview.unity",
+  "reviewPage": "Art/Reviews/story-motion-v2/index.html",
+  "technicalRuntimeValidated": true,
+  "runtimeCaptureManifest": "Art/Reviews/story-motion-v2/runtime-capture-manifest.json",
+  "humanApproved": false
+}

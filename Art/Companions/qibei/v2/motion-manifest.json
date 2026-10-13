@@ -1,0 +1,537 @@
+{
+  "tool": "built-in image_gen",
+  "status": "motion_review_candidate",
+  "userAuthorization": "一个一个立绘来review，要有动作那种；西雅和七贝；战斗立绘和Q跑图两套一起",
+  "approvedVersion": null,
+  "runtimeIntegrated": false,
+  "reviewSceneOnly": true,
+  "handDrawnKeys": [
+    {
+      "key": "field-flap-down",
+      "index": 0,
+      "atlasBounds": [
+        56,
+        63,
+        717,
+        475
+      ],
+      "anchor": [
+        326.5,
+        208.70187747035573
+      ],
+      "commonScale": 0.18213673247329837,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        37,
+        58
+      ],
+      "bodyDiameter": 417.97361776032704,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "field-flap-down",
+      "index": 1,
+      "atlasBounds": [
+        778,
+        81,
+        1515,
+        477
+      ],
+      "anchor": [
+        367.0,
+        193.23569415081042
+      ],
+      "commonScale": 0.18213673247329837,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        29,
+        61
+      ],
+      "bodyDiameter": 416.56424802840684,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "field-flap-down",
+      "index": 2,
+      "atlasBounds": [
+        29,
+        564,
+        743,
+        955
+      ],
+      "anchor": [
+        354.0,
+        184.79560555723347
+      ],
+      "commonScale": 0.18213673247329837,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        32,
+        62
+      ],
+      "bodyDiameter": 422.6812340766011,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "field-flap-down",
+      "index": 3,
+      "atlasBounds": [
+        848,
+        564,
+        1447,
+        956
+      ],
+      "anchor": [
+        299.5,
+        235.2
+      ],
+      "commonScale": 0.18213673247329837,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        41,
+        53
+      ],
+      "bodyDiameter": 313.6,
+      "bodyFit": "fallback-lower-body"
+    },
+    {
+      "key": "field-flap-left",
+      "index": 0,
+      "atlasBounds": [
+        88,
+        62,
+        581,
+        543
+      ],
+      "anchor": [
+        200.0,
+        269.420024758815
+      ],
+      "commonScale": 0.1701691508566543,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        62,
+        50
+      ],
+      "bodyDiameter": 431.7173327900272,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "field-flap-left",
+      "index": 1,
+      "atlasBounds": [
+        671,
+        108,
+        1340,
+        543
+      ],
+      "anchor": [
+        300.0,
+        219.1487733391229
+      ],
+      "commonScale": 0.1701691508566543,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        45,
+        59
+      ],
+      "bodyDiameter": 440.85421084470596,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "field-flap-left",
+      "index": 2,
+      "atlasBounds": [
+        89,
+        651,
+        622,
+        1089
+      ],
+      "anchor": [
+        296.5,
+        257.9138520408163
+      ],
+      "commonScale": 0.1701691508566543,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        46,
+        52
+      ],
+      "bodyDiameter": 537.7665616119361,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "field-flap-left",
+      "index": 3,
+      "atlasBounds": [
+        770,
+        649,
+        1280,
+        1087
+      ],
+      "anchor": [
+        281.5,
+        335.51929846938776
+      ],
+      "commonScale": 0.1701691508566543,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        48,
+        39
+      ],
+      "bodyDiameter": 452.37466897758634,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "field-flap-up",
+      "index": 0,
+      "atlasBounds": [
+        64,
+        85,
+        655,
+        511
+      ],
+      "anchor": [
+        292.0,
+        226.6417957909343
+      ],
+      "commonScale": 0.18758557990337388,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        41,
+        53
+      ],
+      "bodyDiameter": 401.1013002537618,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "field-flap-up",
+      "index": 1,
+      "atlasBounds": [
+        732,
+        125,
+        1432,
+        517
+      ],
+      "anchor": [
+        344.0,
+        194.41341362126246
+      ],
+      "commonScale": 0.18758557990337388,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        31,
+        60
+      ],
+      "bodyDiameter": 397.08615924325306,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "field-flap-up",
+      "index": 2,
+      "atlasBounds": [
+        25,
+        609,
+        720,
+        1009
+      ],
+      "anchor": [
+        344.0,
+        196.95325933756166
+      ],
+      "commonScale": 0.18758557990337388,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        31,
+        59
+      ],
+      "bodyDiameter": 409.1955257511787,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "field-flap-up",
+      "index": 3,
+      "atlasBounds": [
+        854,
+        616,
+        1318,
+        1010
+      ],
+      "anchor": [
+        230.5,
+        185.0417195207893
+      ],
+      "commonScale": 0.18758557990337388,
+      "canvas": [
+        192,
+        192
+      ],
+      "offset": [
+        53,
+        61
+      ],
+      "bodyDiameter": 418.701108642626,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "battle-hover",
+      "index": 0,
+      "atlasBounds": [
+        47,
+        54,
+        675,
+        520
+      ],
+      "anchor": [
+        312.5,
+        243.56180995475114
+      ],
+      "commonScale": 0.5755036015509288,
+      "canvas": [
+        640,
+        640
+      ],
+      "offset": [
+        140,
+        180
+      ],
+      "bodyDiameter": 452.429641258642,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "battle-hover",
+      "index": 1,
+      "atlasBounds": [
+        726,
+        105,
+        1434,
+        520
+      ],
+      "anchor": [
+        350.0,
+        193.2904255319149
+      ],
+      "commonScale": 0.5755036015509288,
+      "canvas": [
+        640,
+        640
+      ],
+      "offset": [
+        119,
+        209
+      ],
+      "bodyDiameter": 451.1268240678099,
+      "bodyFit": "lower-circle-fit"
+    },
+    {
+      "key": "battle-hover",
+      "index": 2,
+      "atlasBounds": [
+        18,
+        586,
+        705,
+        1004
+      ],
+      "anchor": [
+        343.0,
+        250.79999999999998
+      ],
+      "commonScale": 0.5755036015509288,
+      "canvas": [
+        640,
+        640
+      ],
+      "offset": [
+        123,
+        176
+      ],
+      "bodyDiameter": 334.40000000000003,
+      "bodyFit": "fallback-lower-body"
+    },
+    {
+      "key": "battle-hover",
+      "index": 3,
+      "atlasBounds": [
+        844,
+        586,
+        1312,
+        1004
+      ],
+      "anchor": [
+        233.0,
+        216.94332408263952
+      ],
+      "commonScale": 0.5755036015509288,
+      "canvas": [
+        640,
+        640
+      ],
+      "offset": [
+        186,
+        195
+      ],
+      "bodyDiameter": 525.6927659200306,
+      "bodyFit": "lower-circle-fit"
+    }
+  ],
+  "actions": [
+    {
+      "key": "field-flap-down",
+      "fps": 9,
+      "loop": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "frames": [
+        "StoryMotionReview/qibei/field-flap-down/0",
+        "StoryMotionReview/qibei/field-flap-down/1",
+        "StoryMotionReview/qibei/field-flap-down/2",
+        "StoryMotionReview/qibei/field-flap-down/3"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.5
+    },
+    {
+      "key": "field-flap-left",
+      "fps": 9,
+      "loop": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "frames": [
+        "StoryMotionReview/qibei/field-flap-left/0",
+        "StoryMotionReview/qibei/field-flap-left/1",
+        "StoryMotionReview/qibei/field-flap-left/2",
+        "StoryMotionReview/qibei/field-flap-left/3"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.5
+    },
+    {
+      "key": "field-flap-up",
+      "fps": 9,
+      "loop": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "frames": [
+        "StoryMotionReview/qibei/field-flap-up/0",
+        "StoryMotionReview/qibei/field-flap-up/1",
+        "StoryMotionReview/qibei/field-flap-up/2",
+        "StoryMotionReview/qibei/field-flap-up/3"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.5
+    },
+    {
+      "key": "battle-hover",
+      "fps": 9,
+      "loop": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "frames": [
+        "StoryMotionReview/qibei/battle-hover/0",
+        "StoryMotionReview/qibei/battle-hover/1",
+        "StoryMotionReview/qibei/battle-hover/2",
+        "StoryMotionReview/qibei/battle-hover/3"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.5
+    },
+    {
+      "key": "field-flap-right",
+      "fps": 9,
+      "loop": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "frames": [
+        "StoryMotionReview/qibei/field-flap-right/0",
+        "StoryMotionReview/qibei/field-flap-right/1",
+        "StoryMotionReview/qibei/field-flap-right/2",
+        "StoryMotionReview/qibei/field-flap-right/3"
+      ],
+      "hands": [],
+      "grips": [],
+      "pivotY": 0.5,
+      "mirrorOf": "field-flap-left"
+    }
+  ],
+  "registration": "One common scale per sheet; fixed ground anchor for Xiya; lower-core circle registration for Qibei. No per-frame rescaling.",
+  "rightMirror": true,
+  "sourceSHA256": {
+    "field-flap-down.png": "dbf647db6ff5143b40f962349a21a839a4f6cc3422511490222a364c06524a33",
+    "field-flap-left.png": "67592e00f3a5f9cceb0955061c4d30ebca30651ed4c82593666236e2bd8765d6",
+    "battle-hover.png": "1a31d887f566c19e76b3d979844329735cde2414e7e52c94da7d8b9e92c261fe",
+    "field-flap-up.png": "c20f9a41cc9b9723c781afb066424d06a723c577f4f10087c30c111f79203453"
+  },
+  "prompts": [
+    "prompts/field-flap-down.txt",
+    "prompts/battle-hover.txt",
+    "prompts/field-flap-up.txt",
+    "prompts/field-flap-left.txt"
+  ],
+  "reviewScene": "Unity/Assets/Remake/Scenes/StoryMotionReview.unity",
+  "reviewPage": "Art/Reviews/story-motion-v2/index.html",
+  "technicalRuntimeValidated": true,
+  "runtimeCaptureManifest": "Art/Reviews/story-motion-v2/runtime-capture-manifest.json",
+  "humanApproved": false
+}

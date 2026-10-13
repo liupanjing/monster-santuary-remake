@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506bf4b16fbb94ff9b96229474d45a2f, type: 3}
+  m_Name: Definitions
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterRemake2D.StoryMotionReviewLibrary2D
+  humanApproved: 0
+  actors:
+  - id: xiya
+    portrait: {fileID: 21300000, guid: 5bbc30f7db2c242959f5752b2e1a86f1, type: 3}
+    originalField: {fileID: 21300000, guid: 59914320c40514e49909d47bdfa5f835, type: 3}
+    actions:
+    - key: field-walk-down
+      frames:
+      - {fileID: 21300000, guid: 74f9d6b24d27145b08d6885a8fe61e84, type: 3}
+      - {fileID: 21300000, guid: 8eb309e2c475a4ceaab5e07dedfdc34d, type: 3}
+      - {fileID: 21300000, guid: b294b09329e4a4df3ab8baa429f56a1c, type: 3}
+      - {fileID: 21300000, guid: 6583564b802d84c51b93a9e23e498092, type: 3}
+      - {fileID: 21300000, guid: bc57f4c7602b8477fa7d85a550caf83f, type: 3}
+      - {fileID: 21300000, guid: dbd0cc3167ea94555be44175e36a674f, type: 3}
+      hands: []
+      grips: []
+      loop: 000000000100000002000000030000000400000005000000
+      fps: 8
+      durations: []
+    - key: field-walk-left
+      frames:
+      - {fileID: 21300000, guid: 5575aadc037944f839f5ee25bfe07f1f, type: 3}
+      - {fileID: 21300000, guid: af0498050a517417894ad999fc3b10be, type: 3}
+      - {fileID: 21300000, guid: a866efefacae7486a8e0f1461c8bc784, type: 3}
+      - {fileID: 21300000, guid: a8b3db780719f4ae49be367330fb1799, type: 3}
+      - {fileID: 21300000, guid: 63f560e2a788a4ddea62d9112b8b9970, type: 3}
+      - {fileID: 21300000, guid: 38f1b75056c41418bb1b88abf62dceae, type: 3}
+      hands: []
+      grips: []
+      loop: 000000000100000002000000030000000400000005000000
+      fps: 8
+      durations: []
+    - key: field-walk-right
+      frames:
+      - {fileID: 21300000, guid: 3da6c3f8cdb9748abaae886250d0f09d, type: 3}
+      - {fileID: 21300000, guid: af340497f89e24deb8cbbe23b431ca50, type: 3}
+      - {fileID: 21300000, guid: 07c8fd9e8f44241f2bdbf65349695975, type: 3}
+      - {fileID: 21300000, guid: 4c0e81c41de204d9e8b10d6aed817b95, type: 3}
+      - {fileID: 21300000, guid: 86b25d522e6e94101934f7e72c9c91e5, type: 3}
+      - {fileID: 21300000, guid: d511eccd09b9145fa8216f8b055fcc13, type: 3}
+      hands: []
+      grips: []
+      loop: 000000000100000002000000030000000400000005000000
+      fps: 8
+      durations: []
+    - key: field-walk-up
+      frames:
+      - {fileID: 21300000, guid: 175713b955f0e435f92b351cbc368a4d, type: 3}
+      - {fileID: 21300000, guid: 7ca3b435f6ade406f8444a342cf506f6, type: 3}
+      - {fileID: 21300000, guid: 4f8a51750b2e0440398bd36b5608e050, type: 3}
+      - {fileID: 21300000, guid: 7bba7d21a34cf4ceaa23ac474b256098, type: 3}
+      - {fileID: 21300000, guid: e944b9c7c2c8b4b2aaf8c3fd4bac3d56, type: 3}
+      - {fileID: 21300000, guid: 894cc660c3a3445a99b67f2273796951, type: 3}
+      hands: []
+      grips: []
+      loop: 000000000100000002000000030000000400000005000000
+      fps: 8
+      durations: []
+    - key: field-idle-left
+      frames:
+      - {fileID: 21300000, guid: af9835b0688974cc08786e250247b12a, type: 3}
+      hands: []
+      grips: []
+      loop: 00000000
+      fps: 1
+      durations: []
+    - key: field-idle-right
+      frames:
+      - {fileID: 21300000, guid: ea1f645928dc24b20999540836933f99, type: 3}
+      hands: []
+      grips: []
+      loop: 00000000
+      fps: 1
+      durations: []
+    - key: battle-idle
+      frames:
+      - {fileID: 21300000, guid: febe50fb7185c482d9790380b050ce77, type: 3}
+      - {fileID: 21300000, guid: cd2390981f4d44e9c9339daf0e885197, type: 3}
+      - {fileID: 21300000, guid: fcefff62c003e4170bf9ae7d38cf5591, type: 3}
+      - {fileID: 21300000, guid: 5630b646cd6894be09935af0890ff656, type: 3}
+      hands:
+      - {fileID: 21300000, guid: 397ea91e34e574a98a945cbea37c839d, type: 3}
+      - {fileID: 21300000, guid: 6a64f8f47ec0c405486f6bb4cdff72f6, type: 3}
+      - {fileID: 21300000, guid: 9790d9e08d2e74f9b888cf7ca61832d9, type: 3}
+      - {fileID: 21300000, guid: 97ebac30ad02c4a2a83607d28bb2e796, type: 3}
+      grips:
+      - x: -0.51422477
+        y: 3.2538357
+        angle: 25
+      - x: -0.51038086
+        y: 3.2538357
+        angle: 25
+      - x: -0.5134736
+        y: 3.216148
+        angle: 25
+      - x: -0.50653696
+        y: 3.202304
+        angle: 25
+      loop: 00000000010000000200000003000000
+      fps: 3
+      durations: []
+    - key: battle-slash
+      frames:
+      - {fileID: 21300000, guid: 05bca693b759b465daa39ef616575bc2, type: 3}
+      - {fileID: 21300000, guid: f1e589f94bd054e92864f7f508f0cd53, type: 3}
+      - {fileID: 21300000, guid: ba0d0b92e86824cb6a0b79e779956e38, type: 3}
+      - {fileID: 21300000, guid: 0a1ce1b6007394f749f8981304c133ec, type: 3}
+      - {fileID: 21300000, guid: c4208790eef624c7693fa889df9f5613, type: 3}
+      - {fileID: 21300000, guid: cf1500e26f41040788f3f1d387ab817a, type: 3}
+      hands:
+      - {fileID: 21300000, guid: 42771f45abed145f9af15a4f6032b5c6, type: 3}
+      - {fileID: 21300000, guid: 8121edcf9d7ee48e6a4ef992ce20f763, type: 3}
+      - {fileID: 21300000, guid: 9e803f61a9c08400883e64475de84752, type: 3}
+      - {fileID: 21300000, guid: 8c69c505a5b7e474d98cf91ded3f42cd, type: 3}
+      - {fileID: 21300000, guid: f43ec72f921bc45d2a02d1090bc0849b, type: 3}
+      - {fileID: 21300000, guid: 1f861524dd29b48b68fde92db2b3e6a3, type: 3}
+      grips:
+      - x: -0.55087095
+        y: 3.0747693
+        angle: 25
+      - x: -0.9030422
+        y: 5.767799
+        angle: 120
+      - x: 0.17923321
+        y: 3.5460844
+        angle: 55
+      - x: 1.2052456
+        y: 2.8235435
+        angle: -75
+      - x: 1.2193226
+        y: 2.7650943
+        angle: -120
+      - x: -0.5430571
+        y: 3.0188313
+        angle: 25
+      loop: 000000000100000002000000030000000400000005000000
+      fps: 6
+      durations:
+      - 0.14
+      - 0.24
+      - 0.09
+      - 0.08
+      - 0.12
+      - 0.18
+    - key: battle-hurt
+      frames:
+      - {fileID: 21300000, guid: bf292c63150b843c68410d0c03f2f737, type: 3}
+      - {fileID: 21300000, guid: 3ffdccf654083420bbb503b1776905bc, type: 3}
+      hands:
+      - {fileID: 21300000, guid: 647128fd843aa443089dfc781a4886d7, type: 3}
+      - {fileID: 21300000, guid: 10f5cace2b18f45ad94494f8a0bf8d52, type: 3}
+      grips:
+      - x: -0.68345016
+        y: 3.3407462
+        angle: 25
+      - x: -0.77436453
+        y: 3.1104867
+        angle: 25
+      loop: 0000000001000000
+      fps: 6
+      durations: []
+    - key: field-idle-down
+      frames:
+      - {fileID: 21300000, guid: 1a1bcd63e76b6451199c34c50ae261e0, type: 3}
+      hands: []
+      grips: []
+      loop: 00000000
+      fps: 1
+      durations: []
+    - key: field-idle-up
+      frames:
+      - {fileID: 21300000, guid: 266f71741fdf94230a07f8a73936502f, type: 3}
+      hands: []
+      grips: []
+      loop: 00000000
+      fps: 1
+      durations: []
+  - id: qibei
+    portrait: {fileID: 21300000, guid: fc9f11e11ab134d418c18d65c3a65690, type: 3}
+    originalField: {fileID: 21300000, guid: 81de335990bf54d64969295a5adbdd08, type: 3}
+    actions:
+    - key: field-flap-down
+      frames:
+      - {fileID: 21300000, guid: 6b74b6527b20c42c0ac143b176778cbc, type: 3}
+      - {fileID: 21300000, guid: 0da1d7fa44212452d98208a3c2ea707e, type: 3}
+      - {fileID: 21300000, guid: 4bf6df4c3eac849db8c33ef12f229c1f, type: 3}
+      - {fileID: 21300000, guid: 49c1eb4b002a54ac18d2b9d52198869e, type: 3}
+      hands: []
+      grips: []
+      loop: 000000000100000002000000030000000200000001000000
+      fps: 9
+      durations: []
+    - key: field-flap-left
+      frames:
+      - {fileID: 21300000, guid: d0095aad309a8491cb9b985af7f8433c, type: 3}
+      - {fileID: 21300000, guid: fe610bc7a0c5643ef97e995b34d7ec87, type: 3}
+      - {fileID: 21300000, guid: 9a54305eecc3f46e9b9608dd594a6cdf, type: 3}
+      - {fileID: 21300000, guid: 86b58387ca54f447f907e9e5e490f346, type: 3}
+      hands: []
+      grips: []
+      loop: 000000000100000002000000030000000200000001000000
+      fps: 9
+      durations: []
+    - key: field-flap-up
+      frames:
+      - {fileID: 21300000, guid: b3976097daa034582a3254f868c57360, type: 3}
+      - {fileID: 21300000, guid: cc26e4df52ce44c18a84a32cfd9e069e, type: 3}
+      - {fileID: 21300000, guid: f5102d645904641259b6bb7bd1ce72c7, type: 3}
+      - {fileID: 21300000, guid: 4558ef74121164230ae7658d3d05ab3e, type: 3}
+      hands: []
+      grips: []
+      loop: 000000000100000002000000030000000200000001000000
+      fps: 9
+      durations: []
+    - key: battle-hover
+      frames:
+      - {fileID: 21300000, guid: 7dc9b9c69bd1445bd9dfec367c78cc63, type: 3}
+      - {fileID: 21300000, guid: 7ef65804e7dc245c1a91109a194517fd, type: 3}
+      - {fileID: 21300000, guid: 6aab5fa45a97a4c6f9e6d77c49bced62, type: 3}
+      - {fileID: 21300000, guid: 9e05f2309d7a1415e9f5362aea1ac99a, type: 3}
+      hands: []
+      grips: []
+      loop: 000000000100000002000000030000000200000001000000
+      fps: 9
+      durations: []
+    - key: field-flap-right
+      frames:
+      - {fileID: 21300000, guid: 4333b03de9bcf4679a6f2646a5005030, type: 3}
+      - {fileID: 21300000, guid: 317d0be5558ce4daebc19cce4e971b03, type: 3}
+      - {fileID: 21300000, guid: cfafe908ebb254595a68b1ed7443bd33, type: 3}
+      - {fileID: 21300000, guid: 64759939213324fa8902809790e681a0, type: 3}
+      hands: []
+      grips: []
+      loop: 000000000100000002000000030000000200000001000000
+      fps: 9
+      durations: []
+  sword: {fileID: 21300000, guid: 947dd4895bb824c5383f7016911de070, type: 3}

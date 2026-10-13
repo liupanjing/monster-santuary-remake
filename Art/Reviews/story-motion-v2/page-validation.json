@@ -1,0 +1,13 @@
+{
+  "result": "pass",
+  "surface": "Chrome headless; local HTTP",
+  "modes": 5,
+  "captureImagesLoaded": 320,
+  "browserFrames": "lossless WebP; pixel-identical RGB to Unity PNG",
+  "pause": true,
+  "frameStep": true,
+  "keyboardStep": true,
+  "timeline": true,
+  "battleChapter": true,
+  "errors": []
+}

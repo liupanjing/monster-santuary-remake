@@ -1,0 +1,25 @@
+{
+  "result": "pass",
+  "technicalOnly": true,
+  "humanApproved": false,
+  "unityVersion": "6000.3.0f1",
+  "editorVerification": "pass",
+  "macPlayerBuild": "pass",
+  "actualPlayerCapture": "pass",
+  "captureModes": 5,
+  "captures": 320,
+  "transparentResourceSprites": 77,
+  "originalInputHashesVerified": 1046,
+  "reviewSceneOnly": true,
+  "formalGameplayIntegration": false,
+  "mainHeroBabaoEarthCatalogTrackedFilesChanged": false,
+  "sourceGitBaseline": "36cacd9d531b7495d327dcb4b1b6467d203f4e60",
+  "limitations": [
+    "Xiya battle full body and neutral sword inferred from portrait and field costume",
+    "Qibei right field orientation mirrored from left",
+    "Drawn keyframes; 16 Hz capture is not 16 unique drawings per second",
+    "Technical validation does not approve visual consistency or motion naturalness"
+  ],
+  "browserReviewControls": "pass; Chrome over local HTTP",
+  "browserPreviewExport": "320 lossless WebP images; decoded RGB identical to original Unity PNG"
+}

@@ -1,0 +1,193 @@
+[
+  {
+    "key": "field-walk-down",
+    "folder": "Art/NPCs/xiya/v2",
+    "prompt": "Art/NPCs/xiya/v2/prompts/field-walk-down.txt",
+    "source": "Art/NPCs/xiya/v2/source/field-walk-down.png",
+    "references": [
+      "Art/NPCs/xiya/v1/static/field-front.png",
+      "Art/NPCs/xiya/v1/static/field-back.png",
+      "Art/NPCs/xiya/v1/original-reference.png"
+    ],
+    "columns": 3,
+    "rows": 2,
+    "kind": "xiya_field_walk",
+    "direction": "down"
+  },
+  {
+    "key": "field-walk-left",
+    "folder": "Art/NPCs/xiya/v2",
+    "prompt": "Art/NPCs/xiya/v2/prompts/field-walk-left.txt",
+    "source": "Art/NPCs/xiya/v2/source/field-walk-left.png",
+    "references": [
+      "Art/NPCs/xiya/v1/static/field-front.png",
+      "Art/NPCs/xiya/v1/static/field-back.png",
+      "Art/NPCs/xiya/v1/original-reference.png",
+      "Art/NPCs/xiya/v2/source/field-turns.png"
+    ],
+    "columns": 3,
+    "rows": 2,
+    "kind": "xiya_field_walk",
+    "direction": "left"
+  },
+  {
+    "key": "field-walk-right",
+    "folder": "Art/NPCs/xiya/v2",
+    "prompt": "Art/NPCs/xiya/v2/prompts/field-walk-right.txt",
+    "source": "Art/NPCs/xiya/v2/source/field-walk-right.png",
+    "references": [
+      "Art/NPCs/xiya/v1/static/field-front.png",
+      "Art/NPCs/xiya/v1/static/field-back.png",
+      "Art/NPCs/xiya/v1/original-reference.png",
+      "Art/NPCs/xiya/v2/source/field-turns.png"
+    ],
+    "columns": 3,
+    "rows": 2,
+    "kind": "xiya_field_walk",
+    "direction": "right"
+  },
+  {
+    "key": "field-walk-up",
+    "folder": "Art/NPCs/xiya/v2",
+    "prompt": "Art/NPCs/xiya/v2/prompts/field-walk-up.txt",
+    "source": "Art/NPCs/xiya/v2/source/field-walk-up.png",
+    "references": [
+      "Art/NPCs/xiya/v1/static/field-front.png",
+      "Art/NPCs/xiya/v1/static/field-back.png",
+      "Art/NPCs/xiya/v1/original-reference.png"
+    ],
+    "columns": 3,
+    "rows": 2,
+    "kind": "xiya_field_walk",
+    "direction": "up"
+  },
+  {
+    "key": "field-turns",
+    "folder": "Art/NPCs/xiya/v2",
+    "prompt": "Art/NPCs/xiya/v2/prompts/field-turns.txt",
+    "source": "Art/NPCs/xiya/v2/source/field-turns.png",
+    "references": [
+      "Art/NPCs/xiya/v1/static/field-front.png",
+      "Art/NPCs/xiya/v1/static/field-back.png",
+      "Art/NPCs/xiya/v1/original-reference.png"
+    ],
+    "columns": 2,
+    "rows": 1,
+    "kind": "xiya_field_idle",
+    "direction": null
+  },
+  {
+    "key": "field-flap-down",
+    "folder": "Art/Companions/qibei/v2",
+    "prompt": "Art/Companions/qibei/v2/prompts/field-flap-down.txt",
+    "source": "Art/Companions/qibei/v2/source/field-flap-down.png",
+    "references": [
+      "Art/Companions/qibei/v1/static/field-front.png",
+      "Art/Companions/qibei/v1/static/field-left.png",
+      "Art/Companions/qibei/v1/static/field-back.png"
+    ],
+    "columns": 2,
+    "rows": 2,
+    "kind": "qibei_field",
+    "direction": "down"
+  },
+  {
+    "key": "field-flap-left",
+    "folder": "Art/Companions/qibei/v2",
+    "prompt": "Art/Companions/qibei/v2/prompts/field-flap-left.txt",
+    "source": "Art/Companions/qibei/v2/source/field-flap-left.png",
+    "references": [
+      "Art/Companions/qibei/v1/static/field-front.png",
+      "Art/Companions/qibei/v1/static/field-left.png",
+      "Art/Companions/qibei/v1/static/field-back.png"
+    ],
+    "columns": 2,
+    "rows": 2,
+    "kind": "qibei_field",
+    "direction": "left"
+  },
+  {
+    "key": "field-flap-up",
+    "folder": "Art/Companions/qibei/v2",
+    "prompt": "Art/Companions/qibei/v2/prompts/field-flap-up.txt",
+    "source": "Art/Companions/qibei/v2/source/field-flap-up.png",
+    "references": [
+      "Art/Companions/qibei/v1/static/field-front.png",
+      "Art/Companions/qibei/v1/static/field-left.png",
+      "Art/Companions/qibei/v1/static/field-back.png"
+    ],
+    "columns": 2,
+    "rows": 2,
+    "kind": "qibei_field",
+    "direction": "up"
+  },
+  {
+    "key": "battle-idle",
+    "folder": "Art/NPCs/xiya/v2",
+    "prompt": "Art/NPCs/xiya/v2/prompts/battle-idle.txt",
+    "source": "Art/NPCs/xiya/v2/source/battle-idle.png",
+    "references": [
+      "Art/NPCs/xiya/v2/source/battle-body.png",
+      "Art/NPCs/xiya/v1/static/portrait.png"
+    ],
+    "columns": 2,
+    "rows": 2,
+    "kind": "xiya_battle_idle",
+    "direction": null
+  },
+  {
+    "key": "battle-slash",
+    "folder": "Art/NPCs/xiya/v2",
+    "prompt": "Art/NPCs/xiya/v2/prompts/battle-slash.txt",
+    "source": "Art/NPCs/xiya/v2/source/battle-slash.png",
+    "references": [
+      "Art/NPCs/xiya/v2/source/battle-body.png",
+      "Art/NPCs/xiya/v1/static/portrait.png"
+    ],
+    "columns": 3,
+    "rows": 2,
+    "kind": "xiya_battle_slash",
+    "direction": null
+  },
+  {
+    "key": "battle-hurt",
+    "folder": "Art/NPCs/xiya/v2",
+    "prompt": "Art/NPCs/xiya/v2/prompts/battle-hurt.txt",
+    "source": "Art/NPCs/xiya/v2/source/battle-hurt.png",
+    "references": [
+      "Art/NPCs/xiya/v2/source/battle-body.png",
+      "Art/NPCs/xiya/v1/static/portrait.png"
+    ],
+    "columns": 2,
+    "rows": 1,
+    "kind": "xiya_battle_hurt",
+    "direction": null
+  },
+  {
+    "key": "sword",
+    "folder": "Art/NPCs/xiya/v2",
+    "prompt": "Art/NPCs/xiya/v2/prompts/sword.txt",
+    "source": "Art/NPCs/xiya/v2/source/sword.png",
+    "references": [
+      "Art/NPCs/xiya/v2/source/battle-body.png"
+    ],
+    "columns": 1,
+    "rows": 1,
+    "kind": "sword",
+    "direction": null
+  },
+  {
+    "key": "battle-hover",
+    "folder": "Art/Companions/qibei/v2",
+    "prompt": "Art/Companions/qibei/v2/prompts/battle-hover.txt",
+    "source": "Art/Companions/qibei/v2/source/battle-hover.png",
+    "references": [
+      "Art/Companions/qibei/v1/static/portrait.png",
+      "Art/Companions/qibei/v1/static/field-front.png"
+    ],
+    "columns": 2,
+    "rows": 2,
+    "kind": "qibei_battle",
+    "direction": null
+  }
+]
