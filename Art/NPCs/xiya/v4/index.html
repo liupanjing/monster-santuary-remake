@@ -5,7 +5,7 @@
 <canvas id="stage" width="1280" height="720" aria-label="Unity 实际录制动作"></canvas>
 <div class="controls"><button id="play">暂停</button><button id="prev">← 上一帧</button><button id="next">下一帧 →</button><input id="timeline" type="range" min="0" max="7" value="0" aria-label="动作帧"><output id="frame"></output><select id="speed" aria-label="播放速度"><option value="1">正常速度</option><option value="0.5">半速</option></select></div>
 <p class="note">候选，等待你审核。9 张独立战斗绘图：预备 1 张、斩击新增 6 张、受击 2 张。斩击两端复用预备。剑仍为独立模组，替换武器需配齐对应姿势图。Q 版跑图和七贝沿用上一版。</p>
-<p><a href="battle-unity-preview.gif">完整 Unity 播放</a> · <a href="grip-unity-contact.png">全部斩击握剑近景</a> · <a href="battle-unity-contact.png">全身关键帧</a> · <a href="../v2/battle-unity-preview.gif">被退回的 v2</a> · <a href="../../../Reviews/story-motion-v2/">Q 版与七贝审核</a></p>
+<p><a href="battle-unity-preview.gif">完整 Unity 播放</a> · <a href="grip-unity-contact.png">全部斩击握剑近景</a> · <a href="grip-before-after.png">v2 / v4 持握对照</a> · <a href="battle-unity-contact.png">全身关键帧</a> · <a href="../v2/battle-unity-preview.gif">被退回的 v2</a> · <a href="../../../Reviews/story-motion-v2/">Q 版与七贝审核</a></p>
 <p><a href="REVIEW.md">本轮说明与参考</a> · <a href="runtime-validation.txt">Unity 运行回执</a> · <a href="module-manifest.json">分层与姿势记录</a> · <a href="runtime-capture-manifest.json">实际录制帧及哈希</a></p></main>
 <script>
 const $=id=>document.getElementById(id),ctx=$('stage').getContext('2d');let frame=0,playing=true,last=0,elapsed=0,images=[],generation=0;

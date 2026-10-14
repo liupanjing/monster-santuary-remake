@@ -24,7 +24,7 @@ namespace MonsterRemake2D
             library=definition;characterId=id;
             if(characterId=="xiya" && equippedWeapon==null)equippedWeapon=library.weaponModule;
             body=Layer("Body",10);weapon=Layer("Independent sword",11);hand=Layer("Foreground right hand",12);shadow=Layer("Ground shadow",8);
-            if(defaultMaterial==null)defaultMaterial=body.sharedMaterial;
+            if(defaultMaterial==null)defaultMaterial=body.sharedMaterial!=null?body.sharedMaterial:weapon.sharedMaterial;
             if(shadow.sprite==null)CreateShadow();
         }
         SpriteRenderer Layer(string name,int order)
@@ -71,7 +71,7 @@ namespace MonsterRemake2D
                     weapon.transform.localRotation=Quaternion.Euler(0,0,grip.angle);
                 }
             }
-            bool compose=battle&&equippedWeapon!=null&&hand.enabled;
+            bool compose=Application.isPlaying&&battle&&equippedWeapon!=null&&hand.enabled;
             weapon.forceRenderingOff=compose;hand.forceRenderingOff=compose;
             if(compose){
                 if(compositeMaterial==null){

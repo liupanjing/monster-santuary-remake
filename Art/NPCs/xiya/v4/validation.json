@@ -9,5 +9,7 @@
   "battlePoseSlots": 11,
   "browser": "12 action/view combinations; all images loaded; forward/back frame stepping; no page errors",
   "referenceScope": "Xiya battle body inferred from verified original portrait and field sprites; not confirmed original battle art",
-  "scope": "independent review scene; Q field and Qibei sprite bytes unchanged; no formal gameplay integration"
+  "scope": "independent review scene; Q field and Qibei sprite bytes unchanged; no formal gameplay integration",
+  "defaultMaterial": "review prefab retains built-in sprite material; Q field and battle switch rendered and inspected",
+  "pinkPixelScan": "Every recorded mode frame checked during packaging"
 }

@@ -60,7 +60,7 @@ public static class StoryMotionReviewBuild
             player.Sample(actor.id=="xiya"?"battle-idle":"battle-hover",0);player.shadow.sprite=null;
             string path=Root+"Prefabs/"+actor.id+".prefab";PrefabUtility.SaveAsPrefabAsset(player.gameObject,path);UnityEngine.Object.DestroyImmediate(player.gameObject);
             var reload=UnityEngine.Object.Instantiate(AssetDatabase.LoadAssetAtPath<GameObject>(path));var component=reload.GetComponent<StoryMotionReviewActor2D>();
-            component.Initialize(library,actor.id);component.Initialize(library,actor.id);if(reload.transform.childCount!=4)throw new Exception("Duplicate review layers");UnityEngine.Object.DestroyImmediate(reload);
+            component.Initialize(library,actor.id);component.Initialize(library,actor.id);if(component.body.sharedMaterial==null)throw new Exception("Review prefab must retain default sprite material");if(reload.transform.childCount!=4)throw new Exception("Duplicate review layers");UnityEngine.Object.DestroyImmediate(reload);
         }
         var camera=new GameObject("Review camera").AddComponent<Camera>();camera.tag="MainCamera";camera.orthographic=true;camera.orthographicSize=3.9f;
         camera.transform.position=new Vector3(0,0,-10);camera.clearFlags=CameraClearFlags.SolidColor;camera.backgroundColor=new Color(.91f,.90f,.87f);

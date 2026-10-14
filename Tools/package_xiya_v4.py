@@ -11,11 +11,18 @@ NAMES=['预备','提剑','蓄力','出剑','斜斩','收势','回收','预备']
 def main():
     assert 'PASS:' in (SOURCE/'runtime-validation.txt').read_text()
     files=list(SOURCE.rglob('*.png')); assert len(files)==364,len(files)
+    for p in files:
+        if 'mode-' in str(p.parent.name):
+            im=Image.open(p).convert('RGB')
+            r,g,b=im.split();pink=ImageChops.multiply(ImageChops.multiply(r.point(lambda x:255 if x>240 else 0),g.point(lambda x:255 if x<20 else 0)),b.point(lambda x:255 if x>240 else 0))
+            assert pink.histogram()[255]<20, f'Missing material rendered pink: {p}'
     report={'humanApproved':False,'capture':'Unity Camera.Render','rawFrames':len(files),'uniqueBattleDrawings':9,'battlePoseSlots':11,'source':str(SOURCE.relative_to(ROOT)),'rawSHA256':{},'gripComparison':[]}
     for p in files:
-        rel=p.relative_to(SOURCE);dest=OUT/'captures'/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest)
+        rel=p.relative_to(SOURCE);dest=OUT/'captures'/rel;dest.parent.mkdir(parents=True,exist_ok=True)
+        same=dest.exists() and dest.read_bytes()==p.read_bytes()
+        if not same:shutil.copy2(p,dest)
         web=OUT/'web'/rel.with_suffix('.webp');web.parent.mkdir(parents=True,exist_ok=True)
-        Image.open(p).convert('RGB').save(web,lossless=True)
+        if not same or not web.exists():Image.open(p).convert('RGB').save(web,lossless=True)
         report['rawSHA256'][str(rel)]=hashlib.sha256(p.read_bytes()).hexdigest()
     shutil.copy2(SOURCE/'runtime-validation.txt',OUT/'runtime-validation.txt')
     for p in sorted((SOURCE/'grips').rglob('*.png')):
