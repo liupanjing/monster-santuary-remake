@@ -1399,7 +1399,7 @@
       "id": "xiya",
       "name": "西雅",
       "role": "story_npc",
-      "status": "design_and_motion_draft_review",
+      "status": "motion_revision_requested",
       "candidateVersion": "v5",
       "approvedVersion": null,
       "approvedBy": null,
@@ -1427,7 +1427,7 @@
       "reviewPage": "Art/NPCs/xiya/v4/index.html",
       "motionManifest": "Art/NPCs/xiya/v5/draft-manifest.json",
       "motionVersion": "v5",
-      "motionStatus": "pencil_test_candidate",
+      "motionStatus": "v5_pencil_test_rejected",
       "motionLibrary": "Unity/Assets/Remake/Resources/StoryMotionReview/Definitions.asset",
       "prefab": "Unity/Assets/Remake/Resources/StoryMotionReview/Prefabs/xiya.prefab",
       "fieldPreview": "Art/NPCs/xiya/v2/field-unity-preview.gif",
@@ -1442,12 +1442,14 @@
         "bodySource": "full battle body inferred from portrait and field clothes; no confirmed original full body"
       },
       "gripResearch": "Art/NPCs/xiya/v3/REVIEW.md",
-      "rejectedMotionDetails": "用户于 2026-10-14 指出剑与手穿模、握剑不自然；v3 未导入试稿也被指出握姿不对，先查真实与动漫参考。 用户再次退回 v4：挥剑整体不可接受，高清造型像盗贼而非骑士团剑士；要求参考林克与网上挥剑模组。",
+      "rejectedMotionDetails": "用户于 2026-10-14 指出剑与手穿模、握剑不自然；v3 未导入试稿也被指出握姿不对，先查真实与动漫参考。 用户再次退回 v4：挥剑整体不可接受，高清造型像盗贼而非骑士团剑士；要求参考林克与网上挥剑模组。 用户再次退回 v5 挥剑：整体身体不动，脖子和手像焊接在人身上；要求寻找其他 2D 游戏素材。",
       "battleUniqueDrawings": 12,
       "fieldVersion": "v2",
       "designResearch": "Art/NPCs/xiya/v5/RESEARCH.md",
       "draftOnly": true,
-      "previousUnityReviewVersion": "v4 rejected"
+      "previousUnityReviewVersion": "v4 rejected",
+      "designStatus": "v5_knight_design_pending_review",
+      "other2DAssets": "Art/NPCs/xiya/v5/OTHER_2D_ASSETS.md"
     },
     {
       "id": "npc1",

@@ -1,0 +1,57 @@
+{
+  "source": "creator CC0 sprite PNGs",
+  "purpose": "reference analysis, not Xiya art",
+  "actions": [
+    {
+      "action": "Attack1",
+      "sourceDrawings": 7,
+      "sourceCell": [
+        162,
+        162
+      ],
+      "commonCrop": [
+        15,
+        38,
+        137,
+        105
+      ],
+      "previewTiming": "80ms per source drawing for analysis; not verified author timing",
+      "scale": 4,
+      "sourcePNGUnmodified": true
+    },
+    {
+      "action": "Attack2",
+      "sourceDrawings": 7,
+      "sourceCell": [
+        162,
+        162
+      ],
+      "commonCrop": [
+        0,
+        20,
+        140,
+        106
+      ],
+      "previewTiming": "80ms per source drawing for analysis; not verified author timing",
+      "scale": 4,
+      "sourcePNGUnmodified": true
+    },
+    {
+      "action": "Attack3",
+      "sourceDrawings": 8,
+      "sourceCell": [
+        162,
+        162
+      ],
+      "commonCrop": [
+        18,
+        -3,
+        160,
+        105
+      ],
+      "previewTiming": "80ms per source drawing for analysis; not verified author timing",
+      "scale": 4,
+      "sourcePNGUnmodified": true
+    }
+  ]
+}

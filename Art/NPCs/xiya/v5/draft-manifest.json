@@ -1,5 +1,5 @@
 {
-  "status": "design_and_pencil_test_candidate",
+  "status": "pencil_test_rejected_by_user",
   "humanApproved": false,
   "formalGameIntegrated": false,
   "tool": "built-in image_gen",
@@ -269,5 +269,7 @@
     "source/knight-design.png": "8bcbc247b1e980cae322ccd4c5ad90b960c13ce6c96f1ccd30dcf8e705c7154f",
     "source/continuous-slash-body-draft.png": "a52c19488b0bcab2b24b8604876b7a4a85d202b307e76dbd38eeca16391f6eb0",
     "source/continuous-slash-rough.png": "c92477b77d751edba912e58328d43cee48f68bfcb4bb97969ca5e8740f33c7e9"
-  }
+  },
+  "designStatus": "pending_review",
+  "rejectionReason": "Whole body does not participate convincingly; neck and hand feel welded onto body"
 }

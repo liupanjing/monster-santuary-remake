@@ -1,6 +1,6 @@
 {
   "technicalChecks": "pass",
-  "artReview": "pending_user",
+  "artReview": "pencil_test_rejected_by_user",
   "designSize": [
     1024,
     1536
@@ -20,5 +20,6 @@
   "visualCheck": "HD design, final sheet, isolated frame contact, cutting and recovery phases inspected; rough volumes and timing still subject to user review",
   "originalInputsChecked": 1046,
   "UnityModified": false,
-  "formalGameIntegrated": false
+  "formalGameIntegrated": false,
+  "designReview": "pending_user"
 }

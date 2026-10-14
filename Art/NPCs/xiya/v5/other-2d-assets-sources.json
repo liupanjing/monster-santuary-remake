@@ -1,0 +1,88 @@
+[
+  {
+    "sourceURL": "https://rvros.itch.io/animated-pixel-hero",
+    "remoteGIFs": [
+      {
+        "src": "https://img.itch.zone/aW1hZ2UvMjU0MTE0LzEyMjA4NTEuZ2lm/original/Sx9QbG.gif",
+        "alt": "Pixel art character with a sword and red scarf standing in idle animation on a blue background"
+      },
+      {
+        "src": "https://img.itch.zone/aW1hZ2UvMjU0MTE0LzEyMjA4NTIuZ2lm/original/iJfNI%2F.gif",
+        "alt": "Pixel art character in red cape swinging a sword with 'ATTACK1' text in the corner"
+      },
+      {
+        "src": "https://img.itch.zone/aW1hZ2UvMjU0MTE0LzEyMjA4NTMuZ2lm/original/0tlLYi.gif",
+        "alt": "Pixel art animation of a character with a red scarf running on a blue background, with the word 'RUN' in the corner."
+      },
+      {
+        "src": "https://img.itch.zone/aW1hZ2UvMjU0MTE0LzEyMjA5OTUuZ2lm/original/dO7NFd.gif",
+        "alt": "Pixel art animation of a character in a red scarf standing idle on a blue background with 'IDLE' text."
+      }
+    ]
+  },
+  {
+    "sourceURL": "https://luizmelo.itch.io/hero-knight-2",
+    "remoteGIFs": [
+      {
+        "src": "https://img.itch.zone/aW1nLzMzNDgzOTEuZ2lm/original/1ySK%2F%2B.gif"
+      },
+      {
+        "src": "https://img.itch.zone/aW1hZ2UvNjE4NTEyLzMzMjQ0NjIuZ2lm/original/ujsB6q.gif"
+      },
+      {
+        "src": "https://img.itch.zone/aW1hZ2UvNjE4NTEyLzMzMjQ0NDYuZ2lm/original/9ZaAmU.gif"
+      }
+    ]
+  },
+  {
+    "sourceURL": "https://luizmelo.itch.io/fantasy-warrior",
+    "remoteGIFs": [
+      {
+        "alt": "Pixel art character with a sword and green cape standing on a purple background, idle animation loop.",
+        "src": "https://img.itch.zone/aW1hZ2UvODUwMzk1LzQ4Mjg0MDcuZ2lm/original/Ob5Ld1.gif"
+      },
+      {
+        "alt": "Pixel art animation of a hooded character with a sword running on a purple background.",
+        "src": "https://img.itch.zone/aW1hZ2UvODUwMzk1LzQ4Mjg0MDUuZ2lm/original/W2K1g%2F.gif"
+      },
+      {
+        "alt": "Pixel art animation of a caped character with a sword jumping and falling on a purple background.",
+        "src": "https://img.itch.zone/aW1hZ2UvODUwMzk1LzQ4Mjg0MzguZ2lm/original/zC2%2Bn3.gif"
+      },
+      {
+        "alt": "Pixel art animation of a warrior swinging a large sword on a solid purple background.",
+        "src": "https://img.itch.zone/aW1hZ2UvODUwMzk1LzQ4Mjg0MDMuZ2lm/original/if8j0c.gif"
+      },
+      {
+        "alt": "Pixel art animation of a warrior with a large sword collapsing on a purple background.",
+        "src": "https://img.itch.zone/aW1hZ2UvODUwMzk1LzQ4Mjg0MDQuZ2lm/original/B0lZDB.gif"
+      }
+    ]
+  },
+  {
+    "sourceURL": "https://penusbmic.itch.io/the-dark-series-the-swordmaster-hero",
+    "remoteGIFs": [
+      {
+        "src": "https://img.itch.zone/aW1nLzk5ODk3ODAuZ2lm/original/cEERpC.gif"
+      },
+      {
+        "src": "https://img.itch.zone/aW1hZ2UvMTYxMzk4OS85NDQ5NDg4LmdpZg==/original/2CTm5r.gif"
+      },
+      {
+        "src": "https://img.itch.zone/aW1hZ2UvMTYxMzk4OS85NDQ5NzY0LmdpZg==/original/tKp0NJ.gif"
+      }
+    ]
+  },
+  {
+    "sourceURL": "https://penusbmic.itch.io/pixel-art-tutorial-top-down-attacks",
+    "remoteGIFs": [
+      {
+        "alt": "Pixel Art Tutorial - Top Down Attacks",
+        "src": "https://img.itch.zone/aW1nLzE0MDQzMDQ0LmdpZg==/original/yK940P.gif"
+      },
+      {
+        "src": "https://img.itch.zone/aW1hZ2UvMjM3MTI5MS8xNDA0Mjc2NS5naWY=/original/%2FXM7KP.gif"
+      }
+    ]
+  }
+]
