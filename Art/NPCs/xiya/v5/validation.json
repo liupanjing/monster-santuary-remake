@@ -1,0 +1,24 @@
+{
+  "technicalChecks": "pass",
+  "artReview": "pending_user",
+  "designSize": [
+    1024,
+    1536
+  ],
+  "draftSourceSize": [
+    1448,
+    1086
+  ],
+  "sourceDrawings": 12,
+  "frameCanvas": [
+    442,
+    442
+  ],
+  "gifFrames": 12,
+  "publicFrameHTTP": 12,
+  "browser": "actual CUA display inspected; pause, next all 12 slots, previous, half-speed selection and previous-outline overlay checked",
+  "visualCheck": "HD design, final sheet, isolated frame contact, cutting and recovery phases inspected; rough volumes and timing still subject to user review",
+  "originalInputsChecked": 1046,
+  "UnityModified": false,
+  "formalGameIntegrated": false
+}

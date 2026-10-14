@@ -1,0 +1,273 @@
+{
+  "status": "design_and_pencil_test_candidate",
+  "humanApproved": false,
+  "formalGameIntegrated": false,
+  "tool": "built-in image_gen",
+  "design": "source/knight-design.png",
+  "sheet": "source/continuous-slash-rough.png",
+  "sourceSize": [
+    1448,
+    1086
+  ],
+  "canvas": [
+    442,
+    442
+  ],
+  "commonFrontBootAnchor": [
+    140,
+    400
+  ],
+  "uniqueDrawings": 12,
+  "actionDurationMs": 880,
+  "previewEndHoldMs": 400,
+  "method": "One sequential rough drawing sheet; explicit crop rectangles with two extended blade margins and neighbor-exclusion margins; common canvas and manually marked front-boot contact registration; no per-pose rescaling, old-pose reuse, optical-flow or crossfade",
+  "draftScope": "single battle view; not finished animation or Unity sprite import",
+  "frames": [
+    {
+      "index": 0,
+      "phase": "戒备",
+      "sourceBounds": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "frontBootAnchor": [
+        106,
+        355
+      ],
+      "registrationOffset": [
+        34,
+        45
+      ],
+      "durationMs": 80,
+      "frameSHA256": "3834300fa6f77a380d1ca8d5359b1a06ebd4770120b85a7c65d43e227db0150e"
+    },
+    {
+      "index": 1,
+      "phase": "引剑",
+      "sourceBounds": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "frontBootAnchor": [
+        102,
+        355
+      ],
+      "registrationOffset": [
+        38,
+        45
+      ],
+      "durationMs": 70,
+      "frameSHA256": "2947a239fa6f805a31cf4901b8cb79ba25fbddec5cf069129c9760b1348d9e98"
+    },
+    {
+      "index": 2,
+      "phase": "转肩",
+      "sourceBounds": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "frontBootAnchor": [
+        94,
+        355
+      ],
+      "registrationOffset": [
+        46,
+        45
+      ],
+      "durationMs": 90,
+      "frameSHA256": "3f0db725c1a585ed4c6600dde70695452d4fe350d68155de786ae9c94a6c4587"
+    },
+    {
+      "index": 3,
+      "phase": "蓄势",
+      "sourceBounds": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "frontBootAnchor": [
+        104,
+        357
+      ],
+      "registrationOffset": [
+        36,
+        43
+      ],
+      "durationMs": 100,
+      "frameSHA256": "b6e57283d1a9d2428f597ecbab9c541f7104d7148bb6faecf875ab89b6bcc991"
+    },
+    {
+      "index": 4,
+      "phase": "转胯出剑",
+      "sourceBounds": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "frontBootAnchor": [
+        88,
+        348
+      ],
+      "registrationOffset": [
+        52,
+        52
+      ],
+      "durationMs": 50,
+      "frameSHA256": "ad35714ce2c7d80b6eb1e2f8cd2913d7331f770a54d83968582fa8992a1549b2"
+    },
+    {
+      "index": 5,
+      "phase": "挥斩过渡",
+      "sourceBounds": [
+        362,
+        362,
+        690,
+        724
+      ],
+      "frontBootAnchor": [
+        98,
+        348
+      ],
+      "registrationOffset": [
+        42,
+        52
+      ],
+      "durationMs": 40,
+      "frameSHA256": "ee75d87dd79f009339fd0eda43a5041f2a5fca0d99ac4ac410c585ded9abc8d9"
+    },
+    {
+      "index": 6,
+      "phase": "切过目标",
+      "sourceBounds": [
+        690,
+        362,
+        1086,
+        724
+      ],
+      "frontBootAnchor": [
+        136,
+        349
+      ],
+      "registrationOffset": [
+        4,
+        51
+      ],
+      "durationMs": 40,
+      "frameSHA256": "f2ece07ab733913f02c130c198840f59bf74b8797f3e0b0ce3b03517b9ab7732"
+    },
+    {
+      "index": 7,
+      "phase": "延续剑路",
+      "sourceBounds": [
+        1086,
+        362,
+        1448,
+        716
+      ],
+      "frontBootAnchor": [
+        108,
+        350
+      ],
+      "registrationOffset": [
+        32,
+        50
+      ],
+      "durationMs": 50,
+      "frameSHA256": "90d79aa0313ded3b44c2fb968fb9ba6f2fbfbe750f21f4a167138dacffb5ba72"
+    },
+    {
+      "index": 8,
+      "phase": "收势",
+      "sourceBounds": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "frontBootAnchor": [
+        106,
+        335
+      ],
+      "registrationOffset": [
+        34,
+        65
+      ],
+      "durationMs": 60,
+      "frameSHA256": "66088bd840fc4c3edf9ae30036290d9a9d7e8c5b90672fa7452a4fc76883e052"
+    },
+    {
+      "index": 9,
+      "phase": "减速回收",
+      "sourceBounds": [
+        362,
+        724,
+        700,
+        1086
+      ],
+      "frontBootAnchor": [
+        102,
+        335
+      ],
+      "registrationOffset": [
+        38,
+        65
+      ],
+      "durationMs": 90,
+      "frameSHA256": "27963dfea41d2881652c1e5756bdf546833ec7fb1bc83b90608b3571d31c00c2"
+    },
+    {
+      "index": 10,
+      "phase": "回防过渡",
+      "sourceBounds": [
+        700,
+        724,
+        1086,
+        1086
+      ],
+      "frontBootAnchor": [
+        114,
+        335
+      ],
+      "registrationOffset": [
+        26,
+        65
+      ],
+      "durationMs": 90,
+      "frameSHA256": "13f18d5a4872e9086c790619525b969aa1b618ec247464dfbca0519bb9ff046a"
+    },
+    {
+      "index": 11,
+      "phase": "恢复戒备",
+      "sourceBounds": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "frontBootAnchor": [
+        100,
+        336
+      ],
+      "registrationOffset": [
+        40,
+        64
+      ],
+      "durationMs": 120,
+      "frameSHA256": "c3d144be1c0d45455295b4193162209ccf9379e5c85416d2dade95d451a51f10"
+    }
+  ],
+  "sourceSHA256": {
+    "source/continuous-slash-rigid-draft.png": "4659dba4784721530c1271f6a567d80570c481fa58c1ac524cd168ea5d69916a",
+    "source/knight-design.png": "8bcbc247b1e980cae322ccd4c5ad90b960c13ce6c96f1ccd30dcf8e705c7154f",
+    "source/continuous-slash-body-draft.png": "a52c19488b0bcab2b24b8604876b7a4a85d202b307e76dbd38eeca16391f6eb0",
+    "source/continuous-slash-rough.png": "c92477b77d751edba912e58328d43cee48f68bfcb4bb97969ca5e8740f33c7e9"
+  }
+}
