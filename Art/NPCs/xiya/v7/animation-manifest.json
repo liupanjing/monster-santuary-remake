@@ -1,0 +1,62 @@
+{
+  "provider": "Seastar",
+  "humanApproved": false,
+  "formalGameIntegrated": false,
+  "action": "diagonal-cut",
+  "sequence": [
+    "diagonal-cut_000",
+    "diagonal-cut_001",
+    "diagonal-cut_002",
+    "diagonal-cut_003",
+    "diagonal-cut_004",
+    "diagonal-cut_005",
+    "diagonal-cut_006",
+    "diagonal-cut_007",
+    "diagonal-cut_008",
+    "diagonal-cut_009",
+    "diagonal-cut_010",
+    "diagonal-cut_011",
+    "diagonal-cut_012",
+    "diagonal-cut_013",
+    "diagonal-cut_014",
+    "diagonal-cut_015",
+    "diagonal-cut_016",
+    "diagonal-cut_017",
+    "diagonal-cut_018"
+  ],
+  "frames": 19,
+  "distinctAtlasEntries": 19,
+  "fps": 23.75,
+  "durationSeconds": 0.8,
+  "sourceCanvas": [
+    768,
+    832
+  ],
+  "previewCrop": [
+    0,
+    104,
+    754,
+    780
+  ],
+  "gifEndHoldMs": 500,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "method": "Provider frame order and offsets, one fixed crop for the entire action; no per-frame scaling, interpolation, pose synthesis or sword edits.",
+  "fileSHA256": {
+    "cut-source.mp4": "3f72bead76a84cbfd35ab5368848869a7f8ed341aba4ec7f2aba57712c3ddcc8",
+    "cut-atlas.webp": "be824769f13351bf22e7cc10544f2159619e1e7b5d1ed7fc188658ca0dfc4aec",
+    "cut.json": "64cdc3343dfd0101f2cece7c03ec9a138984edb7d3b32bc76005d70235f3c1a8"
+  },
+  "status": "quality_failed_review_candidate",
+  "assessment": "未通过：末姿的手高、斜向剑身已有改善；第 12 帧剑身看不清，第 13–14 帧被大弧剑光遮挡，第 15 帧仍有光点和粉色边缘。关键挥出段的剑身与握持连续性尚未成立。",
+  "problemFrameIndices": [
+    11,
+    12,
+    13,
+    14
+  ],
+  "problemFrameIndexBase": 0,
+  "requestedMotion": "right-hand one-handed high-right to low-front diagonal cut ending at hip/upper-thigh hand height and acute blade angle above ground"
+}

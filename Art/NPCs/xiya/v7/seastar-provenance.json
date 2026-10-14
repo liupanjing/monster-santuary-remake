@@ -1,0 +1,27 @@
+{
+  "provider": "Seastar",
+  "appId": "77be90c6-67a9-4ff9-a966-d0e47bab6377",
+  "sessionId": "b1c60fa3-bf70-4fad-919e-fb9f9e916851",
+  "platformVersion": "v13",
+  "generatedAssetId": "xiya-diagonal-cut-v7",
+  "sourceArtwork": "Art/NPCs/xiya/v5/source/knight-design.png",
+  "readyAssetId": "xiya-left-ready-v5",
+  "motionReferences": [
+    {
+      "assetId": "motion-reference-fantasywarrior-attack3-gif",
+      "localPath": "Art/References/External2D/FantasyWarrior/attack3-source-test.gif"
+    },
+    {
+      "assetId": "motion-reference-fantasywarrior-attack3-contact",
+      "localPath": "Art/References/External2D/FantasyWarrior/attack3-contact.png"
+    }
+  ],
+  "referenceAuthor": "LuizMelo",
+  "referenceLicense": "CC0",
+  "referencePage": "https://luizmelo.itch.io/fantasy-warrior",
+  "sourceVideoUrl": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/videos/video-452246347071883.mp4",
+  "status": "quality_failed_review_candidate",
+  "humanApproved": false,
+  "formalGameIntegrated": false,
+  "requestPrompt": "prompts/seastar-diagonal-cut.txt"
+}
