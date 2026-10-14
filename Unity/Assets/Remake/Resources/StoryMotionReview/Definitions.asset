@@ -27,6 +27,8 @@ MonoBehaviour:
       - {fileID: 21300000, guid: bc57f4c7602b8477fa7d85a550caf83f, type: 3}
       - {fileID: 21300000, guid: dbd0cc3167ea94555be44175e36a674f, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 000000000100000002000000030000000400000005000000
       fps: 8
@@ -40,6 +42,8 @@ MonoBehaviour:
       - {fileID: 21300000, guid: 63f560e2a788a4ddea62d9112b8b9970, type: 3}
       - {fileID: 21300000, guid: 38f1b75056c41418bb1b88abf62dceae, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 000000000100000002000000030000000400000005000000
       fps: 8
@@ -53,6 +57,8 @@ MonoBehaviour:
       - {fileID: 21300000, guid: 86b25d522e6e94101934f7e72c9c91e5, type: 3}
       - {fileID: 21300000, guid: d511eccd09b9145fa8216f8b055fcc13, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 000000000100000002000000030000000400000005000000
       fps: 8
@@ -66,6 +72,8 @@ MonoBehaviour:
       - {fileID: 21300000, guid: e944b9c7c2c8b4b2aaf8c3fd4bac3d56, type: 3}
       - {fileID: 21300000, guid: 894cc660c3a3445a99b67f2273796951, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 000000000100000002000000030000000400000005000000
       fps: 8
@@ -74,6 +82,8 @@ MonoBehaviour:
       frames:
       - {fileID: 21300000, guid: af9835b0688974cc08786e250247b12a, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 00000000
       fps: 1
@@ -82,101 +92,130 @@ MonoBehaviour:
       frames:
       - {fileID: 21300000, guid: ea1f645928dc24b20999540836933f99, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 00000000
       fps: 1
       durations: []
     - key: battle-idle
       frames:
-      - {fileID: 21300000, guid: febe50fb7185c482d9790380b050ce77, type: 3}
-      - {fileID: 21300000, guid: cd2390981f4d44e9c9339daf0e885197, type: 3}
-      - {fileID: 21300000, guid: fcefff62c003e4170bf9ae7d38cf5591, type: 3}
-      - {fileID: 21300000, guid: 5630b646cd6894be09935af0890ff656, type: 3}
+      - {fileID: 21300000, guid: d2974476590124046a4228a96a23b8b1, type: 3}
       hands:
-      - {fileID: 21300000, guid: 397ea91e34e574a98a945cbea37c839d, type: 3}
-      - {fileID: 21300000, guid: 6a64f8f47ec0c405486f6bb4cdff72f6, type: 3}
-      - {fileID: 21300000, guid: 9790d9e08d2e74f9b888cf7ca61832d9, type: 3}
-      - {fileID: 21300000, guid: 97ebac30ad02c4a2a83607d28bb2e796, type: 3}
+      - {fileID: 21300000, guid: 020e21563e8fc4f75996a9e3493c2426, type: 3}
+      weaponFrames:
+      - {fileID: 21300000, guid: bbe00e13fc9c14d73ab5d37e1c382d95, type: 3}
+      masterFrames:
+      - {fileID: 21300000, guid: 90151927cf8b34223904f39026c3a1c4, type: 3}
       grips:
-      - x: -0.51422477
-        y: 3.2538357
-        angle: 25
-      - x: -0.51038086
-        y: 3.2538357
-        angle: 25
-      - x: -0.5134736
-        y: 3.216148
-        angle: 25
-      - x: -0.50653696
-        y: 3.202304
-        angle: 25
-      loop: 00000000010000000200000003000000
+      - x: -1.0699732
+        y: 3.123539
+        angle: 0
+      loop: 00000000
       fps: 3
       durations: []
     - key: battle-slash
       frames:
-      - {fileID: 21300000, guid: 05bca693b759b465daa39ef616575bc2, type: 3}
-      - {fileID: 21300000, guid: f1e589f94bd054e92864f7f508f0cd53, type: 3}
-      - {fileID: 21300000, guid: ba0d0b92e86824cb6a0b79e779956e38, type: 3}
-      - {fileID: 21300000, guid: 0a1ce1b6007394f749f8981304c133ec, type: 3}
-      - {fileID: 21300000, guid: c4208790eef624c7693fa889df9f5613, type: 3}
-      - {fileID: 21300000, guid: cf1500e26f41040788f3f1d387ab817a, type: 3}
+      - {fileID: 21300000, guid: d2974476590124046a4228a96a23b8b1, type: 3}
+      - {fileID: 21300000, guid: c1314fcbf6a4c43c8af164afc9bfcb69, type: 3}
+      - {fileID: 21300000, guid: 2e550b3120d7c4c5d84d74bdacc9f3b1, type: 3}
+      - {fileID: 21300000, guid: 564e2b4e805c246a0aa40cd22f9f5d9f, type: 3}
+      - {fileID: 21300000, guid: 36eb996504c0c484cbc97e70680eb605, type: 3}
+      - {fileID: 21300000, guid: 57c63e3c31f654ea3af37941aee63893, type: 3}
+      - {fileID: 21300000, guid: 2efaa5feb2d664f5e8a367535b5fbbcf, type: 3}
+      - {fileID: 21300000, guid: d2974476590124046a4228a96a23b8b1, type: 3}
       hands:
-      - {fileID: 21300000, guid: 42771f45abed145f9af15a4f6032b5c6, type: 3}
-      - {fileID: 21300000, guid: 8121edcf9d7ee48e6a4ef992ce20f763, type: 3}
-      - {fileID: 21300000, guid: 9e803f61a9c08400883e64475de84752, type: 3}
-      - {fileID: 21300000, guid: 8c69c505a5b7e474d98cf91ded3f42cd, type: 3}
-      - {fileID: 21300000, guid: f43ec72f921bc45d2a02d1090bc0849b, type: 3}
-      - {fileID: 21300000, guid: 1f861524dd29b48b68fde92db2b3e6a3, type: 3}
+      - {fileID: 21300000, guid: 020e21563e8fc4f75996a9e3493c2426, type: 3}
+      - {fileID: 21300000, guid: dc6985cb07caa47209e9bb6ddfea9e83, type: 3}
+      - {fileID: 21300000, guid: 77f0ad73c0f4342b4bcec267f32d417b, type: 3}
+      - {fileID: 21300000, guid: 8fe75b1377d824b9b832e2059bf6d435, type: 3}
+      - {fileID: 21300000, guid: f512bcade9a87452f8348dea119fb0e7, type: 3}
+      - {fileID: 21300000, guid: 3ca1c4818fa6e4b1d80eeb9143d4f656, type: 3}
+      - {fileID: 21300000, guid: 436f70201f5564fa284c10d419d1aa32, type: 3}
+      - {fileID: 21300000, guid: 020e21563e8fc4f75996a9e3493c2426, type: 3}
+      weaponFrames:
+      - {fileID: 21300000, guid: bbe00e13fc9c14d73ab5d37e1c382d95, type: 3}
+      - {fileID: 21300000, guid: f1154d25588a947e29705da76b527ed1, type: 3}
+      - {fileID: 21300000, guid: cb07db88493564bdab2e5ba2e02ab541, type: 3}
+      - {fileID: 21300000, guid: 123c790a0817843a0ae1d8b445a6a280, type: 3}
+      - {fileID: 21300000, guid: f5fc1cd4819dd46acb820e845c48e7c7, type: 3}
+      - {fileID: 21300000, guid: 6f225acc195ad47198ded94bea476060, type: 3}
+      - {fileID: 21300000, guid: 3914754e5e0c54594979404b7f09144d, type: 3}
+      - {fileID: 21300000, guid: bbe00e13fc9c14d73ab5d37e1c382d95, type: 3}
+      masterFrames:
+      - {fileID: 21300000, guid: 90151927cf8b34223904f39026c3a1c4, type: 3}
+      - {fileID: 21300000, guid: b6c24a9f73ce947f198b222e790ddcdf, type: 3}
+      - {fileID: 21300000, guid: 79bf5882bb5cc4250b6ce654c0306e54, type: 3}
+      - {fileID: 21300000, guid: fa50cb9f9746146bfb9039dea71b6073, type: 3}
+      - {fileID: 21300000, guid: 872fee5bc71284404a4f197cdbe307d6, type: 3}
+      - {fileID: 21300000, guid: 262c9565bac354ce89a56f55d609634c, type: 3}
+      - {fileID: 21300000, guid: 8940feb5ee4a24a928e00f1b6ea46422, type: 3}
+      - {fileID: 21300000, guid: 90151927cf8b34223904f39026c3a1c4, type: 3}
       grips:
-      - x: -0.55087095
-        y: 3.0747693
-        angle: 25
-      - x: -0.9030422
-        y: 5.767799
-        angle: 120
-      - x: 0.17923321
-        y: 3.5460844
-        angle: 55
-      - x: 1.2052456
-        y: 2.8235435
-        angle: -75
-      - x: 1.2193226
-        y: 2.7650943
-        angle: -120
-      - x: -0.5430571
-        y: 3.0188313
-        angle: 25
-      loop: 000000000100000002000000030000000400000005000000
-      fps: 6
+      - x: -1.0699732
+        y: 3.123539
+        angle: 0
+      - x: -1.4587342
+        y: 4.731139
+        angle: 0
+      - x: -1.3988276
+        y: 5.500069
+        angle: 0
+      - x: -2.6631725
+        y: 4.20069
+        angle: 0
+      - x: -1.8962759
+        y: 3.2447586
+        angle: 0
+      - x: -1.4449583
+        y: 2.7910771
+        angle: 0
+      - x: -1.1003554
+        y: 3.0391948
+        angle: 0
+      - x: -1.0699732
+        y: 3.123539
+        angle: 0
+      loop: 0000000001000000020000000300000004000000050000000600000007000000
+      fps: 8
       durations:
-      - 0.14
-      - 0.24
-      - 0.09
-      - 0.08
+      - 0.1
       - 0.12
-      - 0.18
+      - 0.14
+      - 0.08
+      - 0.06
+      - 0.1
+      - 0.13
+      - 0.12
     - key: battle-hurt
       frames:
-      - {fileID: 21300000, guid: bf292c63150b843c68410d0c03f2f737, type: 3}
-      - {fileID: 21300000, guid: 3ffdccf654083420bbb503b1776905bc, type: 3}
+      - {fileID: 21300000, guid: 12cc42ac967014997aa8a041679f0122, type: 3}
+      - {fileID: 21300000, guid: 687dfcf871ddc48a696a7e7dbd36fb83, type: 3}
       hands:
-      - {fileID: 21300000, guid: 647128fd843aa443089dfc781a4886d7, type: 3}
-      - {fileID: 21300000, guid: 10f5cace2b18f45ad94494f8a0bf8d52, type: 3}
+      - {fileID: 21300000, guid: a6750a60bafc54a3fa00e923c784920a, type: 3}
+      - {fileID: 21300000, guid: dad60b5a9085d4e89a35c0286cb16bb3, type: 3}
+      weaponFrames:
+      - {fileID: 21300000, guid: 6eb291160577c409c80e781302b8abb1, type: 3}
+      - {fileID: 21300000, guid: 5fa870ec9f6c74744866dc6cd8b543bc, type: 3}
+      masterFrames:
+      - {fileID: 21300000, guid: a6e4bd1a152334e46a3f2920827f21d3, type: 3}
+      - {fileID: 21300000, guid: 7e5361e67e1fc4c62b05c6c07b6da4d5, type: 3}
       grips:
-      - x: -0.68345016
-        y: 3.3407462
-        angle: 25
-      - x: -0.77436453
-        y: 3.1104867
-        angle: 25
+      - x: -1.0416605
+        y: 2.6664004
+        angle: 0
+      - x: -1.284414
+        y: 2.9925382
+        angle: 0
       loop: 0000000001000000
-      fps: 6
+      fps: 8
       durations: []
     - key: field-idle-down
       frames:
       - {fileID: 21300000, guid: 1a1bcd63e76b6451199c34c50ae261e0, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 00000000
       fps: 1
@@ -185,6 +224,8 @@ MonoBehaviour:
       frames:
       - {fileID: 21300000, guid: 266f71741fdf94230a07f8a73936502f, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 00000000
       fps: 1
@@ -200,6 +241,8 @@ MonoBehaviour:
       - {fileID: 21300000, guid: 4bf6df4c3eac849db8c33ef12f229c1f, type: 3}
       - {fileID: 21300000, guid: 49c1eb4b002a54ac18d2b9d52198869e, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 000000000100000002000000030000000200000001000000
       fps: 9
@@ -211,6 +254,8 @@ MonoBehaviour:
       - {fileID: 21300000, guid: 9a54305eecc3f46e9b9608dd594a6cdf, type: 3}
       - {fileID: 21300000, guid: 86b58387ca54f447f907e9e5e490f346, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 000000000100000002000000030000000200000001000000
       fps: 9
@@ -222,6 +267,8 @@ MonoBehaviour:
       - {fileID: 21300000, guid: f5102d645904641259b6bb7bd1ce72c7, type: 3}
       - {fileID: 21300000, guid: 4558ef74121164230ae7658d3d05ab3e, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 000000000100000002000000030000000200000001000000
       fps: 9
@@ -233,6 +280,8 @@ MonoBehaviour:
       - {fileID: 21300000, guid: 6aab5fa45a97a4c6f9e6d77c49bced62, type: 3}
       - {fileID: 21300000, guid: 9e05f2309d7a1415e9f5362aea1ac99a, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 000000000100000002000000030000000200000001000000
       fps: 9
@@ -244,8 +293,11 @@ MonoBehaviour:
       - {fileID: 21300000, guid: cfafe908ebb254595a68b1ed7443bd33, type: 3}
       - {fileID: 21300000, guid: 64759939213324fa8902809790e681a0, type: 3}
       hands: []
+      weaponFrames: []
+      masterFrames: []
       grips: []
       loop: 000000000100000002000000030000000200000001000000
       fps: 9
       durations: []
   sword: {fileID: 21300000, guid: 947dd4895bb824c5383f7016911de070, type: 3}
+  weaponModule: {fileID: 11400000, guid: ccf47906b386849bb81fbb7112888817, type: 2}

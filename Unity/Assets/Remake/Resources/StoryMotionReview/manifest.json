@@ -123,138 +123,174 @@
         },
         {
           "key": "battle-idle",
-          "fps": 6,
+          "fps": 8,
           "loop": [
-            0,
-            1,
-            2,
-            3
+            0
           ],
           "frames": [
-            "StoryMotionReview/xiya/battle-idle/0",
-            "StoryMotionReview/xiya/battle-idle/1",
-            "StoryMotionReview/xiya/battle-idle/2",
-            "StoryMotionReview/xiya/battle-idle/3"
+            "StoryMotionReview/xiya/v4/ready/0-body"
           ],
           "hands": [
-            "StoryMotionReview/xiya/battle-idle/0-hand",
-            "StoryMotionReview/xiya/battle-idle/1-hand",
-            "StoryMotionReview/xiya/battle-idle/2-hand",
-            "StoryMotionReview/xiya/battle-idle/3-hand"
+            "StoryMotionReview/xiya/v4/ready/0-fingers"
           ],
           "grips": [
             {
-              "x": -0.5142247744052503,
-              "y": 3.2538356967069024,
-              "angle": 25
-            },
-            {
-              "x": -0.5103808742529004,
-              "y": 3.2538356967069024,
-              "angle": 25
-            },
-            {
-              "x": -0.5134735731864527,
-              "y": 3.216147896402203,
-              "angle": 25
-            },
-            {
-              "x": -0.5065369741005509,
-              "y": 3.2023039962498534,
-              "angle": 25
+              "x": -1.069973190348526,
+              "y": 3.1235388739946384,
+              "angle": 0
             }
           ],
-          "pivotY": 0.0625
+          "pivotY": 0.0892857142857143,
+          "weapons": [
+            "StoryMotionReview/xiya/v4/ready/0-weapon"
+          ],
+          "masters": [
+            "StoryMotionReview/xiya/v4/ready/0-master"
+          ]
         },
         {
           "key": "battle-slash",
-          "fps": 6,
+          "fps": 8,
           "loop": [
             0,
             1,
             2,
             3,
             4,
-            5
+            5,
+            6,
+            7
           ],
           "frames": [
-            "StoryMotionReview/xiya/battle-slash/0",
-            "StoryMotionReview/xiya/battle-slash/1",
-            "StoryMotionReview/xiya/battle-slash/2",
-            "StoryMotionReview/xiya/battle-slash/3",
-            "StoryMotionReview/xiya/battle-slash/4",
-            "StoryMotionReview/xiya/battle-slash/5"
+            "StoryMotionReview/xiya/v4/ready/0-body",
+            "StoryMotionReview/xiya/v4/lift/0-body",
+            "StoryMotionReview/xiya/v4/slash-a/1-body",
+            "StoryMotionReview/xiya/v4/slash-a/2-body",
+            "StoryMotionReview/xiya/v4/slash-a/3-body",
+            "StoryMotionReview/xiya/v4/slash-b/0-body",
+            "StoryMotionReview/xiya/v4/slash-b/1-body",
+            "StoryMotionReview/xiya/v4/ready/0-body"
           ],
           "hands": [
-            "StoryMotionReview/xiya/battle-slash/0-hand",
-            "StoryMotionReview/xiya/battle-slash/1-hand",
-            "StoryMotionReview/xiya/battle-slash/2-hand",
-            "StoryMotionReview/xiya/battle-slash/3-hand",
-            "StoryMotionReview/xiya/battle-slash/4-hand",
-            "StoryMotionReview/xiya/battle-slash/5-hand"
+            "StoryMotionReview/xiya/v4/ready/0-fingers",
+            "StoryMotionReview/xiya/v4/lift/0-fingers",
+            "StoryMotionReview/xiya/v4/slash-a/1-fingers",
+            "StoryMotionReview/xiya/v4/slash-a/2-fingers",
+            "StoryMotionReview/xiya/v4/slash-a/3-fingers",
+            "StoryMotionReview/xiya/v4/slash-b/0-fingers",
+            "StoryMotionReview/xiya/v4/slash-b/1-fingers",
+            "StoryMotionReview/xiya/v4/ready/0-fingers"
           ],
           "grips": [
             {
-              "x": -0.5508709820171379,
-              "y": 3.07476928028322,
-              "angle": 25
+              "x": -1.069973190348526,
+              "y": 3.1235388739946384,
+              "angle": 0
             },
             {
-              "x": -0.9030422013919619,
-              "y": 5.76779901033914,
-              "angle": 120
+              "x": -1.4587341772151898,
+              "y": 4.731139240506329,
+              "angle": 0
             },
             {
-              "x": 0.17923321398398856,
-              "y": 3.546084402783924,
-              "angle": 55
+              "x": -1.3988275862068962,
+              "y": 5.500068965517241,
+              "angle": 0
             },
             {
-              "x": 1.2052456048597986,
-              "y": 2.823543468640624,
-              "angle": -75
+              "x": -2.663172413793103,
+              "y": 4.200689655172414,
+              "angle": 0
             },
             {
-              "x": 1.219322524842097,
-              "y": 2.765094339622641,
-              "angle": -120
+              "x": -1.8962758620689657,
+              "y": 3.2447586206896553,
+              "angle": 0
             },
             {
-              "x": -0.5430570865349802,
-              "y": 3.0188313151225,
-              "angle": 25
+              "x": -1.4449583564686288,
+              "y": 2.791077179344809,
+              "angle": 0
+            },
+            {
+              "x": -1.1003553581343697,
+              "y": 3.039194891726818,
+              "angle": 0
+            },
+            {
+              "x": -1.069973190348526,
+              "y": 3.1235388739946384,
+              "angle": 0
             }
           ],
-          "pivotY": 0.0625
+          "pivotY": 0.0892857142857143,
+          "weapons": [
+            "StoryMotionReview/xiya/v4/ready/0-weapon",
+            "StoryMotionReview/xiya/v4/lift/0-weapon",
+            "StoryMotionReview/xiya/v4/slash-a/1-weapon",
+            "StoryMotionReview/xiya/v4/slash-a/2-weapon",
+            "StoryMotionReview/xiya/v4/slash-a/3-weapon",
+            "StoryMotionReview/xiya/v4/slash-b/0-weapon",
+            "StoryMotionReview/xiya/v4/slash-b/1-weapon",
+            "StoryMotionReview/xiya/v4/ready/0-weapon"
+          ],
+          "masters": [
+            "StoryMotionReview/xiya/v4/ready/0-master",
+            "StoryMotionReview/xiya/v4/lift/0-master",
+            "StoryMotionReview/xiya/v4/slash-a/1-master",
+            "StoryMotionReview/xiya/v4/slash-a/2-master",
+            "StoryMotionReview/xiya/v4/slash-a/3-master",
+            "StoryMotionReview/xiya/v4/slash-b/0-master",
+            "StoryMotionReview/xiya/v4/slash-b/1-master",
+            "StoryMotionReview/xiya/v4/ready/0-master"
+          ],
+          "durations": [
+            0.1,
+            0.12,
+            0.14,
+            0.08,
+            0.06,
+            0.1,
+            0.13,
+            0.12
+          ]
         },
         {
           "key": "battle-hurt",
-          "fps": 6,
+          "fps": 8,
           "loop": [
             0,
             1
           ],
           "frames": [
-            "StoryMotionReview/xiya/battle-hurt/0",
-            "StoryMotionReview/xiya/battle-hurt/1"
+            "StoryMotionReview/xiya/v4/hurt/0-body",
+            "StoryMotionReview/xiya/v4/hurt/1-body"
           ],
           "hands": [
-            "StoryMotionReview/xiya/battle-hurt/0-hand",
-            "StoryMotionReview/xiya/battle-hurt/1-hand"
+            "StoryMotionReview/xiya/v4/hurt/0-fingers",
+            "StoryMotionReview/xiya/v4/hurt/1-fingers"
           ],
           "grips": [
             {
-              "x": -0.6834501347708897,
-              "y": 3.340746071301429,
-              "angle": 25
+              "x": -1.0416605359957964,
+              "y": 2.66640042038886,
+              "angle": 0
             },
             {
-              "x": -0.77436454254183,
-              "y": 3.1104867009103394,
-              "angle": 25
+              "x": -1.2844140830267998,
+              "y": 2.9925380977404097,
+              "angle": 0
             }
           ],
-          "pivotY": 0.0625
+          "pivotY": 0.0892857142857143,
+          "weapons": [
+            "StoryMotionReview/xiya/v4/hurt/0-weapon",
+            "StoryMotionReview/xiya/v4/hurt/1-weapon"
+          ],
+          "masters": [
+            "StoryMotionReview/xiya/v4/hurt/0-master",
+            "StoryMotionReview/xiya/v4/hurt/1-master"
+          ]
         },
         {
           "key": "field-idle-down",
@@ -399,5 +435,6 @@
       "portrait": "StoryMotionReview/original/qibei-portrait",
       "originalField": "StoryMotionReview/original/qibei-field"
     }
-  ]
+  ],
+  "equipmentId": "xiya-neutral-straight-sword-v4"
 }

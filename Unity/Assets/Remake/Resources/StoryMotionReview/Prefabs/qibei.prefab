@@ -55,6 +55,7 @@ MonoBehaviour:
   hand: {fileID: 5784402153195653508}
   shadow: {fileID: 1436585361169911721}
   showSword: 1
+  equippedWeapon: {fileID: 0}
 --- !u!1 &3677580993111559372
 GameObject:
   m_ObjectHideFlags: 0

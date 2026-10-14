@@ -1,0 +1,57 @@
+[
+  {
+    "pose": "battle-hurt/frame-000.png",
+    "meanAbsoluteChannelError": 0.016399016203703702,
+    "pixelsOver16": 173
+  },
+  {
+    "pose": "battle-hurt/frame-001.png",
+    "meanAbsoluteChannelError": 0.018368055555555554,
+    "pixelsOver16": 243
+  },
+  {
+    "pose": "battle-idle/frame-000.png",
+    "meanAbsoluteChannelError": 0.01755570023148148,
+    "pixelsOver16": 187
+  },
+  {
+    "pose": "battle-slash/frame-000.png",
+    "meanAbsoluteChannelError": 0.01755570023148148,
+    "pixelsOver16": 187
+  },
+  {
+    "pose": "battle-slash/frame-001.png",
+    "meanAbsoluteChannelError": 0.0203515625,
+    "pixelsOver16": 289
+  },
+  {
+    "pose": "battle-slash/frame-002.png",
+    "meanAbsoluteChannelError": 0.012422236689814814,
+    "pixelsOver16": 18
+  },
+  {
+    "pose": "battle-slash/frame-003.png",
+    "meanAbsoluteChannelError": 0.015604383680555556,
+    "pixelsOver16": 139
+  },
+  {
+    "pose": "battle-slash/frame-004.png",
+    "meanAbsoluteChannelError": 0.01762622974537037,
+    "pixelsOver16": 140
+  },
+  {
+    "pose": "battle-slash/frame-005.png",
+    "meanAbsoluteChannelError": 0.014905960648148147,
+    "pixelsOver16": 116
+  },
+  {
+    "pose": "battle-slash/frame-006.png",
+    "meanAbsoluteChannelError": 0.017969835069444443,
+    "pixelsOver16": 196
+  },
+  {
+    "pose": "battle-slash/frame-007.png",
+    "meanAbsoluteChannelError": 0.01755570023148148,
+    "pixelsOver16": 187
+  }
+]

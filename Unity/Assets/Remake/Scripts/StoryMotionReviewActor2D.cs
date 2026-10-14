@@ -11,15 +11,20 @@ namespace MonsterRemake2D
         public string characterId;
         public SpriteRenderer body,weapon,hand,shadow;
         public bool showSword=true;
+        public StoryWeaponModule2D equippedWeapon;
         public int FrameIndex {get;private set;}
         public string Action {get;private set;}
+        Material defaultMaterial,compositeMaterial;
+        MaterialPropertyBlock compositeProperties;
         Texture2D shadowTexture;
         Sprite shadowSprite;
 
         public void Initialize(StoryMotionReviewLibrary2D definition,string id)
         {
             library=definition;characterId=id;
+            if(characterId=="xiya" && equippedWeapon==null)equippedWeapon=library.weaponModule;
             body=Layer("Body",10);weapon=Layer("Independent sword",11);hand=Layer("Foreground right hand",12);shadow=Layer("Ground shadow",8);
+            if(defaultMaterial==null)defaultMaterial=body.sharedMaterial;
             if(shadow.sprite==null)CreateShadow();
         }
         SpriteRenderer Layer(string name,int order)
@@ -51,18 +56,43 @@ namespace MonsterRemake2D
             hand.transform.localPosition=body.transform.localPosition;
             hand.enabled=movie.hands!=null&&movie.hands.Length>index;
             if(hand.enabled)hand.sprite=movie.hands[index];
-            weapon.enabled=showSword&&characterId=="xiya"&&battle&&library.sword!=null;
+            var authoredWeapon=equippedWeapon!=null?equippedWeapon.Frame(action,index):null;
+            weapon.enabled=showSword&&characterId=="xiya"&&battle&&(authoredWeapon!=null||library.sword!=null);
             if(weapon.enabled){
-                var grip=movie.grips[index];weapon.sprite=library.sword;
-                weapon.transform.localPosition=new Vector3(grip.x,grip.y,0);
-                weapon.transform.localRotation=Quaternion.Euler(0,0,grip.angle);
+                if(equippedWeapon!=null){
+                    // Missing pose slots are explicit; do not rotate an unrelated sword image.
+                    weapon.enabled=authoredWeapon!=null;
+                    weapon.sprite=authoredWeapon;
+                    weapon.transform.localPosition=body.transform.localPosition;
+                    weapon.transform.localRotation=Quaternion.identity;
+                }else{
+                    var grip=movie.grips[index];weapon.sprite=library.sword;
+                    weapon.transform.localPosition=new Vector3(grip.x,grip.y,0);
+                    weapon.transform.localRotation=Quaternion.Euler(0,0,grip.angle);
+                }
             }
+            bool compose=battle&&equippedWeapon!=null&&hand.enabled;
+            weapon.forceRenderingOff=compose;hand.forceRenderingOff=compose;
+            if(compose){
+                if(compositeMaterial==null){
+                    var shader=Resources.Load<Shader>("StoryMotionReview/LayerComposite");
+                    if(shader==null)throw new InvalidOperationException("Review composite shader missing");
+                    compositeMaterial=new Material(shader);compositeProperties=new MaterialPropertyBlock();
+                }
+                body.sharedMaterial=compositeMaterial;
+                compositeProperties.SetTexture("_WeaponTex",authoredWeapon!=null?authoredWeapon.texture:Texture2D.blackTexture);
+                compositeProperties.SetTexture("_FingerTex",hand.sprite.texture);
+                compositeProperties.SetFloat("_ShowWeapon",showSword&&authoredWeapon!=null?1:0);
+                body.SetPropertyBlock(compositeProperties);
+            }else if(compositeMaterial!=null){body.sharedMaterial=defaultMaterial;body.SetPropertyBlock(null);}
             shadow.enabled=!battle;
             int order=battle?10:100-Mathf.RoundToInt(transform.position.y*20);
             body.sortingOrder=order;weapon.sortingOrder=order+1;hand.sortingOrder=order+2;shadow.sortingOrder=order-2;
         }
+        public void SetWeaponModule(StoryWeaponModule2D module){equippedWeapon=module;}
         void OnDestroy()
         {
+            if(compositeMaterial!=null){if(Application.isPlaying)Destroy(compositeMaterial);else DestroyImmediate(compositeMaterial);}
             if(Application.isPlaying){if(shadowSprite!=null)Destroy(shadowSprite);if(shadowTexture!=null)Destroy(shadowTexture);}
             else {if(shadowSprite!=null)DestroyImmediate(shadowSprite);if(shadowTexture!=null)DestroyImmediate(shadowTexture);}
         }

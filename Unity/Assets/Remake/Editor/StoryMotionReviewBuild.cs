@@ -18,15 +18,19 @@ public class StoryReviewImport : AssetPostprocessor
                     importer.assetPath.EndsWith("/sword.png")?.21f:importer.assetPath.Contains("/battle-")?.0625f:.140625f;
         var settings=new TextureImporterSettings();importer.ReadTextureSettings(settings);
         settings.spriteAlignment=(int)SpriteAlignment.Custom;settings.spritePivot=new Vector2(.5f,pivot);importer.SetTextureSettings(settings);
+        if(importer.assetPath.Contains("/xiya/v4/")){
+            settings.spritePivot=new Vector2(600f/1024f,1f-816f/896f);
+            settings.spriteMeshType=SpriteMeshType.FullRect;importer.SetTextureSettings(settings);
+        }
     }
     void OnPreprocessTexture(){if(assetPath.StartsWith("Assets/Remake/Resources/StoryMotionReview/"))Configure((TextureImporter)assetImporter);}
 }
 public static class StoryMotionReviewBuild
 {
     const string Root="Assets/Remake/Resources/StoryMotionReview/";
-    [Serializable] class Data {public Actor[] actors;}
+    [Serializable] class Data {public Actor[] actors;public string equipmentId;}
     [Serializable] class Actor {public string id,portrait,originalField;public Movie[] actions;}
-    [Serializable] class Movie {public string key;public float fps;public int[] loop;public string[] frames,hands;public ReviewGrip2D[] grips;}
+    [Serializable] class Movie {public string key;public float fps;public int[] loop;public float[] durations;public string[] frames,hands,weapons,masters;public ReviewGrip2D[] grips;}
     public static void Create()
     {
         AssetDatabase.Refresh();
@@ -37,7 +41,16 @@ public static class StoryMotionReviewBuild
         var library=AssetDatabase.LoadAssetAtPath<StoryMotionReviewLibrary2D>(Root+"Definitions.asset");
         if(library==null){library=ScriptableObject.CreateInstance<StoryMotionReviewLibrary2D>();AssetDatabase.CreateAsset(library,Root+"Definitions.asset");}
         library.humanApproved=false;library.sword=Load("StoryMotionReview/xiya/sword");
-        library.actors=source.actors.Select(a=>new ReviewCharacter2D{id=a.id,portrait=Load(a.portrait),originalField=Load(a.originalField),actions=a.actions.Select(m=>new ReviewMovie2D{key=m.key,fps=m.key=="battle-idle"?3:m.fps,loop=m.loop,frames=m.frames.Select(Load).ToArray(),hands=m.hands.Select(Load).ToArray(),grips=m.grips,durations=m.key=="battle-slash"?new[]{.14f,.24f,.09f,.08f,.12f,.18f}:null}).ToArray()}).ToArray();
+        library.actors=source.actors.Select(a=>new ReviewCharacter2D{id=a.id,portrait=Load(a.portrait),originalField=Load(a.originalField),actions=a.actions.Select(m=>new ReviewMovie2D{key=m.key,fps=m.key=="battle-idle"?3:m.fps,loop=m.loop,frames=m.frames.Select(Load).ToArray(),hands=m.hands.Select(Load).ToArray(),weaponFrames=(m.weapons??Array.Empty<string>()).Select(Load).ToArray(),masterFrames=(m.masters??Array.Empty<string>()).Select(Load).ToArray(),grips=m.grips,durations=m.durations??(m.key=="battle-slash"?new[]{.14f,.24f,.09f,.08f,.12f,.18f}:null)}).ToArray()}).ToArray();
+        library.weaponModule=null;
+        if(!string.IsNullOrEmpty(source.equipmentId)){
+            const string modulePath=Root+"XiyaV4Sword.asset";
+            var module=AssetDatabase.LoadAssetAtPath<StoryWeaponModule2D>(modulePath);
+            if(module==null){module=ScriptableObject.CreateInstance<StoryWeaponModule2D>();AssetDatabase.CreateAsset(module,modulePath);}
+            module.equipmentId=source.equipmentId;module.humanApproved=false;
+            module.poses=library.Actor("xiya").actions.Where(m=>m.weaponFrames.Length>0).Select(m=>new StoryWeaponPose2D{action=m.key,frames=m.weaponFrames}).ToArray();
+            library.weaponModule=module;EditorUtility.SetDirty(module);
+        }
         Verify(library);EditorUtility.SetDirty(library);AssetDatabase.SaveAssets();
         EditorSceneManager.NewScene(NewSceneSetup.EmptyScene,NewSceneMode.Single);
         library=AssetDatabase.LoadAssetAtPath<StoryMotionReviewLibrary2D>(Root+"Definitions.asset");
@@ -67,6 +80,12 @@ public static class StoryMotionReviewBuild
         }
         foreach(string key in new[]{"battle-idle","battle-slash","battle-hurt"}){
             var m=library.Actor("xiya").Find(key);if(m.frames.Length!=m.hands.Length||m.frames.Length!=m.grips.Length)throw new Exception("Sword hand/grip mapping");
+            if(library.weaponModule!=null && (m.weaponFrames.Length!=m.frames.Length||m.masterFrames.Length!=m.frames.Length))throw new Exception("Authored sword/master pose slots");
+            for(int i=0;i<m.weaponFrames.Length;i++){
+                if(library.weaponModule.Frame(key,i)!=m.weaponFrames[i])throw new Exception("Equipment pose registration");
+                foreach(var s in new[]{m.hands[i],m.weaponFrames[i],m.masterFrames[i]})
+                    if(s.rect.size!=m.frames[i].rect.size||s.pivot!=m.frames[i].pivot||s.pixelsPerUnit!=m.frames[i].pixelsPerUnit)throw new Exception("Pose layer canvas/pivot mismatch");
+            }
         }
         var trail=new StoryReviewTrail2D();trail.Reset(new Vector3(-1.45f,0),Vector3.zero);trail.Advance(new Vector3(3,0));trail.Advance(new Vector3(3,3));
         if(Vector3.Distance(trail.Position,new Vector3(3,1.55f))>.001f||trail.Direction!=3)throw new Exception("Review follower corner traversal");

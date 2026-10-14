@@ -55,6 +55,7 @@ namespace MonsterRemake2D
         }
         public void Sample(int view,float time,float dt)
         {
+            Camera.main.orthographicSize=view==0&&library.weaponModule!=null?4.4f:3.9f;
             foreach(var a in xiya)a.gameObject.SetActive(false);foreach(var a in qibei)a.gameObject.SetActive(false);
             bool evidence=view<4;
             portrait.enabled=evidence;originalField.enabled=evidence;
@@ -68,7 +69,10 @@ namespace MonsterRemake2D
                 else if(time<2.05f)a.Sample("battle-slash",time-1.2f,false);
                 else if(time<2.45f)a.Sample("battle-hurt",time-2.05f,false);
                 else a.Sample("battle-idle",time-2.45f);
-                Require(!a.weapon.enabled||Vector3.Distance(a.weapon.transform.localPosition,new Vector3(owner.Find(a.Action).grips[a.FrameIndex].x,owner.Find(a.Action).grips[a.FrameIndex].y,0))<.001f,"Sword attached to same right-hand grip");
+                if(a.equippedWeapon!=null){
+                    Require(!sword||a.weapon.sprite==a.equippedWeapon.Frame(a.Action,a.FrameIndex),"Authored equipment pose selected");
+                    Require(!a.weapon.enabled||a.weapon.transform.localPosition==a.body.transform.localPosition&&a.weapon.transform.localRotation==Quaternion.identity,"Sword keeps authored contact and perspective");
+                }else Require(!a.weapon.enabled||Vector3.Distance(a.weapon.transform.localPosition,new Vector3(owner.Find(a.Action).grips[a.FrameIndex].x,owner.Find(a.Action).grips[a.FrameIndex].y,0))<.001f,"Sword attached to same right-hand grip");
             }else if(view==1){
                 for(int d=0;d<4;d++){
                     var a=xiya[d];a.gameObject.SetActive(true);a.transform.position=new Vector3(-1.9f+d*2.25f,-1.1f,0);
@@ -102,7 +106,33 @@ namespace MonsterRemake2D
                 mode=m;Reset();string dir=Path.Combine(output,"mode-"+m);Directory.CreateDirectory(dir);
                 for(int i=0;i<64;i++){Sample(m,i/16f,1/16f);yield return new WaitForEndOfFrame();Capture(dir,i);yield return null;}
             }
-            File.WriteAllText(Path.Combine(output,"runtime-validation.txt"),"PASS: actual Unity player renders independent Xiya battle and Q field forms, same right-hand modular sword through idle/slash/hurt, four field directions with six walking drawings each, Qibei battle and Q face palettes, four wing directions (right mirrored), and Qibei follows Xiya around three corners on the actual leader path. 5 modes x 64 captures at 16 samples/s; not a claim of 16 new drawings per second, gameplay integration or human art approval.\n");
+            if(library.weaponModule!=null){
+                foreach(var actor in xiya)actor.gameObject.SetActive(false);
+                foreach(var actor in qibei)actor.gameObject.SetActive(false);
+                portrait.enabled=false;originalField.enabled=false;
+                var a=xiya[0];a.gameObject.SetActive(true);a.transform.position=new Vector3(0,-3,0);
+                var camera=Camera.main;camera.orthographicSize=4.4f;var savedPosition=camera.transform.position;float savedSize=camera.orthographicSize;
+                var masterMaterial=new Material(Shader.Find("Sprites/Default"));
+                foreach(var movie in library.Actor("xiya").actions.Where(m=>m.weaponFrames.Length>0)){
+                    for(int i=0;i<movie.frames.Length;i++){
+                        float t=movie.durations!=null&&movie.durations.Length==movie.frames.Length?movie.durations.Take(i).Sum()+.0001f:(i+.01f)/movie.fps;
+                        a.showSword=true;a.Sample(movie.key,t,false);
+                        Require(a.FrameIndex==i&&a.weapon.sprite==movie.weaponFrames[i],"Every authored sword pose slot: "+movie.key+" frame "+i+" actual "+a.FrameIndex+"");
+                        string dir=Path.Combine(output,"poses",movie.key);Directory.CreateDirectory(dir);Capture(dir,i);
+                        var grip=movie.grips[i];camera.transform.position=a.transform.position+new Vector3(grip.x,grip.y,-10);camera.orthographicSize=.75f;
+                        dir=Path.Combine(output,"grips",movie.key);Directory.CreateDirectory(dir);Capture(dir,i);
+                        // Compare the module's rendered contact to its complete with-sword master.
+                        a.body.sprite=movie.masterFrames[i];a.body.sharedMaterial=masterMaterial;a.body.SetPropertyBlock(null);a.weapon.enabled=false;a.hand.enabled=false;
+                        dir=Path.Combine(output,"master-grips",movie.key);Directory.CreateDirectory(dir);Capture(dir,i);
+                        camera.transform.position=savedPosition;camera.orthographicSize=savedSize;
+                        a.showSword=false;a.Sample(movie.key,t,false);
+                        Require(!a.weapon.enabled&&a.body.sprite==movie.frames[i]&&a.hand.sprite==movie.hands[i],"Hide equipment without changing body/finger poses");
+                        dir=Path.Combine(output,"without-sword",movie.key);Directory.CreateDirectory(dir);Capture(dir,i);
+                    }
+                }
+                a.showSword=true;Destroy(masterMaterial);
+            }
+            File.WriteAllText(Path.Combine(output,"runtime-validation.txt"),"PASS: actual Unity player renders independent Xiya battle and Q field forms, authored modular sword through nine unique idle/slash/hurt drawings and eleven pose slots; every slot recorded full-body, grip, master grip and with weapon hidden, four field directions with six walking drawings each, Qibei battle and Q face palettes, four wing directions (right mirrored), and Qibei follows Xiya around three corners on the actual leader path. 5 modes x 64 captures at 16 samples/s; not a claim of 16 new drawings per second, gameplay integration or human art approval.\n");
             Debug.Log("STORY_MOTION_REVIEW_RUNTIME_PASSED");Application.Quit(0);
         }
         void Capture(string dir,int index)

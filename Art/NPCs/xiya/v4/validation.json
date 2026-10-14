@@ -1,0 +1,13 @@
+{
+  "result": "pass",
+  "humanApproved": false,
+  "originalInputsChecked": 1046,
+  "UnityBuild": "STORY_MOTION_REVIEW_MAC_BUILD_PASSED",
+  "UnityPlayer": "STORY_MOTION_REVIEW_RUNTIME_PASSED",
+  "nativeCaptures": 364,
+  "battleUniqueDrawings": 9,
+  "battlePoseSlots": 11,
+  "browser": "12 action/view combinations; all images loaded; forward/back frame stepping; no page errors",
+  "referenceScope": "Xiya battle body inferred from verified original portrait and field sprites; not confirmed original battle art",
+  "scope": "independent review scene; Q field and Qibei sprite bytes unchanged; no formal gameplay integration"
+}

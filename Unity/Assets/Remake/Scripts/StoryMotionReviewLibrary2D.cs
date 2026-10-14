@@ -8,7 +8,7 @@ namespace MonsterRemake2D
     [Serializable] public class ReviewMovie2D
     {
         public string key;
-        public Sprite[] frames,hands;
+        public Sprite[] frames,hands,weaponFrames,masterFrames;
         public ReviewGrip2D[] grips;
         public int[] loop;
         public float fps;
@@ -44,6 +44,7 @@ namespace MonsterRemake2D
         public bool humanApproved;
         public ReviewCharacter2D[] actors;
         public Sprite sword;
+        public StoryWeaponModule2D weaponModule;
         public ReviewCharacter2D Actor(string id)=>actors.First(a=>a.id==id);
     }
 }
