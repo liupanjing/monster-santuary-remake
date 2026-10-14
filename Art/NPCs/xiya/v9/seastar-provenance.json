@@ -1,0 +1,183 @@
+{
+  "provider": "Seastar",
+  "status": "static_design_candidate",
+  "humanApproved": false,
+  "formalGameIntegrated": false,
+  "generatedAnimation": false,
+  "platform": "https://seastar.bytedance.net/app/77be90c6-67a9-4ff9-a966-d0e47bab6377?sessionId=b1c60fa3-bf70-4fad-919e-fb9f9e916851",
+  "originalReferences": [
+    "../v1/original/portrait.png",
+    "../v1/original/field-front.png"
+  ],
+  "originalBattleBodyFound": false,
+  "costumeReference": "xiya-knight-original-v5; costume parts only, rejected rendering style excluded",
+  "sources": {
+    "body.webp": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/assets/xiya-v9-body-1791970405877.webp",
+    "sword.webp": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/assets/xiya-v9-sword-1791970095748.webp",
+    "key-high.webp": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/assets/xiya-v9-key-high-1791970543488.webp",
+    "key-cut.webp": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/assets/xiya-v9-key-cut-1791970535567.webp",
+    "key-low.webp": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/assets/xiya-v9-key-low-1791970593767.webp",
+    "body-first-draft.webp": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/assets/xiya-v9-body-1791970144050.webp"
+  },
+  "prompt": "prompts/style-correction.txt",
+  "scope": "New 2D artwork and three independent static pose drawings for style review; no animation generated from these drawings.",
+  "localFiles": {
+    "body-first-draft.webp": {
+      "sha256": "fb1c6850be5f32a5990c1a8acafb47c72c93477994d9162c53dcb82e79501c40",
+      "size": [
+        518,
+        1050
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    "body.png": {
+      "sha256": "ad938de59faceb745a095aa8c95408bf7d4ebb58468bbdd8bb24bc1df1a66cf8",
+      "size": [
+        728,
+        1050
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    "body.webp": {
+      "sha256": "fb9cfa76ea82a22c2608c2bb21917a636e2e276deda35f1e885eebf8e3118096",
+      "size": [
+        728,
+        1050
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    "grip-label.png": {
+      "sha256": "abc72c329a0813b4c75f8246452f1a210c0eaf0ad434ff6b5b20907c2d1ee064",
+      "size": [
+        1000,
+        1030
+      ],
+      "alphaExtrema": [
+        255,
+        255
+      ]
+    },
+    "key-cut.webp": {
+      "sha256": "60010b1e9a39f5eb83092b5712f278772eabc1cc3fabed551a99abcb338c26bd",
+      "size": [
+        1100,
+        1021
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    "key-high.webp": {
+      "sha256": "5c14e50925b392e9ab8187bf620ce97b80b3162cfe2f6c14b8528772ae15e089",
+      "size": [
+        671,
+        1100
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    "key-low.webp": {
+      "sha256": "a75bc752531626edd8b299415af58a582bc967a256e3b7de29db53b5e7fd37af",
+      "size": [
+        1100,
+        1082
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    "key-poses-final.png": {
+      "sha256": "36e020e21758af7ea04123ad515c8a52ecce85d53b03a1a0d6252884be2469d8",
+      "size": [
+        3300,
+        1280
+      ],
+      "alphaExtrema": [
+        255,
+        255
+      ]
+    },
+    "ready.png": {
+      "sha256": "b1dcf166d2b72c376125c4b71a723178d24d59b93f0fa58b8a9306ce5f883a9c",
+      "size": [
+        1028,
+        1100
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    "style-display.png": {
+      "sha256": "20a4899a1da633d433948b99299d6147a67fe31a287daf455741a0933bd7e039",
+      "size": [
+        1700,
+        1280
+      ],
+      "alphaExtrema": [
+        255,
+        255
+      ]
+    },
+    "sword.png": {
+      "sha256": "2a1bb6bad65e58146ca8d6a97524bc801e8c67ee495d77f0cab625f29c497c1f",
+      "size": [
+        167,
+        850
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    "sword.webp": {
+      "sha256": "c3a1a376214024604c7978947a63fd0cb42b0bbb259938c53a23ee274efbfe7a",
+      "size": [
+        167,
+        850
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  },
+  "presentation": "Static layout only; per-panel fitting is not an animation normalization or pose synthesis.",
+  "sourceProviderVersion": "v35",
+  "platformStatus": "saved",
+  "finalExportSources": {
+    "style-display.png": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/xiya-v9-review/b9034c51-abd4-405e-840c-d64ea7f0631d-39dda96d2c1cadb87bf184eb04c9f05762ad96e366cdb97a16640d42f34e022c.png",
+    "ready.png": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/xiya-v9-review/c818af9c-1e6d-4df9-bbdd-f7d464d858c0-e0509d7fad4e1643f17bf567f7b35c518e74cd8ae14194c03effce9e0415efb1.png",
+    "body.png": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/xiya-v9-review/7dfcc2cc-0b49-4b15-8dd3-143427a664a7-1caccc0c56ee17406f12a2390c109014098dbae29536b9e1236f1ece1d660742.png",
+    "sword.png": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/xiya-v9-review/f71630d9-8e42-4ac9-8660-6b7c1ced180a-88b11f1a9e82ac3e61e0c98c52bd3df51e3c1bd7470065e885021661acd97646.png",
+    "grip-label.png": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/xiya-v9-review/e67fc92d-7ca1-47b6-8e38-0259a575d120-4784ce2ddcf6927466128f965e9f24cd7c0e15a7e78dda8530ed44ce9209d887.png",
+    "key-poses-final.png": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/xiya-v9-review/c503179e-1032-4b0e-ac48-cd5bbe80da96-ee02b1b0ecd93b65425cc21f4f7a8ed628ed89645ef72b54ce8446a3725db442.png"
+  },
+  "swordGrip": {
+    "image": "seastar/sword.png",
+    "imageSize": [
+      167,
+      850
+    ],
+    "grip": [
+      83,
+      770
+    ],
+    "coordinateSystem": "top-left origin, x right, y down",
+    "note": "Design-layer grip only. No per-frame runtime attachment completed."
+  },
+  "providerFinish": "New 2D drawings; provider simplified grayscale armor palette on these new drawings and prepared static display. Not a restyle filter applied to old v8 body."
+}

@@ -117,7 +117,7 @@
     -211,
     -211
   ],
-  "status": "motion_candidate_pending_human_review",
+  "status": "rejected_3d_render_style",
   "sourceProviderVersion": "v20",
   "noSwordGlow": true,
   "bodyVideo": "seastar/draft1/body-source.mp4",
@@ -159,5 +159,6 @@
     7
   ],
   "referenceMirroredForReview": true,
-  "referenceTiming": "Approximate stage correspondence for inspection, not source author original game timing"
+  "referenceTiming": "Approximate stage correspondence for inspection, not source author original game timing",
+  "humanRejection": "用户：完了，变成3d的了，这是个2d游戏啊我的天。。。"
 }

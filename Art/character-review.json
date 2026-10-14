@@ -1399,13 +1399,13 @@
       "id": "xiya",
       "name": "西雅",
       "role": "story_npc",
-      "status": "motion_candidate_review",
-      "candidateVersion": "v8",
+      "status": "design_candidate_review",
+      "candidateVersion": "v9",
       "approvedVersion": null,
       "approvedBy": null,
       "authorization": "用户要求按骑士团剑士方向重画西雅高清造型与参考林克的连续挥剑草稿，保留原版配色",
       "reviewFile": "Art/NPCs/xiya/REVIEW.md",
-      "candidateComparison": "Art/NPCs/xiya/v5/original-vs-knight-design.png",
+      "candidateComparison": "Art/NPCs/xiya/v9/style-comparison.png",
       "originalReferences": [
         "Reference/OriginalGame/extracted/npc_xiya.png",
         "Reference/OriginalGame/extracted/npc_xiya.bin",
@@ -1418,23 +1418,23 @@
       },
       "runtimeIntegrated": false,
       "newAnimationFrames": 22,
-      "staticArt": "Art/NPCs/xiya/v1/static",
+      "staticArt": "Art/NPCs/xiya/v9/seastar/body.png",
       "originalFieldResource": "npc_xiya",
       "originalPortrait": "heads/hpic4.png",
       "motionAuthorization": "用户明确要求继续用 Seastar 重做，彻底去掉剑光、右上斜劈至腰腿、整剑沿弧线、身体转动，并与实际参考素材同页审核。",
       "reviewSceneOnly": false,
       "reviewScene": "Unity/Assets/Remake/Scenes/StoryMotionReview.unity",
-      "reviewPage": "Art/NPCs/xiya/v8/index.html",
+      "reviewPage": "Art/NPCs/xiya/v9/index.html",
       "motionManifest": "Art/NPCs/xiya/v8/animation-manifest.json",
       "motionVersion": "v8",
-      "motionStatus": "v8_layered_cut_pending_visual_review",
+      "motionStatus": "v8_rejected_3d_render_style",
       "motionLibrary": "Unity/Assets/Remake/Resources/StoryMotionReview/Definitions.asset",
       "prefab": "Unity/Assets/Remake/Resources/StoryMotionReview/Prefabs/xiya.prefab",
       "fieldPreview": "Art/NPCs/xiya/v2/field-unity-preview.gif",
       "battlePreview": "Art/NPCs/xiya/v8/cut-preview.gif",
       "motionScope": {
         "battle": [
-          "one left-facing layered one-handed diagonal cut; 22 entries, 0.9 seconds; pending visual review",
+          "v8 layered one-handed cut; 22 entries, 0.9 seconds; rejected for 3D rendered style. v9 contains static art only.",
           "v6 parry remains quality failed; unchanged"
         ],
         "field": "4 independently drawn walking directions x 6 keys at 8 Hz; 4 idle directions",
@@ -1442,16 +1442,21 @@
         "bodySource": "full battle body inferred from portrait and field clothes; no confirmed original full body"
       },
       "gripResearch": "Art/NPCs/xiya/v3/REVIEW.md",
-      "rejectedMotionDetails": "用户于 2026-10-14 指出剑与手穿模、握剑不自然；v3 未导入试稿也被指出握姿不对，先查真实与动漫参考。 用户再次退回 v4：挥剑整体不可接受，高清造型像盗贼而非骑士团剑士；要求参考林克与网上挥剑模组。 用户再次退回 v5 挥剑：整体身体不动，脖子和手像焊接在人身上；要求寻找其他 2D 游戏素材。 用户再次退回 v6 下劈：应由右上斜向挥下、手收于腰腿处、剑身斜指地面，不能向下压剑后竖直停住。",
+      "rejectedMotionDetails": "用户于 2026-10-14 指出剑与手穿模、握剑不自然；v3 未导入试稿也被指出握姿不对，先查真实与动漫参考。 用户再次退回 v4：挥剑整体不可接受，高清造型像盗贼而非骑士团剑士；要求参考林克与网上挥剑模组。 用户再次退回 v5 挥剑：整体身体不动，脖子和手像焊接在人身上；要求寻找其他 2D 游戏素材。 用户再次退回 v6 下劈：应由右上斜向挥下、手收于腰腿处、剑身斜指地面，不能向下压剑后竖直停住。 用户再次退回 v8：造型变成三维渲染观感，与二维游戏要求不符；盔甲体积反光与半写实长比例需要改成二维轮廓线、平涂色块和硬边阴影。",
       "fieldVersion": "v2",
       "designResearch": "Art/NPCs/xiya/v5/RESEARCH.md",
       "draftOnly": true,
       "previousUnityReviewVersion": "v4 rejected",
-      "designStatus": "v5_knight_design_pending_review",
+      "designStatus": "v9_2d_flat_design_pending_visual_review",
       "other2DAssets": "Art/NPCs/xiya/v5/OTHER_2D_ASSETS.md",
       "parryPreview": "Art/NPCs/xiya/v6/parry-preview.gif",
       "motionProvider": "Seastar generated continuous body and independent sword; provider rigid weapon composition",
-      "uniqueAtlasFrameEntries": 22
+      "uniqueAtlasFrameEntries": 22,
+      "styleCorrection": "Seastar redraw with outlines, flat fills, hard-edge shadows. Three independent static motion pose drawings for style review; no v9 animation created.",
+      "previousDesignVersion": "v5 rendered style rejected in v8",
+      "previousMotionReviewPage": "Art/NPCs/xiya/v8/index.html",
+      "styleManifest": "Art/NPCs/xiya/v9/seastar-provenance.json",
+      "styleKeys": "Art/NPCs/xiya/v9/seastar/key-poses-final.png"
     },
     {
       "id": "npc1",
@@ -2194,5 +2199,6 @@
     "npc:xiya",
     "companion:qibei"
   ],
-  "currentMotionReviewPage": "Art/NPCs/xiya/v8/index.html"
+  "currentMotionReviewPage": "Art/NPCs/xiya/v8/index.html",
+  "currentDesignReviewPage": "Art/NPCs/xiya/v9/index.html"
 }

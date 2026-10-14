@@ -45,7 +45,7 @@ def main():
     boxes=[reference.crop((i*cell,0,(i+1)*cell,reference.height)).getbbox() for i in range(8)]
     phase_map=[0,0,0,1,1,1,2,2,2,2,2,2,3,3,4,4,5,5,6,6,7,7]
     assert len(phase_map)==manifest['frames']
-    manifest.update(status='motion_candidate_pending_human_review',sourceProviderVersion='v20',noSwordGlow=True,
+    manifest.update(status='rejected_3d_render_style',humanRejection='用户指出造型变成三维观感，项目必须保持二维手绘风格',sourceProviderVersion='v20',noSwordGlow=True,
         bodyVideo='seastar/draft1/body-source.mp4',
         assessment='全帧无剑光；高位尾柄沿护腕的明显重叠已修正。右手高位蓄力、身体前转和腰腿高度斜向收势可见。早期准备帧仍有源视频的手部运动软化，保留供视觉审核。',
         referenceSheet='../../../References/External2D/FantasyWarrior/source/Fantasy%20Warrior/Sprites/Attack3.png',
