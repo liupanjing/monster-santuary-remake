@@ -1,0 +1,65 @@
+{
+  "assetId": "xiya-diagonal-cut-v8",
+  "generationStatus": "COMPLETE",
+  "qualityStatus": "FAIL",
+  "issues": [
+    "Frames 7-14 (1-based): high-pose fist orientation is not sufficiently convincing for normal sword grip; pommel/hilt overlaps wrist armor.",
+    "Frame 4-5 (1-based): generated fist has motion softness; exact finger wrapping cannot be confirmed.",
+    "Preparation includes a noticeable high hold. The output lasts 0.9s, but rhythm should still be reviewed against reference."
+  ],
+  "bodySource": {
+    "duration": 5.166667,
+    "frameCount": 124,
+    "fps": 24,
+    "transparent": false
+  },
+  "bodyAnimation": {
+    "duration": 0.9,
+    "frameCount": 22,
+    "fps": 24.444444444444443,
+    "transparent": true,
+    "loop": false,
+    "sourceClip": [
+      0,
+      2.666667
+    ]
+  },
+  "compositeAnimation": {
+    "duration": 0.9,
+    "frameCount": 22,
+    "transparent": true,
+    "loop": false,
+    "swordCount": 1,
+    "fixedSwordScale": 0.44
+  },
+  "checks": {
+    "noSwordGlowInAll22Frames": true,
+    "fixedRigidSwordGeometry": true,
+    "correctUnwrappedSwingDirection": true,
+    "fullBodyFeetAndSwordTipInCanvas": true,
+    "torsoMotionVisible": true,
+    "normalGripWithoutWristOverlap": false
+  },
+  "reference": {
+    "author": "LuizMelo",
+    "work": "Fantasy Warrior Attack3",
+    "license": "CC0",
+    "url": "https://luizmelo.itch.io/fantasy-warrior",
+    "comparisonTiming": "phase normalized; original uploaded GIF has 8 frames at 80ms analysis timing"
+  },
+  "downloads": {
+    "gripAngleOcclusion": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/poster-animation/44a92c0c-4e3d-4145-82a6-eb7454469827-755bb97f675320896406b7d3202d54d9b5c25b39061ec0635b7bfd434ac7480a.json",
+    "compositePreview": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/poster-animation/b3045818-a1da-425c-aa27-6cf0987b46d9-0e13d9695dd95394dd25849b7ea1ceb820f92e50296e4287cbc5b1b6185e360a.gif",
+    "comparisonGif": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/poster-animation/516fd70d-b8b9-4a41-9fbc-714992f2f2fe-5cf3d745a06cb1f60b2437d4f89d9c76a0b88936987b6803233a6bcc73462745.gif",
+    "comparisonContact": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/poster-animation/2fc0667e-3bde-4e4b-a4f2-96ff287e1147-d2bfe40a04222f8b3ef75edfc0832d65f9cd3ea90b30efcaa45cbfe8d53adec4.jpg",
+    "gripReview": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/poster-animation/7b0976c2-6ec8-425c-8eee-723594337b27-a5b68979c7bb0298ebe4b5ae0a7ccfed304d3ea8828f5c2f453e0795187ebb05.jpg",
+    "compositeVideo": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/poster-animation/1327ed40-97be-47a0-ac5b-913c2bb5d416-7294cc45b9925ef14c99ddeede7fb964222580caa52abee8a7d7b5e8f9144a09.mp4",
+    "compositeAtlas": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/poster-animation/7df2a91e-f763-4f9d-ba7f-ff3b365644b2-d2d409a92a8235146300d92cb2bd5442e7f365d5731205be9164bd0584a6b012.webp",
+    "compositeFrames": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/poster-animation/05aa7e38-eb77-4c82-abb6-dacceeaaf9e5-a3c6f33d39a7eb75320c0903e700b730c1415a593070a3c6a79649547398ce77.json",
+    "bodyOriginalVideo": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/videos/video-452254958514460.mp4",
+    "bodyFrames": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/poster-animation/a0c5da57-20fb-4d80-85ee-7bade2269aa4-ca51bfb8a0d88eb5825d2fe3bb61007bd4ee18ef25b3b1a893c85f08b1277c2e.json",
+    "bodyAtlas": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/poster-animation/6857130b-cea8-4565-83db-502134df226c-c66e5a8c726b301cdf72f133014ffde262e674a031c944b5afad61978d477d73.webp",
+    "sword": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/assets/xiya-straight-sword-v8-1791966555566.webp",
+    "unarmedReference": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/assets/xiya-unarmed-ready-v8-1791966709274.webp"
+  }
+}

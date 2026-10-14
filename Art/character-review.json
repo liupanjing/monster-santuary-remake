@@ -1399,8 +1399,8 @@
       "id": "xiya",
       "name": "西雅",
       "role": "story_npc",
-      "status": "motion_revision_required",
-      "candidateVersion": "v7",
+      "status": "motion_candidate_review",
+      "candidateVersion": "v8",
       "approvedVersion": null,
       "approvedBy": null,
       "authorization": "用户要求按骑士团剑士方向重画西雅高清造型与参考林克的连续挥剑草稿，保留原版配色",
@@ -1417,28 +1417,28 @@
         "hpic4.png": "55baee7429ccc05a9b99fd51cbaacc72b431753c98a3ba4d5f42bf924dc26cc5"
       },
       "runtimeIntegrated": false,
-      "newAnimationFrames": 19,
+      "newAnimationFrames": 22,
       "staticArt": "Art/NPCs/xiya/v1/static",
       "originalFieldResource": "npc_xiya",
       "originalPortrait": "heads/hpic4.png",
-      "motionAuthorization": "用户纠正下劈：右手单手由右上斜向挥下，手停腰腿高度、剑身斜向地面、剑路流畅；已在原 Seastar 会话上传真实动作参考并重做。",
+      "motionAuthorization": "用户明确要求继续用 Seastar 重做，彻底去掉剑光、右上斜劈至腰腿、整剑沿弧线、身体转动，并与实际参考素材同页审核。",
       "reviewSceneOnly": false,
       "reviewScene": "Unity/Assets/Remake/Scenes/StoryMotionReview.unity",
-      "reviewPage": "Art/NPCs/xiya/v7/index.html",
-      "motionManifest": "Art/NPCs/xiya/v7/animation-manifest.json",
-      "motionVersion": "v7",
-      "motionStatus": "v7_diagonal_cut_quality_failed",
+      "reviewPage": "Art/NPCs/xiya/v8/index.html",
+      "motionManifest": "Art/NPCs/xiya/v8/animation-manifest.json",
+      "motionVersion": "v8",
+      "motionStatus": "v8_layered_cut_pending_visual_review",
       "motionLibrary": "Unity/Assets/Remake/Resources/StoryMotionReview/Definitions.asset",
       "prefab": "Unity/Assets/Remake/Resources/StoryMotionReview/Prefabs/xiya.prefab",
       "fieldPreview": "Art/NPCs/xiya/v2/field-unity-preview.gif",
-      "battlePreview": "Art/NPCs/xiya/v7/cut-preview.gif",
+      "battlePreview": "Art/NPCs/xiya/v8/cut-preview.gif",
       "motionScope": {
         "battle": [
-          "one left-facing one-handed diagonal cut; 19 entries, 0.8 seconds; quality failed",
-          "v6 parry still quality failed; unchanged this revision"
+          "one left-facing layered one-handed diagonal cut; 22 entries, 0.9 seconds; pending visual review",
+          "v6 parry remains quality failed; unchanged"
         ],
         "field": "4 independently drawn walking directions x 6 keys at 8 Hz; 4 idle directions",
-        "weapon": "Sword baked with body in Seastar candidates; modular weapon separation not delivered",
+        "weapon": "Independent Seastar sword image, per-frame grips, unwrapped angles and original hand occlusion; composite atlas for review, not Unity integration",
         "bodySource": "full battle body inferred from portrait and field clothes; no confirmed original full body"
       },
       "gripResearch": "Art/NPCs/xiya/v3/REVIEW.md",
@@ -1450,8 +1450,8 @@
       "designStatus": "v5_knight_design_pending_review",
       "other2DAssets": "Art/NPCs/xiya/v5/OTHER_2D_ASSETS.md",
       "parryPreview": "Art/NPCs/xiya/v6/parry-preview.gif",
-      "motionProvider": "Seastar",
-      "uniqueAtlasFrameEntries": 19
+      "motionProvider": "Seastar generated continuous body and independent sword; provider rigid weapon composition",
+      "uniqueAtlasFrameEntries": 22
     },
     {
       "id": "npc1",
@@ -2194,5 +2194,5 @@
     "npc:xiya",
     "companion:qibei"
   ],
-  "currentMotionReviewPage": "Art/NPCs/xiya/v7/index.html"
+  "currentMotionReviewPage": "Art/NPCs/xiya/v8/index.html"
 }

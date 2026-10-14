@@ -1,0 +1,28 @@
+{
+  "provider": "Seastar",
+  "appId": "77be90c6-67a9-4ff9-a966-d0e47bab6377",
+  "sessionId": "b1c60fa3-bf70-4fad-919e-fb9f9e916851",
+  "sourceArtwork": "Art/NPCs/xiya/v5/source/knight-design.png",
+  "sourceBodyAssetId": "xiya-body-v8",
+  "swordAssetId": "xiya-straight-sword-v8",
+  "compositeAssetId": "xiya-diagonal-cut-v8-draft2",
+  "providerVersions": {
+    "initialLayeredOutput": "v18",
+    "gripRevision": "v20"
+  },
+  "sourceVideoUrl": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/videos/video-452254958514460.mp4",
+  "sourceBodyMetadata": "seastar/body.json",
+  "sourceCompositeMetadata": "seastar/cut.json",
+  "gripMetadata": "seastar/grips.json",
+  "referenceAuthor": "LuizMelo",
+  "referenceWork": "Fantasy Warrior Attack3",
+  "referenceLicense": "CC0",
+  "referencePage": "https://luizmelo.itch.io/fantasy-warrior",
+  "humanApproved": false,
+  "formalGameIntegrated": false,
+  "status": "motion_candidate_pending_human_review",
+  "prompts": [
+    "prompts/seastar-layered-cut.txt",
+    "prompts/grip-correction.txt"
+  ]
+}
