@@ -1399,7 +1399,7 @@
       "id": "xiya",
       "name": "西雅",
       "role": "story_npc",
-      "status": "motion_review",
+      "status": "revision_requested",
       "candidateVersion": "v2",
       "approvedVersion": null,
       "approvedBy": null,
@@ -1427,7 +1427,7 @@
       "reviewPage": "Art/Reviews/story-motion-v2/index.html",
       "motionManifest": "Art/NPCs/xiya/v2/motion-manifest.json",
       "motionVersion": "v2",
-      "motionStatus": "motion_review_candidate",
+      "motionStatus": "sword_grip_revision_requested",
       "motionLibrary": "Unity/Assets/Remake/Resources/StoryMotionReview/Definitions.asset",
       "prefab": "Unity/Assets/Remake/Resources/StoryMotionReview/Prefabs/xiya.prefab",
       "fieldPreview": "Art/NPCs/xiya/v2/field-unity-preview.gif",
@@ -1441,7 +1441,9 @@
         "field": "4 independently drawn walking directions x 6 keys at 8 Hz; 4 idle directions",
         "weapon": "independent neutral straight sword; same right-hand grips and foreground hand layers",
         "bodySource": "full battle body inferred from portrait and field clothes; no confirmed original full body"
-      }
+      },
+      "gripResearch": "Art/NPCs/xiya/v3/REVIEW.md",
+      "rejectedMotionDetails": "用户于 2026-10-14 指出剑与手穿模、握剑不自然；v3 未导入试稿也被指出握姿不对，先查真实与动漫参考。"
     },
     {
       "id": "npc1",
