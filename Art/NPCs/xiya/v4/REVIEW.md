@@ -1,6 +1,6 @@
 # 西雅 v4：真实握剑参考后的重画候选
 
-用户于 2026-10-14 要求参考真实握剑、挥剑重画西雅。本版等待用户审核；技术测试不代表美术认可。仅进入独立 StoryMotionReview 场景，未接入正式土之秘境。Q 版跑图与七贝沿用 v2。
+用户于 2026-10-14 要求参考真实握剑、挥剑重画西雅。本版已被用户退回：挥剑与骑士团剑士身份造型均需要重做。技术测试不代表美术认可，不能作为认可基准。详见 [后续研究](../v5/RESEARCH.md)。仅进入独立 StoryMotionReview 场景，未接入正式土之秘境。Q 版跑图与七贝沿用 v2。
 
 [动作审核页](index.html) / [Unity 实际播放](battle-unity-preview.gif) / [握剑近景](grip-unity-contact.png) / [全身关键帧](battle-unity-contact.png)。
 

@@ -11,5 +11,7 @@
   "referenceScope": "Xiya battle body inferred from verified original portrait and field sprites; not confirmed original battle art",
   "scope": "independent review scene; Q field and Qibei sprite bytes unchanged; no formal gameplay integration",
   "defaultMaterial": "review prefab retains built-in sprite material; Q field and battle switch rendered and inspected",
-  "pinkPixelScan": "Every recorded mode frame checked during packaging"
+  "pinkPixelScan": "Every recorded mode frame checked during packaging",
+  "artReviewStatus": "rejected_by_user",
+  "artReviewReason": "Sword motion unacceptable; HD costume reads as rogue instead of knight-order swordswoman"
 }

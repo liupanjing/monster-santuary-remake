@@ -1,6 +1,6 @@
 {
   "version": "v4",
-  "status": "motion_review_candidate",
+  "status": "rejected_motion_and_character_design",
   "humanApproved": false,
   "formalGameIntegrated": false,
   "method": "Complete with-sword masters segmented into body/rear palm, authored weapon pose, front fingers; no empty-hand redraw and no live sword-angle guessing",
@@ -1724,5 +1724,6 @@
     "ready-master.png": "1f9e7fb47c76a12a599797345b93f5c045355f5a96f09f1591c3c0ebe3a52003",
     "slash-b-master.png": "6d86d25d4c509ee2b94a0125f2ec6a24d6bec24e8c465a6c228633b9aef6f7cc"
   },
-  "partial": false
+  "partial": false,
+  "rejectedBy": "User rejected v4 sword animation and rogue-like appearance on 2026-10-14"
 }
