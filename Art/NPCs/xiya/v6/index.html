@@ -1,0 +1,32 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>西雅 · 竖劈与格挡 / Seastar</title>
+<style>
+:root{font-family:system-ui,-apple-system,sans-serif;color:#e9eee9;background:#131b19}body{max-width:1180px;margin:auto;padding:28px}h1{font-size:27px;margin:8px 0 12px}p{line-height:1.65;color:#b7c3bd}a{color:#b1d7c1}header{margin-bottom:24px}.eyebrow{color:#b4c89c;letter-spacing:.12em;font-size:12px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.card{background:#202b26;border:1px solid #3c4b42;border-radius:16px;padding:18px}h2{font-size:20px;margin:2px 0 8px}.badge{font-size:12px;color:#e3cd91}.stage{background:#e9e6df;border-radius:10px;overflow:hidden;margin:16px 0}canvas{display:block;width:100%;max-height:min(45vh,440px);object-fit:contain}button,select{background:#34483b;color:#fff;border:1px solid #657c6b;border-radius:6px;padding:7px 10px;cursor:pointer}button:disabled{opacity:.5}.controls{display:flex;gap:7px;align-items:center;flex-wrap:wrap}input[type=range]{width:100%;margin:16px 0 6px;accent-color:#b8cca1}.info{font-variant-numeric:tabular-nums;font-size:13px;color:#b9c7be}.notes{min-height:60px;font-size:14px}details{margin-top:26px;border-top:1px solid #425147;padding:18px 0}summary{cursor:pointer}video{max-width:100%;max-height:440px}.reference{max-height:380px;max-width:100%;background:#e9e6df;border-radius:8px}.links{display:flex;gap:14px;font-size:13px;flex-wrap:wrap}footer{margin:28px 0;color:#95aa9d;font-size:13px;line-height:1.7}@media(max-width:760px){body{padding:16px}.grid{grid-template-columns:1fr}}
+</style>
+<header><div class="eyebrow">怪兽仙境 REMAKE / 西雅 / v6</div><h1>向下竖劈 & 挥剑格挡</h1><p>上传西雅骑士原画，由 Seastar 生成动作。这里按平台图集和帧序播放，可以暂停、慢放或逐帧检查身体与持剑。两套均为审核候选。</p></header>
+<div class="grid" id="actions"></div>
+<details><summary>原画与平台准备姿势</summary><p>完整战斗身体和骑士轻甲是重制补全，尚未获造型定稿认可。</p><div class="grid"><div><img class="reference" src="../v5/source/knight-design.png" alt="上传的西雅骑士原画"><p>上传原画</p></div><div><img class="reference" src="seastar/xiya-left-ready-v5.webp" alt="Seastar 朝左准备姿势"><p>Seastar 准备姿势</p></div></div></details>
+<details><summary>平台原视频与制作记录</summary><p>原视频为青色背景，时长与透明图集的审核播放时长不同；竖劈原视频保留清理前光点。</p><div class="grid"><video controls preload="metadata" src="seastar/downcut-source.mp4"></video><video controls preload="metadata" src="seastar/parry-source.mp4"></video></div><p><a href="animation-manifest.json">帧序与本地校验记录</a> · <a href="REVIEW.md">审核说明</a> · <a href="SEASTAR_WORKFLOW.md">平台工作记录</a></p></details>
+<footer>保留平台原始帧，不增加光流或立绘插值。每套使用固定裁切范围，人物缩放不随单帧包围盒变化。图集中的人物和剑暂在同一层，未导入正式 Unity 游戏。</footer>
+<script>
+async function main(){
+const manifest=await fetch('animation-manifest.json').then(r=>r.json());
+for(const [id,m] of Object.entries(manifest.actions)){
+ const el=document.createElement('section');el.className='card';el.dataset.action=id;
+ const note=id==='downcut'?'可见后撤蓄力、前压下劈和低姿承重。落剑后的停顿偏长，握剑与手腕连续性仍需审。':'质量未通过：后坐卸力不足，外带剑仍像挥砍，并有短剑光残留。此版保留用于审查。';
+ el.innerHTML=`<h2>${id==='downcut'?'向下竖劈':'挥剑格挡'}</h2><span class="badge">${m.frames} 帧序项 · ${m.fps} FPS · ${m.durationSeconds} 秒 · ${id==='downcut'?'待审核':'质量未通过'}</span><div class="stage"><canvas aria-label="${id} 动画"></canvas></div><div class="controls"><button class="toggle" disabled>载入中</button><button class="prev" disabled>上一帧</button><button class="next" disabled>下一帧</button><select aria-label="${id} 播放速度"><option value="0.5">0.5× 慢放</option><option value="1" selected>1×</option><option value="1.5">1.5×</option></select><label><input class="onion" type="checkbox">前帧叠影</label></div><input class="scrub" aria-label="${id} 帧" type="range" min="0" max="${m.frames-1}" value="0"><div class="info"></div><p class="notes">${note}</p><div class="links"><a href="${id}-contact.jpg" target="_blank">关键帧联系表</a><a href="${m.gif}" target="_blank">GIF</a><a href="${m.atlas}" download>透明图集</a><a href="${m.providerMetadata}" download>帧数据</a></div>`;
+ document.querySelector('#actions').append(el);
+ const data=await fetch(m.providerMetadata).then(r=>r.json()),atlas=new Image();atlas.src=m.atlas;await atlas.decode();
+ const c=el.querySelector('canvas'),ctx=c.getContext('2d'),[x,y,x1,y1]=m.previewCrop;c.width=x1-x;c.height=y1-y;
+ let index=0,playing=true,last=performance.now(),acc=0;
+ const toggle=el.querySelector('.toggle'),scrub=el.querySelector('.scrub'),info=el.querySelector('.info');
+ function drawFrame(i,alpha=1){const f=data.frames[m.sequence[i]],r=f.frame,s=f.spriteSourceSize;ctx.globalAlpha=alpha;ctx.drawImage(atlas,r.x,r.y,r.w,r.h,s.x-x,s.y-y,r.w,r.h);ctx.globalAlpha=1;}
+ function paint(){ctx.clearRect(0,0,c.width,c.height);if(el.querySelector('.onion').checked&&index>0)drawFrame(index-1,.22);drawFrame(index);scrub.value=index;info.textContent=`第 ${index+1} / ${m.frames} 帧 · ${(index/m.fps).toFixed(2)} 秒`;toggle.textContent=playing?'暂停':'播放';}
+ for(const b of el.querySelectorAll('button'))b.disabled=false;
+ toggle.onclick=()=>{playing=!playing;acc=0;paint()};
+ el.querySelector('.prev').onclick=()=>{playing=false;index=(index-1+m.frames)%m.frames;paint()};
+ el.querySelector('.next').onclick=()=>{playing=false;index=(index+1)%m.frames;paint()};
+ scrub.oninput=()=>{playing=false;index=+scrub.value;paint()};el.querySelector('.onion').onchange=paint;
+ function tick(now){let dt=Math.min(now-last,150);last=now;if(playing){acc+=dt*+el.querySelector('select').value;const ms=1000/m.fps;if(acc>=ms){let step=Math.floor(acc/ms);acc%=ms;index=(index+step)%m.frames;paint()}}requestAnimationFrame(tick)}paint();requestAnimationFrame(tick);
+}}
+main().catch(e=>{document.querySelector('#actions').textContent='素材加载失败：'+e.message;console.error(e)});
+</script></html>

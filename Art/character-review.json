@@ -1399,8 +1399,8 @@
       "id": "xiya",
       "name": "西雅",
       "role": "story_npc",
-      "status": "motion_revision_requested",
-      "candidateVersion": "v5",
+      "status": "motion_candidate_review",
+      "candidateVersion": "v6",
       "approvedVersion": null,
       "approvedBy": null,
       "authorization": "用户要求按骑士团剑士方向重画西雅高清造型与参考林克的连续挥剑草稿，保留原版配色",
@@ -1417,39 +1417,42 @@
         "hpic4.png": "55baee7429ccc05a9b99fd51cbaacc72b431753c98a3ba4d5f42bf924dc26cc5"
       },
       "runtimeIntegrated": false,
-      "newAnimationFrames": 12,
+      "newAnimationFrames": 112,
       "staticArt": "Art/NPCs/xiya/v1/static",
       "originalFieldResource": "npc_xiya",
       "originalPortrait": "heads/hpic4.png",
-      "motionAuthorization": "用户要求逐角色带动作审核，从西雅和七贝开始；并明确选择战斗立绘和 Q 版跑图两套一起",
-      "reviewSceneOnly": true,
+      "motionAuthorization": "用户要求向下竖劈与挥剑格挡，并指定 Seastar 平台上传自制原画后由平台 Agent 生成动作素材。",
+      "reviewSceneOnly": false,
       "reviewScene": "Unity/Assets/Remake/Scenes/StoryMotionReview.unity",
-      "reviewPage": "Art/NPCs/xiya/v4/index.html",
-      "motionManifest": "Art/NPCs/xiya/v5/draft-manifest.json",
-      "motionVersion": "v5",
-      "motionStatus": "v5_pencil_test_rejected",
+      "reviewPage": "Art/NPCs/xiya/v6/index.html",
+      "motionManifest": "Art/NPCs/xiya/v6/animation-manifest.json",
+      "motionVersion": "v6",
+      "motionStatus": "seastar_downcut_pending_review_parry_quality_failed",
       "motionLibrary": "Unity/Assets/Remake/Resources/StoryMotionReview/Definitions.asset",
       "prefab": "Unity/Assets/Remake/Resources/StoryMotionReview/Prefabs/xiya.prefab",
       "fieldPreview": "Art/NPCs/xiya/v2/field-unity-preview.gif",
-      "battlePreview": "Art/NPCs/xiya/v5/slash-pencil-test.gif",
+      "battlePreview": "Art/NPCs/xiya/v6/downcut-preview.gif",
       "motionScope": {
         "battle": [
-          "one fixed battle view",
-          "12 sequential diagonal-cut rough drawings; not production animation"
+          "one left-facing battle view",
+          "64-entry downcut sequence at 20 FPS; candidate",
+          "48-entry parry sequence at 20 FPS; quality failed review candidate"
         ],
         "field": "4 independently drawn walking directions x 6 keys at 8 Hz; 4 idle directions",
-        "weapon": "right-hand sword in concept and rough; module separation deferred until visual approval",
+        "weapon": "Sword baked with body in Seastar candidates; modular weapon separation not delivered",
         "bodySource": "full battle body inferred from portrait and field clothes; no confirmed original full body"
       },
       "gripResearch": "Art/NPCs/xiya/v3/REVIEW.md",
       "rejectedMotionDetails": "用户于 2026-10-14 指出剑与手穿模、握剑不自然；v3 未导入试稿也被指出握姿不对，先查真实与动漫参考。 用户再次退回 v4：挥剑整体不可接受，高清造型像盗贼而非骑士团剑士；要求参考林克与网上挥剑模组。 用户再次退回 v5 挥剑：整体身体不动，脖子和手像焊接在人身上；要求寻找其他 2D 游戏素材。",
-      "battleUniqueDrawings": 12,
       "fieldVersion": "v2",
       "designResearch": "Art/NPCs/xiya/v5/RESEARCH.md",
       "draftOnly": true,
       "previousUnityReviewVersion": "v4 rejected",
       "designStatus": "v5_knight_design_pending_review",
-      "other2DAssets": "Art/NPCs/xiya/v5/OTHER_2D_ASSETS.md"
+      "other2DAssets": "Art/NPCs/xiya/v5/OTHER_2D_ASSETS.md",
+      "parryPreview": "Art/NPCs/xiya/v6/parry-preview.gif",
+      "motionProvider": "Seastar",
+      "uniqueAtlasFrameEntries": 105
     },
     {
       "id": "npc1",
@@ -2192,5 +2195,5 @@
     "npc:xiya",
     "companion:qibei"
   ],
-  "currentMotionReviewPage": "Art/Reviews/story-motion-v2/index.html"
+  "currentMotionReviewPage": "Art/NPCs/xiya/v6/index.html"
 }

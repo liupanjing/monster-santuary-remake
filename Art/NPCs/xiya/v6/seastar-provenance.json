@@ -1,0 +1,37 @@
+{
+  "platform": "Seastar",
+  "appId": "77be90c6-67a9-4ff9-a966-d0e47bab6377",
+  "sessionId": "b1c60fa3-bf70-4fad-919e-fb9f9e916851",
+  "sourceArtwork": "Art/NPCs/xiya/v5/source/knight-design.png",
+  "uploadedAssetId": "xiya-knight-original-v5",
+  "derivedReadyAssetId": "xiya-left-ready-v5",
+  "readyFile": "seastar/xiya-left-ready-v5.webp",
+  "readySize": [
+    701,
+    1024
+  ],
+  "readyMode": "RGBA",
+  "readySHA256": "0ef97544d4f493033645b5c3b23f3c71a68a45b94acefb1d8975d19c454b87d2",
+  "humanApproved": false,
+  "formalGameIntegrated": false,
+  "status": "downloaded_and_packaged_for_review",
+  "platformReportedIssues": [
+    "Unwanted sword light",
+    "Parry body recoil insufficient",
+    "Possible two-hand overlap during downcut wind-up"
+  ],
+  "requestedActions": [
+    "downcut",
+    "parry"
+  ],
+  "platformVersion": "v10",
+  "localManifest": "animation-manifest.json",
+  "sourceVideoUrls": {
+    "downcut": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/videos/video-452236806459784.mp4",
+    "parry": "https://seastar.bytedance.net/api/resource/open-aipa-server-tos/persistent/77be90c6-67a9-4ff9-a966-d0e47bab6377/videos/video-452236581261747.mp4"
+  },
+  "actionStatus": {
+    "downcut": "pending_human_review",
+    "parry": "quality_failed_review_candidate"
+  }
+}
