@@ -1,0 +1,852 @@
+{
+  "version": "remake-atb-v1",
+  "skills": [
+    {
+      "id": "remake:attack",
+      "name": "攻击",
+      "description": "普通攻击，无消耗。",
+      "target": 0,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": -1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 0,
+          "scale": 1,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:guard",
+      "name": "防御",
+      "description": "伤害减半，持续至自己下次行动；较快恢复行动条。",
+      "target": 2,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": -1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 4,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:aim",
+      "name": "瞄准射击",
+      "description": "高威力单体射击；射击后行动条额外恢复25点。",
+      "target": 0,
+      "mpCost": 12,
+      "cooldown": 1,
+      "recovery": 25,
+      "element": -1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 18,
+          "scale": 1.35,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:suppress",
+      "name": "压制射击",
+      "description": "造成伤害并使敌人迟缓2次行动。",
+      "target": 0,
+      "mpCost": 14,
+      "cooldown": 2,
+      "recovery": 10,
+      "element": -1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 0,
+          "scale": 0.65,
+          "damageKind": 0,
+          "chance": 1
+        },
+        {
+          "kind": 3,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1,
+          "status": "slow",
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "remake:heal",
+      "name": "急救术",
+      "description": "指定存活队友恢复生命，不会自动替你选人。",
+      "target": 1,
+      "mpCost": 16,
+      "cooldown": 1,
+      "recovery": 10,
+      "element": -1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 1,
+          "power": 30,
+          "scale": 0.9,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:earth-spike",
+      "name": "突岩",
+      "description": "土系单体魔法。",
+      "target": 0,
+      "mpCost": 8,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": 2,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 18,
+          "scale": 1.1,
+          "damageKind": 1,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:earth-shield",
+      "name": "岩甲",
+      "description": "为指定队友提供护盾；重复施放取较高值，不叠加。",
+      "target": 1,
+      "mpCost": 10,
+      "cooldown": 1,
+      "recovery": 0,
+      "element": 2,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 2,
+          "power": 32,
+          "scale": 0.8,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:earth-quake",
+      "name": "震地",
+      "description": "攻击敌方全体，每个目标有25%概率眩晕1次行动。",
+      "target": 3,
+      "mpCost": 18,
+      "cooldown": 2,
+      "recovery": 20,
+      "element": 2,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 12,
+          "scale": 0.65,
+          "damageKind": 1,
+          "chance": 1
+        },
+        {
+          "kind": 3,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 0.25,
+          "status": "stun",
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:water-bolt",
+      "name": "水箭",
+      "description": "水系单体魔法。",
+      "target": 0,
+      "mpCost": 8,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": 3,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 16,
+          "scale": 1.05,
+          "damageKind": 1,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:water-heal",
+      "name": "生命之泉",
+      "description": "为指定队友恢复生命。",
+      "target": 1,
+      "mpCost": 12,
+      "cooldown": 1,
+      "recovery": 0,
+      "element": 3,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 1,
+          "power": 36,
+          "scale": 1.1,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:water-slow",
+      "name": "寒潮",
+      "description": "群体水系伤害并迟缓2次行动。",
+      "target": 3,
+      "mpCost": 18,
+      "cooldown": 2,
+      "recovery": 20,
+      "element": 3,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 10,
+          "scale": 0.6,
+          "damageKind": 1,
+          "chance": 1
+        },
+        {
+          "kind": 3,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1,
+          "status": "slow",
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "remake:fire-burn",
+      "name": "引燃",
+      "description": "单体火伤并灼烧3次行动，每次扣10HP。",
+      "target": 0,
+      "mpCost": 10,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": 4,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 16,
+          "scale": 0.85,
+          "damageKind": 1,
+          "chance": 1
+        },
+        {
+          "kind": 3,
+          "power": 10,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1,
+          "status": "burn",
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "id": "remake:fire-detonate",
+      "name": "焚爆",
+      "description": "高火伤；消耗灼烧状态追加40基础伤害。",
+      "target": 0,
+      "mpCost": 14,
+      "cooldown": 1,
+      "recovery": 15,
+      "element": 4,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 20,
+          "scale": 1.25,
+          "damageKind": 1,
+          "chance": 1,
+          "bonusStatus": "burn",
+          "bonusPower": 40,
+          "consumeBonus": true
+        }
+      ]
+    },
+    {
+      "id": "remake:thunder-bolt",
+      "name": "雷击",
+      "description": "单体雷伤并暴露破绽2次行动，受到伤害提高25%。",
+      "target": 0,
+      "mpCost": 10,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": 1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 18,
+          "scale": 1,
+          "damageKind": 1,
+          "chance": 1
+        },
+        {
+          "kind": 3,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1,
+          "status": "vulnerable",
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "remake:thunder-stun",
+      "name": "电网",
+      "description": "群体雷伤，每个目标有35%概率眩晕1次行动。",
+      "target": 3,
+      "mpCost": 18,
+      "cooldown": 2,
+      "recovery": 20,
+      "element": 1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 10,
+          "scale": 0.55,
+          "damageKind": 1,
+          "chance": 1
+        },
+        {
+          "kind": 3,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 0.35,
+          "status": "stun",
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:wind-cut",
+      "name": "风刃",
+      "description": "单体风伤；命中迟缓目标追加25基础伤害。",
+      "target": 0,
+      "mpCost": 8,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": 0,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 16,
+          "scale": 1,
+          "damageKind": 1,
+          "chance": 1,
+          "bonusStatus": "slow",
+          "bonusPower": 25
+        }
+      ]
+    },
+    {
+      "id": "remake:wind-haste",
+      "name": "顺风",
+      "description": "指定队友行动条速度提高35%，持续3次行动。",
+      "target": 1,
+      "mpCost": 12,
+      "cooldown": 2,
+      "recovery": 0,
+      "element": 0,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 3,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1,
+          "status": "haste",
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "id": "remake:neutral-focus",
+      "name": "凝神",
+      "description": "提高自己的输出25%，持续3次行动。",
+      "target": 2,
+      "mpCost": 8,
+      "cooldown": 2,
+      "recovery": 0,
+      "element": -1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 3,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1,
+          "status": "power",
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "id": "remake:neutral-strike",
+      "name": "猛击",
+      "description": "高物理伤害，额外恢复15行动条。",
+      "target": 0,
+      "mpCost": 10,
+      "cooldown": 0,
+      "recovery": 15,
+      "element": -1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 12,
+          "scale": 1.4,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:boss-venom",
+      "name": "毒翼袭击",
+      "description": "守护者单体攻击并施加中毒3次行动，每次扣8HP。",
+      "target": 0,
+      "mpCost": 12,
+      "cooldown": 1,
+      "recovery": 15,
+      "element": 0,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 10,
+          "scale": 0.6,
+          "damageKind": 0,
+          "chance": 1
+        },
+        {
+          "kind": 3,
+          "power": 8,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1,
+          "status": "poison",
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "id": "remake:boss-wind",
+      "name": "横扫风翼",
+      "description": "守护者攻击我方全体；可以用防御或护盾应对。",
+      "target": 3,
+      "mpCost": 16,
+      "cooldown": 1,
+      "recovery": 25,
+      "element": 0,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 14,
+          "scale": 0.75,
+          "damageKind": 1,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:boss-storm",
+      "name": "狂风暴走",
+      "description": "半血后使用：全体风伤与迟缓2次行动，发动后额外恢复35行动条。",
+      "target": 3,
+      "mpCost": 22,
+      "cooldown": 1,
+      "recovery": 35,
+      "element": 0,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 22,
+          "scale": 0.9,
+          "damageKind": 1,
+          "chance": 1
+        },
+        {
+          "kind": 3,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1,
+          "status": "slow",
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "remake:item-141",
+      "name": "血瓶 50",
+      "description": "指定存活队友恢复50HP，消耗对应血瓶。",
+      "target": 1,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": -1,
+      "itemId": 141,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 1,
+          "power": 50,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:item-142",
+      "name": "血瓶 100",
+      "description": "指定存活队友恢复100HP，消耗对应血瓶。",
+      "target": 1,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": -1,
+      "itemId": 142,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 1,
+          "power": 100,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:item-143",
+      "name": "血瓶 400",
+      "description": "指定存活队友恢复400HP，消耗对应血瓶。",
+      "target": 1,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": -1,
+      "itemId": 143,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 1,
+          "power": 400,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:item-144",
+      "name": "血瓶 1000",
+      "description": "指定存活队友恢复1000HP，消耗对应血瓶。",
+      "target": 1,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": -1,
+      "itemId": 144,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 1,
+          "power": 1000,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:item-145",
+      "name": "血瓶 2000",
+      "description": "指定存活队友恢复2000HP，消耗对应血瓶。",
+      "target": 1,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": -1,
+      "itemId": 145,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 1,
+          "power": 2000,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:capture-121",
+      "name": "封印球 1",
+      "description": "指定敌人尝试收服，消耗对应等级的球；敌人越虚弱成功率越高。",
+      "target": 0,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 20,
+      "element": -1,
+      "itemId": 121,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 5,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:capture-122",
+      "name": "封印球 2",
+      "description": "指定敌人尝试收服，消耗对应等级的球；敌人越虚弱成功率越高。",
+      "target": 0,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 20,
+      "element": -1,
+      "itemId": 122,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 5,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:capture-123",
+      "name": "封印球 3",
+      "description": "指定敌人尝试收服，消耗对应等级的球；敌人越虚弱成功率越高。",
+      "target": 0,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 20,
+      "element": -1,
+      "itemId": 123,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 5,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:capture-124",
+      "name": "封印球 4",
+      "description": "指定敌人尝试收服，消耗对应等级的球；敌人越虚弱成功率越高。",
+      "target": 0,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 20,
+      "element": -1,
+      "itemId": 124,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 5,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:capture-125",
+      "name": "封印球 5",
+      "description": "指定敌人尝试收服，消耗对应等级的球；敌人越虚弱成功率越高。",
+      "target": 0,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 20,
+      "element": -1,
+      "itemId": 125,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 5,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:escape",
+      "name": "撤退",
+      "description": "普通遭遇可撤退，守护战禁用。",
+      "target": 2,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": -1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 6,
+          "power": 0,
+          "scale": 0,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "id": "remake:boss-strike",
+      "name": "翼爪",
+      "description": "守护者单体物理攻击。",
+      "target": 0,
+      "mpCost": 0,
+      "cooldown": 0,
+      "recovery": 0,
+      "element": -1,
+      "itemId": 0,
+      "provenance": "remake_atb_v1; new balance and role assignment, not original skill restoration",
+      "effects": [
+        {
+          "kind": 0,
+          "power": 0,
+          "scale": 0.65,
+          "damageKind": 0,
+          "chance": 1
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "element": 0,
+      "role": "风系：机动/协同",
+      "skills": [
+        "remake:wind-cut",
+        "remake:wind-haste"
+      ]
+    },
+    {
+      "element": 1,
+      "role": "雷系：破绽/控制",
+      "skills": [
+        "remake:thunder-bolt",
+        "remake:thunder-stun"
+      ]
+    },
+    {
+      "element": 2,
+      "role": "土系：护盾/群控",
+      "skills": [
+        "remake:earth-spike",
+        "remake:earth-shield",
+        "remake:earth-quake"
+      ]
+    },
+    {
+      "element": 3,
+      "role": "水系：治疗/迟缓",
+      "skills": [
+        "remake:water-bolt",
+        "remake:water-heal",
+        "remake:water-slow"
+      ]
+    },
+    {
+      "element": 4,
+      "role": "火系：持续伤害/引爆",
+      "skills": [
+        "remake:fire-burn",
+        "remake:fire-detonate"
+      ]
+    },
+    {
+      "element": 5,
+      "role": "无系：强化/物理",
+      "skills": [
+        "remake:neutral-focus",
+        "remake:neutral-strike"
+      ]
+    }
+  ]
+}

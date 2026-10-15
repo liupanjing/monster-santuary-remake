@@ -1,0 +1,141 @@
+{
+  "jar_bytes": 861781,
+  "entries": 1278,
+  "script_files": 286,
+  "script_instructions": 11989,
+  "dialogue_and_prompt_instructions": 2479,
+  "map_files": 151,
+  "scene_files": 141,
+  "png_files": 250,
+  "map_parse_issues": [
+    {
+      "id": 91,
+      "width_tiles": 40,
+      "height_tiles": 20,
+      "unparsed_tail_bytes": 8500
+    },
+    {
+      "id": 92,
+      "width_tiles": 40,
+      "height_tiles": 20,
+      "unparsed_tail_bytes": 8500
+    },
+    {
+      "id": 93,
+      "width_tiles": 40,
+      "height_tiles": 20,
+      "unparsed_tail_bytes": 4000
+    },
+    {
+      "id": 94,
+      "width_tiles": 40,
+      "height_tiles": 20,
+      "unparsed_tail_bytes": 4000
+    },
+    {
+      "id": 95,
+      "width_tiles": 40,
+      "height_tiles": 20,
+      "unparsed_tail_bytes": 4000
+    },
+    {
+      "id": 96,
+      "width_tiles": 40,
+      "height_tiles": 20,
+      "unparsed_tail_bytes": 4200
+    },
+    {
+      "id": 97,
+      "width_tiles": 40,
+      "height_tiles": 20,
+      "unparsed_tail_bytes": 4200
+    },
+    {
+      "id": 98,
+      "width_tiles": 40,
+      "height_tiles": 20,
+      "unparsed_tail_bytes": 4200
+    }
+  ],
+  "missing_op29_targets": [
+    15,
+    16,
+    17,
+    29950,
+    29980
+  ],
+  "script_added": 123,
+  "script_changed": [
+    "script/1026.bin",
+    "script/3017.bin",
+    "script/3038.bin",
+    "script/3040.bin",
+    "script/3061.bin",
+    "script/3077.bin",
+    "script/3994.bin",
+    "script/8002.bin"
+  ],
+  "data_resources_byte_identical": [
+    "items/item.bin",
+    "mosters/mdata.bin",
+    "mosters/smdata.bin",
+    "skill_1.bin",
+    "skill_1.png",
+    "skill_22.bin",
+    "skill_22.png",
+    "skill_25.bin",
+    "skill_25.png",
+    "skill_31.bin",
+    "skill_31.png",
+    "skill_34.bin",
+    "skill_34.png",
+    "skill_35.bin",
+    "skill_35.png",
+    "skill_38.bin",
+    "skill_38.png",
+    "skill_39.bin",
+    "skill_39.png",
+    "skill_4.bin",
+    "skill_4.png",
+    "skill_42.bin",
+    "skill_42.png",
+    "skill_45.bin",
+    "skill_45.png",
+    "skill_49.bin",
+    "skill_50.bin",
+    "skill_50.png",
+    "skill_53.bin",
+    "skill_53.png",
+    "skill_54.bin",
+    "skill_54.png",
+    "skill_57.bin",
+    "skill_60.bin",
+    "skill_61.bin",
+    "skill_61.png",
+    "skill_64.bin",
+    "skill_64.png",
+    "skill_67.bin",
+    "skill_67.png",
+    "skill_70.bin",
+    "skill_70.png",
+    "skill_76.bin",
+    "skill_76.png",
+    "skill_79.bin",
+    "skill_82.bin",
+    "skill_82.png",
+    "skill_84.bin",
+    "skill_86.bin",
+    "skill_86.png",
+    "skill_87.png",
+    "skill_88.png",
+    "skill_9.bin",
+    "skill_9.png",
+    "skill_90.bin",
+    "skill_91.bin",
+    "skill_92.bin",
+    "skill_92.png",
+    "skills/bskill.bin",
+    "skills/skill.bin"
+  ],
+  "validation": "CRC passed; every script consumed exactly; map tails reported; no game execution"
+}

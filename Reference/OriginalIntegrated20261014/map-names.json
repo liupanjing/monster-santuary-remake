@@ -1,0 +1,257 @@
+[
+  {
+    "script": "m100.bin",
+    "offset": 18,
+    "name": "雷之秘境营地"
+  },
+  {
+    "script": "m101.bin",
+    "offset": 18,
+    "name": "雷之秘境1"
+  },
+  {
+    "script": "m102.bin",
+    "offset": 18,
+    "name": "雷之秘境2"
+  },
+  {
+    "script": "m103.bin",
+    "offset": 18,
+    "name": "雷之秘境"
+  },
+  {
+    "script": "m104.bin",
+    "offset": 18,
+    "name": "雷之秘境4"
+  },
+  {
+    "script": "m105.bin",
+    "offset": 18,
+    "name": "雷之秘境5"
+  },
+  {
+    "script": "m106.bin",
+    "offset": 18,
+    "name": "雷之秘境6"
+  },
+  {
+    "script": "m107.bin",
+    "offset": 18,
+    "name": "雷之秘境7"
+  },
+  {
+    "script": "m108.bin",
+    "offset": 18,
+    "name": "雷之秘境8"
+  },
+  {
+    "script": "m109.bin",
+    "offset": 18,
+    "name": "法瑟尔城节日庆典"
+  },
+  {
+    "script": "m110.bin",
+    "offset": 18,
+    "name": "森林"
+  },
+  {
+    "script": "m111.bin",
+    "offset": 18,
+    "name": "森林"
+  },
+  {
+    "script": "m112.bin",
+    "offset": 18,
+    "name": "洞穴"
+  },
+  {
+    "script": "m113.bin",
+    "offset": 18,
+    "name": "洞穴"
+  },
+  {
+    "script": "m114.bin",
+    "offset": 18,
+    "name": "森林小径"
+  },
+  {
+    "script": "m115.bin",
+    "offset": 18,
+    "name": "洞穴顶层"
+  },
+  {
+    "script": "m116.bin",
+    "offset": 18,
+    "name": "风之国度营地"
+  },
+  {
+    "script": "m117.bin",
+    "offset": 18,
+    "name": "风之国度1"
+  },
+  {
+    "script": "m118.bin",
+    "offset": 18,
+    "name": "风之国度2"
+  },
+  {
+    "script": "m119.bin",
+    "offset": 18,
+    "name": "风之国度3"
+  },
+  {
+    "script": "m120.bin",
+    "offset": 18,
+    "name": "风之国度4"
+  },
+  {
+    "script": "m121.bin",
+    "offset": 18,
+    "name": "风之国度5"
+  },
+  {
+    "script": "m122.bin",
+    "offset": 18,
+    "name": "风之国度6"
+  },
+  {
+    "script": "m123.bin",
+    "offset": 18,
+    "name": "风之国度7"
+  },
+  {
+    "script": "m124.bin",
+    "offset": 18,
+    "name": "秘境祭坛"
+  },
+  {
+    "script": "m125.bin",
+    "offset": 18,
+    "name": "火之秘境营地"
+  },
+  {
+    "script": "m126.bin",
+    "offset": 18,
+    "name": "火之秘境"
+  },
+  {
+    "script": "m127.bin",
+    "offset": 18,
+    "name": "火之熔洞2"
+  },
+  {
+    "script": "m128.bin",
+    "offset": 18,
+    "name": "火之熔洞3"
+  },
+  {
+    "script": "m129.bin",
+    "offset": 18,
+    "name": "火之熔洞4"
+  },
+  {
+    "script": "m130.bin",
+    "offset": 18,
+    "name": "火之熔洞5"
+  },
+  {
+    "script": "m131.bin",
+    "offset": 18,
+    "name": "火之熔洞6"
+  },
+  {
+    "script": "m132.bin",
+    "offset": 18,
+    "name": "火之熔洞7"
+  },
+  {
+    "script": "m133.bin",
+    "offset": 18,
+    "name": "火之熔洞8"
+  },
+  {
+    "script": "m134.bin",
+    "offset": 18,
+    "name": "火之熔洞9"
+  },
+  {
+    "script": "m135.bin",
+    "offset": 18,
+    "name": "火之秘境祭坛"
+  },
+  {
+    "script": "m136.bin",
+    "offset": 18,
+    "name": "水之秘境营地"
+  },
+  {
+    "script": "m137.bin",
+    "offset": 18,
+    "name": "水之秘境1"
+  },
+  {
+    "script": "m138.bin",
+    "offset": 18,
+    "name": "水之秘境2"
+  },
+  {
+    "script": "m139.bin",
+    "offset": 18,
+    "name": "水之秘境4"
+  },
+  {
+    "script": "m140.bin",
+    "offset": 18,
+    "name": "水之秘境4"
+  },
+  {
+    "script": "m141.bin",
+    "offset": 18,
+    "name": "水之秘境5"
+  },
+  {
+    "script": "m142.bin",
+    "offset": 18,
+    "name": "水之秘境6"
+  },
+  {
+    "script": "m143.bin",
+    "offset": 18,
+    "name": "水之秘境7"
+  },
+  {
+    "script": "m144.bin",
+    "offset": 18,
+    "name": "水之秘境8"
+  },
+  {
+    "script": "m145.bin",
+    "offset": 18,
+    "name": "水之秘境9"
+  },
+  {
+    "script": "m146.bin",
+    "offset": 18,
+    "name": "水之秘境10"
+  },
+  {
+    "script": "m147.bin",
+    "offset": 18,
+    "name": "水之秘境11"
+  },
+  {
+    "script": "m148.bin",
+    "offset": 18,
+    "name": "水之秘境祭坛"
+  },
+  {
+    "script": "m149.bin",
+    "offset": 0,
+    "name": "自家小院"
+  },
+  {
+    "script": "m150.bin",
+    "offset": 0,
+    "name": "后山山道4"
+  }
+]

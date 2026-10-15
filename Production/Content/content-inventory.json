@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "scope": "当前本地参考包的完整登记；不声称拥有缺失联网内容或完整原版语义",
-  "gitHead": "63d5f830132b1e6c082187ab621f9220d33dd7ed",
+  "gitHead": "4b3221f722ba3d67aa17f86742283a00a65e5f63",
   "gitHeadMeaning": "HEAD at inventory generation; sourceSHA256 identifies actual files including uncommitted changes",
   "sourceSHA256": {
     "Reference/OriginalGame/scripts.json": "88b01f698ae6093528f5f7d36a95b24846e8c984b862e0c2081f27f95445670b",
@@ -16,15 +16,15 @@
     "Unity/Assets/Remake/Resources/Data/catalog.json": "e1706829008f44aee733f5f970e8b259fc8fa1e813445fcedb4b47956e77ceb0",
     "Unity/Assets/Remake/Resources/Data/story.json": "9fc9f55eefd7158c59147330df99c3f959bc9aef95b22dcd8c8746b3fbf625b0",
     "Unity/Assets/Remake/Resources/Data/items.json": "ae1422f1fdc80e49fd0807aa39e38fe7552db8dd6c5bd441af34c3babfba65fd",
-    "Art/character-review.json": "532c45a41a639baecac90f91a8c390655e91cddf0597a633b55499cd9d18514d",
-    "Unity/Assets/Remake/Scripts/EarthGame2D.cs": "4b4a0db9237f51c3f24201321f9b36184c6de5c845931ce30ddc1936a2a650ed",
-    "Unity/Assets/Remake/Scripts/EarthData.cs": "fedb7cacad8475ee739416fa274b2bfceef2ca39a2fc2d2feafce64e9a1f5cd6",
+    "Art/character-review.json": "ef62101bb716aedb93281b00e1259867a91f278da00077dc57d0dcd7aa1f3a8a",
+    "Unity/Assets/Remake/Scripts/EarthGame2D.cs": "57cfe3ad391eb0a097a119291c5a7cdee63969a2ba02177c9fa2d0114389055a",
+    "Unity/Assets/Remake/Scripts/EarthData.cs": "b7f6b64f223d0af9349f82ac5b4cf62a2af7bee2fa43383d8396cf662db6dd9d",
     "Tools/prepare_world.py": "d906f53a7b788e78ebb134ab0cca8fd430614c351e6b695fdcd5220a01370ab8",
-    "Docs/PROJECT.md": "4622f9347591396be070b37b393e4754be9c8a31bb5be9eb8ddda71e02303380",
+    "Docs/PROJECT.md": "9a58fb28b5e3ba076829e52cb6ed6219fa62e4b72e6ca0125ccf31ea7e5089a6",
     "Unity/Assets/Remake/Scripts/QuestRules2D.cs": "4c07382efd7f4ffd7c2d1e27664bdbe559199102e2bedeb4afde61195e156636",
     "Unity/Assets/Remake/Scripts/ChapterQuest2D.cs": "31b15e90c1120e65027e225b192ed7f16124230042becbf5e29343fc0ccecf5c",
     "Unity/Assets/Remake/Resources/Data/earth-quest.json": "00e86d44a8947d3be24c8c0cfb1b1f5c9de9e8706c209566c1e6ba868772be94",
-    "Tools/content_inventory.py": "ee06e6e1edd80f1caa0dc818b295635bba3a8116809c6129635adc32f04551a0",
+    "Tools/content_inventory.py": "1d8115793d8c4bafab799007702aebecb0acc9671eca21ca6ccf9101846d71ec",
     "Tools/story_analysis.py": "ac01dc2badb66835f950e70eb7c606bb5a13b5b4413497704c3e9f86ba2b4d8f",
     "Reference/OriginalGame/decompiled/t.java": "d57a53e16b34ecec07ebc3caa90eac66901d219217dd8b8db43f2ae6de257813",
     "Reference/OriginalGame/decompiled/d.java": "b2a578b3ec47847c4124eb44c4aa8f10ef035b88dcddc49b1497bfefde5fc713",
@@ -150921,13 +150921,13 @@
         "id": "qibei",
         "name": "七贝",
         "role": "story_npc_companion",
-        "status": "draft_review",
-        "candidateVersion": "v1",
+        "status": "motion_review",
+        "candidateVersion": "v2",
         "approvedVersion": null,
         "approvedBy": null,
         "authorization": "用户本轮指定：继续这个思路建模另外角色，西雅和七贝",
         "reviewFile": "Art/Companions/qibei/REVIEW.md",
-        "candidateComparison": "Art/Companions/qibei/v1/original-vs-redraw.png",
+        "candidateComparison": "Art/Companions/qibei/v2/battle-unity-contact.png",
         "originalReferences": [
           "Reference/OriginalGame/extracted/cw2.png",
           "Reference/OriginalGame/extracted/cw2.bin",
@@ -150939,12 +150939,29 @@
           "hpic6.png": "b882a8412946d2e13906be91073c23118f8da7603152612ac5db4d2b48b70577"
         },
         "runtimeIntegrated": false,
-        "newAnimationFrames": 0,
+        "newAnimationFrames": 16,
         "staticArt": "Art/Companions/qibei/v1/static",
         "originalFieldResource": "cw2",
         "originalPortrait": "heads/hpic6.png",
         "followOwner": "npc:xiya",
-        "twoOriginalForms": "portrait: blue eyes/pink cheeks; field: sleepy eyes/yellow-green cheeks"
+        "twoOriginalForms": "portrait: blue eyes/pink cheeks; field: sleepy eyes/yellow-green cheeks",
+        "motionAuthorization": "用户要求逐角色带动作审核，从西雅和七贝开始；并明确选择战斗立绘和 Q 版跑图两套一起",
+        "reviewSceneOnly": true,
+        "reviewScene": "Unity/Assets/Remake/Scenes/StoryMotionReview.unity",
+        "reviewPage": "Art/Reviews/story-motion-v2/index.html",
+        "motionManifest": "Art/Companions/qibei/v2/motion-manifest.json",
+        "motionVersion": "v2",
+        "motionStatus": "motion_review_candidate",
+        "motionLibrary": "Unity/Assets/Remake/Resources/StoryMotionReview/Definitions.asset",
+        "prefab": "Unity/Assets/Remake/Resources/StoryMotionReview/Prefabs/qibei.prefab",
+        "fieldPreview": "Art/Companions/qibei/v2/field-unity-preview.gif",
+        "battlePreview": "Art/Companions/qibei/v2/battle-unity-preview.gif",
+        "motionScope": {
+          "battle": "4 hover/wing drawings; no new attacks/spells",
+          "field": "down/left/up each 4 drawings; right mirrored left; loop 0,1,2,3,2,1",
+          "follow": "Xiya story companion; independent review-only arc-length path follower",
+          "appearance": "battle and field retain distinct original eyes/cheeks"
+        }
       },
       "source": {
         "path": "Art/character-review.json",
@@ -152955,8 +152972,8 @@
       "status": "placeholder",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -152988,8 +153005,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153021,8 +153038,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153054,8 +153071,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153087,8 +153104,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153120,8 +153137,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153153,8 +153170,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153186,8 +153203,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153219,8 +153236,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153252,10 +153269,10 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [
-        "主角通用heal：固定80生命/10MP；不等价于原治疗等级"
+        "重制行动条 remake:heal：独立目标急救；不等价于原治疗等级"
       ],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153287,10 +153304,10 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [
-        "主角通用heal：固定80生命/10MP；不等价于原治疗等级"
+        "重制行动条 remake:heal：独立目标急救；不等价于原治疗等级"
       ],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153322,10 +153339,10 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [
-        "主角通用heal：固定80生命/10MP；不等价于原治疗等级"
+        "重制行动条 remake:heal：独立目标急救；不等价于原治疗等级"
       ],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153357,8 +153374,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153390,8 +153407,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153423,8 +153440,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153456,8 +153473,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153489,8 +153506,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153522,8 +153539,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153555,8 +153572,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153588,8 +153605,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153621,8 +153638,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153654,8 +153671,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -153687,8 +153704,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153720,8 +153737,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153753,8 +153770,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153786,8 +153803,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153819,8 +153836,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153852,8 +153869,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153885,8 +153902,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153918,8 +153935,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153951,8 +153968,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -153984,8 +154001,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -154017,8 +154034,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -154050,8 +154067,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -154083,8 +154100,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -154116,8 +154133,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -154149,8 +154166,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -154182,8 +154199,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -154215,8 +154232,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A09"
     },
     {
@@ -154248,8 +154265,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154281,8 +154298,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154314,8 +154331,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154347,8 +154364,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154380,8 +154397,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154413,8 +154430,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154446,8 +154463,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154479,8 +154496,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154512,8 +154529,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154545,8 +154562,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154578,8 +154595,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154611,8 +154628,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154644,8 +154661,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154677,8 +154694,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154710,8 +154727,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154743,8 +154760,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154776,8 +154793,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154809,8 +154826,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154842,8 +154859,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154875,8 +154892,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154908,8 +154925,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154941,8 +154958,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -154974,8 +154991,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155007,8 +155024,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155040,8 +155057,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155073,8 +155090,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155106,8 +155123,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155139,8 +155156,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155172,8 +155189,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155205,8 +155222,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155238,8 +155255,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155271,8 +155288,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155304,8 +155321,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155337,8 +155354,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155370,8 +155387,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155403,8 +155420,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155436,8 +155453,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155469,8 +155486,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155502,8 +155519,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155535,8 +155552,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155568,8 +155585,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155601,8 +155618,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155634,8 +155651,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155667,8 +155684,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155700,8 +155717,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155733,8 +155750,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155766,8 +155783,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155799,8 +155816,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155832,8 +155849,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155865,8 +155882,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155898,8 +155915,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155931,8 +155948,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155964,8 +155981,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -155997,8 +156014,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -156030,8 +156047,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -156063,8 +156080,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     },
     {
@@ -156096,8 +156113,8 @@
       "status": "restore_required",
       "runtimeImplementedByOriginalId": false,
       "analogousPrototypeBehavior": [],
-      "restore": "核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能",
-      "extension": "专属技能与组合策略在原技能恢复后分批增加",
+      "restore": "核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复",
+      "extension": "重制行动条技能使用独立remake命名空间；继续核对原技能语义",
       "task": "A01技能语义核对→A09"
     }
   ],
@@ -160533,10 +160550,10 @@
         "pointer": "index=122"
       },
       "provenance": "original_partial",
-      "status": "imported_only",
+      "status": "partial_adaptation",
       "runtimeNameImported": true,
       "restore": "恢复完整属性/装备/使用条件；原奖励与适配经济分开",
-      "task": "A01物品语义核对"
+      "task": "A12"
     },
     {
       "id": "item:123",
@@ -160617,10 +160634,10 @@
         "pointer": "index=125"
       },
       "provenance": "original_partial",
-      "status": "imported_only",
+      "status": "partial_adaptation",
       "runtimeNameImported": true,
       "restore": "恢复完整属性/装备/使用条件；原奖励与适配经济分开",
-      "task": "A01物品语义核对"
+      "task": "A12"
     },
     {
       "id": "item:126",

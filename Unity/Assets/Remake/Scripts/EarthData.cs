@@ -45,11 +45,6 @@ namespace MonsterRemake2D {
   // w.java.a(attackerElement, defenderElement, damage): wind -> thunder -> earth -> water -> fire -> wind.
   public static int Scale(int attacker,int defender,int damage){if(attacker==5||defender==5)return damage;int factor=(attacker+1)%5==defender?1250:(defender+1)%5==attacker?750:1000;return damage*factor/1000;}
  }
- public static class ChapterCombat {
-  // A deliberately small playable subset; exact original effect/status implementation is still pending.
-  public static int Damage(Unit a,Unit b,bool skill=false,bool boss=false){float amount=skill?a.stats.attack*1.15f+a.stats.magic*.4f+8:a.stats.attack-b.stats.defense*.42f;if(boss)amount*=.65f;if(b.guarding)amount*=.45f;return Mathf.Max(1,OriginalElements.Scale(a.stats.element,b.stats.element,Mathf.RoundToInt(amount)));}
-  public static float Capture(Unit target,int ballTier,int speciesTier){float health=1-(float)target.hp/target.stats.hp;return Mathf.Clamp(.18f+.55f*health+.25f*Mathf.Min(1,(float)ballTier/speciesTier),.08f,.95f);}
- }
  public static class SaveFile {
   public static void Write(string path,EarthSave s){Directory.CreateDirectory(Path.GetDirectoryName(path));string tmp=path+".new";File.WriteAllText(tmp,JsonUtility.ToJson(s,true));if(File.Exists(path))File.Replace(tmp,path,null);else File.Move(tmp,path);}
  }

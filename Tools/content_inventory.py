@@ -85,14 +85,15 @@ def build():
     story_import = {s['id']: s for s in read(DATA / 'story.json')['sequences']}
     runtime_items = {i['id'] for i in read(DATA / 'items.json')['entries']}
     cs = ROOT / 'Unity/Assets/Remake/Scripts'
-    game = (cs / 'EarthGame2D.cs').read_text()
+    game = (cs / 'EarthGame2D.cs').read_text() + (cs / 'ChapterAtbCombat.cs').read_text()
     rules = (cs / 'EarthData.cs').read_text()
     # These bindings are inspected implementations, not fuzzy dialogue matches.
-    assert 'new Unit(8,10,catalog)' in game and 'state.Add(171,1)' in game
+    assert 'new Unit(8,10,catalog)' in game and 'state.Add(171, 1)' in game
     quest_code = (cs / 'ChapterQuest2D.cs').read_text()
     assert 'state.bossDefeated||state.reported)SubmitEarthQuest()' in game and 'npc.sourceScript==3040' in game
     assert 'save.reported = true' in quest_code and 'Data/earth-quest' in quest_code
-    assert 'bool skill=action=="skill"' in game and 'ally.hp+80' in game
+    assert 'new AtbBattle(' in game and 'combat.Submit(new CombatCommand' in game
+    assert 'class ChapterCombat' not in rules
     assert 'class OriginalGrowth' in rules and 'class OriginalElements' in rules
     adaptations = {
         'minit.bin': ('地图名/演员与守护者配置的子集；没有执行完整初始化分支', 'Tools/prepare_world.py', 'A06'),
@@ -253,21 +254,21 @@ def build():
     for s in skills:
         sid = s['index']; placeholder = sid == 0 and s['name'] == '0'
         anchors = []
-        if sid in (9, 10, 11): anchors = ['主角通用heal：固定80生命/10MP；不等价于原治疗等级']
+        if sid in (9, 10, 11): anchors = ['重制行动条 remake:heal：独立目标急救；不等价于原治疗等级']
         skill_rows.append({'id': f'skill:{sid}', 'originalId': sid, 'name': s['name'],
                            'description': s['description'], 'rawFields': s['fields'],
                            'source': reference(ORIGINAL / 'skills.json', f'index={sid}'),
                            'provenance': 'original_partial', 'status': 'placeholder' if placeholder else 'restore_required',
                            'runtimeImplementedByOriginalId': False, 'analogousPrototypeBehavior': anchors,
-                           'restore': '核对原字段的消耗/目标/效果/持续/学习条件，逐项实现；通用skill伤害不算此技能',
-                           'extension': '专属技能与组合策略在原技能恢复后分批增加',
+                           'restore': '核对原字段的消耗/目标/效果/持续/学习条件；重制行动条技能不计为原技能恢复',
+                           'extension': '重制行动条技能使用独立remake命名空间；继续核对原技能语义',
                            'task': 'A09' if 22 <= sid <= 38 or sid in (6, 9) else 'A01技能语义核对→A09'})
     effect_rows = [{'id': f'effect:{s["index"]}', 'originalId': s['index'], 'name': s['text'][0],
                     'text': s['text'], 'rawFields': s['fields'], 'provenance': 'original_partial',
                     'source': reference(ORIGINAL / 'basic-skills.json', f'index={s["index"]}'),
                     'status': 'restore_required', 'restore': '核对效果语义、持续、叠加、抵抗、触发和解除时序',
                     'task': 'A09'} for s in effects]
-    used_items = {121, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 171}
+    used_items = {121, 122, 123, 124, 125, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 171}
     used_items.update(c['runtime']['item'] for c in chests if c['runtime'] and c['runtime']['item'] > 0)
     item_rows = []
     for i in items:
@@ -385,7 +386,7 @@ def render(inv):
         [(c['id'], c['name'], STATUSES[c['status']], c['reviewRecord'].get('approvedVersion'), c['restore']) for c in inv['companions']]) + '\n\n## 全部非数字发言标签\n\n' + table(
         ['标签', '对话指令数', '原脚本文件', '示例指令身份'],
         [(s['name'], len(s['dialogueReferences']), ', '.join(sorted({r.split('@')[0].removeprefix('script:') for r in s['dialogueReferences']})), s['dialogueReferences'][0]) for s in inv['speakers']]) + '\n'
-    documents['SKILLS.md'] = '# 原版技能与基础效果清单\n\n' + prefix + '96条技能记录中ID0为占位，实际有名技能95条。当前没有按原技能ID执行的实现；统一skill伤害与固定80治疗不能等同任一原技能。原描述是证据，参数业务含义与原执行逻辑仍需核对。\n\n' + table(
+    documents['SKILLS.md'] = '# 原版技能与基础效果清单\n\n' + prefix + '96条技能记录中ID0为占位，实际有名技能95条。当前已替换为独立行动条系统，技能使用remake命名空间；旧通用skill伤害与固定80治疗已删除。95条原技能仍没有按原技能ID执行的实现；原描述作为证据保留，不把重制技能与新数值标为原版恢复。\n\n' + table(
         ['ID', '技能', '原版描述', '状态', '任务'], [(s['originalId'], s['name'], s['description'], STATUSES[s['status']], s['task']) for s in inv['skills']]) + '\n\n## 37条基础效果\n\n' + table(
         ['ID', '原效果文本', '状态', '恢复工作'], [(s['originalId'], ' / '.join(s['text']), STATUSES[s['status']], s['restore']) for s in inv['effects']]) + '\n'
     documents['ITEMS.md'] = '# 物品补充清单\n\n' + prefix + '208条表记录包含154条本地定义与54条远程标记。名称导入不表示属性/装备/使用功能恢复。当前原武器型号仅有数据蓝图，默认双枪不代表任一原型号。\n\n' + table(

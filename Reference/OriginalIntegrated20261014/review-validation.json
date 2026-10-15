@@ -1,0 +1,16 @@
+{
+  "source_hashes_match_user_files": true,
+  "script_crc_and_exact_parse": "passed in review-summary.json",
+  "key_story_anchor_count": 33,
+  "crystal_gift_consumes_item": 165,
+  "python_syntax": "passed",
+  "docx_text_review": "78/41 nonempty paragraphs; both fully read",
+  "render_review": {
+    "Chinese_font_fallback": "QA-only FONTCONFIG_FILE forces Songti SC; source DOCX unchanged",
+    "story_pages_inspected": 5,
+    "reference_pages_inspected": 5
+  },
+  "game_execution": false,
+  "unity_chapter_import": false,
+  "local_markdown_links_checked": 12
+}

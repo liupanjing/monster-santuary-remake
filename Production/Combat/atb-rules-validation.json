@@ -1,0 +1,6 @@
+{
+  "result": "pass",
+  "scope": "Production pure C# ATB rules, not visual approval",
+  "suite": "PASS: 82 ATB rule checks",
+  "command": "python3 Tools/test_atb_combat.py"
+}

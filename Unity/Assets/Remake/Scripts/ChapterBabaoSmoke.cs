@@ -26,7 +26,7 @@ namespace MonsterRemake2D
             StartBattle(new[]{new Unit(21,2,catalog)},false);yield return null;
             Require(battlePet.sprite==SpriteFor(22),"Battle renders selected slime, not Babao");
             Require(!babao.gameObject.activeInHierarchy&&!TrySetActivePet(0),"Battle hides field companion and rejects party change");
-            Capture("10-switched-battle");Choose("escape");if(phase==1)Choose("guard");yield return UntilRound();
+            yield return UntilPlayerReady();Capture("10-switched-battle");Choose("escape");yield return UntilRound();
             Require(mode==Mode.Explore&&babao.GetInstanceID()==originalObject,"Retreat restores same Babao object");RequireBabao("retreat");
             ShowMenu();ClickParty(0);CloseMenu();yield return null;
             Require(Pet.id==21&&babao.GetInstanceID()==originalObject,"Switch back to boar does not replace Babao");

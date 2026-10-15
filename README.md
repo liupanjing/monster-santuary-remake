@@ -20,6 +20,10 @@
 
 土之秘境考试已开始使用数据化任务阶段和交付条件，顶部目标随进度更新；实际程序通关与旧存档兼容检查见 [任务验证记录](Production/Content/quest-verification.json)。完整原事件与跨章任务仍按路线继续恢复。
 
+土之秘境战斗现已改为等待型行动条制：速度推动独立行动条，就绪后选择指令和目标。规则、重制技能与当前验收范围见 [行动条战斗说明](Docs/ATB_COMBAT.md)，验证记录见 [Production/Combat](Production/Combat/validation.json)。
+
+新增的原版整合包已补齐雷、风、火、水与返乡主线文本，原始 JAR、两份网友 Word 及静态核对结果保存在 [Reference/OriginalIntegrated20261014](Reference/OriginalIntegrated20261014/)。剧情梳理已按新证据更新；新章节尚未接入试玩，内容清单生成器当前仍以旧包为基线。
+
 目前只有土之秘境可玩子集。完整剧情、任务系统、技能与状态、装备玩法、培养合成、其余章节和终局按整体立项逐步实现，不能视为已经完成。
 
 ## 目录

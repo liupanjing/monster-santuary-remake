@@ -1,0 +1,4 @@
+PASS: remake-atb-v1 production runtime; independent readiness and stable targets; real UI seal capture consumes one ball; active monster switch independent of fixed Babao; retreat/defeat cleanup; new skill/guard/shield/status rules and modular dual-pistol presentation; original movement, height transitions, one-time chest, guardian species8 with phase skills, fragment171, return, exam submission and save reload.
+Art remains existing approved designs and unapproved motion/monster candidates; technical verification is not visual approval.
+Outward steps=358. Boss player actions=12.
+Manual keyboard verification is separate.
